@@ -10,7 +10,7 @@
 
 <body class="bg-gray-900">
     <h1 class="text-3xl font-bold underline text-emerald-400">
-        Hello world!
+        Hello Hola Mundo world!
       </h1>
 </body>
 

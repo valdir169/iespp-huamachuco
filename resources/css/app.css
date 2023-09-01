@@ -1,3 +1,12 @@
+@import url('menu.css');
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+html {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}

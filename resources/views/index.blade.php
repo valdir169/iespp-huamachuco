@@ -4,14 +4,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <title>Document</title>
     @vite('resources/css/app.css')
 </head>
 
-<body class="bg-gray-900">
-    <h1 class="text-3xl font-bold underline text-emerald-400">
-        Hello Hola Mundo world!
-      </h1>
+<body>
+    @include('partials.header')
+
+
+
+    @vite('resources/js/app.js')
 </body>
 
 </html>

@@ -1,0 +1,145 @@
+
+body.is-open {
+    overflow: hidden;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    padding: 2px;
+    position: relative;
+    font-weight: bold;
+}
+
+.nav-link {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0px;
+    flex-direction: column;
+}
+
+.nav-menu a {
+    text-transform: uppercase;
+}
+
+.nav-menu {
+    left: 0;
+    height: calc(100vh - 80px);
+    transform: translate(0, -110%);
+    transition: transform 0.3s ease;
+    z-index: 1000;
+    background: white;
+}
+
+.submenu {
+    display: block;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease, opacity 0.3s ease;
+}
+
+.submenu.is-open {
+    max-height: 500px;
+    opacity: 1;
+}
+
+.submenu li {
+    padding: 5px;
+    background: rgba(0, 0, 0, 0.4);
+    color: white;
+    cursor: pointer;
+}
+
+.nav-menu.open {
+    transform: translate(0, 80px);
+    /* z-index: -100; */
+}
+
+
+.btn-menu {
+    cursor: pointer;
+    font-size: 42px;
+    border: none;
+}
+
+@media screen and (min-width:768px) {
+
+
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        height: unset;
+        padding: unset;
+        position: relative;
+        width: 100%;
+        padding: 10px 40px;
+        height: 80px;
+        flex-wrap: wrap;    
+        justify-content: center;
+    }
+
+    .nav-menu {
+        transform: unset;
+        display: unset;
+        height: 100%;
+        width: unset !important;
+        position: unset !important;
+        transform: unset !important;
+        /* background: unset !important; */
+    }
+
+
+
+    /* .navbar {
+        position: unset IM !important;
+        width: 100% !important;
+        justify-content: space-between !important;
+    }
+
+    .*/
+
+    .submenu {
+        position: absolute;
+        margin-top: 44px;
+        background: rgba(0, 0, 0, 0.4);
+        color: white;
+        cursor: pointer;
+    }
+    
+
+    .btn-menu {
+        display: none;
+    }
+
+    .nav-menu ul {
+        padding: unset !important;
+    }
+
+
+    .submenu {
+        overflow: unset;
+        display: none;
+    }
+
+    .nav-link:hover .submenu {
+        display: block;
+    }
+}
+
+
+@media screen and (min-width:976px) {
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        height: unset;
+        padding: unset;
+        position: relative;
+        width: 100%;
+        padding: 10px 40px;
+        height: 80px;
+        flex-wrap: wrap;    
+    }
+
+}

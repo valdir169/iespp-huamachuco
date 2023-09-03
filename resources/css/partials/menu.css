@@ -1,4 +1,3 @@
-
 body.is-open {
     overflow: hidden;
 }
@@ -53,10 +52,8 @@ body.is-open {
 }
 
 .nav-menu.open {
-    transform: translate(0, 80px);
-    /* z-index: -100; */
+    transform: translate(0, 77px);
 }
-
 
 .btn-menu {
     cursor: pointer;
@@ -65,8 +62,6 @@ body.is-open {
 }
 
 @media screen and (min-width:768px) {
-
-
     .navbar {
         display: flex;
         justify-content: space-between;
@@ -87,18 +82,7 @@ body.is-open {
         width: unset !important;
         position: unset !important;
         transform: unset !important;
-        /* background: unset !important; */
     }
-
-
-
-    /* .navbar {
-        position: unset IM !important;
-        width: 100% !important;
-        justify-content: space-between !important;
-    }
-
-    .*/
 
     .submenu {
         position: absolute;
@@ -107,7 +91,6 @@ body.is-open {
         color: white;
         cursor: pointer;
     }
-    
 
     .btn-menu {
         display: none;
@@ -116,7 +99,6 @@ body.is-open {
     .nav-menu ul {
         padding: unset !important;
     }
-
 
     .submenu {
         overflow: unset;
@@ -127,7 +109,6 @@ body.is-open {
         display: block;
     }
 }
-
 
 @media screen and (min-width:976px) {
     .navbar {
@@ -141,5 +122,4 @@ body.is-open {
         height: 80px;
         flex-wrap: wrap;    
     }
-
 }

@@ -1,12 +1,20 @@
-@import url('menu.css');
+/* Assets */
+@import url('./assets/fonts.css');
+@import url('./assets/root.css');
+
+/* Partials */
+@import url('./partials/menu.css');
+
+
+/* Components */
+@import url('./components/container.css');
+@import url('./components/swipper.css');
+
+
+/* Styles for pages */
+    /* here */
 
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-
-html {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 18px;
-}

@@ -9,6 +9,7 @@ function navBar(btn, menu) {
         if (e.target.matches(btn) || e.target.matches(`${btn} *`)) {
             document.querySelector(menu).classList.toggle("open")
             document.querySelector(btn).classList.toggle("open")
+            document.body.classList.toggle("is-open")
         }
     })
 }
@@ -27,7 +28,7 @@ function subMenu(navLink, menu) {
             let width = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
             const elements = document.querySelectorAll(".submenu")
 
-            if(width > 780) {
+            if (width > 780) {
                 elements.forEach(e => {
                     e.classList.remove("is-open")
                 })
@@ -49,3 +50,23 @@ function subMenu(navLink, menu) {
         })
     })
 }
+
+
+
+
+var swiper = new Swiper(".mySwiper", {
+    spaceBetween: 30,
+    centeredSlides: true,
+    autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+    },
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+    },
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+    },
+});

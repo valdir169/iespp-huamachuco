@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\PaginasController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -12,7 +13,9 @@ use Illuminate\Support\Facades\Route;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
+Route::get('/', [PaginasController::class, 'main'])->name('index');
 
 Route::get('admision', function(){
     return view('pages.admision');
 });
+

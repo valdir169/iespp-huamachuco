@@ -1,19 +1,19 @@
 .render {
-    padding: 2rem 1rem;
+    padding: 0rem 1rem;
   
     @media screen and (min-width: 520px) {
-      padding: 2rem;
+      padding: 0rem 2rem;
     }
   
     @media screen and (min-width: 720px) {
-      padding: 2rem 3rem;
+      padding: 0rem 3rem;
     }
   
     @media screen and (min-width: 920px) {
-      padding: 3rem 4rem;
+      padding: 0rem 4rem;
     }
   
     @media screen and (min-width: 1200px) {
-      padding: 3rem 6rem;
+      padding: 0rem 6rem;
     }
   }

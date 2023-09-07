@@ -13,13 +13,9 @@ use Illuminate\Support\Facades\Route;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
-Route::get('/', [PaginasController::class, 'main'])->name('index');
-
-Route::get('admision', function(){
-    return view('pages.admision');
-});
-
 Route::get('CarrerasProfecionales', function(){
     return view('pages.carreras');
 });
 
+Route::get('/', [PaginasController::class, 'main'])->name('index');
+Route::get('/admision', [PaginasController::class, 'admision'])->name('admision');

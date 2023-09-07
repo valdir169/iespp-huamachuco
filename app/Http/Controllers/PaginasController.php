@@ -17,4 +17,9 @@ class PaginasController extends Controller
     {
         return view('pages.admision');
     }
+
+    public function carreras()
+    {
+        return view('pages.carreras');
+    }
 }

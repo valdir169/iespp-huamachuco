@@ -1,6 +1,6 @@
 @props(['imageSrc, altText'])
 
-<div class="bg-stone-300 max-w-[400px] mx-auto md:max-w-full">
+<div class="bg-[#D9D9D9] max-w-[400px] rounded-md mx-auto md:max-w-full">
     <div class="h-[300px]">
         <img class="w-full h-full object-cover" src="{{ $imageSrc }}" alt="{{ $altText }}">
     </div>

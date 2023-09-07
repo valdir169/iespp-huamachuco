@@ -1,12 +1,12 @@
 <header class="navbar ">
-    <div class="w-16 h-full">
+    <div class="w-[200px] h-full">
         <img src={{ asset('images/logo.png') }} alt="Iespp Huamachuco" class="w-full h-full">
     </div>
 
     <nav class="w-full absolute nav-menu">
         <ul class="flex flex-col h-full center items-center px-14 md:flex-row md:gap-2 lg:gap-5">
             <li class="nav-link">
-                <a href="">Inicio</a>
+                <a href="/">Inicio</a>
             </li>
 
             <li class="prueba nav-link ">
@@ -29,7 +29,7 @@
                 </a>
 
                 <ul class="submenu">
-                    <li><a href="">Admisión 2024</a></li>
+                    <li><a href="{{ route('admision') }}">Admisión 2024</a></li>
                     <li><a href="">Becas y Creditos</a></li>
                 </ul>
             </li>

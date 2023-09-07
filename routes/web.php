@@ -19,3 +19,7 @@ Route::get('admision', function(){
     return view('pages.admision');
 });
 
+Route::get('CarrerasProfecionales', function(){
+    return view('pages.carreras');
+});
+

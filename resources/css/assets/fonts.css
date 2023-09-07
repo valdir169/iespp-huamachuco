@@ -1,4 +1,8 @@
 html {
     font-family: 'Times New Roman', Times, serif !important;
     font-size: 18px;
+    
+    @media screen and (min-width:768px) {
+        font-size: 20px;
+    }
 }

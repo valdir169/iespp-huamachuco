@@ -11,4 +11,10 @@ class PaginasController extends Controller
     {
         return view('pages.index');
     }
+
+
+    public function admision()
+    {
+        return view('pages.admision');
+    }
 }

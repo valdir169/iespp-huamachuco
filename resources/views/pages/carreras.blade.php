@@ -4,16 +4,16 @@
 
 @section('content')
     <section class="sm:mt-14 lg:mt-0">
-        <div class="render bg-[#3477db] w-full">
+        <div class="render bg-[#3477db] w-full py-10 xl:py-18">
             <div class="flex justify-center flex-col text-center gap-3">
                 <h1 class="text-sm font-black text-white sm:text-lg md:text-xl xl:text-3xl 2xl:text-5xl">Contamos con tres Carreras Profesionales</h1>
                 <p class="text-xs text-white sm:text-base md:text-lg xl:text-xl">Nosotros formamos profesionales de calidad, ven estudia con nosotros y recibe tu Título Profesional a Nombre de la Nación</p>
             </div>
         </div>
     </section>
-    <main class="render">
+    <main class="render py-10 xl:py-18">
         <div class="grid gap-3">
-            <article class="p-2 border-2 sm:flex sm:gap-3 lg:gap-8 xl:border-0 xl:border-b-2 xl:border-black">
+            <article class="p-2 border-2 sm:flex sm:gap-3 lg:gap-8 xl:border-0 xl:border-b-2 xl:border-black xl:py-10">
                 <div class="sm:w-1/3 lg:w-2/5 xl:w-2/3">
                     <img src="https://www.itmplatform.com/wp-content/uploads/altaeducacion.png" alt="">
                 </div>
@@ -39,7 +39,7 @@
                     </div>
                 </div>
             </article>
-            <article class="p-2 border-2 sm:flex sm:gap-3 lg:gap-8 xl:border-0 xl:border-b-2 xl:border-black">
+            <article class="p-2 border-2 sm:flex sm:gap-3 lg:gap-8 xl:border-0 xl:border-b-2 xl:border-black xl:py-10">
                 <div class="sm:w-1/3 lg:w-2/5 xl:w-2/3">
                     <img src="https://www.itmplatform.com/wp-content/uploads/altaeducacion.png" alt="">
                 </div>
@@ -65,7 +65,7 @@
                     </div>
                 </div>
             </article>
-            <article class="p-2 border-2 sm:flex sm:gap-3 lg:gap-8 xl:border-0">
+            <article class="p-2 border-2 sm:flex sm:gap-3 lg:gap-8 xl:border-0 xl:py-10">
                 <div class="sm:w-1/3 lg:w-2/5 xl:w-2/3">
                     <img src="https://www.itmplatform.com/wp-content/uploads/altaeducacion.png" alt="">
                 </div>

@@ -1,14 +1,21 @@
-@props(['imageSrc, altText'])
+@props(['image, altText'])
 
-<div class="bg-[#D9D9D9] max-w-[400px] rounded-md mx-auto md:max-w-full">
-    <div class="h-[300px]">
-        <img class="w-full h-full object-cover" src="{{ $imageSrc }}" alt="{{ $altText }}">
-    </div>
-    <div class="flex flex-col justify-center p-4 gap-3">
-        <h2 class="text-center font-bold text-xl border-b-2 border-indigo-500">{{ $title }}</h2>
-        <p>{{ $slot }}</p>
+<div
+    class="bg-[#D9D9D9] rounded-lg  shadow-md border-gray-700 hover:scale-105 hover:bg-[#ffffff] hover:border-gray-500  transition flex flex-col p-4">
 
-        {{ $button }}
+    <picture class="flex justify-center">
+        <img class="mb-5 rounded-lg w-full h-full" src={{ $image }} alt={{ $altText }} />
+    </picture>
 
-    </div>
+    <header class="p-4 flex-grow">
+        <h2 class="my-2 text-2xl font-bold tracking-tight text-black  ">
+            {{ $title }}
+        </h2>
+        <p class="mb-4 font-light text-black">
+            {{ $content }}
+        </p>
+    </header>
+
+    {{ $slot }}
+
 </div>

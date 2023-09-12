@@ -8,13 +8,12 @@ use Illuminate\View\Component;
 
 class Button extends Component
 {
-    public $background;
+
     /**
      * Create a new component instance.
      */
-    public function __construct($background = 'none')
+    public function __construct()
     {
-        $this->background = $background;
     }
 
     /**

@@ -24,38 +24,40 @@
                 <span class="text-xl">Al culminar recibe tu T&iacute;tulo a Nombre de la Naci&oacute;n</span>
             </article>
 
-            <article class="grid gap-10 w-full sm:grid-cols-2 lg:grid-cols-3 2xl:gap-20">
+            <article class="grid gap-8 sm:grid-cols-2 lg:grid-cols-3" {{-- class="grid gap-2 w-full sm:grid-cols-2 lg:grid-cols-3 2xl:gap-20" --}}>
                 <x-card>
-                    <x-slot name="imageSrc">{{ asset('images/carreras/carrera_inicial.png') }}</x-slot>
+                    <x-slot name="image">{{ asset('images/carreras/carrera_inicial.png') }}</x-slot>
                     <x-slot name="altText">Educación Inicial</x-slot>
                     <x-slot name="title">Educaci&oacute;n Inicial</x-slot>
-                    Formar profesionales que contribuyan a mejorar los entornos en los que se desarrollen los niños y
-                    niñas...
-                    <x-slot name="button">
-                        <x-button>Ver Detalles</x-button>
+                    <x-slot name="content">
+                        Formar profesionales que contribuyan a mejorar los entornos en los que se desarrollen los niños y
+                        niñas...
                     </x-slot>
+                    <x-button type="primary">Ver Detalles</x-button>
                 </x-card>
 
                 <x-card>
-                    <x-slot name="imageSrc">{{ asset('images/carreras/carrera_ingles.png') }}</x-slot>
+                    <x-slot name="image">{{ asset('images/carreras/carrera_ingles.png') }}</x-slot>
                     <x-slot name="altText">Idiomas, especialidad: Ingles</x-slot>
                     <x-slot name="title">Idiomas, Especialidad:Ingl&eacute;s</x-slot>
-                    Formar profesionales que contribuyan a mejorar los entornos en los que se desarrollen los niños y
-                    niñas...
-                    <x-slot name="button">
-                        <x-button>Ver Detalles</x-button>
+                    <x-slot name="content">
+                        Formar profesionales que contribuyan a mejorar los entornos en los que se desarrollen los niños y
+                        niñas...
                     </x-slot>
+                    <x-button type="primary">Ver Detalles</x-button>
+
                 </x-card>
 
                 <x-card>
-                    <x-slot name="imageSrc">{{ asset('images/carreras/carrera_comunicacion.png') }}</x-slot>
+                    <x-slot name="image">{{ asset('images/carreras/carrera_comunicacion.png') }}</x-slot>
                     <x-slot name="altText">Educación Secundaria, Especialidad: Comunicación</x-slot>
                     <x-slot name="title">Educaci&oacute;n Secundaria, Especialidad: Comunicaci&oacute;n</x-slot>
-                    Formar docentes de Comunicaci&oacute;n con conocimeintos pedag&oacute;gicos y especializados, que
-                    trabajen de forma colaborativa...
-                    <x-slot name="button">
-                        <x-button>Ver Detalles</x-button>
+                    <x-slot name="content">
+                        Formar docentes de Comunicaci&oacute;n con conocimeintos pedag&oacute;gicos y especializados, que
+                        trabajen de forma colaborativa...
                     </x-slot>
+                    <x-button type="primary">Ver Detalles</x-button>
+
                 </x-card>
             </article>
         </section>
@@ -78,21 +80,22 @@
                     Las necesidades educativas del país, requieren de profesionales altamente comprometidos, nuestra misión
                     y responsabilidad es que Uds. lo sean.
                 </p>
-                <x-button background="bg-[#3477DB] px-8 text-[#ffffff] hover:bg-[#ffffff] hover:text-black ms-auto">
-                    Ver más 
-                </x-button>
+                <x-button type="secondary">ver más</x-button>
+                
             </div>
         </section>
     </section>
 
-    <article class="bg-[#3477DB] text-white font-bold grid gap-10 p-10 lg:px-24w text-xl sm:grid-cols-3  md:gap-10 xl:gap-24 justify-center">
+    <article
+        class="bg-[#3477DB] text-white font-bold grid gap-10 p-10 lg:px-24w text-xl sm:grid-cols-3  md:gap-10 xl:gap-24 justify-center">
         <div class="flex flex-col rounded shadow-md shadow-[#ffffff] p-2 justify-center text-center md:p-10 ">
             <i class='bx bxs-graduation text-8xl'></i>
             <span class="">3+</span>
             <small>CARRERAS</small>
         </div>
 
-        <div class="flex flex-col rounded shadow-md justify-center     shadow-[#ffffff] p-2 justify-center text-center md:p-10">
+        <div
+            class="flex flex-col rounded shadow-md justify-center     shadow-[#ffffff] p-2 justify-center text-center md:p-10">
             <i class='bx bxs-graduation text-8xl'></i>
             <span>8+</span>
             <small>ESPECIALIZACIONES</small>
@@ -135,7 +138,7 @@
 
         <section class="my-10">
             <h4 class="text-2xl font-bold">ACTIVIDADES IMPORTANTES</h4>
-            <div class="grid gap-4 md:grid-cols-3 md:h-[60vh]">
+            <div class="grid gap-4 sm:grid-cols-3 md:h-[60vh]">
                 <div class="mx-auto">
                     <img class="w-full h-full object-center" src="{{ asset('images/activity1.png') }}" alt="">
                 </div>
@@ -166,8 +169,7 @@
 
 
                 <a href="#" class="border rounded-md h-[150px] w-[300px] md:w-full">
-                    <img class="w-full h-full" src="{{ asset('images/activities/unesco.png') }}"
-                        alt="">
+                    <img class="w-full h-full" src="{{ asset('images/activities/unesco.png') }}" alt="">
                 </a>
 
                 <a href="#" class="border rounded-md h-[150px] w-[300px] md:w-full">

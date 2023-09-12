@@ -4,21 +4,21 @@
 
 @section('content')
     <section class="bg-gray-400 sm:mt-14 lg:mt-0">
-        <div class="render">
-            <div class="grid gap-5 sm:max-w-[55%] md:h-[32rem] md:gap-0 md:max-w-[45%]">
-                <div class="pt-20 md:pt-64">
+        <div class="render py-10">
+            <div class="grid gap-5 sm:max-w-[55%] md:h-[32rem] md:gap-0">
+                <div class="pt-20 md:pt-72">
                     <h1 class="text-sm font-black md:text-xl md:text-2xl xl:text-3xl  2xl:text-4xl">Admisión 2024</h1>
                     <h1 class="text-sm font-black border-b pb-2 md:text-xl md:text-2xl xl:text-3xl  2xl:text-4xl">INSCRIPCIONES ABIERTAS!!!</h1>
                 </div>
-                <div class="md:-mt-16">
-                    <span class="text-xs pr-4 font-semibold md:text-lg xl:text-xl xl:pr-10">Cierre de Inscripciones:</span><span class="text-xs md:text-lg xl:text-xl">20 de Enero.</span><br>
-                    <span class="text-xs pr-4 font-semibold md:text-lg xl:text-xl xl:pr-10">Inicio de Inscripciones:</span><span class="text-xs md:text-lg xl:text-xl">20 de Enero.</span><br>
+                <div class="md:pb-20">
+                    <span class="text-xs pr-4 font-semibold md:text-base xl:text-xl xl:pr-10">Cierre de Inscripciones:</span><span class="text-xs md:text-base xl:text-xl">20 de Enero.</span><br>
+                    <span class="text-xs pr-4 font-semibold md:text-base xl:text-xl xl:pr-10">Inicio de Inscripciones:</span><span class="text-xs md:text-base xl:text-xl">20 de Enero.</span><br>
                 </div>
             </div>
         </div>
     </section>
     <main>
-        <div class="render bg-[#3477db] lg:bg-white lg:flex justify-center items-center">
+        <div class="py-10 bg-[#3477db] lg:bg-white lg:flex justify-center items-center">
             <div class="lg:bg-[#d9d9d9] lg:w-[62rem] lg:h-[10rem] lg:flex justify-center items-center lg:-mt-32">
                 <div class="grid gap-4">
                     <div class="flex justify-center items-center">
@@ -33,12 +33,12 @@
                 </div>
             </div>
         </div>
-        <div class="render grid gap-8 xl:px-56">
+        <div class="render py-10 grid gap-8">
             <div class="">
                 <small class="text-sm font-black text-[#3477db] pb-4 sm:text-lg md:text-xl xl:text-3xl">Modalidad admisión</small>
                 <p class="text-xs sm:text-sm md:text-base xl:text-xl">Te ofrecemos distintas opciones al momento que postulas a una de nuestras carreras profecionales.</p>
             </div>
-            <div class="grid gap-4">
+            <div class="grid gap-4 xl:gap-8">
                 <div class="sm:flex justify-center items-center gap-5 sm:flex-row-reverse xl:gap-20">
                     <div class="">
                         <small class="text-sm font-black sm:text-lg md:text-xl xl:text-3xl">Excelencia Académica</small>
@@ -61,14 +61,14 @@
                 </div>
             </div>
         </div>
-        <div class="render">
+        <div class="render py-10">
             <div class="display text-center">
                 <small class="text-sm font-black text-[#2477db] sm:text-lg md:text-xl xl:text-3xl">Proceso de Admisión</small>
                 <p class="text-xs pt-2 pb-8 sm:text-sm md:text-base xl:text-xl">Para ingresar al IESPP-Huamachuco debe seguir los siguientes pasos.</p>
             </div>
-            <div class="grid gap-5 2xl:px-36">
+            <div class="grid gap-5">
                 <div class="grid gap-5 sm:grid-cols-2">
-                    <div class="w-full h-[35vh] bg-[#d9d9d9] rounded-3xl">
+                    <div class="w-full h-[35vh] bg-[#d9d9d9] rounded-3xl 2xl:h-[44vh] 2xl:py-6">
                         <div class="w-full h-15 p-3 bg-[#2477db] flex justify-center items-center rounded-t-3xl sm:bg-[#d9d9d9]">
                             <div class="pr-4 sm:h-12 sm:w-12 sm:flex justify-center items-center sm:pr-0 sm:bg-[#2477db] rounded-full sm:mr-4 xl:w-16 xl:h-16">
                                 <small class="text-xl font-black text-white text-center md:text-2xl xl:text-3xl">1</small>
@@ -76,11 +76,11 @@
                             <p class="text-sm font-black text-white sm:text-lg sm:text-black md:text-xl xl:text-2xl">Postula</p>
                         </div>
                         <div class="grid gap-4 p-3 lg:flex lg:px-10">
-                            <div><p class="text-xs sm:text-sm md:text-base xl:text-lg ">Realiza tu inscripción en la secretaría de nuestra institución</p></div>
+                            <div><p class="text-xs sm:text-sm 2xl:text-lg ">Realiza tu inscripción en la secretaría de nuestra institución</p></div>
                             <div class="w-full h-32 flex justify-center items-center sm:h-20"><img class="h-full" src="{{asset('images/icon/postular.png')}}" alt="icono-list"></div>
                         </div>
                     </div>
-                    <div class="w-full h-[35vh] bg-[#d9d9d9] rounded-3xl">
+                    <div class="w-full h-[35vh] bg-[#d9d9d9] rounded-3xl 2xl:h-[44vh] 2xl:py-6">
                         <div class="w-full h-15 p-3 bg-[#2477db] flex justify-center items-center rounded-t-3xl sm:bg-[#d9d9d9]">
                             <div class="pr-4 sm:h-12 sm:w-12 sm:flex justify-center items-center sm:pr-0 sm:bg-[#2477db] rounded-full sm:mr-4 xl:w-16 xl:h-16">
                                 <small class="text-xl font-black text-white text-center md:text-2xl xl:text-3xl">2</small>
@@ -89,15 +89,15 @@
                         </div>
                         <div class="grid gap-4 p-3 lg:flex lg:px-10">
                             <div>
-                              <p class="text-xs sm:text-sm md:text-base xl:text-lg ">1.- Evaluación de competencias fundamentales (Ingreso Ordinario).</p>
-                                <p class="text-xs sm:text-sm md:text-base xl:text-lg ">2.- Prueba de competencias específicas y test de aptitud personal vocacional (Ingreso Ordinario).</p>
+                              <p class="text-xs sm:text-sm 2xl:text-lg ">1.- Evaluación de competencias fundamentales (Ingreso Ordinario).</p>
+                                <p class="text-xs sm:text-sm 2xl:text-lg ">2.- Prueba de competencias específicas y test de aptitud personal vocacional (Ingreso Ordinario).</p>
                             </div>
                             <div class="w-full h-32 flex justify-center items-center sm:h-20"><img class="h-full" src="{{asset('images/icon/examen.png')}}" alt="icono-list"></div>
                         </div>
                     </div>
                 </div>
                 <div class="grid gap-5 sm:grid-cols-2">
-                    <div class="w-full h-[35vh] bg-[#d9d9d9] rounded-3xl">
+                    <div class="w-full h-[35vh] bg-[#d9d9d9] rounded-3xl 2xl:h-[44vh] 2xl:py-6">
                         <div class="w-full h-15 p-3 bg-[#2477db] flex justify-center items-center rounded-t-3xl sm:bg-[#d9d9d9]">
                             <div class="pr-4 sm:h-12 sm:w-12 sm:flex justify-center items-center sm:pr-0 sm:bg-[#2477db] rounded-full sm:mr-4 xl:w-16 xl:h-16">
                                 <small class="text-xl font-black text-white text-center md:text-2xl xl:text-3xl">3</small>
@@ -105,11 +105,11 @@
                             <p class="text-sm font-black text-white sm:text-lg sm:text-black md:text-xl xl:text-2xl">Revisa tu resultado</p>
                         </div>
                         <div class="grid gap-4 p-3 lg:flex lg:px-10">
-                            <div><p class="text-xs sm:text-sm md:text-base xl:text-lg ">Los resultados son publicados en las redes sociales y también en la institución.</p></div>
+                            <div><p class="text-xs sm:text-sm 2xl:text-lg ">Los resultados son publicados en las redes sociales y también en la institución.</p></div>
                             <div class="w-full h-32 flex justify-center items-center sm:h-20"><img class="h-full" src="{{asset('images/icon/resultados.png')}}" alt="icono-list"></div>
                         </div>
                     </div>
-                    <div class="w-full h-[35vh] bg-[#d9d9d9] rounded-3xl">
+                    <div class="w-full h-[35vh] bg-[#d9d9d9] rounded-3xl 2xl:h-[44vh] 2xl:py-6">
                         <div class="w-full h-15 p-3 bg-[#2477db] flex justify-center items-center rounded-t-3xl sm:bg-[#d9d9d9]">
                             <div class="pr-4 sm:h-12 sm:w-12 sm:flex justify-center items-center sm:pr-0 sm:bg-[#2477db] rounded-full sm:mr-4 xl:w-16 xl:h-16">
                                 <small class="text-xl font-black text-white text-center md:text-2xl xl:text-3xl">4</small>
@@ -117,7 +117,7 @@
                             <p class="text-sm font-black text-white sm:text-lg sm:text-black md:text-xl xl:text-2xl">Proceso de Matrícula</p>
                         </div>
                         <div class="grid gap-4 p-3 lg:flex lg:px-10">
-                            <div><p class="text-xs sm:text-sm md:text-base xl:text-lg ">Si, lograste realizar los pasos anteriores satisfactoriamente, acércate a la oficinas para realizar los tramites de matrícula.</p></div>
+                            <div><p class="text-xs sm:text-sm 2xl:text-lg ">Si, lograste realizar los pasos anteriores satisfactoriamente, acércate a la oficinas para realizar los tramites de matrícula.</p></div>
                             <div class="w-full h-32 flex justify-center items-center sm:h-20"><img class="h-full" src="{{asset('images/icon/matricula.png')}}" alt="icono-list"></div>
                         </div>
                     </div>

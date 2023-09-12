@@ -19,6 +19,6 @@ Route::get('/', [PaginasController::class, 'main'])->name('index');
 Route::get('/admision', [PaginasController::class, 'admision'])->name('admision');
 Route::get('/carreras', [PaginasController::class, 'carreras'])->name('carreras');
 
-Route::get("EducacioInicial", function(){
+Route::get("EducacionInicial", function(){
     return view('carreras.educacionInicial');
 });

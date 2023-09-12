@@ -9,8 +9,10 @@
                 <a class="" href="">Educación Inicial</a>
             </div>
             <div>
-                <h1 class="text-x2l">EDUCACIÓN INICIAL</h1>
-                <P>Formar profesionales que contribuyan a mejorar los entornos en los que se desarrollan los niños y niñas, promover que los niños establezcan vínculos, que logren autonomía misma, y que desarrollen iniciativa para jugar.</P>
+                <div>
+                    <h1 class="text-2xl">EDUCACIÓN INICIAL</h1>
+                    <P>Formar profesionales que contribuyan a mejorar los entornos en los que se desarrollan los niños y niñas, promover que los niños establezcan vínculos, que logren autonomía misma, y que desarrollen iniciativa para jugar.</P>
+                </div>
             </div>
         </div>
     </section>

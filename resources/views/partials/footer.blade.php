@@ -2,6 +2,8 @@
     <section class=" grid md:grid-cols-3 items-start">
         <div class="w-[200px] mx-auto">
             <img class="w-full h-full" src="{{ asset('images/logo.png') }}" alt="">
+            {{-- <p>IESPP "JOSÉ FAUSTINO SÁNCHEZ CARRIÓN"</p> --}}
+
         </div>
 
         <div class="flex flex-col gap-2">
@@ -31,9 +33,7 @@
         </div>
     </section>
 
-    <div class="grid md:grid-cols-2 place-items-center mt-6">
-        <p>IESPP "JOSÉ FAUSTINO SÁNCHEZ CARRIÓN"</p>
-        <p>TODOS LOD DERECHOS RESERVADOS &copy;2023</p>
-        <p></p>
+    <div class="grid place-items-center">
+        <p class="">TODOS LOS DERECHOS RESERVADOS &copy;2023</p>
     </div>
 </footer>

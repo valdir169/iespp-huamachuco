@@ -1,6 +1,9 @@
+import contador from "./contador";
+
 document.addEventListener('DOMContentLoaded', () => {
     navBar(".btn-menu", ".nav-menu");
     subMenu(".nav-link", ".submenu");
+    contador();
 });
 
 function navBar(btn, menu) {
@@ -28,7 +31,7 @@ function subMenu(navLink, menu) {
             let width = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
             const elements = document.querySelectorAll(".submenu")
 
-            if (width > 780) {
+            if (width > 820) {
                 elements.forEach(e => {
                     e.classList.remove("is-open")
                 })
@@ -36,22 +39,12 @@ function subMenu(navLink, menu) {
         })
     })
 
-
-    /* menuSelector.forEach(sub => {
-        sub.addEventListener("click", e => {
-            e.stopPropagation();
-        });
-    }) */
-
-
     document.addEventListener("click", () => {
         menuSelector.forEach(sub => {
             sub.classList.remove("is-open");
         })
     })
 }
-
-
 
 
 var swiper = new Swiper(".mySwiper", {

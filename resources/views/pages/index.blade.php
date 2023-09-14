@@ -6,13 +6,18 @@
     <div class="swiper mySwiper">
         <div class="swiper-wrapper">
             <div class="swiper-slide">
-                <img src="https://scontent.ftru5-1.fna.fbcdn.net/v/t39.30808-6/351161792_578806571036698_6885073654059501028_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=49d041&_nc_eui2=AeFmuhlivcWI1YPI0zbxBhXHLRfVwYtxt_ItF9XBi3G38nZz-ufw_FQlTLtFWMGm3fULZn2ztcgnO6E0HdkFxiY_&_nc_ohc=RzvAncqVlaEAX9fmPGx&_nc_zt=23&_nc_ht=scontent.ftru5-1.fna&oh=00_AfCFVmIl9QgwzLo8vuZJijmDt6jRZ3NtDCwrcuGY8wp5YA&oe=64F8A63F"
-                    alt="">
+                <img class="h-full w-full" src="{{ asset('images/slider/slider1.jpg') }}" alt="">
             </div>
             <div class="swiper-slide">
-                <img class="h-full w-full"
-                    src="https://scontent.ftru5-1.fna.fbcdn.net/v/t39.30808-6/344374381_916401222960547_5889990213191338314_n.jpg?stp=dst-jpg_p600x600&_nc_cat=104&ccb=1-7&_nc_sid=49d041&_nc_eui2=AeHhtEAYV4v-qNwd5y-KJBh7VkN0_SqEWJNWQ3T9KoRYk0m6TmIni1QacnqJsr1m6nJAAT9VFiTHd-ELryTz16ix&_nc_ohc=gnEda73TYkAAX-jrseZ&_nc_zt=23&_nc_ht=scontent.ftru5-1.fna&oh=00_AfAm0hw7foPFL_5Ubshx-qq0hPwDsEzX5c1HSi7VBB8n1g&oe=64F7473D"
-                    alt="">
+                <img class="h-full w-full" src="{{ asset('images/slider/slider2.jpg') }}" alt="">
+            </div>
+
+            <div class="swiper-slide">
+                <img class="h-full w-full" src="{{ asset('images/slider/slider3.jpg') }}" alt="">
+            </div>
+
+            <div class="swiper-slide">
+                <img class="h-full w-full" src="{{ asset('images/slider/slider4.jpg') }}" alt="">
             </div>
         </div>
     </div>
@@ -24,7 +29,7 @@
                 <span class="text-xl">Al culminar recibe tu T&iacute;tulo a Nombre de la Naci&oacute;n</span>
             </article>
 
-            <article class="grid gap-8 sm:grid-cols-2 lg:grid-cols-3" {{-- class="grid gap-2 w-full sm:grid-cols-2 lg:grid-cols-3 2xl:gap-20" --}}>
+            <article class="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
                 <x-card>
                     <x-slot name="image">{{ asset('images/carreras/carrera_inicial.png') }}</x-slot>
                     <x-slot name="altText">Educación Inicial</x-slot>
@@ -39,7 +44,7 @@
                 <x-card>
                     <x-slot name="image">{{ asset('images/carreras/carrera_ingles.png') }}</x-slot>
                     <x-slot name="altText">Idiomas, especialidad: Ingles</x-slot>
-                    <x-slot name="title">Idiomas, Especialidad:Ingl&eacute;s</x-slot>
+                    <x-slot name="title">Idiomas, Especialidad: Ingl&eacute;s</x-slot>
                     <x-slot name="content">
                         Formar profesionales que contribuyan a mejorar los entornos en los que se desarrollen los niños y
                         niñas...
@@ -62,13 +67,12 @@
             </article>
         </section>
 
-        <section class="my-10 grid lg:grid-cols-2 gap-5 w-full md:gap-10 ">
-            <div class="w-full h-full">
-                <img class="w-full h-[100%] object-cover" src="{{ asset('images/directora.png') }}"
-                    alt="Directora del IESPP JFSC">
+        <section class="my-10 grid justify-center md:grid-cols-2 place-items-center gap-4">
+            <div class="h-full w-full xl:h-[420px]">
+                <img class="h-full w-full" src="{{ asset('images/directora.png') }}" alt="Directora del IESPP JFSC">
             </div>
 
-            <div class="flex flex-col gap-3 h-auto p-4">
+            <div class="flex flex-col gap-5 h-auto  ">
                 <h3 class="text-xl font-bold">BIENVENIDA DE LA DIRECTORA</h3>
                 <p>
                     Hay que resaltar que la educación es formar al ser humano para el cambio permanente y aún para la
@@ -80,36 +84,41 @@
                     Las necesidades educativas del país, requieren de profesionales altamente comprometidos, nuestra misión
                     y responsabilidad es que Uds. lo sean.
                 </p>
-                <x-button type="secondary">ver más</x-button>
-                
+                <x-button type="secondary">Ver más</x-button>
             </div>
         </section>
     </section>
 
     <article
-        class="bg-[#3477DB] text-white font-bold grid gap-10 p-10 lg:px-24w text-xl sm:grid-cols-3  md:gap-10 xl:gap-24 justify-center">
-        <div class="flex flex-col rounded shadow-md shadow-[#ffffff] p-2 justify-center text-center md:p-10 ">
+        class="bg-[#3477DB] px-4 sm:px-8 md:px-12 lg:px-16 xl:px-24 grid md:grid-cols-3 gap-10 md:gap-4 lg:gap-8 py-12 text-white place-items-center w-full">
+        <div
+            class="carreras-count flex flex-col justify-center items-center shadow-md shadow-[#D9D9D9] p-4 rounded-lg
+            shadow-md border-gray-700 hover:scale-105 hover:bg-[#ffffff] hover:border-gray-500  transition hover:text-[#3477DB]">
             <i class='bx bxs-graduation text-8xl'></i>
-            <span class="">3+</span>
-            <small>CARRERAS</small>
+            <span class="text-6xl" data-valor="4">0</span>
+            <small class="text-2xl md:text-base font-bold">CARRERAS</small>
         </div>
 
         <div
-            class="flex flex-col rounded shadow-md justify-center     shadow-[#ffffff] p-2 justify-center text-center md:p-10">
+            class="carreras-count flex flex-col justify-center items-center shadow-md shadow-[#D9D9D9] p-4 rounded-lg
+        shadow-md border-gray-700 hover:scale-105 hover:bg-[#ffffff] hover:border-gray-500  transition hover:text-[#3477DB]"">
             <i class='bx bxs-graduation text-8xl'></i>
-            <span>8+</span>
-            <small>ESPECIALIZACIONES</small>
+            <span class="text-6xl" data-valor="8">0</span>
+            <small class="text-2xl sm:text-base font-bold">ESPECIALIZACIONES</small>
         </div>
 
-        <div class="flex flex-col rounded shadow-md shadow-[#ffffff] p-2 justify-center text-center md:p-10">
+        <div
+            class="carreras-count flex flex-col justify-center items-center shadow-md shadow-[#D9D9D9] p-4 rounded-lg
+        shadow-md border-gray-700 hover:scale-105 hover:bg-[#ffffff] hover:border-gray-500  transition hover:text-[#3477DB]"">
             <i class='bx bx-edit text-8xl'></i>
-            <span>10+</span>
-            <small>CONVENIOS</small>
+            <span class="text-6xl" data-valor="10">0</span>
+            <small class="text-2xl sm:text-base font-bold">CONVENIOS</small>
         </div>
     </article>
 
+
     <section class="render">
-        <article class="">
+        <article class="py-8">
             <div class="flex flex-col text-center py-4 justify-center ">
                 <small class="text-2xl font-bold uppercase">Experiencias Exitosas</small>
                 <span class="text-md">Nuestros estudiantes y egresados piensan de nosotros</span>
@@ -119,17 +128,18 @@
                     <img src="{{ asset('images/experiences.png') }}" alt="">
                 </div>
 
-                <div class="flex flex-col text-center">
-                    <div class="flex justify-evenly items-center">
-                        <span class="font-bold text-2xl">Gladis Medina</span>
-                        <span>(Estudiante)</span>
-                    </div>
+                <div class="flex flex-col">
+                    <h2 class="text-2xl font-bold">Gladis Medina <span class="text-lg font-thin">(Estudiante)</span></h2>
 
-                    <span class="text-xl">Idioma Ingles</span>
-                    <p class="mt-4">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab non soluta laboriosam delectus
-                        laudantium minima, est ea voluptate minus voluptates vitae cum accusamus incidunt doloremque,
-                        voluptatum quia sit dignissimos temporibus.
+                    <span class="text-xl mt-2">Idioma Ingles</span>
+                    <p class="mt-6">
+                        Estoy fascinada estudiando inglés con los profesores de esta academia, porque he visto mi avance en
+                        poco tiempo. Inicié con un conocimiento nulo y hoy me sorprendo yo misma al ver que ya puedo
+                        entender palabras e incluso puedo entablar conversaciones básicas. Su enseñanza es personalizada y
+                        se nos hace una réplica diaria de lo aprendido en clases anteriores, esto reafirma el idioma si se
+                        nos quiere olvidar. Además, las clases son divertidas y los profesores dan la confianza para
+                        equivocarme sin tener que avergonzarme, por eso, el manejo de la plataforma es fácil y muy
+                        comprensible para quienes iniciamos nuestro aprendizaje desde cero.
                     </p>
                 </div>
             </section>
@@ -137,10 +147,10 @@
 
 
         <section class="my-10">
-            <h4 class="text-2xl font-bold">ACTIVIDADES IMPORTANTES</h4>
-            <div class="grid gap-4 sm:grid-cols-3 md:h-[60vh]">
+            <h4 class="text-2xl font-bold mb-2">ACTIVIDADES IMPORTANTES</h4>
+            <div class="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
                 <div class="mx-auto">
-                    <img class="w-full h-full object-center" src="{{ asset('images/activity1.png') }}" alt="">
+                    <img class="w-full h-full object-fill" src="{{ asset('images/activity2.png') }}" alt="">
                 </div>
 
                 <div class="mx-auto">
@@ -148,33 +158,35 @@
                 </div>
 
                 <div class="mx-auto">
-                    <img class="w-full h-full object-center" src="{{ asset('images/activity3.png') }}" alt="">
+                    <img class="w-full h-full object-fill" src="{{ asset('images/activity3.png') }}" alt="">
                 </div>
             </div>
         </section>
 
         <div class="my-10">
-            <span class="text-2xl font-bold">ENLACES DE INTERES</span>
-            <div class="grid gap-4 place-items-center md:grid-cols-4 md:h-[150px] w-full flex lg:gap-10 xl:gap-20">
-                <a href="#" class="h-full border rounded-md h-[150px] w-[300px] md:w-full">
-                    <img class="w-full h-full max-w-[300px] md:max-w-full"
-                        src="{{ asset('images/activities/educacion.png') }}" alt="">
-                </a>
+            <span class="text-2xl font-bold ">ENLACES DE INTERES</span>
+            <div class="grid gap-4 place-items-center md:grid-cols-4 md:h-[150px] w-full flex lg:gap-10 mt-2">
 
-                <a href="#" class="border rounded-md h-[150px] w-[300px] md:w-full">
-                    <img class="w-full h-full object-fill max-w-[200px] md:max-w-full"
-                        src="{{ asset('images/activities/sunedu.png') }}" alt="">
+
+                <a href="#"
+                    class="border rounded-md h-[150px] w-[300px] md:w-full p-4 hover:bg-[#D9D9D9] transition z-50">
+                    <img class="w-full h-full" src="{{ asset('images/enlaces/sunedu.png') }}" alt="">
                 </a>
 
 
-
-                <a href="#" class="border rounded-md h-[150px] w-[300px] md:w-full">
-                    <img class="w-full h-full" src="{{ asset('images/activities/unesco.png') }}" alt="">
+                <a href="#"
+                    class="border rounded-md h-[150px] w-[300px] md:w-full p-4 hover:bg-[#D9D9D9] transition z-50">
+                    <img class="w-full h-full" src="{{ asset('images/enlaces/educacion.png') }}" alt="">
                 </a>
 
-                <a href="#" class="border rounded-md h-[150px] w-[300px] md:w-full">
-                    <img class="max-w-[300px] md:max-w-full" src="{{ asset('images/activities/coneaces.png') }}"
-                        alt="">
+                <a href="#"
+                    class="border rounded-md h-[150px] w-[300px] md:w-full p-4 hover:bg-[#D9D9D9] transition z-50">
+                    <img class="w-full h-full" src="{{ asset('images/enlaces/unesco.png') }}" alt="">
+                </a>
+
+                <a href="#"
+                    class="border rounded-md h-[150px] w-[300px] md:w-full p-4 hover:bg-[#D9D9D9] transition z-50">
+                    <img class="w-full h-full -z-10" src="{{ asset('images/enlaces/coneaces.png') }}" alt="">
                 </a>
             </div>
         </div>

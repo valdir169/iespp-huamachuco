@@ -22,4 +22,10 @@ class PaginasController extends Controller
     {
         return view('pages.carreras');
     }
+
+
+    public function educacioninicial()
+    {
+        return view('carreras.educacionInicial');
+    }
 }

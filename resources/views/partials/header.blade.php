@@ -40,7 +40,7 @@
                 </a>
                 <ul class="submenu">
                     <li><a href="#">Ingles</a></li>
-                    <li><a href="#">Educación Inicial</a></li>
+                    <li><a href="{{ route('educacioninicial') }}">Educación Inicial</a></li>
                     <li><a href="#">Comunicación</a></li>
                 </ul>
             </li>

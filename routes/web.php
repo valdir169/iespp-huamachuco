@@ -18,7 +18,4 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', [PaginasController::class, 'main'])->name('index');
 Route::get('/admision', [PaginasController::class, 'admision'])->name('admision');
 Route::get('/carreras', [PaginasController::class, 'carreras'])->name('carreras');
-
-Route::get("EducacionInicial", function(){
-    return view('carreras.educacionInicial');
-});
+Route::get('/educacioninicial', [PaginasController::class, 'educacioninicial'])->name('educacioninicial');

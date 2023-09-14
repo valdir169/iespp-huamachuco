@@ -1,20 +1,20 @@
-<header class="navbar ">
-    <div class="w-[200px] h-full">
-        <img src={{ asset('images/logo.png') }} alt="Iespp Huamachuco" class="w-full h-full">
+<header class="navbar sticky top-0">
+    <div class=" h-full">
+        <img src={{ asset('images/logo.png') }} alt="Iespp Huamachuco" class="w-full h-full logo">
     </div>
 
     <nav class="w-full absolute nav-menu">
-        <ul class="flex flex-col h-full center items-center px-14 md:flex-row md:gap-2 lg:gap-5">
+        <ul class="flex flex-col h-full center items-center px-14 md:gap-2 xl:gap-4 ">
             <li class="nav-link">
-                <a href="/">Inicio</a>
+                <a href="/">INICIO</a>
             </li>
 
             <li class="prueba nav-link ">
-                <a class="w-full flex justify-between">Institución
+                <a class="w-full flex justify-between">INSTITUCIÓN
                     <i class='bx bx-chevron-down'></i>
                 </a>
 
-                <ul class="submenu deplegable">
+                <ul class="submenu">
                     <li><a href="https://isthuamachuco.edu.pe/programas-estudio/computacion-e-informatica/">Presentación</a></li>
                     <li><a href="#">Historia</a></li>
                     <li><a href="#">Nosotros</a></li>
@@ -24,7 +24,7 @@
             </li>
 
             <li class="nav-link">
-                <a class="w-full flex justify-between">Admisión
+                <a class="w-full flex justify-between">ADMISIÓN
                     <i class='bx bx-chevron-down'></i>
                 </a>
 
@@ -35,7 +35,7 @@
             </li>
 
             <li class="nav-link">
-                <a class="w-full flex justify-between">Carreras
+                <a class="w-full flex justify-between">CARRERAS
                     <i class='bx bx-chevron-down'></i>
                 </a>
                 <ul class="submenu">
@@ -46,7 +46,7 @@
             </li>
 
             <li class="nav-link">
-                <a class="w-full flex justify-between">Servicios
+                <a class="w-full flex justify-between">SERVICIOS
                     <i class='bx bx-chevron-down'></i>
                 </a>
 
@@ -59,7 +59,7 @@
             </li>
 
             <li class="nav-link">
-                <a class="w-full flex justify-between">Tramites
+                <a class="w-full flex justify-between">TRÁMITES
                     <i class='bx bx-chevron-down'></i>
                 </a>
 
@@ -70,7 +70,7 @@
             </li>
 
             <li class="nav-link">
-                <a class="w-full flex justify-between">Otros
+                <a class="w-full flex justify-between">OTROS
                     <i class='bx bx-chevron-down'></i>
                 </a>
 

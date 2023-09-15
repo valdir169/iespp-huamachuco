@@ -28,4 +28,23 @@ class PaginasController extends Controller
     {
         return view('carreras.educacionInicial');
     }
+
+
+
+    // institucion
+
+    public function presentacion()
+    {
+        return view('institucion.presentacion');
+    }
+
+    public function historia()
+    {
+        return view('institucion.historia');
+    }
+
+    public function nosotros()
+    {
+        return view('institucion.nosotros');
+    }
 }

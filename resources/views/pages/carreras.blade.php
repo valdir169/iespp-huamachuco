@@ -3,7 +3,7 @@
 @section('title','Carreras Profecionales')
 
 @section('content')
-    <section class="sm:mt-14 lg:mt-0">
+    <section class="">
         <div class="render bg-[#3477db] w-full py-10 xl:py-18">
             <div class="flex justify-center flex-col text-center gap-3">
                 <h1 class="text-sm font-black text-white sm:text-lg md:text-xl xl:text-3xl 2xl:text-5xl">Contamos con tres Carreras Profesionales</h1>
@@ -35,7 +35,7 @@
                         </div>
                     </div>
                     <div class="flex justify-center sm:px-10 xl:h-10 max-h-full">
-                        <a href="#" class="text-xs w-full py-2 text-center bg-[#3477db] text-white rounded-lg md:text-base">Obtener Más Información</a>
+                        <a href="{{route('inicial')}}" class="text-xs w-full py-2 text-center bg-[#3477db] text-white rounded-lg md:text-base">Obtener Más Información</a>
                     </div>
                 </div>
             </article>
@@ -61,7 +61,7 @@
                         </div>
                     </div>
                     <div class="flex justify-center sm:px-10 xl:h-10 max-h-full">
-                        <a href="#" class="text-xs w-full py-2 text-center bg-[#3477db] text-white rounded-lg md:text-base">Obtener Más Información</a>
+                        <a href="{{route('ingles')}}" class="text-xs w-full py-2 text-center bg-[#3477db] text-white rounded-lg md:text-base">Obtener Más Información</a>
                     </div>
                 </div>
             </article>
@@ -87,7 +87,7 @@
                         </div>
                     </div>
                     <div class="flex justify-center sm:px-10 xl:h-10 max-h-full">
-                        <a href="#" class="text-xs w-full py-2 text-center bg-[#3477db] text-white rounded-lg md:text-base">Obtener Más Información</a>
+                        <a href="{{route('comunicacion')}}" class="text-xs w-full py-2 text-center bg-[#3477db] text-white rounded-lg md:text-base">Obtener Más Información</a>
                     </div>
                 </div>
             </article>

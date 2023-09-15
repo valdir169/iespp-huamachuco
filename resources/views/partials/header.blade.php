@@ -30,7 +30,7 @@
 
                 <ul class="submenu">
                     <li><a href="{{ route('admision') }}">Admisión 2024</a></li>
-                    <li><a href="">Becas y Creditos</a></li>
+                    <li><a href="{{route('modalidad_admision')}}">Becas y Creditos</a></li>
                 </ul>
             </li>
 
@@ -39,9 +39,9 @@
                     <i class='bx bx-chevron-down'></i>
                 </a>
                 <ul class="submenu">
-                    <li><a href="#">Ingles</a></li>
-                    <li><a href="{{ route('educacioninicial') }}">Educación Inicial</a></li>
-                    <li><a href="#">Comunicación</a></li>
+                    <li><a href="{{ route('ingles')}}">Ingles</a></li>
+                    <li><a href="{{ route('inicial') }}">Educación Inicial</a></li>
+                    <li><a href="{{ route('comunicacion')}}">Comunicación</a></li>
                 </ul>
             </li>
 

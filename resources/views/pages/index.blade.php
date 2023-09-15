@@ -38,7 +38,7 @@
                         Formar profesionales que contribuyan a mejorar los entornos en los que se desarrollen los niños y
                         niñas...
                     </x-slot>
-                    <x-button type="primary">Ver Detalles</x-button>
+                    <x-button type="primary" ruta="#">Ver Detalles</x-button>
                 </x-card>
 
                 <x-card>
@@ -49,7 +49,7 @@
                         Formar profesionales que contribuyan a mejorar los entornos en los que se desarrollen los niños y
                         niñas...
                     </x-slot>
-                    <x-button type="primary">Ver Detalles</x-button>
+                    <x-button type="primary" ruta="#">Ver Detalles</x-button>
 
                 </x-card>
 
@@ -61,13 +61,13 @@
                         Formar docentes de Comunicaci&oacute;n con conocimeintos pedag&oacute;gicos y especializados, que
                         trabajen de forma colaborativa...
                     </x-slot>
-                    <x-button type="primary">Ver Detalles</x-button>
+                    <x-button type="primary" ruta="#">Ver Detalles</x-button>
 
                 </x-card>
             </article>
         </section>
 
-        <section class="my-10 grid justify-center md:grid-cols-2 place-items-center gap-4">
+        <section class="my-16 grid justify-center md:grid-cols-2 place-items-center gap-4">
             <div class="h-full w-full xl:h-[420px]">
                 <img class="h-full w-full" src="{{ asset('images/directora.png') }}" alt="Directora del IESPP JFSC">
             </div>
@@ -84,7 +84,7 @@
                     Las necesidades educativas del país, requieren de profesionales altamente comprometidos, nuestra misión
                     y responsabilidad es que Uds. lo sean.
                 </p>
-                <x-button type="secondary">Ver más</x-button>
+                <x-button type="secondary" ruta="{{ route('presentacion') }}">Ver más</x-button>
             </div>
         </section>
     </section>
@@ -168,23 +168,24 @@
             <div class="grid gap-4 place-items-center md:grid-cols-4 md:h-[150px] w-full flex lg:gap-10 mt-2">
 
 
-                <a href="#"
+                <a href="https://enlinea.sunedu.gob.pe/" target="_blank"
                     class="border rounded-md h-[150px] w-[300px] md:w-full p-4 hover:bg-[#D9D9D9] transition z-50">
                     <img class="w-full h-full" src="{{ asset('images/enlaces/sunedu.png') }}" alt="">
                 </a>
 
 
-                <a href="#"
+                <a href="https://www.gob.pe/minedu" target="_blank"
                     class="border rounded-md h-[150px] w-[300px] md:w-full p-4 hover:bg-[#D9D9D9] transition z-50">
                     <img class="w-full h-full" src="{{ asset('images/enlaces/educacion.png') }}" alt="">
                 </a>
 
-                <a href="#"
+                <a href="https://www.unesco.org/es" target="_blank"
                     class="border rounded-md h-[150px] w-[300px] md:w-full p-4 hover:bg-[#D9D9D9] transition z-50">
                     <img class="w-full h-full" src="{{ asset('images/enlaces/unesco.png') }}" alt="">
                 </a>
 
-                <a href="#"
+                <a href="https://www.gob.pe/busquedas?institucion%5B%5D=sineace&reason=sheet&sheet=1&term=coneaces"
+                    target="_blank"
                     class="border rounded-md h-[150px] w-[300px] md:w-full p-4 hover:bg-[#D9D9D9] transition z-50">
                     <img class="w-full h-full -z-10" src="{{ asset('images/enlaces/coneaces.png') }}" alt="">
                 </a>

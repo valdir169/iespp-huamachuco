@@ -15,9 +15,9 @@
                 </a>
 
                 <ul class="submenu">
-                    <li><a href="https://isthuamachuco.edu.pe/programas-estudio/computacion-e-informatica/">Presentación</a></li>
-                    <li><a href="#">Historia</a></li>
-                    <li><a href="#">Nosotros</a></li>
+                    <li><a href="{{ route('presentacion') }}">Presentación</a></li>
+                    <li><a href="{{ route('historia') }}">Historia</a></li>
+                    <li><a href="{{ route('nosotros') }}">Nosotros</a></li>
                     <li><a href="#">Organigrama</a></li>
                     <li><a href="#">Directorio</a></li>
                 </ul>
@@ -82,7 +82,7 @@
         </ul>
     </nav>
 
-    <button class="btn-menu" type="button" >
-        <i class='bx bx-menu' ></i>
+    <button class="btn-menu" type="button">
+        <i class='bx bx-menu'></i>
     </button>
 </header>

@@ -29,6 +29,7 @@ class PaginasController extends Controller
         return view('carreras.educacionInicial');
     }
 
+
     public function idiomasingles()
     {
         return view('carreras.ingles');
@@ -44,4 +45,22 @@ class PaginasController extends Controller
         return view('pages.modalidad_admision');
     }
 
+
+
+    // institucion
+
+    public function presentacion()
+    {
+        return view('institucion.presentacion');
+    }
+
+    public function historia()
+    {
+        return view('institucion.historia');
+    }
+
+    public function nosotros()
+    {
+        return view('institucion.nosotros');
+    }
 }

@@ -30,6 +30,22 @@ class PaginasController extends Controller
     }
 
 
+    public function idiomasingles()
+    {
+        return view('carreras.ingles');
+    }
+
+    public function comunicacion()
+    {
+        return view('carreras.comunicacion');
+    }
+
+    public function modalidad()
+    {
+        return view('pages.modalidad_admision');
+    }
+
+
 
     // institucion
 

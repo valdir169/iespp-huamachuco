@@ -3,7 +3,7 @@
 @section('title', 'Admisión IESPP-Humachuco')
 
 @section('content')
-    <section class="bg-gray-400 sm:mt-14 lg:mt-0">
+    <section class="bg-gray-400 lg:mt-0">
         <div class="render py-10">
             <div class="grid gap-5 sm:max-w-[55%] md:h-[32rem] md:gap-0">
                 <div class="pt-20 md:pt-72">
@@ -25,7 +25,7 @@
                         <small class="text-center font-black text-sm md:text-xl xl:text-2xl">Admisión IESPP - HUMACHUCO</small>
                     </div>
                     <div class="grid gap-2 text-center sm:grid-cols-2 md:flex justify-center items-center">
-                        <div class=""><a href="#" class="text-xs md:border-r-2 px-3 py-2 lg:text-base xl:text-lg lg:text-[#3477db] lg:border-[#000000]">Carreras Profecionales</a></div>
+                        <div class=""><a href="{{route('carreras')}}" class="text-xs md:border-r-2 px-3 py-2 lg:text-base xl:text-lg lg:text-[#3477db] lg:border-[#000000]">Carreras Profecionales</a></div>
                         <div class=""><a href="#" class="text-xs md:border-r-2 px-3 py-2 lg:text-base xl:text-lg lg:text-[#3477db] lg:border-[#000000]">Modalidad de Admisión</a></div>
                         <div class=""><a href="#" class="text-xs md:border-r-2 px-3 py-2 lg:text-base xl:text-lg lg:text-[#3477db] lg:border-[#000000]">Requisitos de Matricula</a></div>
                         <div class=""><a href="#" class="text-xs sm:px-3 py-2 lg:text-base xl:text-lg lg:text-[#3477db]">Campus Institucional</a></div>

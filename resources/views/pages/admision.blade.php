@@ -3,15 +3,6 @@
 @section('title', 'Admisión IESPP-Humachuco')
 
 @section('content')
-{{-- <style>
-    .background{
-        background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("{{asset('images/slider/slider1.jpg')}}");
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        background-attachment: fixed;
-    }
-</style> --}}
     <section class="lg:mt-0 background">
         <div class="render py-8">
             <div class="grid gap-3 sm:max-w-[55%] md:h-[400px] md:gap-0 lg:h-[500px]">
@@ -56,7 +47,7 @@
                     <div class=" flex flex-col text-center md:text-start">
                         <small class="text-sm font-black sm:text-lg md:text-xl xl:text-3xl">Excelencia Académica</small>
                         <p class="text-xs py-3 lg:text-sm 2xl:text-base 2xl:py-6">Para poder obtener este beneficio se requiere haber alcanzado en nivel secundario el primer o segundo puesto, premio de excelencia de su institución educativa.</p>
-                        <x-button type="secondary" ruta="#">Más Información</x-button>
+                        <x-button type="secondary" ruta="{{route('modalidad_admision')}}">Más Información</x-button>
                     </div>
                     <div>
                         <img class="pt-4"src="https://www.worldbank.org/content/dam/photos/780x439/2022/aug/UNs0685096.jpg" alt="">
@@ -66,7 +57,7 @@
                     <div class="flex flex-col text-center md:text-start">
                         <small class="text-sm font-black sm:text-lg md:text-xl xl:text-3xl">Prueba de Aptitud</small>
                         <p class="text-xs py-3 lg:text-sm 2xl:text-base 2xl:py-6">El principal objetivo de esta modalidad es seleccionar a los ingresantes que tienen las capacidades y competencias básicas para desarrollar y acceder a su carrera profesional</p>
-                        <x-button type="secondary" ruta="#">Más Información</x-button>
+                        <x-button type="secondary" ruta="{{route('modalidad_admision')}}">Más Información</x-button>
                     </div>
                     <div>
                         <img class="pt-4"src="https://www.worldbank.org/content/dam/photos/780x439/2022/aug/UNs0685096.jpg" alt="">

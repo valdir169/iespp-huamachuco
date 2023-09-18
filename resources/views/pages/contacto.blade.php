@@ -4,10 +4,10 @@
 
 @section('content')
     <div class="-mt-[120px] h-[700px] w-full bg-cover bg-no-repeat bg-center  flex items-center justify-center flex-col text-center gap-4"
-        style='background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8)),
+        style='background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.3e), rgba(0, 0, 0, 0.8)),
         url({{ asset('images/contacto.png') }});'>
-        <span class="text-white text-xl sm:text-2xl text-4xl uppercase mt-[200px] sm:mt-[0px]">Estamos aquí para ayudarte</span>
-        <span class="text-white text-base  sm:text-xl px-8 px-72">Comuníquese con nosotros en cualquier momento y estaremos encantados
+        <span class="text-white text-xl sm:text-2xl md:text-4xl uppercase mt-[200px] sm:mt-[0px]">Estamos aquí para ayudarte</span>
+        <span class="text-white text-base  sm:text-xl px-8 xl:px-72">Comuníquese con nosotros en cualquier momento y estaremos encantados
             de responder a sus preguntas.</span>
     </div>
 

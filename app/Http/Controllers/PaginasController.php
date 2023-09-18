@@ -51,16 +51,36 @@ class PaginasController extends Controller
 
     public function presentacion()
     {
-        return view('institucion.presentacion');
+        return view('pages.institucion.presentacion');
     }
 
     public function historia()
     {
-        return view('institucion.historia');
+        return view('pages.institucion.historia');
     }
 
     public function nosotros()
     {
-        return view('institucion.nosotros');
+        return view('pages.institucion.nosotros');
+    }
+
+    public function organigrama()
+    {
+        return view('pages.institucion.organigrama');
+    }
+
+
+    public function directorio()
+    {
+        return view('pages.institucion.directorio');
+    }
+
+
+
+    
+    // contacto
+    public function contacto()
+    {
+        return view('pages.contacto');
     }
 }

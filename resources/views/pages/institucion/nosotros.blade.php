@@ -51,9 +51,23 @@
         </div>
     </article>
 
-    <div class="render flex  justify-between py-12 flex-wrap gap-8 ">
-        <span class="py-8 px-16 border rounded-lg">Respeto</span>
-        <span class="py-8 px-16 border rounded-lg">Asertividad</span>
-        <span class="py-8 px-16 border rounded-lg">Empatía</span>
+    <div class="render  py-12  box-border">
+        <h4 class="text-xl font-bold py-4">Nuestros valores</h4>
+        <div class="flex  justify-center flex-wrap gap-8 xl:gap-16">
+            <div class="border border-[#3477DB] rounded-lg text-center p-2 flex flex-col justify-between hover:bg-[#D9D9D9] transition cursor-pointer">
+                <img class="h-[150px] w-[250px]" src="{{ asset('images/institucion/respeto.png') }}" alt="Respeto">
+                <span class="uppercase font-bold mt-2">Respeto</span>
+            </div>
+
+            <div class="border border-[#3477DB] rounded-lg text-center p-2 flex flex-col justify-between hover:bg-[#D9D9D9] transition cursor-pointer">
+                <img class="h-[150px] w-[250px]" src="{{ asset('images/institucion/asertividad.png') }}" alt="Asertividad">
+                <span class="uppercase font-bold mt-2">Asertividad</span>
+            </div>
+
+            <div class="border border-[#3477DB] rounded-lg text-center p-2 flex flex-col justify-between hover:bg-[#D9D9D9] transition cursor-pointer">
+                <img class="h-[150px] w-[250px]" src="{{ asset('images/institucion/empatia.png') }}" alt="Empatía">
+                <span class="uppercase font-bold mt-2">Empatía</span>
+            </div>
+        </div>
     </div>
 @endsection

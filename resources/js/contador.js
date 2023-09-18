@@ -1,19 +1,34 @@
 export default function contador() {
-    let x = 0;
     let allElements = document.querySelectorAll('[data-valor]');
 
-    function interval() {
-        x++;
-        for (let i = 0; i < allElements.length; i++) {
-            let result = parseInt(allElements[i].getAttribute('data-valor'));
+    // Almacenar elementos ya observados
+    let observedElements = new Set();
 
-            if (x > result) {
-                continue;
+    function observeContent(entries) {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                const targetElement = entry.target;
+                const targetValue = parseInt(targetElement.getAttribute('data-valor'));
+
+                // Verificar si el elemento ya ha sido observado
+                if (!observedElements.has(targetElement)) {
+                    let x = 0;
+                    const intervalId = setInterval(() => {
+                        if (x <= targetValue) {
+                            targetElement.textContent = x + "+";
+                            x++;
+                        } else {
+                            clearInterval(intervalId);
+
+                            // Marcar el elemento como observado
+                            observedElements.add(targetElement);
+                        }
+                    }, 200);
+                }
             }
-
-            allElements[i].textContent = x + "+";
-        }
+        });
     }
 
-    setInterval(interval, 200);
+    const observer = new IntersectionObserver(observeContent, { threshold: 0.5 });
+    allElements.forEach(el => observer.observe(el));
 }

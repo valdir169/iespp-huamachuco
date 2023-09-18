@@ -18,8 +18,8 @@
                     <li><a href="{{ route('presentacion') }}">Presentación</a></li>
                     <li><a href="{{ route('historia') }}">Historia</a></li>
                     <li><a href="{{ route('nosotros') }}">Nosotros</a></li>
-                    <li><a href="#">Organigrama</a></li>
-                    <li><a href="#">Directorio</a></li>
+                    <li><a href="{{ route('organigrama') }}">Organigrama</a></li>
+                    <li><a href="{{ route('directorio') }}">Directorio</a></li>
                 </ul>
             </li>
 
@@ -30,7 +30,7 @@
 
                 <ul class="submenu">
                     <li><a href="{{ route('admision') }}">Admisión 2024</a></li>
-                    <li><a href="{{route('modalidad_admision')}}">Becas y Creditos</a></li>
+                    <li><a href="{{ route('modalidad_admision') }}">Becas y Creditos</a></li>
                 </ul>
             </li>
 
@@ -39,9 +39,9 @@
                     <i class='bx bx-chevron-down'></i>
                 </a>
                 <ul class="submenu">
-                    <li><a href="{{ route('ingles')}}">Ingles</a></li>
+                    <li><a href="{{ route('ingles') }}">Ingles</a></li>
                     <li><a href="{{ route('inicial') }}">Educación Inicial</a></li>
-                    <li><a href="{{ route('comunicacion')}}">Comunicación</a></li>
+                    <li><a href="{{ route('comunicacion') }}">Comunicación</a></li>
                 </ul>
             </li>
 
@@ -65,7 +65,7 @@
 
                 <ul class="submenu">
                     <li><a href="#">Trámite documentario</a></li>
-                    <li><a href="#">Contáctnos</a></li>
+                    <li><a href="{{ route('contacto') }}">Contáctnos</a></li>
                 </ul>
             </li>
 

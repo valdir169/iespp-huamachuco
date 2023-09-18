@@ -3,24 +3,24 @@
 @section('title', 'IESPP José Faustino Sánchez Carrión')
 
 @section('content')
-    <div class="swiper mySwiper">
-        <div class="swiper-wrapper">
-            <div class="swiper-slide">
-                <img class="h-full w-full" src="{{ asset('images/slider/slider1.jpg') }}" alt="">
-            </div>
-            <div class="swiper-slide">
-                <img class="h-full w-full" src="{{ asset('images/slider/slider2.jpg') }}" alt="">
-            </div>
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img class="h-full w-full" src="{{ asset('images/slider/slider1.jpg') }}" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img class="h-full w-full" src="{{ asset('images/slider/slider2.jpg') }}" alt="">
+                </div>
 
-            <div class="swiper-slide">
-                <img class="h-full w-full" src="{{ asset('images/slider/slider3.jpg') }}" alt="">
-            </div>
+                <div class="swiper-slide">
+                    <img class="h-full w-full" src="{{ asset('images/slider/slider3.jpg') }}" alt="">
+                </div>
 
-            <div class="swiper-slide">
-                <img class="h-full w-full" src="{{ asset('images/slider/slider4.jpg') }}" alt="">
+                <div class="swiper-slide">
+                    <img class="h-full w-full" src="{{ asset('images/slider/slider4.jpg') }}" alt="">
+                </div>
             </div>
         </div>
-    </div>
 
     <section class="render">
         <section class="my-4">
@@ -38,7 +38,7 @@
                         Formar profesionales que contribuyan a mejorar los entornos en los que se desarrollen los niños y
                         niñas...
                     </x-slot>
-                    <x-button type="primary" ruta="#">Ver Detalles</x-button>
+                    <x-button type="primary" ruta="{{ route('educacioninicial') }}">Ver Detalles</x-button>
                 </x-card>
 
                 <x-card>

@@ -4,6 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
     navBar(".btn-menu", ".nav-menu");
     subMenu(".nav-link", ".submenu");
     contador();
+    topMenu(".navbar")
 });
 
 function navBar(btn, menu) {
@@ -13,6 +14,11 @@ function navBar(btn, menu) {
             document.querySelector(menu).classList.toggle("open")
             document.querySelector(btn).classList.toggle("open")
             document.body.classList.toggle("is-open")
+
+            let width = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+            width > 820 ? document.querySelector(".navbar").classList.remove("bg-white") : document.querySelector(".navbar").classList.toggle("bg-white");
+
+            document.querySelector(".btn-menu").classList.toggle("text-black");
         }
     })
 }
@@ -63,3 +69,22 @@ var swiper = new Swiper(".mySwiper", {
         prevEl: ".swiper-button-prev",
     },
 });
+
+
+function topMenu(menu) {
+    const $topMenu = document.querySelector(menu);
+
+    window.addEventListener("scroll", e => {
+        let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+        scrollTop > 460 ? $topMenu.classList.add("topMenu") : $topMenu.classList.remove("topMenu");
+    });
+
+    document.addEventListener("click", e => {
+        if (e.target.matches(menu)) {
+            window.scrollTo({
+                behavior: "smooth",
+                top: 0
+            })
+        }
+    });
+}

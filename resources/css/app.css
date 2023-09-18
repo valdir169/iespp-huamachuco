@@ -13,6 +13,7 @@
 
 /* Styles for pages */
 @import url('./pages/index.css');
+@import url('./pages/modalidad.css');
 
 @tailwind base;
 @tailwind components;

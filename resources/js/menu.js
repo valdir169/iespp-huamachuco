@@ -76,7 +76,7 @@ function topMenu(menu) {
 
     window.addEventListener("scroll", e => {
         let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-        scrollTop > 460 ? $topMenu.classList.add("topMenu") : $topMenu.classList.remove("topMenu");
+        scrollTop > 120 ? $topMenu.classList.add("topMenu") : $topMenu.classList.remove("topMenu");
     });
 
     document.addEventListener("click", e => {

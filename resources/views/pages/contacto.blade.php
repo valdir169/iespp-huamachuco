@@ -6,38 +6,53 @@
     <div class="-mt-[120px] h-[700px] w-full bg-cover bg-no-repeat bg-center  flex items-center justify-center flex-col text-center gap-4"
         style='background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8)),
         url({{ asset('images/contacto.png') }});'>
-        <span class="text-white text-xl sm:text-2xl text-4xl uppercase mt-[200px] sm:mt-[0px]">Estamos aquí para ayudarte</span>
-        <span class="text-white text-base  sm:text-xl px-8 px-72">Comuníquese con nosotros en cualquier momento y estaremos encantados
+        <span class="text-white text-xl sm:text-2xl text-4xl uppercase mt-[200px] sm:mt-[0px]">Estamos aquí para
+            ayudarte</span>
+        <span class="text-white text-base  sm:text-xl px-8 px-72">Comuníquese con nosotros en cualquier momento y estaremos
+            encantados
             de responder a sus preguntas.</span>
     </div>
 
     <section class="-mt-[150px] w-full pb-8 ">
-        <article class="mx-2 sm:mx-6  lg:mx-32 xl:mx-48 bg-[#3477DB] flex flex-col md:flex-row gap-4 py-8 px-6 sm:px-16 md:px-4 lg:px-8 xl:px-16  xl:mx-60 2xl:gap-16">
+        <article
+            class="mx-2 sm:mx-6  lg:mx-32 xl:mx-48 bg-[#3477DB] flex flex-col md:flex-row gap-4 py-8 px-6 sm:px-16 md:px-4 lg:px-8 xl:px-16  xl:mx-60 2xl:gap-16">
 
             <div class="w-full">
                 <span class="font-bold text-white text-2xl">Envía tu mensaje</span>
-                <form>
+                <form method="post" action="{{ route('contacto.process') }}">
+                    @csrf
                     <div class="group">
                         <input type="text" name="name" placeholder=" " style="border-color:#fff;color:#fff;">
                         <label>Ingresa tus nombres</label>
+                        @error('name')
+                            <span>{{ 'message' }}</span>
+                        @enderror
                     </div>
 
                     <div class="group" id="email">
-                        <input type="text" name="mail" id="" placeholder=" "
+                        <input type="text" name="email" id="" placeholder=" "
                             style="border-color:#fff;color:#fff;">
                         <label>Ingresa tu correo electrónico</label>
+                        @error('email')
+                            <span>{{ 'message' }}</span>
+                        @enderror
                     </div>
 
                     <div class="group" id="email">
-                        <input type="text" name="cellphone"  placeholder=" "
-                            style="border-color:#fff;color:#fff;">
+                        <input type="text" name="cellphone" placeholder=" " style="border-color:#fff;color:#fff;">
                         <label>Ingresa tu número de celular</label>
+                        @error('cellphone')
+                            <span>{{ 'message' }}</span>
+                        @enderror
                     </div>
 
                     <div class="group">
                         <textarea class="textarea" name="message" id="" rows="3" placeholder=" "
                             style="resize:none;border-color:#fff;color:#fff;"></textarea>
                         <label>Ingresa tu duda o consulta</label>
+                        @error('message')
+                            <span>{{ 'message' }}</span>
+                        @enderror
                     </div>
 
                     <div class="button">

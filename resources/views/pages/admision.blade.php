@@ -3,22 +3,19 @@
 @section('title', 'Admisión IESPP-Humachuco')
 
 @section('content')
-    <section class="lg:mt-0 background">
-        <div class="render py-8">
-            <div class="grid gap-3 sm:max-w-[55%] md:h-[400px] md:gap-0 lg:h-[500px]">
-                <div class="mt-28 md:mt-[10rem]">
-                    <h1 class="text-sm font-black md:text-xl md:text-2xl xl:text-3xl  2xl:text-4xl">Admisión 2024</h1>
-                    <h1 class="text-sm font-black border-b pb-2 md:text-xl md:text-2xl xl:text-3xl  2xl:text-4xl">INSCRIPCIONES ABIERTAS!!!</h1>
-                </div>
-                <div class="md:pb-20">
-                    <span class="text-xs pr-4 font-semibold md:text-base xl:text-xl xl:pr-10">Cierre de Inscripciones:</span><span class="text-xs md:text-base xl:text-xl">15 de marzo.</span><br>
-                    <span class="text-xs pr-4 font-semibold md:text-base xl:text-xl xl:pr-10">Inicio de Inscripciones:</span><span class="text-xs md:text-base xl:text-xl">7 de abril.</span><br>
-                </div>
-            </div>
-        </div>
+    <section>
+        <x-admision
+            img="{{ asset('images/bg-admision.jpg')}}"
+            titulo="Admisión 2024"
+            descripcion="INSCRIPCIONES ABIERTAS!!!"
+            subtitulo1="Cierre de Inscripciones:"
+            subtitulo2="Inicio de Inscripciones:"
+            subtitulo3="15 de marzo."
+            subtitulo4="7 de abril."
+        />
     </section>
     <main>
-        <div class="py-10 bg-[#3477db] lg:bg-white lg:flex justify-center items-center lg:-mt-32">
+        <div class="py-10 bg-[#3477db] lg:bg-transparent lg:flex justify-center items-center lg:-mt-28">
             <div class="lg:bg-[#d9d9d9] lg:w-[900px] lg:h-[8rem] lg:flex justify-center items-center xl:w-[1200px] 2xl:h-[10rem]">
                 <div class="grid gap-4">
                     <div class="flex justify-center items-center">
@@ -28,7 +25,7 @@
                         <div class="">
                             <a href="{{ route('carreras') }}" class="text-xs md:border-r-2 px-3 py-2 lg:text-md xl:text-base lg:text-[#3477db] lg:border-[#000000]">Carreras Profecionales</a></div>
                         <div class="">
-                            <a href="#"class="text-xs md:border-r-2 px-3 py-2 lg:text-md xl:text-base lg:text-[#3477db] lg:border-[#000000]">Modalidad de Admisión</a></div>
+                            <a href="{{ route('modalidad_admision')}}"class="text-xs md:border-r-2 px-3 py-2 lg:text-md xl:text-base lg:text-[#3477db] lg:border-[#000000]">Modalidad de Admisión</a></div>
                         <div class="">
                             <a href="#"class="text-xs md:border-r-2 px-3 py-2 lg:text-md xl:text-base lg:text-[#3477db] lg:border-[#000000]">Requisitos de Matricula</a></div>
                         <div class="">

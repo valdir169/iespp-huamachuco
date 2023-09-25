@@ -3,40 +3,32 @@
 @section('title', 'Educación Inicial')
 
 @section('content')
-    <section class="">
-        <div class="render h-[500px] py-4 sm:h-[600px] md:mt-[3rem] xl:mt-[0rem] lg:h-[700px] lg:py-8 2xl:h-[800px] lg:py-16">
-            <div>
-                <a class="text-[#D9D9D9] text-xs lg:sm" href="">Inicio</a><span class="px-3">/</span>
-                <a class="text-[#D9D9D9] text-xs lg:sm" href="{{route('carreras')}}">Carreras</a><span class="px-3">/</span>
-                <a class=" text-xs lg:sm" href="">Educaci&oacute;n Inicial</a>
-            </div>
-            <div class="pt-[6rem] sm:pt-[12rem] lg:pl-[4rem] xl:pl-[6rem] md:w-[500px] lg:w-[700px] 2xl:w-[900px]">
-                <div>
-                    <h1 class="text-sm font-black lg:text-base 2xl:text-3xl">EDUCACI&Oacute;N INICIAL</h1>
-                    <P class="text-xs py-4 lg:text-sm lg:py-6">Formar profesionales que contribuyan a mejorar los entornos en los que se desarrollan los niños y niñas, promover que los niños establezcan vínculos, que logren autonomía misma, y que desarrollen iniciativa para jugar.</P>
-                </div>
-                <div class="grid gap-2">
-                    <div class="flex flex-col sm:flex-row sm:items-center"><small class="text-xs font-black lg:text-sm 2xl:text-base sm:flex items-center"><i class='bx bx-time text-[#2277db] mr-1 lg:text-[1rem] 2xl:text-[2rem]'></i>Duraci&oacute;n:</small><span class="text-xs pl-2 py-1 sm:py-0 sm:pl-6 lg:text-sm lg:pl-8 2xl:text-base">10 Semestres Acad&eacute;micos (5 años).</span></div>
-                    <div class="flex flex-col sm:flex-row sm:items-center"><small class="text-xs font-black lg:text-sm 2xl:text-base sm:flex items-center"><i class='bx bx-file-blank text-[#2277db] mr-1 lg:text-[1rem] 2xl:text-[2rem]'></i>Titulaci&oacute;n:</small><span class="text-xs pl-2 py-1 sm:py-0 sm:pl-5 lg:text-sm lg:pl-7 2xl:text-base">Profesional Pedagógico en Educación Inicial.</span></div>
-                    <div class="flex flex-col sm:flex-row sm:items-center"><small class="text-xs font-black lg:text-sm 2xl:text-base sm:flex items-center"><i class='bx bx-user-check text-[#2277db] mr-1 lg:text-[1rem] 2xl:text-[2rem]'></i>Modalidad:</small><span class="text-xs pl-2 py-1 sm:py-0 sm:pl-4 lg:text-sm lg:pl-6 2xl:text-base">Presencial.</span></div>
-                </div>
-            </div>
-        </div>
+    <section>
+        <x-presentation>
+            <x-slot name="img">{{ asset('images/bg-admision.jpg')}}</x-slot>
+            <x-slot name="inicioLink">{{ route('index') }}</x-slot>
+            <x-slot name="inicioText">Inicio</x-slot>
+            <x-slot name="carrerasLink">{{ route('carreras') }}</x-slot>
+            <x-slot name="carrerasText">Carreras</x-slot>
+            <x-slot name="especialidadLink">{{ route('inicial') }}</x-slot>
+            <x-slot name="titulo">EDUCACI&Oacute;N INICIAL</x-slot>
+            <x-slot name="descripcion">Formar profesionales que contribuyan a mejorar los entornos en los que se desarrollan los niños y niñas, promover que los niños establezcan vínculos, que logren autonomía misma, y que desarrollen iniciativa para jugar.</x-slot>
+            <x-slot name="duracion">10 Semestres Académicos (5 años)</x-slot>
+            <x-slot name="titulacion">Profesional Pedagógico en Educaci&oacute;n Inicial</x-slot>
+            <x-slot name="modalidad">Presencial</x-slot>
+        </x-presentation>
     </section>
     <section class="py-5 sm:-mt-12 lg:-mt-16 2xl:-mt-20">
         <article class="render">
             <div class="sm:flex justify-center">
-                <div class="bg-[#D9D9D9] border p-2 text-center hover:text-white hover:bg-[#2277db] sm:w-[200px] sm:h-[70px] sm:flex flex-col lg:pt-4 lg:h-[100px] 2xl:sm:w-[300px] 2xl:h-[150px] 2xl:pt-6">
-                    <i class='bx bx-line-chart sm:text-[30px] sm:pb-1 2xl:text-[50px]'></i>
-                    <a class="text-xs lg:text-base" href="#logros">Lo que lograrás</a>
+                <div class="bg-[#D9D9D9] border p-2 text-center hover:text-white hover:bg-[#2277db] sm:flex justify-center items-center sm:w-[200px] sm:h-[85px] lg:pt-4 lg:h-[100px] 2xl:sm:w-[300px] 2xl:h-[150px] 2xl:pt-6">
+                    <a class="text-xs sm:flex flex-col lg:text-base" href="#logros"><i class='bx bx-line-chart sm:text-[30px] sm:pb-1 2xl:text-[50px]'></i>Lo que lograrás</a>
                 </div>
-                <div class="bg-[#D9D9D9] border p-2 text-center hover:text-white hover:bg-[#2277db] sm:w-[200px] sm:h-[70px] sm:flex flex-col lg:pt-4 lg:h-[100px] 2xl:sm:w-[300px] 2xl:h-[150px] 2xl:pt-6">
-                    <i class='bx bx-list-plus sm:text-[30px] sm:pb-1 2xl:text-[50px]'></i>
-                    <a class="text-xs lg:text-base" href="#requisitos">Requisítos</a>
+                <div class="bg-[#D9D9D9] border p-2 text-center hover:text-white hover:bg-[#2277db] sm:flex justify-center items-center sm:w-[200px] sm:h-[85px]lg:pt-4 lg:h-[100px] 2xl:sm:w-[300px] 2xl:h-[150px] 2xl:pt-6">
+                    <a class="text-xs sm:flex flex-col lg:text-base" href="#requisitos"><i class='bx bx-list-plus sm:text-[30px] sm:pb-1 2xl:text-[50px]'></i>Requisítos</a>
                 </div>
-                <div class="bg-[#D9D9D9] border p-2 text-center hover:text-white hover:bg-[#2277db] sm:w-[200px] sm:h-[70px] sm:flex flex-col lg:pt-4 lg:h-[100px] 2xl:sm:w-[300px] 2xl:h-[150px] 2xl:pt-6">
-                    <i class='bx bx-food-menu sm:text-[30px] sm:pb-1 2xl:text-[50px]'></i>
-                    <a class="text-xs lg:text-base" href="#curricula">Currícula</a>
+                <div class="bg-[#D9D9D9] border p-2 text-center hover:text-white hover:bg-[#2277db] sm:flex justify-center items-center sm:w-[200px] sm:h-[85px]lg:pt-4 lg:h-[100px] 2xl:sm:w-[300px] 2xl:h-[150px] 2xl:pt-6">
+                    <a class="text-xs sm:flex flex-col lg:text-base" href="#curricula"><i class='bx bx-food-menu sm:text-[30px] sm:pb-1 2xl:text-[50px]'></i>Currícula</a>
                 </div>
             </div>
         </article>
@@ -48,7 +40,7 @@
                 <span class="text-sm font-black lg:text-lg 2xl:text-xl">Lo que lograrás</span>
             </div>
             <div class="grid gap-3 sm:flex">
-                <div class="w-1/2">
+                <div class="sm:w-1/2">
                     <span class="text-xs font-black text-[#2277db] lg:text-base">Al estudiar esta carrera serás capaz de:</span>
                     <div class="text-xs grid gap-2 lg:gap-6 pt-2 lg:pt-4">
                         <ul>
@@ -76,7 +68,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="w-1/2">
+                <div class="sm:w-1/2">
                     <span class="text-xs font-black text-[#2277db] lg:text-base">Podrás desempeñarte en:</span>
                     <ul class="pt-2 lg:pt-4">
                         <li class="flex"><i class='bx bx-check-circle pr-2 lg:text-xl'></i><span class="text-xs lg:text-sm">Instituciones Educativas de Educación Inicial (Publicas y Privadas), como Profesional Pedagógico en Educación Inicial.</span></li>

@@ -148,6 +148,10 @@ class PaginasController extends Controller
         return view('pages.contacto');
     }
 
+    // academia
+
+    public function academia(){
+        return view('pages.academia');
 
     //Otros
     public function galeria()
@@ -170,5 +174,6 @@ class PaginasController extends Controller
         Mail::to('contrerasvaldir06@gmail.com')->send($email);
 
         return redirect()->route('contacto')->with('message', 'Mensaje Enviado con áxito');
+
     }
 }

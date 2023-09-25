@@ -83,4 +83,11 @@ class PaginasController extends Controller
     {
         return view('pages.contacto');
     }
+
+
+    // academia
+
+    public function academia(){
+        return view('pages.academia');
+    }
 }

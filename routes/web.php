@@ -24,8 +24,8 @@ Route::get('/educacion_inicial', [PaginasController::class, 'educacioninicial'])
 Route::get('/idiomas_especialidad_ingles', [PaginasController::class, 'idiomasingles'])->name('ingles');
 Route::get('/educacion_secundaria_especialidad_comunicacion', [PaginasController::class, 'comunicacion'])->name('comunicacion');
 Route::get('/modalidad_admision', [PaginasController::class, 'modalidad'])->name('modalidad_admision');
+Route::get('/academia', [PaginasController::class, 'academia'])->name('academia');
 
-Route::get('/educacioninicial', [PaginasController::class, 'educacioninicial'])->name('educacioninicial');
 
 // routes for institucion
 Route::get('/presentacion', [PaginasController::class, 'presentacion'])->name('presentacion');

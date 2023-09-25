@@ -3,19 +3,16 @@
 @section('title','Modalidad de Admisión')
 @section('content')
     <section>
-        <div class="render h-[300px] py-4 sm:h-[400px] lg:h-[500px] xl:h-[600px]">
-            <div class="">
-                <div>
-                    <a class="text-[#D9D9D9] text-xs lg:sm" href="">Inicio</a><span class="px-3">/</span>
-                    <a class="text-[#D9D9D9] text-xs lg:sm" href="{{route('admision')}}">admisi&oacute;n</a><span class="px-3">/</span>
-                    <a class=" text-xs lg:sm" href="">Modalidad de Admisi&oacute;n</a>
-                </div>
-                <div class="text-xs pt-[100px] sm:pt-[200px] md:pl-[3rem] lg:pt-[300px] lg:w-[700px] lg:pl-[6rem] xl:pt-[400px]">
-                    <span class="text-base font-black md:text-xl lg:text-3xl 2xl:text-4xl">Modalidad de Admisión</span>
-                    <p class="lg:text-sm">Nosotros ofrecemos diferentes tipos de modalidades para  los que van ha postular y formar parte de nuestra familia estudiantil.</p>
-                </div>
-            </div>
-        </div>
+        <x-modal
+            img="{{ asset('images/bg-admision.jpg') }}"
+            inicioLink="{{ route('index') }}"
+            inicioText="Inicio"
+            link="{{ route('admision') }}"
+            linkText="Admisión"
+            linkTitle="{{ route('modalidad_admision') }}"
+            Title="Modalidad de Admisión"
+            Content="Nosotros ofrecemos diferentes tipos de modalidades para  los que van ha postular y formar parte de nuestra familia estudiantil."
+        />
     </section>
     <section class="preparate-tabs py-10">
         <section class="tabs preparation grid gap-5 lg:gap-10 2xl:gap-30">
@@ -203,14 +200,15 @@
     <section>
         <article class="border-t border-[#d9d9d9">
             <div class="render mb-8 pt-6">
-                <span class="text-sm font-black sm:text-base lg:text-xl 2xl:text-2xl">Te puede interesar...</span>
-                <ul class="text-xs mt-2 sm:text-sm">
-                    <li><a class="hover:text-[#3277db]" href="{{route('carreras')}}">Conoce Nuestras Carreras</a></li>
-                    <li><a class="hover:text-[#3277db]" href="#">Requisitos de matricula</a></li>
-                    <li><a class="hover:text-[#3277db]" href="#">Academia Institucional</a></li>
-                    <li><a class="hover:text-[#3277db]" href="#">Campus Institucional</a></li>
-                </ul>
-            </div>
+            <x-sublinks
+            :title="'Te Puede Interesar...'"
+            :links='[
+                "Conoce Nuestras Carreras" => route("admision"),
+                "Requisitos de Matrícula" => route("ingles"),
+                "Academia Institucional" => route("academia"),
+                "Campus Institucional" => route("carreras"),
+            ]'
+            />
         </article>
     </section>
 @endsection

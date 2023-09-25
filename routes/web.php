@@ -1,7 +1,9 @@
 <?php
 
 use App\Http\Controllers\PaginasController;
+use App\Mail\ContactoMailable;
 use Illuminate\Contracts\View\View;
+use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -26,6 +28,7 @@ Route::get('/educacion_secundaria_especialidad_comunicacion', [PaginasController
 Route::get('/modalidad_admision', [PaginasController::class, 'modalidad'])->name('modalidad_admision');
 
 Route::get('/educacioninicial', [PaginasController::class, 'educacioninicial'])->name('educacioninicial');
+Route::get('/galeria', [PaginasController::class, 'galeria'])->name('galeria');
 
 // routes for institucion
 Route::get('/presentacion', [PaginasController::class, 'presentacion'])->name('presentacion');
@@ -33,3 +36,16 @@ Route::get('/historia', [PaginasController::class, 'historia'])->name('historia'
 Route::get('/nosotros', [PaginasController::class, 'nosotros'])->name('nosotros');
 Route::get('/organigrama', [PaginasController::class, 'organigrama'])->name('organigrama');
 Route::get('/directorio', [PaginasController::class, 'directorio'])->name('directorio');
+
+
+// procees form
+Route::post('/contactanos', [PaginasController::class, 'processData'])->name('contacto.process');
+Route::get('/descargar-file/{fileName}', function ($fileName) {
+    $routeFile = public_path('files/' . $fileName);
+
+    if (file_exists($routeFile)) {
+        return response()->download($routeFile, $fileName);
+    } else {
+        abort(404, 'Archivo no encontrado');
+    }
+});

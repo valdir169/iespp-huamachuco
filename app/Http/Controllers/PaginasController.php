@@ -2,7 +2,11 @@
 
 namespace App\Http\Controllers;
 
+use App\Mail\ContactoMailable;
+use GuzzleHttp\Psr7\Response;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Mail;
+use Illuminate\Support\Facades\Response as ResponseDownload;
 
 class PaginasController extends Controller
 {
@@ -70,17 +74,101 @@ class PaginasController extends Controller
     }
 
 
+
     public function directorio()
     {
-        return view('pages.institucion.directorio');
+        $jefaturas = [
+            [
+                'jefatura' => 'Dirección General',
+                'name' => 'Dr. Gladis Martha Alvares Medina',
+                'email'  => 'gmedina@iepphuamachuco.edu.pe',
+                'fyle' => 'cvdireccion.pdf',
+            ],
+            [
+                'jefatura' => 'Jefatura de la Unidad de Administración',
+                'name' => 'CPC. Juan Angel Boñon Chavez',
+                'email'  => 'jchavez@iepphuamachuco.edu.pe',
+                'fyle' => 'cvdireccion.pdf',
+            ],
+            [
+                'jefatura' => 'Jefatura de Unidad Acádemica',
+                'name' => 'Mg. Marivel Santos Layza Rodriguez',
+                'email'  => 'mlayza@iepphuamachuco.edu.pe',
+                'fyle' => 'cvacademica.pdf',
+            ],
+            [
+                'jefatura' => 'Jefatura de la Unidad de Investigación ',
+                'name' => 'Mg. Jose Oracio Pimentel Longobarde',
+                'email'  => 'jpimentel@iepphuamachuco.edu.pe',
+                'fyle' => 'cvdireccion.pdf',
+            ],
+            [
+                'jefatura' => 'Jefe de la Unidad de Bienestar y Empleabilidad',
+                'name' => 'Profesor Luis Humberto Carbonell Garcia',
+                'email'  => 'lcarbonell@iepphuamachuco.edu.pe',
+                'fyle' => 'cvdireccion.pdf',
+            ],
+            [
+                'jefatura' => 'Coordinador del Área de Calidad',
+                'name' => 'Mg. Marita Magdalena Andrade Condori',
+                'email'  => 'mandrade@iepphuamachuco.edu.pe',
+                'fyle' => 'cvdireccion.pdf',
+            ],
+            [
+                'jefatura' => 'Coordinador del Área de Práticas Pre-Profesionales',
+                'name' => 'Mg. Soledad Del Carmen Garcia Martin',
+                'email'  => 'sgarcia@iepphuamachuco.edu.pe',
+                'fyle' => 'cvdireccion.pdf',
+            ],
+            [
+                'jefatura' => 'Coordinador del Programas de Estudios Idiomas: Especialidad Ingles',
+                'name' => 'Mg. Zulma Jannett De La Cruz Contreras',
+                'email'  => 'zcontreras@iepphuamachuco.edu.pe',
+                'fyle' => 'cvdireccion.pdf',
+            ],
+            [
+                'jefatura' => 'Coordinador del Programas de Estudios Educación Secundaria: Especialidad Comunicación',
+                'name' => 'Lic. Walter Felix Reyes Vasquez',
+                'email'  => 'wreyes@iepphuamachuco.edu.pe',
+                'fyle' => 'cvdireccion.pdf',
+            ],
+            [
+                'jefatura' => 'Coordinador del Programas de Estudios Educación Inicial',
+                'name' => 'Profesora Maria Ofelia Cobian Galvez',
+                'email'  => 'wreyes@iepphuamachuco.edu.pe',
+                'fyle' => 'cvdireccion.pdf',
+            ]
+        ];
+        return view('pages.institucion.directorio', compact('jefaturas'));
     }
 
-
-
-    
     // contacto
     public function contacto()
     {
         return view('pages.contacto');
+    }
+
+
+    //Otros
+    public function galeria()
+    {
+        return view('pages.galeria');
+    }
+
+
+
+    public function processData(Request $request)
+    {
+        $request->validate([
+            'name' => 'required|string|min:2',
+            'email' => 'email|required',
+            'cellphone' => 'required|numeric|min:9',
+            'message' => 'required'
+        ]);
+
+        $email = new ContactoMailable(($request->all()));
+        Mail::to('contrerasvaldir06@gmail.com')->send($email);
+
+        return redirect()->route('contacto')->with('message', 'Mensaje Enviado con áxito');
     }
 }

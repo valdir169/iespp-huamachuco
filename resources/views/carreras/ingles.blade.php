@@ -286,7 +286,7 @@
                         <span class="text-sm font-black lg:text-base">Ingreso Extraordinario</span>
                         <p class="text-xs lg:text-base">Brindamos academia vacacional de una duración de 2 meses y dos semanas, de lunes a viernes, los horarios son de 7:30 a 1:00, realiza tus inscripciones en secretaria.</p>
                         <div class="text-center">
-                            <a class="w-1/2 px-10 py-1 shadow shadow-[#9d9d9d] text-xs rounded-full lg:text-base lg:py-2 lg:px-20" href="#">Conoce Más</a>
+                            <a class="w-1/2 px-10 py-1 shadow shadow-[#9d9d9d] text-xs rounded-full lg:text-base lg:py-2 lg:px-20 hover:bg-[#3477db] hover:text-white" href="{{route('academia')}}">Conoce Más</a>
                         </div>
                     </div>
                     <div class="text-center grid gap-2 border rounded-3xl p-8 h-[300px] lg:h-[430px]">
@@ -294,7 +294,7 @@
                         <span class="text-sm font-black lg:text-base">Ingreso Ordinario</span>
                         <p class="text-xs lg:text-base">Inscríbete en secretaria para dar tu examen de admisión.</p>
                         <div class="text-center">
-                            <a class="w-1/2 px-10 py-1 bg-[#2277db] text-xs rounded-full text-white lg:text-base lg:py-2 lg:px-20" href="#">Conoce Más</a>
+                            <a class="w-1/2 px-10 py-1 bg-[#2277db] text-xs rounded-full text-white lg:text-base lg:py-2 lg:px-20 hover:border-2 border-[#3477db] hover:text-black hover:bg-white" href="{{route('admision')}}">Conoce Más</a>
                         </div>
                     </div>
                 </div>

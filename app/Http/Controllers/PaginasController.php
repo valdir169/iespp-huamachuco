@@ -153,7 +153,8 @@ class PaginasController extends Controller
     public function academia(){
         return view('pages.academia');
     }
-    
+
+  
     //Otros
     public function galeria()
     {

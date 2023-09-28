@@ -292,7 +292,7 @@
                             <div class="h-[70px] flex justify-center items-center bg-[#d9d9d9] sm:h-full sm:w-1/2"><span class="text-sm text-center lg:text-base">Total de vacantes en <span class="font-black">Educaci&oacute;n Secundaria, Especialidad: Comunicaci&oacute;n </span></span></div>
                             <div class="h-[70px] flex justify-center items-center bg-[#2277db] sm:h-full sm:w-1/2"><p class="font-black text-2xl text-white flex items-center gap-5 sm:text-3xl lg:text-4xl"><i class='bx bxs-user'></i><span>30</span></p></div>
                         </div>
-                        {{-- <div class=" py-5 lg:py-24">
+                        <div class=" py-5 lg:py-24">
                             <x-table>
                                 <tr>
                                     <td>Formación General</td>
@@ -345,7 +345,7 @@
                                     <td>220</td>
                                 </tr>
                             </x-table>
-                        </div> --}}
+                        </div>
                     </div>
                 </div>
             </div>

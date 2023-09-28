@@ -154,6 +154,7 @@ class PaginasController extends Controller
         return view('pages.academia');
     }
 
+  
     //Otros
     public function galeria()
     {

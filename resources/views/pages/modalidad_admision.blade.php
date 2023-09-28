@@ -90,6 +90,60 @@
                             <div class="h-[70px] flex justify-center items-center bg-[#d9d9d9] sm:h-full sm:w-1/2"><span class="text-sm text-center lg:text-base">Total de vacantes en <span class="font-black">Educaci&oacute;n Inicial</span></span></div>
                             <div class="h-[70px] flex justify-center items-center bg-[#2277db] sm:h-full sm:w-1/2"><p class="font-black text-2xl text-white flex items-center gap-5 sm:text-3xl lg:text-4xl"><i class='bx bxs-user'></i><span>60</span></p></div>
                         </div>
+                        {{-- <div class=" py-5 lg:py-24">
+                            <x-table>
+                                <tr>
+                                    <td>Formación General</td>
+                                    <td>12</td>
+                                    <td>24</td>
+                                    <td>24</td>
+                                    <td>24</td>
+                                    <td>12</td>
+                                    <td>48</td>
+                                    <td>36</td>
+                                </tr>
+                                <tr>
+                                    <td>Formación en la Práctica e Investigación</td>
+                                    <td>10</td>
+                                    <td>40</td>
+                                    <td>40</td>
+                                    <td>70</td>
+                                    <td>35</td>
+                                    <td>110</td>
+                                    <td>75</td>
+                                </tr>
+                                <tr>
+                                    <td>Formación Específica</td>
+                                    <td>25</td>
+                                    <td>68</td>
+                                    <td>68</td>
+                                    <td>58</td>
+                                    <td>29</td>
+                                    <td>126</td>
+                                    <td>97</td>
+                                </tr>
+                                <tr>
+                                    <td>Electivos</td>
+                                    <td>4</td>
+                                    <td>8</td>
+                                    <td>8</td>
+                                    <td>8</td>
+                                    <td>4</td>
+                                    <td>16</td>
+                                    <td>12</td>
+                                </tr>
+                                <tr>
+                                    <td>Total general </td>
+                                    <td>51</td>
+                                    <td>140</td>
+                                    <td>140</td>
+                                    <td>160</td>
+                                    <td>80</td>
+                                    <td>300</td>
+                                    <td>220</td>
+                                </tr>
+                            </x-table>
+                        </div> --}}
                     </div>
                     <div class="tab-content" id="tab2">
                         <div class="grid gap-4 lg:gap-8 2xl:gap-16">
@@ -137,6 +191,60 @@
                             <div class="h-[70px] flex justify-center items-center bg-[#d9d9d9] sm:h-full sm:w-1/2"><span class="text-sm text-center lg:text-base">Total de vacantes en <span class="font-black">Idiomas, Especialidad: Ingles</span></span></div>
                             <div class="h-[70px] flex justify-center items-center bg-[#2277db] sm:h-full sm:w-1/2"><p class="font-black text-2xl text-white flex items-center gap-5 sm:text-3xl lg:text-4xl"><i class='bx bxs-user'></i><span>30</span></p></div>
                         </div>
+                        {{-- <div class=" py-5 lg:py-24">
+                            <x-table>
+                                <tr>
+                                    <td>Formación General</td>
+                                    <td>12</td>
+                                    <td>24</td>
+                                    <td>24</td>
+                                    <td>24</td>
+                                    <td>12</td>
+                                    <td>48</td>
+                                    <td>36</td>
+                                </tr>
+                                <tr>
+                                    <td>Formación en la Práctica e Investigación</td>
+                                    <td>10</td>
+                                    <td>40</td>
+                                    <td>40</td>
+                                    <td>70</td>
+                                    <td>35</td>
+                                    <td>110</td>
+                                    <td>75</td>
+                                </tr>
+                                <tr>
+                                    <td>Formación Específica</td>
+                                    <td>25</td>
+                                    <td>68</td>
+                                    <td>68</td>
+                                    <td>58</td>
+                                    <td>29</td>
+                                    <td>126</td>
+                                    <td>97</td>
+                                </tr>
+                                <tr>
+                                    <td>Electivos</td>
+                                    <td>4</td>
+                                    <td>8</td>
+                                    <td>8</td>
+                                    <td>8</td>
+                                    <td>4</td>
+                                    <td>16</td>
+                                    <td>12</td>
+                                </tr>
+                                <tr>
+                                    <td>Total general </td>
+                                    <td>51</td>
+                                    <td>140</td>
+                                    <td>140</td>
+                                    <td>160</td>
+                                    <td>80</td>
+                                    <td>300</td>
+                                    <td>220</td>
+                                </tr>
+                            </x-table>
+                        </div> --}}
                     </div>
                     <div class="tab-content" id="tab3">
                         <div class="grid gap-4 lg:gap-8 2xl:gap-16">
@@ -184,6 +292,60 @@
                             <div class="h-[70px] flex justify-center items-center bg-[#d9d9d9] sm:h-full sm:w-1/2"><span class="text-sm text-center lg:text-base">Total de vacantes en <span class="font-black">Educaci&oacute;n Secundaria, Especialidad: Comunicaci&oacute;n </span></span></div>
                             <div class="h-[70px] flex justify-center items-center bg-[#2277db] sm:h-full sm:w-1/2"><p class="font-black text-2xl text-white flex items-center gap-5 sm:text-3xl lg:text-4xl"><i class='bx bxs-user'></i><span>30</span></p></div>
                         </div>
+                        {{-- <div class=" py-5 lg:py-24">
+                            <x-table>
+                                <tr>
+                                    <td>Formación General</td>
+                                    <td>12</td>
+                                    <td>24</td>
+                                    <td>24</td>
+                                    <td>24</td>
+                                    <td>12</td>
+                                    <td>48</td>
+                                    <td>36</td>
+                                </tr>
+                                <tr>
+                                    <td>Formación en la Práctica e Investigación</td>
+                                    <td>10</td>
+                                    <td>40</td>
+                                    <td>40</td>
+                                    <td>70</td>
+                                    <td>35</td>
+                                    <td>110</td>
+                                    <td>75</td>
+                                </tr>
+                                <tr>
+                                    <td>Formación Específica</td>
+                                    <td>25</td>
+                                    <td>68</td>
+                                    <td>68</td>
+                                    <td>58</td>
+                                    <td>29</td>
+                                    <td>126</td>
+                                    <td>97</td>
+                                </tr>
+                                <tr>
+                                    <td>Electivos</td>
+                                    <td>4</td>
+                                    <td>8</td>
+                                    <td>8</td>
+                                    <td>8</td>
+                                    <td>4</td>
+                                    <td>16</td>
+                                    <td>12</td>
+                                </tr>
+                                <tr>
+                                    <td>Total general </td>
+                                    <td>51</td>
+                                    <td>140</td>
+                                    <td>140</td>
+                                    <td>160</td>
+                                    <td>80</td>
+                                    <td>300</td>
+                                    <td>220</td>
+                                </tr>
+                            </x-table>
+                        </div> --}}
                     </div>
                 </div>
             </div>

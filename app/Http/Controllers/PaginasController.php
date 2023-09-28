@@ -73,69 +73,91 @@ class PaginasController extends Controller
         return view('pages.institucion.organigrama');
     }
 
+    public function planaDocente()
+    {
+        return view('pages.institucion.plana');
+    }
+
 
 
     public function directorio()
     {
         $jefaturas = [
             [
-                'jefatura' => 'Dirección General',
+                'image' => './images/institucion/direccion_general.png',
                 'name' => 'Dr. Gladis Martha Alvares Medina',
-                'email'  => 'gmedina@iepphuamachuco.edu.pe',
+                'jefatura' => 'Dirección General',
+                'email'  => 'galvares@iesppjfschco.edu.pe',
                 'fyle' => 'cvdireccion.pdf',
             ],
             [
                 'jefatura' => 'Jefatura de la Unidad de Administración',
+                'image' => './images/institucion/asertividad.png',
                 'name' => 'CPC. Juan Angel Boñon Chavez',
-                'email'  => 'jchavez@iepphuamachuco.edu.pe',
+                'email'  => 'gchavez@iesppjfschco.edu.pe',
                 'fyle' => 'cvdireccion.pdf',
             ],
             [
                 'jefatura' => 'Jefatura de Unidad Acádemica',
+                'image' => './images/institucion/asertividad.png',
                 'name' => 'Mg. Marivel Santos Layza Rodriguez',
-                'email'  => 'mlayza@iepphuamachuco.edu.pe',
+                'email'  => 'mlayza@iesppjfschco.edu.pe',
                 'fyle' => 'cvacademica.pdf',
             ],
             [
                 'jefatura' => 'Jefatura de la Unidad de Investigación ',
+                'image' => './images/institucion/asertividad.png',
                 'name' => 'Mg. Jose Oracio Pimentel Longobarde',
-                'email'  => 'jpimentel@iepphuamachuco.edu.pe',
+                'email'  => 'jpimentel@iesppjfschco.edu.pe',
                 'fyle' => 'cvdireccion.pdf',
             ],
             [
                 'jefatura' => 'Jefe de la Unidad de Bienestar y Empleabilidad',
-                'name' => 'Profesor Luis Humberto Carbonell Garcia',
-                'email'  => 'lcarbonell@iepphuamachuco.edu.pe',
+                'image' => './images/institucion/asertividad.png',
+                'name' => 'Prof. Luis Humberto Carbonell Garcia',
+                'email'  => 'lcarbonell@iesppjfschco.edu.pe',
                 'fyle' => 'cvdireccion.pdf',
             ],
             [
                 'jefatura' => 'Coordinador del Área de Calidad',
+                'image' => './images/institucion/asertividad.png',
                 'name' => 'Mg. Marita Magdalena Andrade Condori',
-                'email'  => 'mandrade@iepphuamachuco.edu.pe',
+                'email'  => 'mandrade@iesppjfschco.edu.pe',
                 'fyle' => 'cvdireccion.pdf',
             ],
             [
                 'jefatura' => 'Coordinador del Área de Práticas Pre-Profesionales',
+                'image' => './images/institucion/asertividad.png',
                 'name' => 'Mg. Soledad Del Carmen Garcia Martin',
-                'email'  => 'sgarcia@iepphuamachuco.edu.pe',
+                'email'  => 'sgarcia@iesppjfschco.edu.pe',
                 'fyle' => 'cvdireccion.pdf',
             ],
             [
                 'jefatura' => 'Coordinador del Programas de Estudios Idiomas: Especialidad Ingles',
+                'image' => './images/institucion/asertividad.png',
                 'name' => 'Mg. Zulma Jannett De La Cruz Contreras',
-                'email'  => 'zcontreras@iepphuamachuco.edu.pe',
+                'email'  => 'zcontreras@iesppjfschco.edu.pe',
                 'fyle' => 'cvdireccion.pdf',
             ],
             [
                 'jefatura' => 'Coordinador del Programas de Estudios Educación Secundaria: Especialidad Comunicación',
+                'image' => './images/institucion/asertividad.png',
                 'name' => 'Lic. Walter Felix Reyes Vasquez',
-                'email'  => 'wreyes@iepphuamachuco.edu.pe',
+                'email'  => 'wreyes@iesppjfschco.edu.pe',
                 'fyle' => 'cvdireccion.pdf',
             ],
             [
                 'jefatura' => 'Coordinador del Programas de Estudios Educación Inicial',
+                'image' => './images/institucion/asertividad.png',
                 'name' => 'Profesora Maria Ofelia Cobian Galvez',
-                'email'  => 'wreyes@iepphuamachuco.edu.pe',
+                'email'  => 'wreyes@iesppjfschco.edu.pe',
+                'fyle' => 'cvdireccion.pdf',
+            ],
+            [
+                'jefatura' => 'Secretaría Académica',
+                'image' => './images/institucion/asertividad.png',
+                'name' => 'Mg. Rodolfo Eleuterio Cruz Avalo',
+                'email'  => 'wreyes@iesppjfschco.edu.pe',
                 'fyle' => 'cvdireccion.pdf',
             ]
         ];
@@ -150,11 +172,12 @@ class PaginasController extends Controller
 
     // academia
 
-    public function academia(){
+    public function academia()
+    {
         return view('pages.academia');
     }
 
-  
+
     //Otros
     public function galeria()
     {
@@ -176,6 +199,5 @@ class PaginasController extends Controller
         Mail::to('contrerasvaldir06@gmail.com')->send($email);
 
         return redirect()->route('contacto')->with('message', 'Mensaje Enviado con áxito');
-
     }
 }

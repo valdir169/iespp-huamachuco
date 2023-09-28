@@ -37,6 +37,7 @@ Route::get('/historia', [PaginasController::class, 'historia'])->name('historia'
 Route::get('/nosotros', [PaginasController::class, 'nosotros'])->name('nosotros');
 Route::get('/organigrama', [PaginasController::class, 'organigrama'])->name('organigrama');
 Route::get('/directorio', [PaginasController::class, 'directorio'])->name('directorio');
+Route::get('/plana-docente', [PaginasController::class, 'planaDocente'])->name('plana-docente');
 
 
 // procees form

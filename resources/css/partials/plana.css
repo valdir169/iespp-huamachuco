@@ -1,24 +1,23 @@
-table {
+.table-cont {
     border-collapse: separate;
     border-spacing: 10px;
     width: 100%;
 }
 
-th,
-td {
+.table-cont th, td {
     border: 2px solid white;
 }
 
-table th {
+.table-cont th {
     padding: 12px 0px;
     min-width: 200px;
 }
 
-table tr:nth-child(even) {
+.table-cont tr:nth-child(even) {
     background: #e5e0e0;
 }
 
-table {
+.table-cont {
     display: block;
     border-radius: 5px;
     overflow: hidden;
@@ -26,7 +25,7 @@ table {
     transition: max-height 0.5s ease, opacity 0.3s ease;
 }
 
-table.is-open {
+.table-cont.is-open {
     max-height: 500px;
     opacity: 1;
 }

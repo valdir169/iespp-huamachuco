@@ -13,7 +13,7 @@
             </h3>
 
             <div class=" w-full x">
-                <table class="my-4 w-full" id="table">
+                <table class="table-cont my-4 w-full" id="table">
                     <thead >
                         <tr>
                             <th class="bg-sky-900 text-white">Docente</th>

@@ -2,7 +2,7 @@
 
 @section('title', 'Nosotros')
 @section('content')
-    <x-hero image="{{ asset('images/slider/slider4.jpg') }}" text="Nosotros" />
+    <x-hero image="{{ asset('images/slider/slider4.jpg') }}" text="Misión, Misión y Valores" />
 
     <section class="render grid md:grid-cols-2 gap-4 lg:gap-8 xl:gap-12 py-12">
         <div class="h-full flex flex-col justify-center">

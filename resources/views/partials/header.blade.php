@@ -17,9 +17,11 @@
                 <ul class="submenu">
                     <li><a href="{{ route('presentacion') }}">Presentación</a></li>
                     <li><a href="{{ route('historia') }}">Historia</a></li>
-                    <li><a href="{{ route('nosotros') }}">Nosotros</a></li>
+                    <li><a href="{{ route('nosotros') }}">Misión, Visión y Valores</a></li>
                     <li><a href="{{ route('organigrama') }}">Organigrama</a></li>
-                    <li><a href="{{ route('directorio') }}">Directorio</a></li>
+                    <li><a href="{{ route('directorio') }}">Directorio Institucional</a></li>
+                    <li><a href="#">Reglamento Institucional</a></li>
+                    <li><a href="{{ route('plana-docente') }}">Plana Docente</a></li>
                 </ul>
             </li>
 

@@ -14,6 +14,9 @@
 </head>
 
 <body>
+
+    {{-- https://web2.istene.edu.pe/ --}}
+
     @include('partials.header')
 
     @yield('content')

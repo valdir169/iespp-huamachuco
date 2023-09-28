@@ -1,0 +1,32 @@
+table {
+    border-collapse: separate;
+    border-spacing: 10px;
+    width: 100%;
+}
+
+th,
+td {
+    border: 2px solid white;
+}
+
+table th {
+    padding: 12px 0px;
+    min-width: 200px;
+}
+
+table tr:nth-child(even) {
+    background: #e5e0e0;
+}
+
+table {
+    display: block;
+    border-radius: 5px;
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.5s ease, opacity 0.3s ease;
+}
+
+table.is-open {
+    max-height: 500px;
+    opacity: 1;
+}

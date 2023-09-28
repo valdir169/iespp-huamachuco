@@ -9,7 +9,7 @@
             <x-slot name="inicioLink">{{ route('index') }}</x-slot>
             <x-slot name="inicioText">Inicio</x-slot>
             <x-slot name="carrerasLink">{{ route('carreras') }}</x-slot>
-            <x-slot name="carrerasText">Carreras</x-slot>
+            <x-slot name="carrerasText">Programas</x-slot>
             <x-slot name="especialidadLink">{{ route('ingles') }}</x-slot>
             <x-slot name="titulo">IDIOMAS, ESPECILIDAD: INGLES</x-slot>
             <x-slot name="descripcion">Formar profesionales que contribuyan a mejorar los entornos en los que se desarrollan los niños y niñas, promover que los niños establezcan vínculos, que logren autonomía misma, y que desarrollen iniciativa para jugar.</x-slot>

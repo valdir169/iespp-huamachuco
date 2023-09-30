@@ -15,9 +15,9 @@
         />
     </section>
     <section class="preparate-tabs py-10">
-        <section class="tabs preparation grid gap-5 lg:gap-10 2xl:gap-30">
+        <section class="tabs preparation flex items-center flex-col gap-5 lg:gap-10 2xl:gap-30">
             <!-- Nav tabs -->
-            <div class="tabs-container flex justify-center items-center sm:border-y">
+            <div class="tabs-container flex justify-center items-center w-full sm:border-y">
                 <div class="container render">
                     <div class="row">
                         <ul class="nav nav-tabs grid grid-cols-2 min-[400px]:grid-cols-3">
@@ -42,309 +42,387 @@
             </div>
 
             <!-- Tab panes -->
-            <div class="tabs-info render">
+            <div class="tabs-info render my-5 lg:my-12">
                 <div class="container">
                     <div class="tab-content active" id="tab1">
-                        <div class="grid gap-4 lg:gap-8 2xl:gap-16">
-                            <div>
-                                <span class="text-sm font-black lg:text-xl 2xl:text-2xl">Modalidad por Exoneración</span>
-                                <p class="text-xs lg:text-sm">Las personas que cumplen con los siguientes requisitos para esta modalidad no rinden en examen ordinario.</p>
-                                <div class="grid gap-2 sm:flex items-center sm:h-[180px] sm:mt-5 lg:mt-10 lg:h-[200px]">
-                                    <ul class="text-xs pl-5 lg:text-sm lg:pl-10 2xl:pl-24 lg:w-2/3">
-                                        <li class="flex"><i class='bx bx-check-square pr-2 sm:pr-3 sm:text-lg 2xl:text-xl'></i><span>Primeros y segundos puestos de las instituciones educativas de Educación básica (4 vacantes ).</span></li>
-                                        <li class="flex"><i class='bx bx-check-square pr-2 sm:pr-3 sm:text-lg 2xl:text-xl'></i><span>Egresados del COAR (1 vacante).</span></li>
-                                        <li class="flex"><i class='bx bx-check-square pr-2 sm:pr-3 sm:text-lg 2xl:text-xl'></i><span>Deportistas Calificados “Representación nacional” (1 vacante).</span></li>
-                                        <li class="flex"><i class='bx bx-check-square pr-2 sm:pr-3 sm:text-lg 2xl:text-xl'></i><span>Estudiantes Con discapacidad (1 vacante).</span></li>
-                                        <li class="flex"><i class='bx bx-check-square pr-2 sm:pr-3 sm:text-lg 2xl:text-xl'></i><span>Soldados del ejercito peruano que se encuentran en servicio (1 vacante).</span></li>
-                                    </ul>
-                                    <p class="h-[80px] flex justify-center items-center flex-col bg-[#d9d9d9] py-2 sm:w-[200px] sm:h-full"><span class="text-2xl font-black sm:text-3xl lg:text-4xl">8</span><span class="text-xs sm:text-sm lg:text-base">Vacantes</span></p>
-                                </div>
-                            </div>
-                            <div>
-                                <span class="text-sm font-black lg:text-xl 2xl:text-2xl">Modalidad Academia de Preparación</span>
-                                <p class="text-xs lg:text-sm">Las personas que cumplen con los siguientes requisitos para esta modalidad no rinden en examen ordinario.</p>
-                                <div class="grid gap-2 sm:flex items-center sm:h-[180px] sm:mt-5 lg:mt-10 lg:h-[200px]">
-                                    <ul class="text-xs pl-5 lg:text-sm lg:pl-10 2xl:pl-24 lg:w-2/3">
-                                        <li class="flex"><i class='bx bx-check-square pr-2 sm:pr-3 sm:text-lg 2xl:text-xl'></i><span>Primero y segundo puesto de los exámenes sumatorios que se realizar en la academia de preparación.</span></li>
-                                    </ul>
-                                    <p class="h-[80px] flex justify-center items-center flex-col bg-[#d9d9d9] py-2 sm:w-[200px] sm:h-full"><span class="text-2xl font-black sm:text-3xl lg:text-4xl">2</span><span class="text-xs sm:text-sm lg:text-base">Vacantes</span></p>
-                                </div>
-                            </div>
-                            <div>
-                                <span class="text-sm font-black lg:text-xl 2xl:text-2xl">Modalidad Examen de Ordinario</span>
-                                <p class="text-xs lg:text-sm">Esta dirigido a todos los las personas que culminaron la secundaria y los que se prepararon en la academia que brindo la institución.</p>
-                                <div class="grid gap-2 sm:flex items-center sm:h-[180px] sm:mt-5 lg:mt-10 lg:h-[200px]">
-                                    <ul class="text-xs pl-5 lg:text-sm lg:pl-10 2xl:pl-24 lg:w-2/3">
-                                        <li><span>Examen ordinario (Presencial en aulas de IESPP-Huamchuco):</span>
-                                            <ul class="pl-8 mt-2">
-                                                <li class="flex"><i class='bx bx-check-square pr-2 sm:pr-3 sm:text-lg 2xl:text-xl'></i><span>Evaluación de competencias fundamentales (Ingreso Ordinario).</span></li>
-                                                <li class="flex"><i class='bx bx-check-square pr-2 sm:pr-3 sm:text-lg 2xl:text-xl'></i><span>Prueba de competencias específicas y test de aptitud personal vocacional (Ingreso Ordinario).</span></li>
+                        <div class="flex justify-center items-center flex-col">
+                            <div class="flex justify-center items-center gap-5 flex-col lg:gap-16 2xl:gap-24">
+                                <div class="flex gap-5 w-full flex-col">
+                                    <div class="grid gap-2">
+                                        <span class="text-sm font-black lg:text-xl 2xl:text-2xl border-b border-[#3477db] py-1 w-full sm:w-2/5 lg:w-3/5 xl:w-1/2">Modalidad por Exoneración</span>
+                                        <p class="text-xs lg:text-sm">Las personas que cumplen con los siguientes requisitos para esta modalidad no rinden en examen ordinario.</p>
+                                    </div>
+                                    <div class="grid gap-4 sm:flex items-center justify-between"">
+                                        <div class="">
+                                            <ul class="text-xs pl-5 lg:text-sm lg:pl-10 2xl:pl-24">
+                                                <li class="flex"><i class='bx bx-check-square pr-2 sm:pr-3 sm:text-lg 2xl:text-xl'></i><span>Primeros y segundos puestos de las instituciones educativas de Educación básica (4 vacantes ).</span></li>
+                                                <li class="flex"><i class='bx bx-check-square pr-2 sm:pr-3 sm:text-lg 2xl:text-xl'></i><span>Egresados del COAR (1 vacante).</span></li>
+                                                <li class="flex"><i class='bx bx-check-square pr-2 sm:pr-3 sm:text-lg 2xl:text-xl'></i><span>Deportistas Calificados “Representación nacional” (1 vacante).</span></li>
+                                                <li class="flex"><i class='bx bx-check-square pr-2 sm:pr-3 sm:text-lg 2xl:text-xl'></i><span>Estudiantes Con discapacidad (1 vacante).</span></li>
+                                                <li class="flex"><i class='bx bx-check-square pr-2 sm:pr-3 sm:text-lg 2xl:text-xl'></i><span>Soldados del ejercito peruano que se encuentran en servicio (1 vacante).</span></li>
                                             </ul>
-                                        </li>
-                                    </ul>
-                                    <p class="h-[80px] flex justify-center items-center flex-col bg-[#d9d9d9] py-2 sm:w-[200px] sm:h-full"><span class="text-2xl font-black sm:text-3xl lg:text-4xl">50</span><span class="text-x sm:text-sm lg:text-bases">Vacantes</span></p>
+                                        </div>
+                                        <div>
+                                            <p class="h-[80px] flex justify-center items-center flex-col bg-[#d9d9d9] py-2 sm:w-[200px] sm:h-[200px]"><span class="text-2xl font-black sm:text-3xl lg:text-4xl">8</span><span class="text-xs sm:text-sm lg:text-base">Vacantes</span></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="flex gap-5 w-full flex-col ">
+                                    <div class="grid gap-2">
+                                        <span class="text-sm font-black lg:text-xl 2xl:text-2xl border-b border-[#3477db] py-1 w-full sm:w-2/5 lg:w-3/5 xl:w-1/2">Modalidad Academia de Preparación</span>
+                                        <p class="text-xs lg:text-sm">Las personas que cumplen con los siguientes requisitos para esta modalidad no rinden en examen ordinario.</p>
+                                    </div>
+                                    <div class="grid gap-4 sm:flex items-center justify-between">
+                                        <div class="">
+                                            <ul class="text-xs pl-5 lg:text-sm lg:pl-10 2xl:pl-24">
+                                                <li class="flex"><i class='bx bx-check-square pr-2 sm:pr-3 sm:text-lg 2xl:text-xl'></i><span>Primero y segundo puesto de los exámenes sumatorios que se realizan en la academia de preparación del IESPP-JFSC Huamachuco.</span></li>
+                                            </ul>
+                                        </div>
+                                        <div>
+                                            <p class="h-[80px] flex justify-center items-center flex-col bg-[#d9d9d9] py-2 sm:w-[200px] sm:h-[200px]"><span class="text-2xl font-black sm:text-3xl lg:text-4xl">2</span><span class="text-xs sm:text-sm lg:text-base">Vacantes</span></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="flex gap-5 w-full flex-col">
+                                    <div class="grid gap-2">
+                                        <span class="text-sm font-black lg:text-xl 2xl:text-2xl border-b border-[#3477db] py-1 w-full sm:w-2/5 lg:w-3/5 xl:w-1/2">Modalidad Examen de Ordinario</span>
+                                        <p class="text-xs lg:text-sm">Esta dirigido a todos los las personas que culminaron la secundaria y los que se prepararon en la academia que brindo la institución.</p>
+                                    </div>
+                                    <div class="grid gap-4 sm:flex items-center justify-between">
+                                        <div class="">
+                                            <ul class="text-xs pl-5 lg:text-sm lg:pl-10 2xl:pl-24">
+                                                <li><span>Examen ordinario (Presencial en aulas de IESPP-Huamchuco):</span>
+                                                    <ul class="pl-8 mt-2">
+                                                        <li class="flex"><i class='bx bx-check-square pr-2 sm:pr-3 sm:text-lg 2xl:text-xl'></i><span>Evaluación de competencias fundamentales (Ingreso Ordinario).</span></li>
+                                                        <li class="flex"><i class='bx bx-check-square pr-2 sm:pr-3 sm:text-lg 2xl:text-xl'></i><span>Prueba de competencias específicas y test de aptitud personal vocacional (Ingreso Ordinario).</span></li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="h-auto">
+                                            <p class="h-[80px] flex justify-center items-center flex-col bg-[#d9d9d9] py-2 sm:w-[200px] sm:h-[200px]"><span class="text-2xl font-black sm:text-3xl lg:text-4xl">50</span><span class="text-xs sm:text-sm lg:text-base">Vacantes</span></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="py-10 w-full">
+                                <div class="sm:flex h-[140px]">
+                                    <div class="h-[70px] flex justify-center items-center bg-[#d9d9d9] sm:h-full sm:w-1/2 px-2"><span class="text-sm text-center lg:text-base">Total de vacantes en <span class="font-black">Educaci&oacute;n Inicial</span></span></div>
+                                    <div class="h-[70px] flex justify-center items-center bg-[#2277db] sm:h-full sm:w-1/2"><p class="font-black text-2xl text-white flex items-center gap-5 sm:text-4xl lg:text-6xl"><i class='bx bxs-user'></i><span>60</span></p></div>
+                                </div>
+                            </div>
+                            <div>
+                                <div>
+                                    <div class=" py-5 lg:py-24">
+                                        <x-table>
+                                            <tr>
+                                                <td>Formación General</td>
+                                                <td>12</td>
+                                                <td>24</td>
+                                                <td>24</td>
+                                                <td>24</td>
+                                                <td>12</td>
+                                                <td>48</td>
+                                                <td>36</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Formación en la Práctica e Investigación</td>
+                                                <td>10</td>
+                                                <td>40</td>
+                                                <td>40</td>
+                                                <td>70</td>
+                                                <td>35</td>
+                                                <td>110</td>
+                                                <td>75</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Formación Específica</td>
+                                                <td>25</td>
+                                                <td>68</td>
+                                                <td>68</td>
+                                                <td>58</td>
+                                                <td>29</td>
+                                                <td>126</td>
+                                                <td>97</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Electivos</td>
+                                                <td>4</td>
+                                                <td>8</td>
+                                                <td>8</td>
+                                                <td>8</td>
+                                                <td>4</td>
+                                                <td>16</td>
+                                                <td>12</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Total general </td>
+                                                <td>51</td>
+                                                <td>140</td>
+                                                <td>140</td>
+                                                <td>160</td>
+                                                <td>80</td>
+                                                <td>300</td>
+                                                <td>220</td>
+                                            </tr>
+                                        </x-table>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="py-10 h-[240px] sm:flex">
-                            <div class="h-[70px] flex justify-center items-center bg-[#d9d9d9] sm:h-full sm:w-1/2"><span class="text-sm text-center lg:text-base">Total de vacantes en <span class="font-black">Educaci&oacute;n Inicial</span></span></div>
-                            <div class="h-[70px] flex justify-center items-center bg-[#2277db] sm:h-full sm:w-1/2"><p class="font-black text-2xl text-white flex items-center gap-5 sm:text-3xl lg:text-4xl"><i class='bx bxs-user'></i><span>60</span></p></div>
-                        </div>
-                        {{-- <div class=" py-5 lg:py-24">
-                            <x-table>
-                                <tr>
-                                    <td>Formación General</td>
-                                    <td>12</td>
-                                    <td>24</td>
-                                    <td>24</td>
-                                    <td>24</td>
-                                    <td>12</td>
-                                    <td>48</td>
-                                    <td>36</td>
-                                </tr>
-                                <tr>
-                                    <td>Formación en la Práctica e Investigación</td>
-                                    <td>10</td>
-                                    <td>40</td>
-                                    <td>40</td>
-                                    <td>70</td>
-                                    <td>35</td>
-                                    <td>110</td>
-                                    <td>75</td>
-                                </tr>
-                                <tr>
-                                    <td>Formación Específica</td>
-                                    <td>25</td>
-                                    <td>68</td>
-                                    <td>68</td>
-                                    <td>58</td>
-                                    <td>29</td>
-                                    <td>126</td>
-                                    <td>97</td>
-                                </tr>
-                                <tr>
-                                    <td>Electivos</td>
-                                    <td>4</td>
-                                    <td>8</td>
-                                    <td>8</td>
-                                    <td>8</td>
-                                    <td>4</td>
-                                    <td>16</td>
-                                    <td>12</td>
-                                </tr>
-                                <tr>
-                                    <td>Total general </td>
-                                    <td>51</td>
-                                    <td>140</td>
-                                    <td>140</td>
-                                    <td>160</td>
-                                    <td>80</td>
-                                    <td>300</td>
-                                    <td>220</td>
-                                </tr>
-                            </x-table>
-                        </div> --}}
                     </div>
                     <div class="tab-content" id="tab2">
-                        <div class="grid gap-4 lg:gap-8 2xl:gap-16">
-                            <div>
-                                <span class="text-sm font-black lg:text-xl 2xl:text-2xl">Modalidad por Exoneración</span>
-                                <p class="text-xs lg:text-sm">Las personas que cumplen con los siguientes requisitos para esta modalidad no rinden en examen ordinario.</p>
-                                <div class="grid gap-2 sm:flex items-center sm:h-[180px] sm:mt-5 lg:mt-10 lg:h-[200px]">
-                                    <ul class="text-xs pl-5 lg:text-sm lg:pl-10 2xl:pl-24 lg:w-2/3">
-                                        <li class="flex"><i class='bx bx-check-square pr-2 sm:pr-3 sm:text-lg 2xl:text-xl'></i><span>Primeros y segundos puestos de las instituciones educativas de Educación básica (2 vacantes ).</span></li>
-                                        <li class="flex"><i class='bx bx-check-square pr-2 sm:pr-3 sm:text-lg 2xl:text-xl'></i><span>Egresados del COAR (1 vacante).</span></li>
-                                        <li class="flex"><i class='bx bx-check-square pr-2 sm:pr-3 sm:text-lg 2xl:text-xl'></i><span>Deportistas Calificados “Representación nacional” (1 vacante).</span></li>
-                                        <li class="flex"><i class='bx bx-check-square pr-2 sm:pr-3 sm:text-lg 2xl:text-xl'></i><span>Estudiantes Con discapacidad (1 vacante).</span></li>
-                                        <li class="flex"><i class='bx bx-check-square pr-2 sm:pr-3 sm:text-lg 2xl:text-xl'></i><span>Soldados del ejercito peruano que se encuentran en servicio (1 vacante).</span></li>
-                                    </ul>
-                                    <p class="h-[80px] flex justify-center items-center flex-col bg-[#d9d9d9] py-2 sm:w-[200px] sm:h-full"><span class="text-2xl font-black sm:text-3xl lg:text-4xl">6</span><span class="text-xs sm:text-sm lg:text-base">Vacantes</span></p>
-                                </div>
-                            </div>
-                            <div>
-                                <span class="text-sm font-black lg:text-xl 2xl:text-2xl">Modalidad Academia de Preparación</span>
-                                <p class="text-xs lg:text-sm">Las personas que cumplen con los siguientes requisitos para esta modalidad no rinden en examen ordinario.</p>
-                                <div class="grid gap-2 sm:flex items-center sm:h-[180px] sm:mt-5 lg:mt-10 lg:h-[200px]">
-                                    <ul class="text-xs pl-5 lg:text-sm lg:pl-10 2xl:pl-24 lg:w-2/3">
-                                        <li class="flex"><i class='bx bx-check-square pr-2 sm:pr-3 sm:text-lg 2xl:text-xl'></i><span>Primer puesto de los exámenes sumatorios que se realizar en la academia de preparación.</span></li>
-                                    </ul>
-                                    <p class="h-[80px] flex justify-center items-center flex-col bg-[#d9d9d9] py-2 sm:w-[200px] sm:h-full"><span class="text-2xl font-black sm:text-3xl lg:text-4xl">1</span><span class="text-xs sm:text-sm lg:text-base">Vacantes</span></p>
-                                </div>
-                            </div>
-                            <div>
-                                <span class="text-sm font-black lg:text-xl 2xl:text-2xl">Modalidad Examen de Ordinario</span>
-                                <p class="text-xs lg:text-sm">Esta dirigido a todos los las personas que culminaron la secundaria y los que se prepararon en la academia que brindo la institución.</p>
-                                <div class="grid gap-2 sm:flex items-center sm:h-[180px] sm:mt-5 lg:mt-10 lg:h-[200px]">
-                                    <ul class="text-xs pl-5 lg:text-sm lg:pl-10 2xl:pl-24 lg:w-2/3">
-                                        <li><span>Examen ordinario (Presencial en aulas de IESPP-Huamchuco):</span>
-                                            <ul class="pl-8 mt-2">
-                                                <li class="flex"><i class='bx bx-check-square pr-2 sm:pr-3 sm:text-lg 2xl:text-xl'></i><span>Evaluación de competencias fundamentales (Ingreso Ordinario).</span></li>
-                                                <li class="flex"><i class='bx bx-check-square pr-2 sm:pr-3 sm:text-lg 2xl:text-xl'></i><span>Prueba de competencias específicas y test de aptitud personal vocacional (Ingreso Ordinario).</span></li>
+                        <div class="flex justify-center items-center flex-col">
+                            <div class="flex justify-center items-center gap-5 flex-col lg:gap-16 2xl:gap-24">
+                                <div class="flex gap-5 w-full flex-col">
+                                    <div class="grid gap-2">
+                                        <span class="text-sm font-black lg:text-xl 2xl:text-2xl border-b border-[#3477db] py-1 w-full sm:w-2/5 lg:w-3/5 xl:w-1/2">Modalidad por Exoneración</span>
+                                        <p class="text-xs lg:text-sm">Las personas que cumplen con los siguientes requisitos para esta modalidad no rinden en examen ordinario.</p>
+                                    </div>
+                                    <div class="grid gap-4 sm:flex items-center justify-between"">
+                                        <div class="">
+                                            <ul class="text-xs pl-5 lg:text-sm lg:pl-10 2xl:pl-24">
+                                                <li class="flex"><i class='bx bx-check-square pr-2 sm:pr-3 sm:text-lg 2xl:text-xl'></i><span>Primeros y segundos puestos de las instituciones educativas de Educación básica (2 vacantes ).</span></li>
+                                                <li class="flex"><i class='bx bx-check-square pr-2 sm:pr-3 sm:text-lg 2xl:text-xl'></i><span>Egresados del COAR (1 vacante).</span></li>
+                                                <li class="flex"><i class='bx bx-check-square pr-2 sm:pr-3 sm:text-lg 2xl:text-xl'></i><span>Deportistas Calificados “Representación nacional” (1 vacante).</span></li>
+                                                <li class="flex"><i class='bx bx-check-square pr-2 sm:pr-3 sm:text-lg 2xl:text-xl'></i><span>Estudiantes Con discapacidad (1 vacante).</span></li>
+                                                <li class="flex"><i class='bx bx-check-square pr-2 sm:pr-3 sm:text-lg 2xl:text-xl'></i><span>Soldados del ejercito peruano que se encuentran en servicio (1 vacante).</span></li>
                                             </ul>
-                                        </li>
-                                    </ul>
-                                    <p class="h-[80px] flex justify-center items-center flex-col bg-[#d9d9d9] py-2 sm:w-[200px] sm:h-full"><span class="text-2xl font-black sm:text-3xl lg:text-4xl">23</span><span class="text-x sm:text-sm lg:text-bases">Vacantes</span></p>
+                                        </div>
+                                        <div>
+                                            <p class="h-[80px] flex justify-center items-center flex-col bg-[#d9d9d9] py-2 sm:w-[200px] sm:h-[200px]"><span class="text-2xl font-black sm:text-3xl lg:text-4xl">6</span><span class="text-xs sm:text-sm lg:text-base">Vacantes</span></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="flex gap-5 sm:w-full flex-col ">
+                                    <div class="grid gap-2">
+                                        <span class="text-sm font-black lg:text-xl 2xl:text-2xl border-b border-[#3477db] py-1 w-full sm:w-2/5 lg:w-3/5 xl:w-1/2">Modalidad Academia de Preparación</span>
+                                        <p class="text-xs lg:text-sm">Las personas que cumplen con los siguientes requisitos para esta modalidad no rinden en examen ordinario.</p>
+                                    </div>
+                                    <div class="grid gap-4 sm:flex items-center justify-between">
+                                        <div class="">
+                                            <ul class="text-xs pl-5 lg:text-sm lg:pl-10 2xl:pl-24">
+                                                <li class="flex"><i class='bx bx-check-square pr-2 sm:pr-3 sm:text-lg 2xl:text-xl'></i><span>Primer puesto de los exámenes sumatorios que se realizan en la academia de preparación del IESPP-JFSC Huamachuco.</span></li>
+                                            </ul>
+                                        </div>
+                                        <div>
+                                            <p class="h-[80px] flex justify-center items-center flex-col bg-[#d9d9d9] py-2 sm:w-[200px] sm:h-[200px]"><span class="text-2xl font-black sm:text-3xl lg:text-4xl">1</span><span class="text-xs sm:text-sm lg:text-base">Vacantes</span></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="flex gap-5 w-full flex-col">
+                                    <div class="grid gap-2">
+                                        <span class="text-sm font-black lg:text-xl 2xl:text-2xl border-b border-[#3477db] py-1 w-full sm:w-2/5 lg:w-3/5 xl:w-1/2">Modalidad Examen de Ordinario</span>
+                                        <p class="text-xs lg:text-sm">Esta dirigido a todos los las personas que culminaron la secundaria y los que se prepararon en la academia que brindo la institución.</p>
+                                    </div>
+                                    <div class="grid gap-4 sm:flex items-center justify-between">
+                                        <div class="">
+                                            <ul class="text-xs pl-5 lg:text-sm lg:pl-10 2xl:pl-24">
+                                                <li><span>Examen ordinario (Presencial en aulas de IESPP-Huamchuco):</span>
+                                                    <ul class="pl-8 mt-2">
+                                                        <li class="flex"><i class='bx bx-check-square pr-2 sm:pr-3 sm:text-lg 2xl:text-xl'></i><span>Evaluación de competencias fundamentales (Ingreso Ordinario).</span></li>
+                                                        <li class="flex"><i class='bx bx-check-square pr-2 sm:pr-3 sm:text-lg 2xl:text-xl'></i><span>Prueba de competencias específicas y test de aptitud personal vocacional (Ingreso Ordinario).</span></li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="h-auto">
+                                            <p class="h-[80px] flex justify-center items-center flex-col bg-[#d9d9d9] py-2 sm:w-[200px] sm:h-[200px]"><span class="text-2xl font-black sm:text-3xl lg:text-4xl">23</span><span class="text-xs sm:text-sm lg:text-base">Vacantes</span></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="py-10 w-full">
+                                <div class="sm:flex h-[140px]">
+                                    <div class="h-[70px] flex justify-center items-center bg-[#d9d9d9] sm:h-full sm:w-1/2 px-2"><span class="text-sm text-center lg:text-base">Total de vacantes en <span class="font-black">Idiomas, Especilidad: Ingles</span></span></div>
+                                    <div class="h-[70px] flex justify-center items-center bg-[#2277db] sm:h-full sm:w-1/2"><p class="font-black text-2xl text-white flex items-center gap-5 sm:text-4xl lg:text-6xl"><i class='bx bxs-user'></i><span>30</span></p></div>
+                                </div>
+                            </div>
+                            <div class="w-full">
+                                <div class="w-full">
+                                    <div class=" py-5 lg:py-24">
+                                        <x-table>
+                                            <tr>
+                                                <td>Formación General</td>
+                                                <td>12</td>
+                                                <td>24</td>
+                                                <td>24</td>
+                                                <td>24</td>
+                                                <td>12</td>
+                                                <td>48</td>
+                                                <td>36</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Formación en la Práctica e Investigación</td>
+                                                <td>10</td>
+                                                <td>40</td>
+                                                <td>40</td>
+                                                <td>70</td>
+                                                <td>35</td>
+                                                <td>110</td>
+                                                <td>75</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Formación Específica</td>
+                                                <td>25</td>
+                                                <td>68</td>
+                                                <td>68</td>
+                                                <td>58</td>
+                                                <td>29</td>
+                                                <td>126</td>
+                                                <td>97</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Electivos</td>
+                                                <td>4</td>
+                                                <td>8</td>
+                                                <td>8</td>
+                                                <td>8</td>
+                                                <td>4</td>
+                                                <td>16</td>
+                                                <td>12</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Total general </td>
+                                                <td>51</td>
+                                                <td>140</td>
+                                                <td>140</td>
+                                                <td>160</td>
+                                                <td>80</td>
+                                                <td>300</td>
+                                                <td>220</td>
+                                            </tr>
+                                        </x-table>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="py-10 h-[240px] sm:flex">
-                            <div class="h-[70px] flex justify-center items-center bg-[#d9d9d9] sm:h-full sm:w-1/2"><span class="text-sm text-center lg:text-base">Total de vacantes en <span class="font-black">Idiomas, Especialidad: Ingles</span></span></div>
-                            <div class="h-[70px] flex justify-center items-center bg-[#2277db] sm:h-full sm:w-1/2"><p class="font-black text-2xl text-white flex items-center gap-5 sm:text-3xl lg:text-4xl"><i class='bx bxs-user'></i><span>30</span></p></div>
-                        </div>
-                        {{-- <div class=" py-5 lg:py-24">
-                            <x-table>
-                                <tr>
-                                    <td>Formación General</td>
-                                    <td>12</td>
-                                    <td>24</td>
-                                    <td>24</td>
-                                    <td>24</td>
-                                    <td>12</td>
-                                    <td>48</td>
-                                    <td>36</td>
-                                </tr>
-                                <tr>
-                                    <td>Formación en la Práctica e Investigación</td>
-                                    <td>10</td>
-                                    <td>40</td>
-                                    <td>40</td>
-                                    <td>70</td>
-                                    <td>35</td>
-                                    <td>110</td>
-                                    <td>75</td>
-                                </tr>
-                                <tr>
-                                    <td>Formación Específica</td>
-                                    <td>25</td>
-                                    <td>68</td>
-                                    <td>68</td>
-                                    <td>58</td>
-                                    <td>29</td>
-                                    <td>126</td>
-                                    <td>97</td>
-                                </tr>
-                                <tr>
-                                    <td>Electivos</td>
-                                    <td>4</td>
-                                    <td>8</td>
-                                    <td>8</td>
-                                    <td>8</td>
-                                    <td>4</td>
-                                    <td>16</td>
-                                    <td>12</td>
-                                </tr>
-                                <tr>
-                                    <td>Total general </td>
-                                    <td>51</td>
-                                    <td>140</td>
-                                    <td>140</td>
-                                    <td>160</td>
-                                    <td>80</td>
-                                    <td>300</td>
-                                    <td>220</td>
-                                </tr>
-                            </x-table>
-                        </div> --}}
                     </div>
                     <div class="tab-content" id="tab3">
-                        <div class="grid gap-4 lg:gap-8 2xl:gap-16">
-                            <div>
-                                <span class="text-sm font-black lg:text-xl 2xl:text-2xl">Modalidad por Exoneración</span>
-                                <p class="text-xs lg:text-sm">Las personas que cumplen con los siguientes requisitos para esta modalidad no rinden en examen ordinario.</p>
-                                <div class="grid gap-2 sm:flex items-center sm:h-[180px] sm:mt-5 lg:mt-10 lg:h-[200px]">
-                                    <ul class="text-xs pl-5 lg:text-sm lg:pl-10 2xl:pl-24 lg:w-2/3">
-                                        <li class="flex"><i class='bx bx-check-square pr-2 sm:pr-3 sm:text-lg 2xl:text-xl'></i><span>Primeros y segundos puestos de las instituciones educativas de Educación básica (2 vacantes ).</span></li>
-                                        <li class="flex"><i class='bx bx-check-square pr-2 sm:pr-3 sm:text-lg 2xl:text-xl'></i><span>Egresados del COAR (1 vacante).</span></li>
-                                        <li class="flex"><i class='bx bx-check-square pr-2 sm:pr-3 sm:text-lg 2xl:text-xl'></i><span>Deportistas Calificados “Representación nacional” (1 vacante).</span></li>
-                                        <li class="flex"><i class='bx bx-check-square pr-2 sm:pr-3 sm:text-lg 2xl:text-xl'></i><span>Estudiantes Con discapacidad (1 vacante).</span></li>
-                                        <li class="flex"><i class='bx bx-check-square pr-2 sm:pr-3 sm:text-lg 2xl:text-xl'></i><span>Soldados del ejercito peruano que se encuentran en servicio (1 vacante).</span></li>
-                                    </ul>
-                                    <p class="h-[80px] flex justify-center items-center flex-col bg-[#d9d9d9] py-2 sm:w-[200px] sm:h-full"><span class="text-2xl font-black sm:text-3xl lg:text-4xl">6</span><span class="text-xs sm:text-sm lg:text-base">Vacantes</span></p>
-                                </div>
-                            </div>
-                            <div>
-                                <span class="text-sm font-black lg:text-xl 2xl:text-2xl">Modalidad Academia de Preparación</span>
-                                <p class="text-xs lg:text-sm">Las personas que cumplen con los siguientes requisitos para esta modalidad no rinden en examen ordinario.</p>
-                                <div class="grid gap-2 sm:flex items-center sm:h-[180px] sm:mt-5 lg:mt-10 lg:h-[200px]">
-                                    <ul class="text-xs pl-5 lg:text-sm lg:pl-10 2xl:pl-24 lg:w-2/3">
-                                        <li class="flex"><i class='bx bx-check-square pr-2 sm:pr-3 sm:text-lg 2xl:text-xl'></i><span>Para esta carrera porfecional no se cuenta con beneficio de examen ordinario.</span></li>
-                                    </ul>
-                                    <p class="h-[80px] flex justify-center items-center flex-col bg-[#d9d9d9] py-2 sm:w-[200px] sm:h-full"><span class="text-2xl font-black sm:text-3xl lg:text-4xl">0</span><span class="text-xs sm:text-sm lg:text-base">Vacantes</span></p>
-                                </div>
-                            </div>
-                            <div>
-                                <span class="text-sm font-black lg:text-xl 2xl:text-2xl">Modalidad Examen de Ordinario</span>
-                                <p class="text-xs lg:text-sm">Esta dirigido a todos los las personas que culminaron la secundaria y los que se prepararon en la academia que brindo la institución.</p>
-                                <div class="grid gap-2 sm:flex items-center sm:h-[180px] sm:mt-5 lg:mt-10 lg:h-[200px]">
-                                    <ul class="text-xs pl-5 lg:text-sm lg:pl-10 2xl:pl-24 lg:w-2/3">
-                                        <li><span>Examen ordinario (Presencial en aulas de IESPP-Huamchuco):</span>
-                                            <ul class="pl-8 mt-2">
-                                                <li class="flex"><i class='bx bx-check-square pr-2 sm:pr-3 sm:text-lg 2xl:text-xl'></i><span>Evaluación de competencias fundamentales (Ingreso Ordinario).</span></li>
-                                                <li class="flex"><i class='bx bx-check-square pr-2 sm:pr-3 sm:text-lg 2xl:text-xl'></i><span>Prueba de competencias específicas y test de aptitud personal vocacional (Ingreso Ordinario).</span></li>
+                        <div class="flex justify-center items-center flex-col">
+                            <div class="flex justify-center items-center gap-5 flex-col lg:gap-16 2xl:gap-24">
+                                <div class="flex gap-5 w-full flex-col">
+                                    <div class="grid gap-2">
+                                        <span class="text-sm font-black lg:text-xl 2xl:text-2xl border-b border-[#3477db] py-1 w-full sm:w-2/5 lg:w-3/5 xl:w-1/2">Modalidad por Exoneración</span>
+                                        <p class="text-xs lg:text-sm">Las personas que cumplen con los siguientes requisitos para esta modalidad no rinden en examen ordinario.</p>
+                                    </div>
+                                    <div class="grid gap-4 sm:flex items-center justify-between"">
+                                        <div class="">
+                                            <ul class="text-xs pl-5 lg:text-sm lg:pl-10 2xl:pl-24">
+                                                <li class="flex"><i class='bx bx-check-square pr-2 sm:pr-3 sm:text-lg 2xl:text-xl'></i><span>Primeros y segundos puestos de las instituciones educativas de Educación básica (2 vacantes ).</span></li>
+                                                <li class="flex"><i class='bx bx-check-square pr-2 sm:pr-3 sm:text-lg 2xl:text-xl'></i><span>Egresados del COAR (1 vacante).</span></li>
+                                                <li class="flex"><i class='bx bx-check-square pr-2 sm:pr-3 sm:text-lg 2xl:text-xl'></i><span>Deportistas Calificados “Representación nacional” (1 vacante).</span></li>
+                                                <li class="flex"><i class='bx bx-check-square pr-2 sm:pr-3 sm:text-lg 2xl:text-xl'></i><span>Estudiantes Con discapacidad (1 vacante).</span></li>
+                                                <li class="flex"><i class='bx bx-check-square pr-2 sm:pr-3 sm:text-lg 2xl:text-xl'></i><span>Soldados del ejercito peruano que se encuentran en servicio (1 vacante).</span></li>
                                             </ul>
-                                        </li>
-                                    </ul>
-                                    <p class="h-[80px] flex justify-center items-center flex-col bg-[#d9d9d9] py-2 sm:w-[200px] sm:h-full"><span class="text-2xl font-black sm:text-3xl lg:text-4xl">24</span><span class="text-x sm:text-sm lg:text-bases">Vacantes</span></p>
+                                        </div>
+                                        <div>
+                                            <p class="h-[80px] flex justify-center items-center flex-col bg-[#d9d9d9] py-2 sm:w-[200px] sm:h-[200px]"><span class="text-2xl font-black sm:text-3xl lg:text-4xl">6</span><span class="text-xs sm:text-sm lg:text-base">Vacantes</span></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="flex gap-5 sm:w-full flex-col ">
+                                    <div class="grid gap-2">
+                                        <span class="text-sm font-black lg:text-xl 2xl:text-2xl border-b border-[#3477db] py-1 w-full sm:w-2/5 lg:w-3/5 xl:w-1/2">Modalidad Academia de Preparación</span>
+                                        <p class="text-xs lg:text-sm">Las personas que cumplen con los siguientes requisitos para esta modalidad no rinden en examen ordinario.</p>
+                                    </div>
+                                    <div class="grid gap-4 sm:flex items-center justify-between">
+                                        <div class="">
+                                            <ul class="text-xs pl-5 lg:text-sm lg:pl-10 2xl:pl-24">
+                                                <li class="flex"><i class='bx bx-check-square pr-2 sm:pr-3 sm:text-lg 2xl:text-xl'></i><span>Para este programa de estudios de nivel superior, no se cuenta con beneficio de examen ordinario.</span></li>
+                                            </ul>
+                                        </div>
+                                        <div>
+                                            <p class="h-[80px] flex justify-center items-center flex-col bg-[#d9d9d9] py-2 sm:w-[200px] sm:h-[200px]"><span class="text-2xl font-black sm:text-3xl lg:text-4xl">0</span><span class="text-xs sm:text-sm lg:text-base">Vacantes</span></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="flex gap-5 w-full flex-col">
+                                    <div class="grid gap-2">
+                                        <span class="text-sm font-black lg:text-xl 2xl:text-2xl border-b border-[#3477db] py-1 w-full sm:w-2/5 lg:w-3/5 xl:w-1/2">Modalidad Examen de Ordinario</span>
+                                        <p class="text-xs lg:text-sm">Esta dirigido a todos los las personas que culminaron la secundaria y los que se prepararon en la academia que brindo la institución.</p>
+                                    </div>
+                                    <div class="grid gap-4 sm:flex items-center justify-between">
+                                        <div class="">
+                                            <ul class="text-xs pl-5 lg:text-sm lg:pl-10 2xl:pl-24">
+                                                <li><span>Examen ordinario (Presencial en aulas de IESPP-Huamchuco):</span>
+                                                    <ul class="pl-8 mt-2">
+                                                        <li class="flex"><i class='bx bx-check-square pr-2 sm:pr-3 sm:text-lg 2xl:text-xl'></i><span>Evaluación de competencias fundamentales (Ingreso Ordinario).</span></li>
+                                                        <li class="flex"><i class='bx bx-check-square pr-2 sm:pr-3 sm:text-lg 2xl:text-xl'></i><span>Prueba de competencias específicas y test de aptitud personal vocacional (Ingreso Ordinario).</span></li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="h-auto">
+                                            <p class="h-[80px] flex justify-center items-center flex-col bg-[#d9d9d9] py-2 sm:w-[200px] sm:h-[200px]"><span class="text-2xl font-black sm:text-3xl lg:text-4xl">24</span><span class="text-xs sm:text-sm lg:text-base">Vacantes</span></p>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="py-10 h-[240px] sm:flex">
-                            <div class="h-[70px] flex justify-center items-center bg-[#d9d9d9] sm:h-full sm:w-1/2"><span class="text-sm text-center lg:text-base">Total de vacantes en <span class="font-black">Educaci&oacute;n Secundaria, Especialidad: Comunicaci&oacute;n </span></span></div>
-                            <div class="h-[70px] flex justify-center items-center bg-[#2277db] sm:h-full sm:w-1/2"><p class="font-black text-2xl text-white flex items-center gap-5 sm:text-3xl lg:text-4xl"><i class='bx bxs-user'></i><span>30</span></p></div>
-                        </div>
-                        <div class=" py-5 lg:py-24">
-                            <x-table>
-                                <tr>
-                                    <td>Formación General</td>
-                                    <td>12</td>
-                                    <td>24</td>
-                                    <td>24</td>
-                                    <td>24</td>
-                                    <td>12</td>
-                                    <td>48</td>
-                                    <td>36</td>
-                                </tr>
-                                <tr>
-                                    <td>Formación en la Práctica e Investigación</td>
-                                    <td>10</td>
-                                    <td>40</td>
-                                    <td>40</td>
-                                    <td>70</td>
-                                    <td>35</td>
-                                    <td>110</td>
-                                    <td>75</td>
-                                </tr>
-                                <tr>
-                                    <td>Formación Específica</td>
-                                    <td>25</td>
-                                    <td>68</td>
-                                    <td>68</td>
-                                    <td>58</td>
-                                    <td>29</td>
-                                    <td>126</td>
-                                    <td>97</td>
-                                </tr>
-                                <tr>
-                                    <td>Electivos</td>
-                                    <td>4</td>
-                                    <td>8</td>
-                                    <td>8</td>
-                                    <td>8</td>
-                                    <td>4</td>
-                                    <td>16</td>
-                                    <td>12</td>
-                                </tr>
-                                <tr>
-                                    <td>Total general </td>
-                                    <td>51</td>
-                                    <td>140</td>
-                                    <td>140</td>
-                                    <td>160</td>
-                                    <td>80</td>
-                                    <td>300</td>
-                                    <td>220</td>
-                                </tr>
-                            </x-table>
+                            <div class="py-10 w-full">
+                                <div class="sm:flex h-[140px]">
+                                    <div class="h-[70px] flex justify-center items-center bg-[#d9d9d9] sm:h-full sm:w-1/2 px-2"><span class="text-sm text-center lg:text-base">Total de vacantes en <span class="font-black">Educaci&oacute;n Secundaria, Especilidad: Comunicaci&oacute;n</span></span></div>
+                                    <div class="h-[70px] flex justify-center items-center bg-[#2277db] sm:h-full sm:w-1/2"><p class="font-black text-2xl text-white flex items-center gap-5 sm:text-4xl lg:text-6xl"><i class='bx bxs-user'></i><span>30</span></p></div>
+                                </div>
+                            </div>
+                            <div>
+                                <div>
+                                    <div class=" py-5 lg:py-24">
+                                        <x-table>
+                                            <tr>
+                                                <td>Formación General</td>
+                                                <td>12</td>
+                                                <td>24</td>
+                                                <td>24</td>
+                                                <td>24</td>
+                                                <td>12</td>
+                                                <td>48</td>
+                                                <td>36</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Formación en la Práctica e Investigación</td>
+                                                <td>10</td>
+                                                <td>40</td>
+                                                <td>40</td>
+                                                <td>70</td>
+                                                <td>35</td>
+                                                <td>110</td>
+                                                <td>75</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Formación Específica</td>
+                                                <td>25</td>
+                                                <td>68</td>
+                                                <td>68</td>
+                                                <td>58</td>
+                                                <td>29</td>
+                                                <td>126</td>
+                                                <td>97</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Electivos</td>
+                                                <td>4</td>
+                                                <td>8</td>
+                                                <td>8</td>
+                                                <td>8</td>
+                                                <td>4</td>
+                                                <td>16</td>
+                                                <td>12</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Total general </td>
+                                                <td>51</td>
+                                                <td>140</td>
+                                                <td>140</td>
+                                                <td>160</td>
+                                                <td>80</td>
+                                                <td>300</td>
+                                                <td>220</td>
+                                            </tr>
+                                        </x-table>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>

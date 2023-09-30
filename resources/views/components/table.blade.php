@@ -1,12 +1,12 @@
 @props(['slot'])
 <div class="text-xs lg:text-sm w-full">
     <div>
-        <span class="text-sm font-black lg:text-xl 2xl:text-2xl">Horas y Creditos</span><br>
+        <span class="text-sm font-black lg:text-xl 2xl:text-2xl">Horas y Creditos Acad&eacute;micas</span><br>
         <span>Distribución total de las horas y créditos para lograr el nivel de desarrollo esperado de las competencias del Perfil del egresado.</span>
     </div>
-    <div class="">
-        <div class="">
-            <table class="border my-5  lg:my-10">
+    <div class="w-full container">
+        <div class="table-container">
+            <table class="border my-5  lg:my-10 table">
                 <thead>
                     <tr>
                         <th rowspan="3">Componente curricular</th>

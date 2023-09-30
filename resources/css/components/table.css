@@ -1,9 +1,4 @@
-
-.table-container {
-    overflow-x: auto;
-}
-
-table {
+.table {
     border-collapse: collapse;
     width: 100%;
     margin: 0 auto;
@@ -12,7 +7,7 @@ table {
 th, td {
     border: 1px solid #dddddd;
     text-align: center;
-    padding: 10px; 
+    padding: 3px; 
 }
 
 tr:nth-child(odd) {
@@ -28,4 +23,30 @@ th {
     color: #ffffff;
     font-weight: bold;
     text-transform: uppercase;
+}
+
+@media screen and (max-width: 650px) {
+    .container{
+        width: auto;
+    }
+    .table-container{
+        overflow-x: auto;
+        width: 100%;
+        max-width:250px;
+    }
+}
+
+
+
+
+@media screen and (min-width: 1024px){
+    th, td {
+        padding: 5px; 
+    }
+}
+
+@media screen and (min-width: 1280px){
+    th, td {
+        padding: 10px; 
+    }
 }

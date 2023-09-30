@@ -75,7 +75,37 @@ class PaginasController extends Controller
 
     public function planaDocente()
     {
-        return view('pages.institucion.plana');
+
+        $initialEducationTeachers = [
+            [
+                'name' => 'Gladis Martha Alvares Medina',
+                'units' => ['Gestión y Organización de Instituciones'],
+                'cv'  => 'https://drive.google.com/file/d/1LlzIzf4hc3paZBRmFKOTr2LrjNGat2c6/view',
+            ],
+            [
+                'name' => 'Profesor de Educacion Inicial',
+                'units' => ['Unidad 1', 'Unidad 2'],
+                'cv'  => 'https://drive.google.com/file/d/1LlzIzf4hc3paZBRmFKOTr2LrjNGat2c6/view',
+            ]
+        ];
+
+        $englishTeachers = [
+            [
+                'name' => 'Profesor de Educacion Ingles',
+                'units' => ['Desarrollo Personal I', 'Englisj I'],
+                'cv'  => 'https://drive.google.com/file/d/1LlzIzf4hc3paZBRmFKOTr2LrjNGat2c6/view',
+            ]
+        ];
+
+        $comunicacionTeachers = [
+            [
+                'name' => 'Profesor de Educacion Inicial',
+                'units' => ['Unidad 1'],
+                'cv'  => 'https://drive.google.com/file/d/1LlzIzf4hc3paZBRmFKOTr2LrjNGat2c6/view',
+            ]
+        ];
+
+        return view('pages.institucion.plana', compact('initialEducationTeachers', 'englishTeachers',  'comunicacionTeachers'));
     }
 
 

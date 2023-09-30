@@ -1,16 +1,17 @@
 .table-cont {
     border-collapse: separate;
-    border-spacing: 10px;
+    border-spacing: 0.1px;
     width: 100%;
 }
 
-.table-cont th, td {
+.table-cont th,
+td {
     border: 2px solid white;
 }
 
 .table-cont th {
     padding: 12px 0px;
-    min-width: 200px;
+    min-width: 300px;
 }
 
 .table-cont tr:nth-child(even) {
@@ -26,6 +27,11 @@
 }
 
 .table-cont.is-open {
-    max-height: 500px;
+    max-height: 700px;
     opacity: 1;
+}
+
+
+i.bx {
+    transition: transform 0.3s ease;
 }

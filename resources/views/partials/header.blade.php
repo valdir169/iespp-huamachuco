@@ -1,4 +1,4 @@
-<header class="navbar sticky top-0">
+<header class="render py-2 navbar sticky top-0">
     <div class=" h-full">
         <img src={{ asset('images/logo.png') }} alt="Iespp Huamachuco" class="w-full h-full logo">
     </div>
@@ -6,11 +6,11 @@
     <nav class="w-full absolute nav-menu">
         <ul class="flex flex-col h-full center items-center px-14 md:gap-2 xl:gap-4 ">
             <li class="nav-link">
-                <a href="/" class="w-full flex">INICIO</a>
+                <a href="/" class="w-full flex">Inicio</a>
             </li>
 
             <li class="prueba nav-link ">
-                <a class="w-full flex justify-between items-center gap-1">INSTITUCIÓN
+                <a class="w-full flex justify-between items-center gap-1">Institución
                     <i class='bx bx-chevron-down text-xl'></i>
                 </a>
 
@@ -26,18 +26,7 @@
             </li>
 
             <li class="nav-link">
-                <a class="w-full flex justify-between items-center gap-1">ADMISIÓN
-                    <i class='bx bx-chevron-down'></i>
-                </a>
-
-                <ul class="submenu">
-                    <li><a href="{{ route('admision') }}">Admisión 2024</a></li>
-                    <li><a href="{{ route('modalidad_admision') }}">Becas y Creditos</a></li>
-                </ul>
-            </li>
-
-            <li class="nav-link">
-                <a class="w-full flex justify-between items-center gap-1">CARRERAS
+                <a class="w-full flex justify-between items-center gap-1">Programas
                     <i class='bx bx-chevron-down'></i>
                 </a>
                 <ul class="submenu">
@@ -48,7 +37,37 @@
             </li>
 
             <li class="nav-link">
-                <a class="w-full flex justify-between items-center gap-1">SERVICIOS
+                <a class="w-full flex justify-between items-center gap-1">Admisión
+                    <i class='bx bx-chevron-down'></i>
+                </a>
+                <ul class="submenu">
+                    <li><a href="{{ route('admision') }}">Admisión 2024</a></li>
+                    <li><a href="{{ route('modalidad_admision') }}">Becas y Creditos</a></li>
+                </ul>
+            </li>
+
+            <li class="nav-link">
+                <a class="w-full flex justify-between items-center gap-1">Transparencia
+                    <i class='bx bx-chevron-down'></i>
+                </a>
+
+                <ul class="submenu">
+                    <li><a href="#">Licenciamiento</a></li>
+                    <li><a href="#">Documentos de Gestión</a></li>
+                    <li><a href="#">Convocatorias Laborales</a></li>
+                    <li><a href="#">Calendario Académico</a></li>
+                    <li><a href="#">Convenios</a></li>
+                    <li><a href="#">Inversiones y Donaciones</a></li>
+                    <li><a href="#">Estadísticas</a></li>
+                    <li><a href="#">Denuncias y Reclamos</a></li>
+                    <li><a href="#">Documentos de transparencia</a></li>
+                </ul>
+            </li>
+
+
+
+            <li class="nav-link">
+                <a class="w-full flex justify-between items-center gap-1">Servicios
                     <i class='bx bx-chevron-down'></i>
                 </a>
 
@@ -61,7 +80,7 @@
             </li>
 
             <li class="nav-link">
-                <a class="w-full flex justify-between items-center gap-1">TRÁMITES
+                <a class="w-full flex justify-between items-center gap-1">Trámites
                     <i class='bx bx-chevron-down'></i>
                 </a>
 
@@ -72,7 +91,7 @@
             </li>
 
             <li class="nav-link">
-                <a class="w-full flex justify-between items-center gap-1">OTROS
+                <a class="w-full flex justify-between items-center gap-1">Otros
                     <i class='bx bx-chevron-down'></i>
                 </a>
 

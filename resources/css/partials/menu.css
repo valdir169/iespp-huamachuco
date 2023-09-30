@@ -6,7 +6,7 @@ body.is-open {
     display: flex;
     height: 120px;
     z-index: 1000;
-    padding: 10px 40px;
+    /* padding: 10px 40px; */
     position: relative;
     font-weight: bold;
     color: white;
@@ -14,7 +14,7 @@ body.is-open {
     justify-content: space-between;
 
     @media screen and (max-width:1024px) {
-        justify-content: center;
+        justify-content: space-evenly;
         font-size: 18px;
     }
 
@@ -89,6 +89,7 @@ body.is-open {
 .nav-menu ul {
     @media screen and (min-width:820px) {
         flex-direction: row;
+        justify-content: space-between;
     }
 }
 
@@ -139,4 +140,8 @@ body.is-open {
     .nav-link:hover .submenu {
         display: block;
     }
+
+/*     .nav-link i {
+        display: none;
+    } */
 }

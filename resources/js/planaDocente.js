@@ -1,19 +1,28 @@
-const tableContainer = document.getElementById("table-open"),
-    table = document.getElementById("table"),
-    icon = document.getElementById("icon");
+const itemProgram = document.querySelectorAll(".item-program"),
+    table = document.querySelectorAll(".table-cont");
 
-tableContainer.addEventListener("click", e => {
-    table.classList.toggle("is-open");
-    table.style.overflowX = "auto";
-    // table.style.width = 100;
-    e.stopPropagation();
+itemProgram.forEach((item, index) => {
+    item.addEventListener("click", e => {
+        table[index].classList.toggle("is-open");
+        table[index].style.overflowX = "auto";
 
-    if (icon.classList.contains("bx-plus")) {
-        icon.classList.remove("bx-plus")
-        icon.classList.add("bx-minus")
-    } else {
-        icon.classList.add("bx-plus")
-        icon.classList.remove("bx-minus")
-    }   
+        const icon = item.querySelector("i.bx");
 
+        if (icon.classList.contains("bx-plus")) {
+            icon.style.transform = "rotate(90deg)";
+
+            setTimeout(() => {
+                icon.classList.remove("bx-plus");
+                icon.classList.add("bx-minus");
+                icon.style.transform = "rotate(0deg)";
+            }, 500)
+        } else {
+            setTimeout(() => {
+                icon.classList.remove("bx-minus");
+                icon.classList.add("bx-plus");
+                icon.style.transform = "rotate(0deg)";
+            }, 500)
+        }
+        e.stopPropagation();
+    })
 })

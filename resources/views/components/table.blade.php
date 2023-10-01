@@ -6,25 +6,25 @@
     </div>
     <div class="w-full container">
         <div class="table-container">
-            <table class="border my-5  lg:my-10 table">
+            <table class="border my-5  lg:my-10 table-creditos">
                 <thead>
-                    <tr>
-                        <th rowspan="3">Componente curricular</th>
-                        <th rowspan="3">Cursos / Módulos</th>
-                        <th colspan="4">Horas Créditos</th>
-                        <th rowspan="2" colspan="2">Totales</th>
+                    <tr class="row-col">
+                        <th class="cabecera" rowspan="3">Componente curricular</th>
+                        <th class="cabecera" rowspan="3">Cursos / Módulos</th>
+                        <th class="cabecera" colspan="4">Horas Créditos</th>
+                        <th class="cabecera" rowspan="2" colspan="2">Totales</th>
                     </tr>
-                    <tr>
-                        <th colspan="2">Teoría</th>
-                        <th colspan="2">Práctica</th>
+                    <tr class="row-col">
+                        <th class="cabecera" colspan="2">Teoría</th>
+                        <th class="cabecera" colspan="2">Práctica</th>
                     </tr>
-                    <tr>
-                        <th>HT</th>
-                        <th>Créditos</th>
-                        <th>HT</th>
-                        <th>Créditos</th>
-                        <th>HT</th>
-                        <th>Créditos</th>
+                    <tr class="row-col">
+                        <th class="cabecera">HT</th>
+                        <th class="cabecera">Créditos</th>
+                        <th class="cabecera">HT</th>
+                        <th class="cabecera">Créditos</th>
+                        <th class="cabecera">HT</th>
+                        <th class="cabecera">Créditos</th>
                     </tr>
                 </thead>
                 <tbody>

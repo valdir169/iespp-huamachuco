@@ -16,9 +16,9 @@
     </section>
     <main class="render py-10 xl:py-18">
         <div class="grid gap-3">
-            <article class="p-2 border-2 sm:flex sm:gap-3 lg:gap-8 xl:border-0 xl:border-b xl:border-[#3477db] xl:py-10">
-                <div>
-                    <img src="https://www.itmplatform.com/wp-content/uploads/altaeducacion.png" alt="">
+            <article class="p-2 border-2 sm:flex items-center sm:gap-3 lg:gap-8 xl:border-0 xl:border-b xl:border-[#3477db] xl:py-10">
+                <div class="w-full md:w-[45%] lg:w-full">
+                    <img src="{{asset('images/carreras/CarreraComunicacion.png')}}" alt="">
                 </div>
                 <div class="grid gap-2 2xl:py-28">
                     <div class="flex justify-center md:justify-start"><small class="text-sm font-black text-center lg:text-xl 2xl:text-3xl lg:text-left">Educación Inicial</small></div>
@@ -29,7 +29,7 @@
                     <div class="flex">
                         <i class='bx bx-file-blank pr-2 text-[1rem] lg:text-[1.5rem] 2xl:text-[2rem]'></i>
                         <div>
-                            <p class="text-xs lg:text-sm 2xl:text-base">Profesional Pedagógico en Educación Inicial, para optar obtener el titulo debe cumplir los siguientes requisitos:</p>
+                            <p class="text-xs lg:text-sm 2xl:text-base">Profesional Pedagógico en Educación Inicial, para obtener el titulo debe cumplir los siguientes requisitos:</p>
                             <ul class="grid gap-2 py-3 px-4 list-disc">
                                 <li class="text-xs lg:text-sm 2xl:text-base">Haber culminado satisfactoriamente los 10 semestres académicos (220 créditos Aprobados).</li>
                                 <li class="text-xs lg:text-sm 2xl:text-base">Aprobar las cuatro pruebas de suficiencia académica (Ingles, TIC´S, Matemática y Comunicación)</li>
@@ -42,9 +42,9 @@
                     </div>
                 </div>
             </article>
-            <article class="p-2 border-2 sm:flex sm:gap-3 lg:gap-8 xl:border-0 xl:border-b xl:border-[#3477db] xl:py-10">
-                <div>
-                    <img src="https://www.itmplatform.com/wp-content/uploads/altaeducacion.png" alt="">
+            <article class="p-2 border-2 sm:flex items-center sm:gap-3 lg:gap-8 xl:border-0 xl:border-b xl:border-[#3477db] xl:py-10">
+                <div class="w-full md:w-[45%] lg:w-full">
+                    <img src="{{asset('images/carreras/CarreraComunicacion.png')}}" alt="">
                 </div>
                 <div class="grid gap-2 2xl:py-28">
                     <div class="flex justify-center md:justify-start"><small class="text-sm font-black text-center lg:text-xl 2xl:text-3xl lg:text-left">Idiomas, Especialidad: Ingles</small></div>
@@ -55,7 +55,7 @@
                     <div class="flex">
                         <i class='bx bx-file-blank pr-2 text-[1rem] lg:text-[1.5rem] 2xl:text-[2rem]'></i>
                         <div>
-                            <p class="text-xs lg:text-sm 2xl:text-base">Profesional Pedagógico en Educación Inicial, para optar obtener el titulo debe cumplir los siguientes requisitos:</p>
+                            <p class="text-xs lg:text-sm 2xl:text-base">Profesional Pedagógico en Educación Inicial, para obtener el titulo debe cumplir los siguientes requisitos:</p>
                             <ul class="grid gap-2 py-3 px-4 list-disc">
                                 <li class="text-xs lg:text-sm 2xl:text-base">Haber culminado satisfactoriamente los 10 semestres académicos (220 créditos Aprobados).</li>
                                 <li class="text-xs lg:text-sm 2xl:text-base">Aprobar las cuatro pruebas de suficiencia académica (Ingles, TIC´S, Matemática y Comunicación)</li>
@@ -68,9 +68,9 @@
                     </div>
                 </div>
             </article>
-            <article class="p-2 border-2 sm:flex sm:gap-3 lg:gap-8 xl:border-0 xl:py-10">
-                <div>
-                    <img src="https://www.itmplatform.com/wp-content/uploads/altaeducacion.png" alt="">
+            <article class="p-2 border-2 sm:flex items-center sm:gap-3 lg:gap-8 xl:border-0 xl:py-10">
+                <div class="w-full md:w-[45%] lg:w-full">
+                    <img src="{{asset('images/carreras/CarreraComunicacion.png')}}" alt="">
                 </div>
                 <div class="grid gap-2 2xl:py-28">
                     <div class="flex justify-center md:justify-start"><small class="text-sm font-black text-center lg:text-xl 2xl:text-3xl lg:text-left">Educación Secundaria, Especialidad: Comunicación </small></div>
@@ -81,7 +81,7 @@
                     <div class="flex">
                         <i class='bx bx-file-blank pr-2 text-[1rem] lg:text-[1.5rem] 2xl:text-[2rem]'></i>
                         <div>
-                            <p class="text-xs lg:text-sm 2xl:text-base">Profesional Pedagógico en Educación Inicial, para optar obtener el titulo debe cumplir los siguientes requisitos:</p>
+                            <p class="text-xs lg:text-sm 2xl:text-base">Profesional Pedagógico en Educación Inicial, para obtener el titulo debe cumplir los siguientes requisitos:</p>
                             <ul class="grid gap-2 py-3 px-4 list-disc">
                                 <li class="text-xs lg:text-sm 2xl:text-base">Haber culminado satisfactoriamente los 10 semestres académicos (220 créditos Aprobados).</li>
                                 <li class="text-xs lg:text-sm 2xl:text-base">Aprobar las cuatro pruebas de suficiencia académica (Ingles, TIC´S, Matemática y Comunicación)</li>

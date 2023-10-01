@@ -1,16 +1,16 @@
 <header class="render py-2 navbar sticky top-0">
-    <div class=" h-full">
-        <img src={{ asset('images/logo.png') }} alt="Iespp Huamachuco" class="w-full h-full logo">
+    <div class="logo-container">
+        <img src={{ asset('images/logo.png') }} alt="Iespp Huamachuco" class="w-full h-full">
     </div>
 
     <nav class="w-full absolute nav-menu">
-        <ul class="flex flex-col h-full center items-center px-14 md:gap-2 xl:gap-4 ">
+        <ul class="flex flex-col h-full center items-center px-14 md:gap-2 xl:gap-4 shrink-0 ">
             <li class="nav-link">
                 <a href="/" class="w-full flex">Inicio</a>
             </li>
 
-            <li class="prueba nav-link ">
-                <a class="w-full flex justify-between items-center gap-1">Institución
+            <li class="nav-link ">
+                <a class="w-full flex justify-between items-center gap-1 item-active">Institución
                     <i class='bx bx-chevron-down text-xl'></i>
                 </a>
 

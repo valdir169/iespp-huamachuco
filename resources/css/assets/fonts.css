@@ -1,8 +1,55 @@
+/*Local Fonts Roboto */
+@font-face {
+    font-family: 'Roboto-Bold';
+    src: url(../../../public/fonts/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto-Medium';
+    src: url(../../../public/fonts/Roboto-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url(../../../public/fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto-Thin';
+    src: url(../../../public/fonts/Roboto-Thin.ttf);
+}
+
+/* Local Fonts Poppins */
+@font-face {
+    font-family: 'Poppins-Bold';
+    src: url(../../../public/fonts/Poppins-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Poppins-Medium';
+    src: url(../../../public/fonts/Poppins-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'Poppins-Regular';
+    src: url(../../../public/fonts/Poppins-Regular.ttf);
+}
+
 html {
-    font-family: 'Times New Roman', Times, serif !important;
-    font-size: 18px;
-    
-    @media screen and (min-width:768px) {
-        font-size: 20px;
-    }
+    font-family: 'Roboto-Regular' !important;
+    font-size: 16px;
+
+    /* @media screen and (min-width:1024px) {
+        font-size: 18px;
+    } */
+}
+
+h1,
+h2,
+h3,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Poppins-Bold' !important;
 }

@@ -115,55 +115,55 @@
                                 <div>
                                     <div class=" py-5 lg:py-24">
                                         <x-table>
-                                            <tr>
-                                                <td>Formación General</td>
-                                                <td>12</td>
-                                                <td>24</td>
-                                                <td>24</td>
-                                                <td>24</td>
-                                                <td>12</td>
-                                                <td>48</td>
-                                                <td>36</td>
+                                            <tr class="row-col">
+                                                <td class="colum-table">Formación General</td>
+                                                <td class="colum-table">12</td>
+                                                <td class="colum-table">24</td>
+                                                <td class="colum-table">24</td>
+                                                <td class="colum-table">24</td>
+                                                <td class="colum-table">12</td>
+                                                <td class="colum-table">48</td>
+                                                <td class="colum-table">36</td>
                                             </tr>
-                                            <tr>
-                                                <td>Formación en la Práctica e Investigación</td>
-                                                <td>10</td>
-                                                <td>40</td>
-                                                <td>40</td>
-                                                <td>70</td>
-                                                <td>35</td>
-                                                <td>110</td>
-                                                <td>75</td>
+                                            <tr class="row-col" >
+                                                <td class="colum-table">Formación en la Práctica e Investigación</td>
+                                                <td class="colum-table">10</td>
+                                                <td class="colum-table">40</td>
+                                                <td class="colum-table">40</td>
+                                                <td class="colum-table">70</td>
+                                                <td class="colum-table">35</td>
+                                                <td class="colum-table">110</td>
+                                                <td class="colum-table">75</td>
                                             </tr>
-                                            <tr>
-                                                <td>Formación Específica</td>
-                                                <td>25</td>
-                                                <td>68</td>
-                                                <td>68</td>
-                                                <td>58</td>
-                                                <td>29</td>
-                                                <td>126</td>
-                                                <td>97</td>
+                                            <tr class="row-col">
+                                                <td class="colum-table">Formación Específica</td>
+                                                <td class="colum-table">25</td>
+                                                <td class="colum-table">68</td>
+                                                <td class="colum-table">68</td>
+                                                <td class="colum-table">58</td>
+                                                <td class="colum-table">29</td>
+                                                <td class="colum-table">126</td>
+                                                <td class="colum-table">97</td>
                                             </tr>
-                                            <tr>
-                                                <td>Electivos</td>
-                                                <td>4</td>
-                                                <td>8</td>
-                                                <td>8</td>
-                                                <td>8</td>
-                                                <td>4</td>
-                                                <td>16</td>
-                                                <td>12</td>
+                                            <tr class="row-col">
+                                                <td class="colum-table">Electivos</td>
+                                                <td class="colum-table">4</td>
+                                                <td class="colum-table">8</td>
+                                                <td class="colum-table">8</td>
+                                                <td class="colum-table">8</td>
+                                                <td class="colum-table">4</td>
+                                                <td class="colum-table">16</td>
+                                                <td class="colum-table">12</td>
                                             </tr>
-                                            <tr>
-                                                <td>Total general </td>
-                                                <td>51</td>
-                                                <td>140</td>
-                                                <td>140</td>
-                                                <td>160</td>
-                                                <td>80</td>
-                                                <td>300</td>
-                                                <td>220</td>
+                                            <tr class="row-col">
+                                                <td class="colum-table">Total general </td>
+                                                <td class="colum-table">51</td>
+                                                <td class="colum-table">140</td>
+                                                <td class="colum-table">140</td>
+                                                <td class="colum-table">160</td>
+                                                <td class="colum-table">80</td>
+                                                <td class="colum-table">300</td>
+                                                <td class="colum-table">220</td>
                                             </tr>
                                         </x-table>
                                     </div>
@@ -238,59 +238,59 @@
                                     <div class="h-[70px] flex justify-center items-center bg-[#2277db] sm:h-full sm:w-1/2"><p class="font-black text-2xl text-white flex items-center gap-5 sm:text-4xl lg:text-6xl"><i class='bx bxs-user'></i><span>30</span></p></div>
                                 </div>
                             </div>
-                            <div class="w-full">
-                                <div class="w-full">
+                            <div>
+                                <div>
                                     <div class=" py-5 lg:py-24">
                                         <x-table>
-                                            <tr>
-                                                <td>Formación General</td>
-                                                <td>12</td>
-                                                <td>24</td>
-                                                <td>24</td>
-                                                <td>24</td>
-                                                <td>12</td>
-                                                <td>48</td>
-                                                <td>36</td>
+                                            <tr class="row-col">
+                                                <td class="colum-table">Formación General</td>
+                                                <td class="colum-table">12</td>
+                                                <td class="colum-table">24</td>
+                                                <td class="colum-table">24</td>
+                                                <td class="colum-table">24</td>
+                                                <td class="colum-table">12</td>
+                                                <td class="colum-table">48</td>
+                                                <td class="colum-table">36</td>
                                             </tr>
-                                            <tr>
-                                                <td>Formación en la Práctica e Investigación</td>
-                                                <td>10</td>
-                                                <td>40</td>
-                                                <td>40</td>
-                                                <td>70</td>
-                                                <td>35</td>
-                                                <td>110</td>
-                                                <td>75</td>
+                                            <tr class="row-col" >
+                                                <td class="colum-table">Formación en la Práctica e Investigación</td>
+                                                <td class="colum-table">10</td>
+                                                <td class="colum-table">40</td>
+                                                <td class="colum-table">40</td>
+                                                <td class="colum-table">70</td>
+                                                <td class="colum-table">35</td>
+                                                <td class="colum-table">110</td>
+                                                <td class="colum-table">75</td>
                                             </tr>
-                                            <tr>
-                                                <td>Formación Específica</td>
-                                                <td>25</td>
-                                                <td>68</td>
-                                                <td>68</td>
-                                                <td>58</td>
-                                                <td>29</td>
-                                                <td>126</td>
-                                                <td>97</td>
+                                            <tr class="row-col">
+                                                <td class="colum-table">Formación Específica</td>
+                                                <td class="colum-table">25</td>
+                                                <td class="colum-table">68</td>
+                                                <td class="colum-table">68</td>
+                                                <td class="colum-table">58</td>
+                                                <td class="colum-table">29</td>
+                                                <td class="colum-table">126</td>
+                                                <td class="colum-table">97</td>
                                             </tr>
-                                            <tr>
-                                                <td>Electivos</td>
-                                                <td>4</td>
-                                                <td>8</td>
-                                                <td>8</td>
-                                                <td>8</td>
-                                                <td>4</td>
-                                                <td>16</td>
-                                                <td>12</td>
+                                            <tr class="row-col">
+                                                <td class="colum-table">Electivos</td>
+                                                <td class="colum-table">4</td>
+                                                <td class="colum-table">8</td>
+                                                <td class="colum-table">8</td>
+                                                <td class="colum-table">8</td>
+                                                <td class="colum-table">4</td>
+                                                <td class="colum-table">16</td>
+                                                <td class="colum-table">12</td>
                                             </tr>
-                                            <tr>
-                                                <td>Total general </td>
-                                                <td>51</td>
-                                                <td>140</td>
-                                                <td>140</td>
-                                                <td>160</td>
-                                                <td>80</td>
-                                                <td>300</td>
-                                                <td>220</td>
+                                            <tr class="row-col">
+                                                <td class="colum-table">Total general </td>
+                                                <td class="colum-table">51</td>
+                                                <td class="colum-table">140</td>
+                                                <td class="colum-table">140</td>
+                                                <td class="colum-table">160</td>
+                                                <td class="colum-table">80</td>
+                                                <td class="colum-table">300</td>
+                                                <td class="colum-table">220</td>
                                             </tr>
                                         </x-table>
                                     </div>
@@ -369,55 +369,55 @@
                                 <div>
                                     <div class=" py-5 lg:py-24">
                                         <x-table>
-                                            <tr>
-                                                <td>Formación General</td>
-                                                <td>12</td>
-                                                <td>24</td>
-                                                <td>24</td>
-                                                <td>24</td>
-                                                <td>12</td>
-                                                <td>48</td>
-                                                <td>36</td>
+                                            <tr class="row-col">
+                                                <td class="colum-table">Formación General</td>
+                                                <td class="colum-table">14</td>
+                                                <td class="colum-table">30</td>
+                                                <td class="colum-table">30</td>
+                                                <td class="colum-table">28</td>
+                                                <td class="colum-table">14</td>
+                                                <td class="colum-table">58</td>
+                                                <td class="colum-table">44</td>
                                             </tr>
-                                            <tr>
-                                                <td>Formación en la Práctica e Investigación</td>
-                                                <td>10</td>
-                                                <td>40</td>
-                                                <td>40</td>
-                                                <td>70</td>
-                                                <td>35</td>
-                                                <td>110</td>
-                                                <td>75</td>
+                                            <tr class="row-col" >
+                                                <td class="colum-table">Formación en la Práctica e Investigación</td>
+                                                <td class="colum-table">10</td>
+                                                <td class="colum-table">40</td>
+                                                <td class="colum-table">40</td>
+                                                <td class="colum-table">70</td>
+                                                <td class="colum-table">35</td>
+                                                <td class="colum-table">110</td>
+                                                <td class="colum-table">75</td>
                                             </tr>
-                                            <tr>
-                                                <td>Formación Específica</td>
-                                                <td>25</td>
-                                                <td>68</td>
-                                                <td>68</td>
-                                                <td>58</td>
-                                                <td>29</td>
-                                                <td>126</td>
-                                                <td>97</td>
+                                            <tr class="row-col">
+                                                <td class="colum-table">Formación Específica</td>
+                                                <td class="colum-table">27</td>
+                                                <td class="colum-table">62</td>
+                                                <td class="colum-table">62</td>
+                                                <td class="colum-table">54</td>
+                                                <td class="colum-table">27</td>
+                                                <td class="colum-table">116</td>
+                                                <td class="colum-table">89</td>
                                             </tr>
-                                            <tr>
-                                                <td>Electivos</td>
-                                                <td>4</td>
-                                                <td>8</td>
-                                                <td>8</td>
-                                                <td>8</td>
-                                                <td>4</td>
-                                                <td>16</td>
-                                                <td>12</td>
+                                            <tr class="row-col">
+                                                <td class="colum-table">Electivos</td>
+                                                <td class="colum-table">4</td>
+                                                <td class="colum-table">8</td>
+                                                <td class="colum-table">8</td>
+                                                <td class="colum-table">8</td>
+                                                <td class="colum-table">4</td>
+                                                <td class="colum-table">16</td>
+                                                <td class="colum-table">12</td>
                                             </tr>
-                                            <tr>
-                                                <td>Total general </td>
-                                                <td>51</td>
-                                                <td>140</td>
-                                                <td>140</td>
-                                                <td>160</td>
-                                                <td>80</td>
-                                                <td>300</td>
-                                                <td>220</td>
+                                            <tr class="row-col">
+                                                <td class="colum-table">Total general </td>
+                                                <td class="colum-table">55</td>
+                                                <td class="colum-table">140</td>
+                                                <td class="colum-table">140</td>
+                                                <td class="colum-table">160</td>
+                                                <td class="colum-table">80</td>
+                                                <td class="colum-table">300</td>
+                                                <td class="colum-table">220</td>
                                             </tr>
                                         </x-table>
                                     </div>

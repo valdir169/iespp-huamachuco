@@ -23,7 +23,7 @@
                     </div>
                     <div class="grid gap-2 text-center sm:grid-cols-2 md:flex justify-center items-center">
                         <div class="">
-                            <a href="{{ route('carreras') }}" class="text-xs md:border-r-2 px-3 py-2 lg:text-md xl:text-base lg:text-[#3477db] lg:border-[#000000]">Carreras Profecionales</a></div>
+                            <a href="{{ route('carreras') }}" class="text-xs md:border-r-2 px-3 py-2 lg:text-md xl:text-base lg:text-[#3477db] lg:border-[#000000]">Programas de Estudios</a></div>
                         <div class="">
                             <a href="{{ route('modalidad_admision')}}"class="text-xs md:border-r-2 px-3 py-2 lg:text-md xl:text-base lg:text-[#3477db] lg:border-[#000000]">Modalidad de Admisión</a></div>
                         <div class="">

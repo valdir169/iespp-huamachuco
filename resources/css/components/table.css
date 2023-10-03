@@ -1,29 +1,29 @@
+
 .table-container {
     overflow-x: auto;
 }
 
 table {
-
     border-collapse: collapse;
     width: 100%;
     margin: 0 auto;
 }
 
-th, td {
+.cabecera, .colum-table {
     border: 1px solid #dddddd;
     text-align: center;
     padding: 3px; 
 }
 
-tr:nth-child(odd) {
+.row-col:nth-child(odd) {
     background-color: #d9d9d9;
 }
 
-tr:nth-child(even) {
+.row-col:nth-child(even) {
     background-color: #ffffff;
 }
 
-th {
+.cabecera {
     background-color: #3477db;
     color: #ffffff;
     font-weight: bold;
@@ -33,6 +33,9 @@ th {
 @media screen and (max-width: 650px) {
     .container{
         width: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     .table-container{
         overflow-x: auto;
@@ -42,13 +45,13 @@ th {
 }
 
 @media screen and (min-width: 1024px){
-    th, td {
+    .cabecera, .colum-table {
         padding: 5px; 
     }
 }
 
 @media screen and (min-width: 1280px){
-    th, td {
+    .cabecera, .colum-table {
         padding: 10px; 
     }
 }

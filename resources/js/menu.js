@@ -33,7 +33,6 @@ function subMenu(navLink, menu) {
             submenu.classList.toggle("is-open");
             e.stopPropagation();
 
-
             let width = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
             const elements = document.querySelectorAll(".submenu")
 
@@ -51,7 +50,6 @@ function subMenu(navLink, menu) {
         })
     })
 }
-
 
 var swiper = new Swiper(".mySwiper", {
     spaceBetween: 30,

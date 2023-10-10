@@ -28,6 +28,12 @@ Route::get('/educacion_secundaria_especialidad_comunicacion', [PaginasController
 Route::get('/modalidad_admision', [PaginasController::class, 'modalidad'])->name('modalidad_admision');
 Route::get('/academia', [PaginasController::class, 'academia'])->name('academia');
 
+//routes for services
+
+Route::get('/biblioteca', [PaginasController::class, 'biblioteca'])->name('biblioteca');
+Route::get('/psicopedagogia', [PaginasController::class, 'psicopedagogia'])->name('psicopedagogia');
+Route::get('/topico', [PaginasController::class, 'topico'])->name('topico');
+
 Route::get('/educacioninicial', [PaginasController::class, 'educacioninicial'])->name('educacioninicial');
 Route::get('/galeria', [PaginasController::class, 'galeria'])->name('galeria');
 

@@ -194,6 +194,23 @@ class PaginasController extends Controller
         return view('pages.institucion.directorio', compact('jefaturas'));
     }
 
+    //servicios
+
+    public function biblioteca()
+    {
+        return view('pages.servicios.biblioteca');
+    }
+
+    public function psicopedagogia()
+    {
+        return view('pages.servicios.psicopedagogia');
+    }
+
+    public function topico()
+    {
+        return view('pages.servicios.topico');
+    }
+
     // contacto
     public function contacto()
     {

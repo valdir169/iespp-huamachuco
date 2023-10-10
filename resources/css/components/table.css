@@ -1,9 +1,4 @@
-
-.table-container {
-    overflow-x: auto;
-}
-
-table {
+.table-creditos{
     border-collapse: collapse;
     width: 100%;
     margin: 0 auto;

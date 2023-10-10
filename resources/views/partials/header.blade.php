@@ -73,9 +73,9 @@
 
                 <ul class="submenu">
                     <li><a href="#">Laboratorio</a></li>
-                    <li><a href="#">Biblioteca</a></li>
-                    <li><a href="#">Tópico</a></li>
-                    <li><a href="#">Psicopedagogia</a></li>
+                    <li><a href="{{route('biblioteca')}}">Biblioteca</a></li>
+                    <li><a href="{{route('topico')}}">Tópico</a></li>
+                    <li><a href="{{route('psicopedagogia')}}">Psicopedagogia</a></li>
                 </ul>
             </li>
 

@@ -17,6 +17,7 @@
 /* Styles for pages */
 @import url('./pages/index.css');
 @import url('./pages/modalidad.css');
+@import url('./pages/servicios.css');
 
 @tailwind base;
 @tailwind components;

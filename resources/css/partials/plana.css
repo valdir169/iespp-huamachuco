@@ -1,37 +1,26 @@
-.table-cont {
+.table-documents {
     border-collapse: separate;
     border-spacing: 0.1px;
     width: 100%;
 }
 
-.table-cont th,
+.table-documents th,
 td {
     border: 2px solid white;
 }
 
-.table-cont th {
+.table-documents th {
     padding: 12px 0px;
     min-width: 300px;
 }
 
-.table-cont tr:nth-child(even) {
+.table-documents tr:nth-child(even) {
     background: #e5e0e0;
 }
 
-.table-cont {
-    display: block;
+.table-documents {
     border-radius: 5px;
-    overflow: hidden;
     max-height: 0;
     transition: max-height 0.5s ease, opacity 0.3s ease;
 }
 
-.table-cont.is-open {
-    max-height: 700px;
-    opacity: 1;
-}
-
-
-i.bx {
-    transition: transform 0.3s ease;
-}

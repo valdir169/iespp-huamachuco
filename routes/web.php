@@ -39,6 +39,12 @@ Route::get('/organigrama', [PaginasController::class, 'organigrama'])->name('org
 Route::get('/directorio', [PaginasController::class, 'directorio'])->name('directorio');
 Route::get('/plana-docente', [PaginasController::class, 'planaDocente'])->name('plana-docente');
 
+// Route for transparencia
+Route::get('/licenciamiento', [PaginasController::class, 'licenciamiento'])->name('licenciamiento');
+Route::get('/documentos-gestion', [PaginasController::class, 'documentosGestion'])->name('documentos-gestion');
+Route::get('/calendario-academico', [PaginasController::class, 'calendarioAcademico'])->name('calendario-academico');
+Route::get('/inversiones-donaciones', [PaginasController::class, 'inversionesDonaciones'])->name('inversiones-donaciones');
+Route::get('/documentos-transparencia', [PaginasController::class, 'documentosTransparencia'])->name('documentos-transparencia');
 
 // procees form
 Route::post('/contactanos', [PaginasController::class, 'processData'])->name('contacto.process');

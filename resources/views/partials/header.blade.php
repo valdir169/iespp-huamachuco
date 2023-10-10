@@ -52,15 +52,15 @@
                 </a>
 
                 <ul class="submenu">
-                    <li><a href="#">Licenciamiento</a></li>
-                    <li><a href="#">Documentos de Gestión</a></li>
+                    <li><a href="{{ route('licenciamiento') }}">Licenciamiento</a></li>
+                    <li><a href="{{ route('documentos-gestion') }}">Documentos de Gestión</a></li>
                     <li><a href="#">Convocatorias Laborales</a></li>
-                    <li><a href="#">Calendario Académico</a></li>
+                    <li><a href="{{ route('calendario-academico') }}">Calendario Académico</a></li>
                     <li><a href="#">Convenios</a></li>
-                    <li><a href="#">Inversiones y Donaciones</a></li>
+                    <li><a href="{{ route('inversiones-donaciones') }}">Inversiones y Donaciones</a></li>
                     <li><a href="#">Estadísticas</a></li>
                     <li><a href="#">Denuncias y Reclamos</a></li>
-                    <li><a href="#">Documentos de transparencia</a></li>
+                    <li><a href="{{ route('documentos-transparencia') }}">Documentos de transparencia</a></li>
                 </ul>
             </li>
 

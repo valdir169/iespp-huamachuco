@@ -2,9 +2,9 @@
     <table class="w-full mb-8">
         <thead>
             <tr>
-                <th class="bg-sky-900 text-white">Docente</th>
-                <th class="bg-sky-900 text-white">Unidad Didáctica</th>
-                <th class="bg-sky-900 text-white">CV</th>
+                <th class="bg-[#3477DB] text-white">Docente</th>
+                <th class="bg-[#3477DB] text-white">Unidad Didáctica</th>
+                <th class="bg-[#3477DB] text-white">CV</th>
             </tr>
         </thead>
         <tbody>

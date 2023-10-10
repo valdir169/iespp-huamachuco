@@ -108,8 +108,6 @@ class PaginasController extends Controller
         return view('pages.institucion.plana', compact('initialEducationTeachers', 'englishTeachers',  'comunicacionTeachers'));
     }
 
-
-
     public function directorio()
     {
         $jefaturas = [
@@ -193,6 +191,34 @@ class PaginasController extends Controller
         ];
         return view('pages.institucion.directorio', compact('jefaturas'));
     }
+
+    //links for licenciamiento
+    public function licenciamiento()
+    {
+        return view('pages.transparencia.licenciamiento');
+    }
+
+    public function documentosGestion()
+    {
+        return view('pages.transparencia.documentos-gestion');
+    }
+
+    public function calendarioAcademico()
+    {
+        return view('pages.transparencia.calendario-academico');
+    }
+
+    public function inversionesDonaciones()
+    {
+        return view('pages.transparencia.inversiones');
+    }
+
+    public function documentosTransparencia()
+    {
+        return view('pages.transparencia.documentos-transparencia');
+    }
+
+
 
     // contacto
     public function contacto()

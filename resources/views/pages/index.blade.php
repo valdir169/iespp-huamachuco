@@ -24,9 +24,8 @@
 
     <section class="render">
         <section class="my-4">
-            <article class="flex flex-col justify-center text-center py-4">
-                {{-- <h1 class="text-4xl ">CONTAMOS CON LAS SIGUIENTES CARRERAS PROFESIONALES</h1> --}}
-                <h1 class="text-5xl mb-8 ">Contamos con las siguientes programas de estudio</h1>
+            <article class="flex flex-col justify-center text-center py-16 gap-3">
+                <h1 class="text-4xl font-bold">Contamos con las siguientes <span class="text-[#3477db]">programas de estudio!</span></h1>
                 <span class="text-xl">Al culminar recibe tu T&iacute;tulo a Nombre de la Naci&oacute;n</span>
             </article>
 

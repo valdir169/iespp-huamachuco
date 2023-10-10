@@ -9,6 +9,7 @@
     src: url(../../../public/fonts/Roboto-Medium.ttf);
 }
 
+
 @font-face {
     font-family: 'Roboto-Regular';
     src: url(../../../public/fonts/Roboto-Regular.ttf);
@@ -72,11 +73,12 @@ html {
         font-size: 18px;
     } */
 }
-
+/* Title */
 h1 {
-    font-family: 'Roboto-Black';
+    font-family: 'Roboto-Bold';
 }
 
+/* Sub Title */
 h2 {
-    font-family: 'Roboto-Bold';
+    font-family: 'Roboto-Bold' !important;
 }

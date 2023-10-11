@@ -69,7 +69,7 @@
                     </div>
                 </div>
                 <div class="sm:w-1/2">
-                    <span class="text-xs font-black text-[#2277db] lg:text-base">Podrás desempeñarte en:</span>
+                    <h2 class="font-black text-[#2277db]">Podrás desempeñarte en:</h2>
                     <ul class="pt-2 lg:pt-4">
                         <li class="flex"><i class='bx bx-check-circle pr-2 lg:text-xl'></i><span class="text-xs lg:text-sm">Instituciones Educativas de Educación Inicial (Publicas y Privadas), como Profesional Pedagógico en Educaci&oacute;n Secundaria, Especialidad: Comunicaci&oacute;n.</span></li>
                     </ul>

@@ -21,13 +21,13 @@
     <section class="py-5 sm:-mt-12 lg:-mt-16 2xl:-mt-20">
         <article class="render">
             <div class="sm:flex justify-center">
-                <div class="bg-[#D9D9D9] border p-2 text-center hover:text-white hover:bg-[#2277db] sm:flex justify-center items-center sm:w-[200px] sm:h-[85px] lg:pt-4 lg:h-[100px] 2xl:sm:w-[300px] 2xl:h-[150px] 2xl:pt-6">
+                <div class="bg-[#ebebeb] border border-white p-2 text-center hover:text-white hover:bg-[#3477db] sm:flex justify-center items-center sm:w-[200px] sm:h-[85px] lg:pt-4 lg:h-[100px] 2xl:sm:w-[300px] 2xl:h-[150px] 2xl:pt-6">
                     <a class="text-xs sm:flex flex-col lg:text-base" href="#logros"><i class='bx bx-line-chart sm:text-[30px] sm:pb-1 2xl:text-[50px]'></i>Lo que lograrás</a>
                 </div>
-                <div class="bg-[#D9D9D9] border p-2 text-center hover:text-white hover:bg-[#2277db] sm:flex justify-center items-center sm:w-[200px] sm:h-[85px]lg:pt-4 lg:h-[100px] 2xl:sm:w-[300px] 2xl:h-[150px] 2xl:pt-6">
+                <div class="bg-[#ebebeb] border border-white p-2 text-center hover:text-white hover:bg-[#3477db] sm:flex justify-center items-center sm:w-[200px] sm:h-[85px]lg:pt-4 lg:h-[100px] 2xl:sm:w-[300px] 2xl:h-[150px] 2xl:pt-6">
                     <a class="text-xs sm:flex flex-col lg:text-base" href="#requisitos"><i class='bx bx-list-plus sm:text-[30px] sm:pb-1 2xl:text-[50px]'></i>Requisítos</a>
                 </div>
-                <div class="bg-[#D9D9D9] border p-2 text-center hover:text-white hover:bg-[#2277db] sm:flex justify-center items-center sm:w-[200px] sm:h-[85px]lg:pt-4 lg:h-[100px] 2xl:sm:w-[300px] 2xl:h-[150px] 2xl:pt-6">
+                <div class="bg-[#ebebeb] border border-white p-2 text-center hover:text-white hover:bg-[#3477db] sm:flex justify-center items-center sm:w-[200px] sm:h-[85px]lg:pt-4 lg:h-[100px] 2xl:sm:w-[300px] 2xl:h-[150px] 2xl:pt-6">
                     <a class="text-xs sm:flex flex-col lg:text-base" href="#curricula"><i class='bx bx-food-menu sm:text-[30px] sm:pb-1 2xl:text-[50px]'></i>Currícula</a>
                 </div>
             </div>

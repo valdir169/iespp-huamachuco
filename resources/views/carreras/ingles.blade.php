@@ -22,13 +22,13 @@
     <section class="py-5 sm:-mt-12 lg:-mt-16 2xl:-mt-20">
         <article class="render">
             <div class="sm:flex justify-center">
-                <div class="bg-[#D9D9D9] border p-2 text-center hover:text-white hover:bg-[#2277db] sm:flex justify-center items-center sm:w-[200px] sm:h-[85px] lg:pt-4 lg:h-[100px] 2xl:sm:w-[300px] 2xl:h-[150px] 2xl:pt-6">
+                <div class="bg-[#ebebeb] border  border-white p-2 text-center hover:text-white hover:bg-[#3477db] sm:flex justify-center items-center sm:w-[200px] sm:h-[85px] lg:pt-4 lg:h-[100px] 2xl:sm:w-[300px] 2xl:h-[150px] 2xl:pt-6">
                     <a class="text-xs sm:flex flex-col lg:text-base" href="#logros"><i class='bx bx-line-chart sm:text-[30px] sm:pb-1 2xl:text-[50px]'></i>Lo que lograrás</a>
                 </div>
-                <div class="bg-[#D9D9D9] border p-2 text-center hover:text-white hover:bg-[#2277db] sm:flex justify-center items-center sm:w-[200px] sm:h-[85px]lg:pt-4 lg:h-[100px] 2xl:sm:w-[300px] 2xl:h-[150px] 2xl:pt-6">
+                <div class="bg-[#ebebeb] border  border-white p-2 text-center hover:text-white hover:bg-[#3477db] sm:flex justify-center items-center sm:w-[200px] sm:h-[85px]lg:pt-4 lg:h-[100px] 2xl:sm:w-[300px] 2xl:h-[150px] 2xl:pt-6">
                     <a class="text-xs sm:flex flex-col lg:text-base" href="#requisitos"><i class='bx bx-list-plus sm:text-[30px] sm:pb-1 2xl:text-[50px]'></i>Requisítos</a>
                 </div>
-                <div class="bg-[#D9D9D9] border p-2 text-center hover:text-white hover:bg-[#2277db] sm:flex justify-center items-center sm:w-[200px] sm:h-[85px]lg:pt-4 lg:h-[100px] 2xl:sm:w-[300px] 2xl:h-[150px] 2xl:pt-6">
+                <div class="bg-[#ebebeb] border  border-white p-2 text-center hover:text-white hover:bg-[#3477db] sm:flex justify-center items-center sm:w-[200px] sm:h-[85px]lg:pt-4 lg:h-[100px] 2xl:sm:w-[300px] 2xl:h-[150px] 2xl:pt-6">
                     <a class="text-xs sm:flex flex-col lg:text-base" href="#curricula"><i class='bx bx-food-menu sm:text-[30px] sm:pb-1 2xl:text-[50px]'></i>Currícula</a>
                 </div>
             </div>
@@ -37,12 +37,12 @@
     <section class="render py-5 grid gap-4 lg:gap-8">
         <article class="grid gap-2 lg:gap-4 2xl:gap-8" id="logros">
             <div class="flex flex-col text-center">
-                <i class='bx bx-down-arrow-alt text-[2rem] text-[#2277bd] lg:text-[3rem] 2xl:text-[4rem]'></i>
+                <i class='bx bx-down-arrow-alt text-[2rem] text-[#3477bd] lg:text-[3rem] 2xl:text-[4rem]'></i>
                 <span class="text-sm font-black lg:text-lg 2xl:text-xl">Lo que lograrás</span>
             </div>
             <div class="grid gap-3 sm:flex">
                 <div class="sm:w-1/2">
-                    <span class="text-xs font-black text-[#2277db] lg:text-base">Al estudiar esta carrera serás capaz de:</span>
+                    <span class="text-xs font-black text-[#3477db] lg:text-base">Al estudiar esta carrera serás capaz de:</span>
                     <div class="text-xs grid gap-2 lg:gap-6 pt-2 lg:pt-4">
                         <ul>
                             <span class="font-black">DOMINIO 1</span>
@@ -70,7 +70,7 @@
                     </div>
                 </div>
                 <div class="sm:w-1/2">
-                    <span class="text-xs font-black text-[#2277db] lg:text-base">Podrás desempeñarte en:</span>
+                    <span class="text-xs font-black text-[#3477db] lg:text-base">Podrás desempeñarte en:</span>
                     <ul class="pt-2 lg:pt-4">
                         <li class="flex"><i class='bx bx-check-circle pr-2 lg:text-xl'></i><span class="text-xs lg:text-sm">Instituciones Educativas de Educación Inicial (Publicas y Privadas), como Profesional Pedagógico en Idiomas, Especialidad: Ingles.</span></li>
                     </ul>
@@ -85,7 +85,7 @@
                 </div>
                 <div class="grid gap-3 sm:flex">
                     <div>
-                        <span class="text-xs font-black text-[#2277db] lg:text-base">Para postular nesecitas lo siguiente:</span>
+                        <span class="text-xs font-black text-[#3477db] lg:text-base">Para postular nesecitas lo siguiente:</span>
                         <ul class="text-xs grid gap-2 lg:pt-4">
                             <li class="flex"><i class='bx bx-check-circle pr-2 lg:text-xl'></i><span class="lg:text-base">Haber culminado la secundaria.</span></li>
                             <li class="flex"><i class='bx bx-check-circle pr-2 lg:text-xl'></i><span class="lg:text-base">Partida de nacimiento original.</span></li>
@@ -97,7 +97,7 @@
                         </ul>
                     </div>
                     <div>
-                        <span class="text-xs font-black text-[#2277db] lg:text-base">Para matricularte nesecitas lo siguiente:</span>
+                        <span class="text-xs font-black text-[#3477db] lg:text-base">Para matricularte nesecitas lo siguiente:</span>
                         <ul class="text-xs grid gap-2 lg:pt-4">
                             <li class="flex"><i class='bx bx-check-circle pr-2 lg:text-xl'></i><span class="lg:text-base">Pago por derecho de matricula.</span></li>
                             <li class="flex"><i class='bx bx-check-circle pr-2 lg:text-xl'></i><span class="lg:text-base">Aprobar como mínimo el 75% de créditos (Esto es solo para lo que ya están cursando su carrera).</span></li>
@@ -108,7 +108,7 @@
         </article>
         <article>
             <div class="text-center">
-                <a class="text-xs py-1 bg-[#2277db] px-8 text-white rounded-full lg:text-base lg:py-2 lg:px-20" href="{{ route('admision') }}">Obtiene mas informacion <span class="hidden lg:inline">sobre admisión</span></a>
+                <a class="text-xs py-1 bg-[#3477db] px-8 text-white rounded-full lg:text-base lg:py-2 lg:px-20" href="{{ route('admision') }}">Obtiene mas informacion <span class="hidden lg:inline">sobre admisión</span></a>
             </div>
         </article>
     </section>
@@ -121,9 +121,9 @@
         </article>
     </section>
     <section>
-        <article class="render bg-[#D9D9D9]">
+        <article class="render bg-[#ebebeb]">
             <div class="py-4 grid gap-2 sm:grid-cols-2 lg:py-10 lg:gap-6">
-                <div class="grid gap-2 bg-[#2277db] p-2 rounded-[30px] h-[350px] lg:p-4 2xl:p-8 xl:h-[400px]">
+                <div class="grid gap-2 bg-[#3477db] p-2 rounded-[30px] h-[350px] lg:p-4 2xl:p-8 xl:h-[400px]">
                     <div class="flex items-center justify-center gap-2 lg:gap-6">
                         <div class="w-8 h-8 flex items-center justify-center rounded-full bg-white lg:w-10 lg:h-10"><span class="text-xs font-black text-black lg:text-lg">1</span></div>
                         <span class="text-xs font-black lg:text-lg text-white">Ciclo I</span>
@@ -139,7 +139,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="grid gap-2 bg-[#2277db] p-2 rounded-[30px] h-[350px] lg:p-4 2xl:p-8 xl:h-[400px]">
+                <div class="grid gap-2 bg-[#3477db] p-2 rounded-[30px] h-[350px] lg:p-4 2xl:p-8 xl:h-[400px]">
                     <div class="flex items-center justify-center gap-2 lg:gap-6">
                         <div class="w-8 h-8 flex items-center justify-center rounded-full bg-white lg:w-10 lg:h-10"><span class="text-xs font-black text-black lg:text-lg">2</span></div>
                         <span class="text-xs font-black lg:text-lg text-white">Ciclo II</span>
@@ -155,7 +155,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="grid gap-2 bg-[#2277db] p-2 rounded-[30px] h-[350px] lg:p-4 2xl:p-8 xl:h-[400px]">
+                <div class="grid gap-2 bg-[#3477db] p-2 rounded-[30px] h-[350px] lg:p-4 2xl:p-8 xl:h-[400px]">
                     <div class="flex items-center justify-center gap-2 lg:gap-6">
                         <div class="w-8 h-8 flex items-center justify-center rounded-full bg-white lg:w-10 lg:h-10"><span class="text-xs font-black text-black lg:text-lg">3</span></div>
                         <span class="text-xs font-black lg:text-lg text-white">Ciclo III</span>
@@ -171,7 +171,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="grid gap-2 bg-[#2277db] p-2 rounded-[30px] h-[350px] lg:p-4 2xl:p-8 xl:h-[400px]">
+                <div class="grid gap-2 bg-[#3477db] p-2 rounded-[30px] h-[350px] lg:p-4 2xl:p-8 xl:h-[400px]">
                     <div class="flex items-center justify-center gap-2 lg:gap-6">
                         <div class="w-8 h-8 flex items-center justify-center rounded-full bg-white lg:w-10 lg:h-10"><span class="text-xs font-black text-black lg:text-lg">4</span></div>
                         <span class="text-xs font-black lg:text-lg text-white">Ciclo IV</span>
@@ -187,7 +187,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="grid gap-2 bg-[#2277db] p-2 rounded-[30px] h-[350px] lg:p-4 2xl:p-8 xl:h-[400px]">
+                <div class="grid gap-2 bg-[#3477db] p-2 rounded-[30px] h-[350px] lg:p-4 2xl:p-8 xl:h-[400px]">
                     <div class="flex items-center justify-center gap-2 lg:gap-6">
                         <div class="w-8 h-8 flex items-center justify-center rounded-full bg-white lg:w-10 lg:h-10"><span class="text-xs font-black text-black lg:text-lg">5</span></div>
                         <span class="text-xs font-black lg:text-lg text-white">Ciclo V</span>
@@ -202,7 +202,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="grid gap-2 bg-[#2277db] p-2 rounded-[30px] h-[350px] lg:p-4 2xl:p-8 xl:h-[400px]">
+                <div class="grid gap-2 bg-[#3477db] p-2 rounded-[30px] h-[350px] lg:p-4 2xl:p-8 xl:h-[400px]">
                     <div class="flex items-center justify-center gap-2 lg:gap-6">
                         <div class="w-8 h-8 flex items-center justify-center rounded-full bg-white lg:w-10 lg:h-10"><span class="text-xs font-black text-black lg:text-lg">6</span></div>
                         <span class="text-xs font-black lg:text-lg text-white">Ciclo VI</span>
@@ -217,7 +217,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="grid gap-2 bg-[#2277db] p-2 rounded-[30px] h-[350px] lg:p-4 2xl:p-8 xl:h-[400px]">
+                <div class="grid gap-2 bg-[#3477db] p-2 rounded-[30px] h-[350px] lg:p-4 2xl:p-8 xl:h-[400px]">
                     <div class="flex items-center justify-center gap-2 lg:gap-6">
                         <div class="w-8 h-8 flex items-center justify-center rounded-full bg-white lg:w-10 lg:h-10"><span class="text-xs font-black text-black lg:text-lg">7</span></div>
                         <span class="text-xs font-black lg:text-lg text-white">Ciclo VII</span>
@@ -232,7 +232,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="grid gap-2 bg-[#2277db] p-2 rounded-[30px] h-[350px] lg:p-4 2xl:p-8 xl:h-[400px]">
+                <div class="grid gap-2 bg-[#3477db] p-2 rounded-[30px] h-[350px] lg:p-4 2xl:p-8 xl:h-[400px]">
                     <div class="flex items-center justify-center gap-2 lg:gap-6">
                         <div class="w-8 h-8 flex items-center justify-center rounded-full bg-white lg:w-10 lg:h-10"><span class="text-xs font-black text-black lg:text-lg">8</span></div>
                         <span class="text-xs font-black lg:text-lg text-white">Ciclo VIII</span>
@@ -246,7 +246,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="grid gap-2 bg-[#2277db] p-2 rounded-[30px] h-[350px] lg:p-4 2xl:p-8 xl:h-[400px]">
+                <div class="grid gap-2 bg-[#3477db] p-2 rounded-[30px] h-[350px] lg:p-4 2xl:p-8 xl:h-[400px]">
                     <div class="flex items-center justify-center gap-2 lg:gap-6">
                         <div class="w-8 h-8 flex items-center justify-center rounded-full bg-white lg:w-10 lg:h-10"><span class="text-xs font-black text-black lg:text-lg">9</span></div>
                         <span class="text-xs font-black lg:text-lg text-white">Ciclo IX</span>
@@ -258,7 +258,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="grid gap-2 bg-[#2277db] p-2 rounded-[30px] h-[350px] lg:p-4 2xl:p-8 xl:h-[400px]">
+                <div class="grid gap-2 bg-[#3477db] p-2 rounded-[30px] h-[350px] lg:p-4 2xl:p-8 xl:h-[400px]">
                     <div class="flex items-center justify-center gap-2 lg:gap-6">
                         <div class="w-8 h-8 flex items-center justify-center rounded-full bg-white lg:w-10 lg:h-10"><span class="text-xs font-black text-black lg:text-lg">10</span></div>
                         <span class="text-xs font-black lg:text-lg text-white">Ciclo X</span>

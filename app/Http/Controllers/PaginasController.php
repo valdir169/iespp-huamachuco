@@ -237,6 +237,11 @@ class PaginasController extends Controller
         return view('pages.servicios.topico');
     }
 
+    public function prevencionRiesgos()
+    {
+        return view('pages.servicios.prevencion_riesgos');
+    }
+
     // contacto
     public function contacto()
     {

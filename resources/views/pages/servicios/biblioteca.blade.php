@@ -3,7 +3,7 @@
 @section('title', 'Biblioteca IESPP-JFSC-Huamachuco')
 
 @section('content')
-    <x-hero image="{{ asset('images/slider/slider4.jpg') }}" text="Biblioteca" />
+    <x-hero image="{{asset('images/slider/slider4.jpg') }}" text="Biblioteca" />
     <section>
         <article>
             <div class="py-16">
@@ -91,6 +91,21 @@
                     </div>
                 </div>
             </div>
+            <div>
+                <div>
+                    <x-card-servicios>
+                        <x-slot name="img">{{asset('images/carreras/CarreraComunicacion.png')}}</x-slot>
+                        <x-slot name="altImg">Lcda. Ana</x-slot>
+                        <x-slot name="nombre">Lcda. Ana Roely Vasquez Cruzado</x-slot>
+                        <x-slot name="title">Informacion de Contacto</x-slot>
+                        <x-slot name="departamento">Departameto de Psicopedagogia</x-slot>
+                        <x-slot name="direccion">Prolog. Sánchez Carrión 1400 – Huamachuco</x-slot>
+                        <x-slot name="telefono">949 949 494</x-slot>
+                        <x-slot name="email">psicopedagogia@jfsc.edu.pe</x-slot>
+                        <x-slot name="titleRedes">Sigenos en</x-slot>
+                    </x-card-servicios>
+                </div>
+            </div>
             <div class="render py-16">
                 <div class="grid gap-6">
                     <div>
@@ -148,6 +163,15 @@
                             </div>
                             <div>
                                 <div class="desplegable-item-list"><span>¿CÓMO PUEDO SUGERIR LA ADQUISICIÓN DE NUEVOS LIBROS O MATERIALES?</span></div>
+                                <div class="desplegable-item-content">Profesional en la salud, que cumple la labor de orientar a los estudiantes cuando presentan alguna dificultad mental, emocional, académica y/o social.</div>
+                            </div>
+                        </div>
+                        <div class="desplegable-item">
+                            <div class="icon-container desplegable-item-list">
+                                <i class='bx bx-plus'></i>
+                            </div>
+                            <div>
+                                <div class="desplegable-item-list"><span>¿PUEDO ACCEDER A SERVICIOS DE PSICOLOGÍA SI NO SOY ESTUDIANTE?</span></div>
                                 <div class="desplegable-item-content">Profesional en la salud, que cumple la labor de orientar a los estudiantes cuando presentan alguna dificultad mental, emocional, académica y/o social.</div>
                             </div>
                         </div>

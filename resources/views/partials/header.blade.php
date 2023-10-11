@@ -72,8 +72,8 @@
                 </a>
 
                 <ul class="submenu">
-                    <li><a href="#">Laboratorio</a></li>
                     <li><a href="{{route('biblioteca')}}">Biblioteca</a></li>
+                    <li><a href="{{route('prevencionRiesgos')}}">Capacitacion de Riesgos Ambientales</a></li>
                     <li><a href="{{route('topico')}}">Tópico</a></li>
                     <li><a href="{{route('psicopedagogia')}}">Psicopedagogia</a></li>
                 </ul>

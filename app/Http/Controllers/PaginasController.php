@@ -52,7 +52,6 @@ class PaginasController extends Controller
 
 
     // institucion
-
     public function presentacion()
     {
         return view('pages.institucion.presentacion');
@@ -192,7 +191,7 @@ class PaginasController extends Controller
         return view('pages.institucion.directorio', compact('jefaturas'));
     }
 
-    //links for licenciamiento
+    //links for transparencia
     public function licenciamiento()
     {
         return view('pages.transparencia.licenciamiento');
@@ -206,6 +205,11 @@ class PaginasController extends Controller
     public function calendarioAcademico()
     {
         return view('pages.transparencia.calendario-academico');
+    }
+
+    public function convenios()
+    {
+        return view('pages.transparencia.convenios');
     }
 
     public function inversionesDonaciones()
@@ -243,13 +247,12 @@ class PaginasController extends Controller
         return view('pages.contacto');
     }
 
-    // academia
 
+    // academia
     public function academia()
     {
         return view('pages.academia');
     }
-
 
     //Otros
     public function galeria()

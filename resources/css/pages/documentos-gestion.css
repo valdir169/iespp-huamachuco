@@ -1,18 +1,18 @@
-.table-cont {
+.table-documents {
     border-collapse: separate;
     border-spacing: 0.1px;
 }
 
-.table-cont th,
+.table-documents th,
 td {
     border: 2px solid white;
 }
 
-.table-cont th {
+.table-documents th {
     padding: 12px 0px;
     min-width: 300px;
 }
 
-.table-cont tr:nth-child(even) {
+.table-documents tr:nth-child(even) {
     background: #e5e0e0;
 }

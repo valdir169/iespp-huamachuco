@@ -49,6 +49,7 @@ Route::get('/plana-docente', [PaginasController::class, 'planaDocente'])->name('
 Route::get('/licenciamiento', [PaginasController::class, 'licenciamiento'])->name('licenciamiento');
 Route::get('/documentos-gestion', [PaginasController::class, 'documentosGestion'])->name('documentos-gestion');
 Route::get('/calendario-academico', [PaginasController::class, 'calendarioAcademico'])->name('calendario-academico');
+Route::get('/convenios', [PaginasController::class, 'convenios'])->name('convenios');
 Route::get('/inversiones-donaciones', [PaginasController::class, 'inversionesDonaciones'])->name('inversiones-donaciones');
 Route::get('/documentos-transparencia', [PaginasController::class, 'documentosTransparencia'])->name('documentos-transparencia');
 

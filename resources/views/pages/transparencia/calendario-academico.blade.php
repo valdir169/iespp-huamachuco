@@ -7,7 +7,7 @@
     <x-hero image="{{ asset('images/carreras/carrera_ingles.png') }}" text="Calendario Académico" />
 
     <section class="w-full render py-8">
-        <div class=" overflow-x-auto w-full">
+        <div class="overflow-x-auto w-full">
             <table class="table-documents w-full mb-4 ">
                 <thead>
                     <tr>

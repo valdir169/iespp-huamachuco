@@ -4,7 +4,7 @@
 
 @section('content')
 <x-hero image="{{ asset('images/slider/slider4.jpg') }}" text="Psicopedagogia" />
-<section>
+<section class="grid gap-16">
     <article>
         <div class="py-16">
             <div class="sm:border-y border-y-[#d9d9d9]  w-full">
@@ -35,25 +35,138 @@
                     </p>
                 </x-slot>
             </x-services>
-            <div class="bg-[#d9d9d9]">
-                <div class="render py-12 grid gap-8">
+            <div class="bg-[#ebebeb]">
+                <div class="render py-12 grid gap-8 sm:gap-14">
                     <div><span>Ofrecemos</span></div>
-                    <div class="grid gap-4">
-                        <div class="flex items-center gap-5">
+                    <div class="grid gap-4 sm:flex items-center justify-center">
+                        <div class="flex items-center gap-5 sm:flex items-center justify-center sm:flex-col sm:w-[200px] sm:h-[250px] border border-white lg:w-[300px]">
                             <i class='bx bxs-user-check text-[30px]'></i>
                             <span>Asesoramiento Individual</span>
                         </div>
-                        <div class="flex items-center gap-5">
+                        <div class="flex items-center gap-5 sm:flex items-center justify-center sm:flex-col sm:w-[200px] sm:h-[250px] border border-white lg:w-[300px]">
                             <i class='bx bx-male-female text-[30px]'></i>
                             <span>Terapia Grupal</span>
                         </div>
-                        <div class="flex items-center gap-5">
+                        <div class="flex items-center gap-5 sm:flex items-center justify-center sm:flex-col sm:w-[200px] sm:h-[250px] border border-white lg:w-[300px]">
                             <i class='bx bxs-book-reader text-[30px]'></i>
                             <span>Talleres</span>
                         </div>
                     </div>
                     <div>
                         <span>Confidencialidad y la ética en los servicios de Psicopedagía.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </article>
+    <article>
+        <div class="render py-16">
+            <div>
+                <div class="grid gap-10">
+                    <div>
+                        <span>Horario de atenci&oacute;n</span>
+                    </div>
+                    <div class="grid gap-4">
+                        <span>Dias de atenci&oacute;n</span>
+                        <div class="grid gap-5 sm:flex items-center sm:py-5">
+                            <ul>
+                                <li><i class='bx bxs-calendar text-[#3477db]'></i><span>Lunes</span></li>
+                                <li><i class='bx bxs-calendar text-[#3477db]'></i><span>Martes</span></li>
+                                <li><i class='bx bxs-calendar text-[#3477db]'></i><span>Miercoles</span></li>
+                                <li><i class='bx bxs-calendar text-[#3477db]'></i><span>Jueves</span></li>
+                                <li><i class='bx bxs-calendar text-[#3477db]'></i><span>Viernes</span></li>
+                            </ul>
+                            <div class="sm:border-l-[2rem] sm:h-full sm:flex items-center sm:px-5"><span>La atenci&oacute;n es de 7:15 a 1:00</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </article>
+    <article>
+        <div>
+            <x-card-servicios>
+                <x-slot name="img">{{asset('images/carreras/CarreraComunicacion.png')}}</x-slot>
+                <x-slot name="altImg">Lcda. Ana</x-slot>
+                <x-slot name="nombre">Lcda. Ana Roely Vasquez Cruzado</x-slot>
+                <x-slot name="title">Informacion de Contacto</x-slot>
+                <x-slot name="departamento">Departameto de Psicopedagogia</x-slot>
+                <x-slot name="direccion">Prolog. Sánchez Carrión 1400 – Huamachuco</x-slot>
+                <x-slot name="telefono">949 949 494</x-slot>
+                <x-slot name="email">psicopedagogia@jfsc.edu.pe</x-slot>
+                <x-slot name="titleRedes">Sigenos en</x-slot>
+            </x-card-servicios>
+        </div>
+    </article>
+    <article>
+        <div class="render py-16">
+            <div class="grid gap-6">
+                <div>
+                    <span>Preguntas frecuentes sobre el Servicio de Biblioteca</span>
+                </div>
+                <div class="desplegable_servicios">
+                    <div class="desplegable-item">
+                        <div class="icon-container desplegable-item-list">
+                            <i class='bx bx-plus'></i>
+                        </div>
+                        <div>
+                            <div class="desplegable-item-list"><span>¿CÓMO PUEDO PROGRAMAR UNA CITA CON UN PSICÓLOGO?</span></div>
+                            <div class="desplegable-item-content">Profesional en la salud, que cumple la labor de orientar a los estudiantes cuando presentan alguna dificultad mental, emocional, académica y/o social.</div>
+                        </div>
+                    </div>
+                    <div class="desplegable-item">
+                        <div class="icon-container desplegable-item-list">
+                            <i class='bx bx-plus'></i>
+                        </div>
+                        <div>
+                            <div class="desplegable-item-list"><span>¿CUÁLES SON LOS COSTOS ASOCIADOS CON LOS SERVICIOS DE PSICOLOGÍA?</span></div>
+                            <div class="desplegable-item-content">Profesional en la salud, que cumple la labor de orientar a los estudiantes cuando presentan alguna dificultad mental, emocional, académica y/o social.</div>
+                        </div>
+                    </div>
+                    <div class="desplegable-item">
+                        <div class="icon-container desplegable-item-list">
+                            <i class='bx bx-plus'></i>
+                        </div>
+                        <div>
+                            <div class="desplegable-item-list"><span>¿CUÁNTAS SESIONES DE ASESORAMIENTO PUEDO TENER Y CON QUÉ FRECUENCIA?</span></div>
+                            <div class="desplegable-item-content">Profesional en la salud, que cumple la labor de orientar a los estudiantes cuando presentan alguna dificultad mental, emocional, académica y/o social.</div>
+                        </div>
+                    </div>
+                    <div class="desplegable-item">
+                        <div class="icon-container desplegable-item-list">
+                            <i class='bx bx-plus'></i>
+                        </div>
+                        <div>
+                            <div class="desplegable-item-list"><span>¿MIS SESIONES DE ASESORAMIENTO SERÁN CONFIDENCIALES?</span></div>
+                            <div class="desplegable-item-content">Profesional en la salud, que cumple la labor de orientar a los estudiantes cuando presentan alguna dificultad mental, emocional, académica y/o social.</div>
+                        </div>
+                    </div>
+                    <div class="desplegable-item">
+                        <div class="icon-container desplegable-item-list">
+                            <i class='bx bx-plus'></i>
+                        </div>
+                        <div>
+                            <div class="desplegable-item-list"><span>¿PUEDO ACCEDER A SERVICIOS DE PSICOLOGÍA SI NO SOY ESTUDIANTE?</span></div>
+                            <div class="desplegable-item-content">Profesional en la salud, que cumple la labor de orientar a los estudiantes cuando presentan alguna dificultad mental, emocional, académica y/o social.</div>
+                        </div>
+                    </div>
+                    <div class="desplegable-item">
+                        <div class="icon-container desplegable-item-list">
+                            <i class='bx bx-plus'></i>
+                        </div>
+                        <div>
+                            <div class="desplegable-item-list"><span>¿PUEDO INVOLUCRAR A FAMILIARES O AMIGOS EN MI PROCESO DE ASESORAMIENTO?</span></div>
+                            <div class="desplegable-item-content">Profesional en la salud, que cumple la labor de orientar a los estudiantes cuando presentan alguna dificultad mental, emocional, académica y/o social.</div>
+                        </div>
+                    </div>
+                    <div class="desplegable-item">
+                        <div class="icon-container desplegable-item-list">
+                            <i class='bx bx-plus'></i>
+                        </div>
+                        <div>
+                            <div class="desplegable-item-list"><span>¿QUÉ DEBO HACER SI NECESITO CANCELAR O REPROGRAMAR UNA CITA?</span></div>
+                            <div class="desplegable-item-content">Profesional en la salud, que cumple la labor de orientar a los estudiantes cuando presentan alguna dificultad mental, emocional, académica y/o social.</div>
+                        </div>
                     </div>
                 </div>
             </div>

@@ -38,6 +38,164 @@
                 </x-slot>
             </x-services>
         </div>
+        <div class="bg-[#ebebeb] py-16">
+            <div class="render grid gap-4  lg:gap-8">
+                <div>
+                    <span>Ofrecemos hacistencia en:</span>
+                </div>
+                <div class="grid gap-2 sm:grid-cols-2 lg:grid-cols-3">
+                    <div>
+                        <span>Emergencias Médicas</span>
+                    </div>
+                    <div>
+                        <span>Lesiones Deportivas</span>
+                    </div>
+                    <div>
+                        <span>Heridas y Cortaduras</span>
+                    </div>
+                    <div>
+                        <span>Quemaduras Leves</span>
+                    </div>
+                    <div>
+                        <span>Reacciones Alérgicas Menores</span>
+                    </div>
+                    <div>
+                        <span>Educación en Salud</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </article>
+    <article>
+        <div class="render py-16">
+            <div>
+                <div class="grid gap-10">
+                    <div>
+                        <span>Horario de atenci&oacute;n</span>
+                    </div>
+                    <div class="grid gap-4">
+                        <span>Dias de atenci&oacute;n</span>
+                        <div class="grid gap-5 sm:flex items-center sm:py-5">
+                            <ul>
+                                <li><i class='bx bxs-calendar text-[#3477db]'></i><span>Lunes</span></li>
+                                <li><i class='bx bxs-calendar text-[#3477db]'></i><span>Martes</span></li>
+                                <li><i class='bx bxs-calendar text-[#3477db]'></i><span>Miercoles</span></li>
+                                <li><i class='bx bxs-calendar text-[#3477db]'></i><span>Jueves</span></li>
+                                <li><i class='bx bxs-calendar text-[#3477db]'></i><span>Viernes</span></li>
+                            </ul>
+                            <div class="sm:border-l-[2rem] sm:h-full sm:flex items-center sm:px-5"><span>La atenci&oacute;n es de 7:15 a 1:00</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </article>
+    <article>
+        <div>
+            <x-card-servicios>
+                <x-slot name="img">{{asset('images/carreras/CarreraComunicacion.png')}}</x-slot>
+                <x-slot name="altImg">Lcda. Ana</x-slot>
+                <x-slot name="nombre">Lcda. Ana Roely Vasquez Cruzado</x-slot>
+                <x-slot name="title">Informacion de Contacto</x-slot>
+                <x-slot name="departamento">Departameto de Psicopedagogia</x-slot>
+                <x-slot name="direccion">Prolog. Sánchez Carrión 1400 – Huamachuco</x-slot>
+                <x-slot name="telefono">949 949 494</x-slot>
+                <x-slot name="email">psicopedagogia@jfsc.edu.pe</x-slot>
+                <x-slot name="titleRedes">Sigenos en</x-slot>
+            </x-card-servicios>
+        </div>
+    </article>
+    <article>
+        <div class="render py-16">
+            <div class="grid gap-6">
+                <div>
+                    <span>Preguntas frecuentes sobre el Servicio de Biblioteca</span>
+                </div>
+                <div class="desplegable_servicios">
+                    <div class="desplegable-item">
+                        <div class="icon-container desplegable-item-list">
+                            <i class='bx bx-plus'></i>
+                        </div>
+                        <div>
+                            <div class="desplegable-item-list"><span>¿QUÉ ES EL SERVICIO DE TÓPICO?</span></div>
+                            <div class="desplegable-item-content">Profesional en la salud, que cumple la labor de orientar a los estudiantes cuando presentan alguna dificultad mental, emocional, académica y/o social.</div>
+                        </div>
+                    </div>
+                    <div class="desplegable-item">
+                        <div class="icon-container desplegable-item-list">
+                            <i class='bx bx-plus'></i>
+                        </div>
+                        <div>
+                            <div class="desplegable-item-list"><span>¿CÓMO PUEDO OBTENER EL SERVICO?</span></div>
+                            <div class="desplegable-item-content">Profesional en la salud, que cumple la labor de orientar a los estudiantes cuando presentan alguna dificultad mental, emocional, académica y/o social.</div>
+                        </div>
+                    </div>
+                    <div class="desplegable-item">
+                        <div class="icon-container desplegable-item-list">
+                            <i class='bx bx-plus'></i>
+                        </div>
+                        <div>
+                            <div class="desplegable-item-list"><span>¿EN QUÉ SITUACIONES PUEDO BUSCAR AYUDA DEL SERVICIO DE TÓPICO?</span></div>
+                            <div class="desplegable-item-content">Profesional en la salud, que cumple la labor de orientar a los estudiantes cuando presentan alguna dificultad mental, emocional, académica y/o social.</div>
+                        </div>
+                    </div>
+                    <div class="desplegable-item">
+                        <div class="icon-container desplegable-item-list">
+                            <i class='bx bx-plus'></i>
+                        </div>
+                        <div>
+                            <div class="desplegable-item-list"><span>¿ES NECESARIO AGENDAR UNA CITA PARA RECIBIR ATENCIÓN DEL SERVICIO DE TÓPICO?</span></div>
+                            <div class="desplegable-item-content">Profesional en la salud, que cumple la labor de orientar a los estudiantes cuando presentan alguna dificultad mental, emocional, académica y/o social.</div>
+                        </div>
+                    </div>
+                    <div class="desplegable-item">
+                        <div class="icon-container desplegable-item-list">
+                            <i class='bx bx-plus'></i>
+                        </div>
+                        <div>
+                            <div class="desplegable-item-list"><span>¿QUIÉNES SON LOS PROFESIONALES ENCARGADOS DE BRINDAR ATENCIÓN EN EL SERVICIO DE TÓPICO?</span></div>
+                            <div class="desplegable-item-content">Profesional en la salud, que cumple la labor de orientar a los estudiantes cuando presentan alguna dificultad mental, emocional, académica y/o social.</div>
+                        </div>
+                    </div>
+                    <div class="desplegable-item">
+                        <div class="icon-container desplegable-item-list">
+                            <i class='bx bx-plus'></i>
+                        </div>
+                        <div>
+                            <div class="desplegable-item-list"><span>¿EL SERVICIO DE TÓPICO TIENE ALGUN COSTO?</span></div>
+                            <div class="desplegable-item-content">Profesional en la salud, que cumple la labor de orientar a los estudiantes cuando presentan alguna dificultad mental, emocional, académica y/o social.</div>
+                        </div>
+                    </div>
+                    <div class="desplegable-item">
+                        <div class="icon-container desplegable-item-list">
+                            <i class='bx bx-plus'></i>
+                        </div>
+                        <div>
+                            <div class="desplegable-item-list"><span>¿EL SERVICIO DE TÓPICO OFRECE ATENCIÓN FUERA DEL HORARIO REGULAR DE LA UNIVERSIDAD?</span></div>
+                            <div class="desplegable-item-content">Profesional en la salud, que cumple la labor de orientar a los estudiantes cuando presentan alguna dificultad mental, emocional, académica y/o social.</div>
+                        </div>
+                    </div>
+                    <div class="desplegable-item">
+                        <div class="icon-container desplegable-item-list">
+                            <i class='bx bx-plus'></i>
+                        </div>
+                        <div>
+                            <div class="desplegable-item-list"><span>¿QUÉ DEBO HACER EN CASO DE UNA LESIÓN MÁS GRAVE QUE REQUIERA ATENCIÓN MÉDICA ESPECIALIZADA?</span></div>
+                            <div class="desplegable-item-content">Profesional en la salud, que cumple la labor de orientar a los estudiantes cuando presentan alguna dificultad mental, emocional, académica y/o social.</div>
+                        </div>
+                    </div>
+                    <div class="desplegable-item">
+                        <div class="icon-container desplegable-item-list">
+                            <i class='bx bx-plus'></i>
+                        </div>
+                        <div>
+                            <div class="desplegable-item-list"><span>¿PUEDO ACCEDER A SERVICIOS DE PSICOLOGÍA SI NO SOY ESTUDIANTE?</span></div>
+                            <div class="desplegable-item-content">Profesional en la salud, que cumple la labor de orientar a los estudiantes cuando presentan alguna dificultad mental, emocional, académica y/o social.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </article>
 </section>
 @endsection

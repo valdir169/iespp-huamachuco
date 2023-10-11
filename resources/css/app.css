@@ -17,10 +17,9 @@
 /* Styles for pages */
 @import url('./pages/index.css');
 @import url('./pages/modalidad.css');
-
 @import url('./pages/documentos-gestion.css');
-
 @import url('./pages/servicios.css');
+@import url('./pages/convenios.css');
 
 @tailwind base;
 @tailwind components;

@@ -38,29 +38,29 @@
             </div>
             <div class="bg-[#3477db]">
                 <div class="render">
-                    <div class="grid gap-5 py-32">
-                        <div>
-                            <span>Cat&aacute;logo de libros por programa de Estudios</span><br>
+                    <div class="grid gap-5 py-32 lg:gap-10 xl:gap-20">
+                        <div class="text-white text-center">
+                            <h3 class="subtitle">Cat&aacute;logo de libros por programa de Estudios</h3>
                             <span>(Biblioteca Fisica)</span>
                         </div>
                         <div class="grid grid-colum-1 sm:flex justify-center gap-5">
-                            <div class="py-10 text-center sm:w-[30%] lg:w-[25%] border">
-                                <div class="py-4 h-[200px]">
-                                    <i class='bx bx-child text-[2rem] lg:text-[3rem]'></i><br>
+                            <div class="py-10 p-4 text-center sm:w-[30%] lg:w-[25%] border">
+                                <div class="my-4 text-white sm:h-[150px]">
+                                    <i class='bx bx-child text-[2rem] lg:text-[3rem] xl:text-[5rem] text-[#ebebeb]'></i><br>
                                     <span>Educaci&oacute;n Inicial</span><br>
                                 </div>
                                 <x-button type="primary" ruta="#">Ver Cat&aacute;logo</x-button>
                             </div>
-                            <div class="py-10 text-center sm:w-[30%] lg:w-[25%] border">
-                                <div class="py-4 h-[200px]">
-                                    <i class='bx bx-hive text-[2rem] lg:text-[3rem]'></i><br>
+                            <div class="py-10 p-4 text-center sm:w-[30%] lg:w-[25%] border">
+                                <div class="my-4 text-white sm:h-[150px]">
+                                    <i class='bx bx-hive text-[2rem] lg:text-[3rem] xl:text-[5rem] text-[#ebebeb]'></i><br>
                                     <span>Idiomas, Especilidad: Ingles</span><br>
                                 </div>
                                 <x-button type="primary" ruta="#">Ver Cat&aacute;logo</x-button>
                             </div>
-                            <div class="py-10 text-center sm:w-[30%] lg:w-[25%] border">
-                                <div class="py-4 h-[200px]">
-                                    <i class='bx bx-user-voice text-[2rem] lg:text-[3rem]'></i><br>
+                            <div class="py-10 p-4 text-center sm:w-[30%] lg:w-[25%] border">
+                                <div class="my-4 text-white sm:h-[150px]">
+                                    <i class='bx bx-user-voice text-[2rem] lg:text-[3rem] xl:text-[5rem] text-[#ebebeb]'></i><br>
                                     <span>Educaci&oacute;n Secundaria Especilidad: Comunicaci&oacute;n</span><br>
                                 </div>
                                 <x-button type="primary" ruta="#">Ver Cat&aacute;logo</x-button>
@@ -73,7 +73,7 @@
                 <div>
                     <div class="grid gap-10">
                         <div>
-                            <span>Horario de atenci&oacute;n</span>
+                            <h4 class="subtitle">Horario de atenci&oacute;n</h4>
                         </div>
                         <div class="grid gap-4">
                             <span>Dias de atenci&oacute;n</span>
@@ -109,7 +109,7 @@
             <div class="render py-16">
                 <div class="grid gap-6">
                     <div>
-                        <span>Preguntas frecuentes sobre el Servicio de Biblioteca</span>
+                        <h5 class="subtitle">Preguntas frecuentes sobre el Servicio de Biblioteca</h5>
                     </div>
                     <div class="desplegable_servicios">
                         <div class="desplegable-item">
@@ -180,5 +180,5 @@
             </div>
         </article>
     </section>
-    
+
 @endsection

@@ -19,13 +19,13 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', [PaginasController::class, 'main'])->name('index');
 Route::get('/admision', [PaginasController::class, 'admision'])->name('admision');
-Route::get('/carreras', [PaginasController::class, 'carreras'])->name('carreras');
+Route::get('/programas-de-estudio', [PaginasController::class, 'programas'])->name('programas');
 Route::get('/contacto', [PaginasController::class, 'contacto'])->name('contacto');
 
-Route::get('/educacion_inicial', [PaginasController::class, 'educacioninicial'])->name('inicial');
-Route::get('/idiomas_especialidad_ingles', [PaginasController::class, 'idiomasingles'])->name('ingles');
-Route::get('/educacion_secundaria_especialidad_comunicacion', [PaginasController::class, 'comunicacion'])->name('comunicacion');
-Route::get('/modalidad_admision', [PaginasController::class, 'modalidad'])->name('modalidad_admision');
+Route::get('/educacion-inicial', [PaginasController::class, 'educacioninicial'])->name('inicial');
+Route::get('/idiomas-especialidad-ingles', [PaginasController::class, 'idiomasingles'])->name('ingles');
+Route::get('/educacion-secundaria-especialidad-comunicacion', [PaginasController::class, 'comunicacion'])->name('comunicacion');
+Route::get('/modalidad-admision', [PaginasController::class, 'modalidad'])->name('modalidad_admision');
 Route::get('/academia', [PaginasController::class, 'academia'])->name('academia');
 Route::get('/educacioninicial', [PaginasController::class, 'educacioninicial'])->name('educacioninicial');
 Route::get('/galeria', [PaginasController::class, 'galeria'])->name('galeria');
@@ -35,7 +35,8 @@ Route::get('/galeria', [PaginasController::class, 'galeria'])->name('galeria');
 Route::get('/biblioteca', [PaginasController::class, 'biblioteca'])->name('biblioteca');
 Route::get('/psicopedagogia', [PaginasController::class, 'psicopedagogia'])->name('psicopedagogia');
 Route::get('/topico', [PaginasController::class, 'topico'])->name('topico');
-Route::get('/prevencion_riesgos_ambientales', [PaginasController::class, 'prevencionRiesgos'])->name('prevencionRiesgos');
+Route::get('/capacitacion-brigadistas', [PaginasController::class, 'brigadistas'])->name('brigadistas');
+Route::get('/talleres', [PaginasController::class, 'talleres'])->name('talleres');
 
 
 // routes for institucion

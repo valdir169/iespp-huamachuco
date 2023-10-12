@@ -446,7 +446,7 @@
                 "Conoce Nuestras Carreras" => route("admision"),
                 "Requisitos de Matrícula" => route("ingles"),
                 "Academia Institucional" => route("academia"),
-                "Campus Institucional" => route("carreras"),
+                "Campus Institucional" => route("programas"),
             ]'
             />
         </article>

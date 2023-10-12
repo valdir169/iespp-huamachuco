@@ -8,7 +8,7 @@
     </picture>
 
     <header class="p-4 flex-grow text-center">
-        <h2 class="my-2 text-2xl font-bold tracking-tight text-black  ">
+        <h2 class="my-2 font-bold tracking-tight text-black  subtitle">
             {{ $title }}
         </h2>
         <p class="mb-4 font-light text-black">

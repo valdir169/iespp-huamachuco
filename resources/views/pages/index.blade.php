@@ -26,7 +26,7 @@
 
     <section class="render py-24">
         <article class="flex flex-col justify-center text-center pb-12 gap-3">
-            <h2 class="text-4xl font-bold">Contamos con las siguientes <span class="text-[#3477db]">programas de
+            <h2 class="title">¡Contamos con las siguientes <span class="text-[#3477db]">programas de
                     estudio!</span></h2>
             <span class="text-xl">Al culminar recibe tu T&iacute;tulo a Nombre de la Naci&oacute;n</span>
         </article>
@@ -82,7 +82,7 @@
         </div>
 
         <div class="flex flex-col gap-6 h-auto items-center md:items-start ">
-            <h2 class="text-xl font-bold">BIENVENIDA DE LA DIRECTORA</h2>
+            <h2 class="title">Bienvenida de la Directora</h2>
             <p>
                 Hay que resaltar que la educación es formar al ser humano para el cambio permanente y aún para la
                 eventual crisis producto de la transición.<br>

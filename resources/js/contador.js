@@ -15,7 +15,7 @@ export default function contador() {
                     let x = 0;
                     const intervalId = setInterval(() => {
                         if (x <= targetValue) {
-                            targetElement.textContent = x + "+";
+                            targetElement.textContent = "+" + x;
                             x++;
                         } else {
                             clearInterval(intervalId);

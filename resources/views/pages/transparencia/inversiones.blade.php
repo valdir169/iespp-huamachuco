@@ -13,7 +13,7 @@
                     <p> Presupuestos </p>
                 </h3>
 
-                <div class="table-cont mt-4 flex justify-between items-center px-1">
+                <div class="mt-4 flex justify-between items-center px-1">
                     <p class="font-bold">LIsta de archivos</p>
                     <a class="bg-[#3477DB] text-white cursor-pointer hover:bg-[#ffffff] text-center
                      outline-none  font-bold rounded-lg hover:text-black hover:border-[#3477DB] hover:border
@@ -27,7 +27,7 @@
                     <p> Informes Económicos </p>
                 </h3>
 
-                <div class="table-cont mt-4 flex justify-between items-center px-1">
+                <div class="mt-4 flex justify-between items-center px-1">
                     <p class="font-bold">Informes Económicos 2021 - 2022</p>
                     <a class="bg-[#3477DB] text-white cursor-pointer hover:bg-[#ffffff] text-center
                      outline-none  font-bold rounded-lg hover:text-black hover:border-[#3477DB] hover:border

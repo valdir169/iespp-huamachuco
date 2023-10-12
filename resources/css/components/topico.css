@@ -1,0 +1,69 @@
+.card-container-topico {
+    display: flex;
+    flex-wrap: wrap; /* Permite que las tarjetas se envuelvan en filas en pantallas pequeñas */
+    justify-content: center; /* Distribuye las tarjetas uniformemente en el contenedor */
+    gap: 10px;
+}
+
+/* Define styles for the card */
+.card-topico {
+    position: relative;
+    width: 240px;
+    height: 300px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    overflow: hidden;
+    transform-style: preserve-3d;
+    transition: transform 0.5s ease-in-out;
+}
+
+/* Apply a rotation on hover to simulate card flip */
+.card-topico:hover {
+    transform: rotateY(180deg);
+}
+
+/* Style for the card content */
+.card-content-topico {
+    position: relative;
+    text-align: center;
+    margin-top: 30%;
+    padding: 20px;
+    transform-style: preserve-3d;
+    backface-visibility: hidden;
+    transition: opacity 0.5s ease-in-out, height 0.5s ease-in-out;
+}
+
+/* Style for the text container that appears on hover */
+.hover-container-topico {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #3477db;
+    transform: rotateY(180deg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+/* Style for the text that appears on hover */
+.hover-text-topico {
+    padding: 20px;
+    color: #fff;
+}
+
+/* Show the text container on hover */
+.card-topico:hover .hover-container-topico {
+    opacity: 1;
+}
+
+/* Hide the original content on hover */
+.card-topico:hover .card-content-topico {
+    opacity: 0;
+    height: 0;
+}

@@ -43,25 +43,42 @@
                 <div>
                     <span>Ofrecemos hacistencia en:</span>
                 </div>
-                <div class="grid gap-2 sm:grid-cols-2 lg:grid-cols-3">
-                    <div>
-                        <span>Emergencias Médicas</span>
-                    </div>
-                    <div>
-                        <span>Lesiones Deportivas</span>
-                    </div>
-                    <div>
-                        <span>Heridas y Cortaduras</span>
-                    </div>
-                    <div>
-                        <span>Quemaduras Leves</span>
-                    </div>
-                    <div>
-                        <span>Reacciones Alérgicas Menores</span>
-                    </div>
-                    <div>
-                        <span>Educación en Salud</span>
-                    </div>
+                <div class="card-container-topico">
+                    <x-card-topico>
+                        <x-slot name="icon"><i class='bx bx-plus-medical'></i></x-slot>
+                        <x-slot name="title">Emergencias Médicas</x-slot>
+                        <x-slot name="description">Atención inmediata y coordinación con servicios médicos de emergencia en casos de enfermedades súbitas, problemas respiratorios graves, reacciones alérgicas graves, etc.</x-slot>
+                    </x-card-topico>
+
+                    <x-card-topico>
+                        <x-slot name="icon"><i class='bx bx-swim' ></i></x-slot>
+                        <x-slot name="title">Lesiones Deportivas</x-slot>
+                        <x-slot name="description">Asistencia para lesiones deportivas leves, como torceduras, esguinces, contusiones, y manejo inicial antes de referir a un profesional médico.</x-slot>
+                    </x-card-topico>
+
+                    <x-card-topico>
+                        <x-slot name="icon"><i class='bx bxs-clinic' ></i></x-slot>
+                        <x-slot name="title">Heridas y Cortaduras</x-slot>
+                        <x-slot name="description">Atención a heridas y cortaduras menores, incluido el lavado y desinfección de la herida y la aplicación de vendajes.</x-slot>
+                    </x-card-topico>
+
+                    <x-card-topico>
+                        <x-slot name="icon"><i class='bx bxs-meteor' ></i></x-slot>
+                        <x-slot name="title">Quemaduras Leves</x-slot>
+                        <x-slot name="description">Tratamiento inicial para quemaduras leves, incluido el enfriamiento de la zona afectada y la aplicación de apósitos o geles.</x-slot>
+                    </x-card-topico>
+
+                    <x-card-topico>
+                        <x-slot name="icon"><i class='bx bxs-virus' ></i></x-slot>
+                        <x-slot name="title">Reacciones Alérgicas Menores</x-slot>
+                        <x-slot name="description">Asistencia para reacciones alérgicas leves, como picaduras de insectos o contacto con alérgenos conocidos.</x-slot>
+                    </x-card-topico>
+
+                    <x-card-topico>
+                        <x-slot name="icon"><i class='bx bx-male-female' ></i></x-slot>
+                        <x-slot name="title">Educación en Salud</x-slot>
+                        <x-slot name="description">Proporcionar información educativa sobre temas de salud relevantes para los estudiantes.</x-slot>
+                    </x-card-topico>
                 </div>
             </div>
         </div>

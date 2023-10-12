@@ -79,6 +79,14 @@ h1 {
 }
 
 /* Sub Title */
-h2 {
+.title{
+    font-size: 32px !important;
+    font-weight: bold !important;
     font-family: 'Roboto-Bold' !important;
+}
+
+.subtitle{
+    font-family: 'Roboto-Bold' !important;
+    font-size: 24px !important;
+    font-weight: bold !important;
 }

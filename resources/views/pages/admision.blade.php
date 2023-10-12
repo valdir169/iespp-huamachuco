@@ -19,11 +19,11 @@
             <div class="lg:bg-[#d9d9d9] lg:w-[900px] lg:h-[8rem] lg:flex justify-center items-center xl:w-[1200px] 2xl:h-[10rem]">
                 <div class="grid gap-4">
                     <div class="flex justify-center items-center">
-                        <small class="text-center font-black text-sm md:text-xl xl:text-2xl">Admisión IESPP - HUAMACHUCO</small>
+                        <h2 class="text-center subtitle">Admisión IESPP - HUAMACHUCO</small>
                     </div>
                     <div class="grid gap-2 text-center sm:grid-cols-2 md:flex justify-center items-center">
                         <div class="">
-                            <a href="{{ route('carreras') }}" class="text-xs md:border-r-2 px-3 py-2 lg:text-md xl:text-base lg:text-[#3477db] lg:border-[#000000]">Programas de Estudios</a></div>
+                            <a href="{{ route('programas') }}" class="text-xs md:border-r-2 px-3 py-2 lg:text-md xl:text-base lg:text-[#3477db] lg:border-[#000000]">Programas de Estudios</a></div>
                         <div class="">
                             <a href="{{ route('modalidad_admision')}}"class="text-xs md:border-r-2 px-3 py-2 lg:text-md xl:text-base lg:text-[#3477db] lg:border-[#000000]">Modalidad de Admisión</a></div>
                         <div class="">

@@ -41,7 +41,7 @@
         <div class="bg-[#ebebeb] py-16">
             <div class="render grid gap-4  lg:gap-8">
                 <div>
-                    <span>Ofrecemos hacistencia en:</span>
+                    <h2 class="subtitle">Ofrecemos hacistencia en:</h2>
                 </div>
                 <div class="card-container-topico">
                     <x-card-topico>
@@ -88,7 +88,7 @@
             <div>
                 <div class="grid gap-10">
                     <div>
-                        <span>Horario de atenci&oacute;n</span>
+                        <h3  class="subtitle">Horario de atenci&oacute;n</h3>
                     </div>
                     <div class="grid gap-4">
                         <span>Dias de atenci&oacute;n</span>
@@ -126,7 +126,7 @@
         <div class="render py-16">
             <div class="grid gap-6">
                 <div>
-                    <span>Preguntas frecuentes sobre el Servicio de Biblioteca</span>
+                    <h4 class="subtitle">Preguntas frecuentes sobre el Servicio de Biblioteca</h4>
                 </div>
                 <div class="desplegable_servicios">
                     <div class="desplegable-item">

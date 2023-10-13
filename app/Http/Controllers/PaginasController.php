@@ -251,10 +251,15 @@ class PaginasController extends Controller
     }
 
 
-    // contacto
+    // trámites
     public function contacto()
     {
-        return view('pages.contacto');
+        return view('pages.tramites.contacto');
+    }
+
+    public function matricula()
+    {
+        return view('pages.tramites.matricula');
     }
 
 

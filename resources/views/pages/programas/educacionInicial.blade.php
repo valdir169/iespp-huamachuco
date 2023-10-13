@@ -1,34 +1,33 @@
 @extends('layout.app')
 
-@section('title', 'Idiomas, Especialidad: Ingles')
+@section('title', 'Educación Inicial')
 
 @section('content')
-    <section class="background">
+    <section>
         <x-presentation>
             <x-slot name="img">{{ asset('images/bg-admision.jpg')}}</x-slot>
             <x-slot name="inicioLink">{{ route('index') }}</x-slot>
             <x-slot name="inicioText">Inicio</x-slot>
-            <x-slot name="carrerasLink">{{ route('carreras') }}</x-slot>
+            <x-slot name="carrerasLink">{{ route('programas') }}</x-slot>
             <x-slot name="carrerasText">Programas</x-slot>
-            <x-slot name="especialidadLink">{{ route('ingles') }}</x-slot>
-            <x-slot name="titulo">IDIOMAS, ESPECILIDAD: INGLES</x-slot>
+            <x-slot name="especialidadLink">{{ route('inicial') }}</x-slot>
+            <x-slot name="titulo">EDUCACI&Oacute;N INICIAL</x-slot>
             <x-slot name="descripcion">Formar profesionales que contribuyan a mejorar los entornos en los que se desarrollan los niños y niñas, promover que los niños establezcan vínculos, que logren autonomía misma, y que desarrollen iniciativa para jugar.</x-slot>
             <x-slot name="duracion">10 Semestres Académicos (5 años)</x-slot>
-            <x-slot name="titulacion">Profesional Pedagógico en Idiomas, Especialidad: Ingles</x-slot>
+            <x-slot name="titulacion">Profesional Pedagógico en Educaci&oacute;n Inicial</x-slot>
             <x-slot name="modalidad">Presencial</x-slot>
         </x-presentation>
     </section>
-    
     <section class="py-5 sm:-mt-12 lg:-mt-16 2xl:-mt-20">
         <article class="render">
             <div class="sm:flex justify-center">
-                <div class="bg-[#ebebeb] border  border-white p-2 text-center hover:text-white hover:bg-[#3477db] sm:flex justify-center items-center sm:w-[200px] sm:h-[85px] lg:pt-4 lg:h-[100px] 2xl:sm:w-[300px] 2xl:h-[150px] 2xl:pt-6">
+                <div class="bg-[#ebebeb] border border-white p-2 text-center hover:text-white hover:bg-[#3477db] sm:flex justify-center items-center sm:w-[200px] sm:h-[85px] lg:pt-4 lg:h-[100px] 2xl:sm:w-[300px] 2xl:h-[150px] 2xl:pt-6">
                     <a class="text-xs sm:flex flex-col lg:text-base" href="#logros"><i class='bx bx-line-chart sm:text-[30px] sm:pb-1 2xl:text-[50px]'></i>Lo que lograrás</a>
                 </div>
-                <div class="bg-[#ebebeb] border  border-white p-2 text-center hover:text-white hover:bg-[#3477db] sm:flex justify-center items-center sm:w-[200px] sm:h-[85px]lg:pt-4 lg:h-[100px] 2xl:sm:w-[300px] 2xl:h-[150px] 2xl:pt-6">
+                <div class="bg-[#ebebeb] border border-white p-2 text-center hover:text-white hover:bg-[#3477db] sm:flex justify-center items-center sm:w-[200px] sm:h-[85px]lg:pt-4 lg:h-[100px] 2xl:sm:w-[300px] 2xl:h-[150px] 2xl:pt-6">
                     <a class="text-xs sm:flex flex-col lg:text-base" href="#requisitos"><i class='bx bx-list-plus sm:text-[30px] sm:pb-1 2xl:text-[50px]'></i>Requisítos</a>
                 </div>
-                <div class="bg-[#ebebeb] border  border-white p-2 text-center hover:text-white hover:bg-[#3477db] sm:flex justify-center items-center sm:w-[200px] sm:h-[85px]lg:pt-4 lg:h-[100px] 2xl:sm:w-[300px] 2xl:h-[150px] 2xl:pt-6">
+                <div class="bg-[#ebebeb] border border-white p-2 text-center hover:text-white hover:bg-[#3477db] sm:flex justify-center items-center sm:w-[200px] sm:h-[85px]lg:pt-4 lg:h-[100px] 2xl:sm:w-[300px] 2xl:h-[150px] 2xl:pt-6">
                     <a class="text-xs sm:flex flex-col lg:text-base" href="#curricula"><i class='bx bx-food-menu sm:text-[30px] sm:pb-1 2xl:text-[50px]'></i>Currícula</a>
                 </div>
             </div>
@@ -37,12 +36,12 @@
     <section class="render py-5 grid gap-4 lg:gap-8">
         <article class="grid gap-2 lg:gap-4 2xl:gap-8" id="logros">
             <div class="flex flex-col text-center">
-                <i class='bx bx-down-arrow-alt text-[2rem] text-[#3477bd] lg:text-[3rem] 2xl:text-[4rem]'></i>
+                <i class='bx bx-down-arrow-alt text-[2rem] text-[#2277bd] lg:text-[3rem] 2xl:text-[4rem]'></i>
                 <span class="text-sm font-black lg:text-lg 2xl:text-xl">Lo que lograrás</span>
             </div>
             <div class="grid gap-3 sm:flex">
                 <div class="sm:w-1/2">
-                    <span class="text-xs font-black text-[#3477db] lg:text-base">Al estudiar esta carrera serás capaz de:</span>
+                    <span class="text-xs font-black text-[#2277db] lg:text-base">Al estudiar esta carrera serás capaz de:</span>
                     <div class="text-xs grid gap-2 lg:gap-6 pt-2 lg:pt-4">
                         <ul>
                             <span class="font-black">DOMINIO 1</span>
@@ -70,9 +69,9 @@
                     </div>
                 </div>
                 <div class="sm:w-1/2">
-                    <span class="text-xs font-black text-[#3477db] lg:text-base">Podrás desempeñarte en:</span>
+                    <span class="text-xs font-black text-[#2277db] lg:text-base">Podrás desempeñarte en:</span>
                     <ul class="pt-2 lg:pt-4">
-                        <li class="flex"><i class='bx bx-check-circle pr-2 lg:text-xl'></i><span class="text-xs lg:text-sm">Instituciones Educativas de Educación Inicial (Publicas y Privadas), como Profesional Pedagógico en Idiomas, Especialidad: Ingles.</span></li>
+                        <li class="flex"><i class='bx bx-check-circle pr-2 lg:text-xl'></i><span class="text-xs lg:text-sm">Instituciones Educativas de Educación Inicial (Publicas y Privadas), como Profesional Pedagógico en Educación Inicial.</span></li>
                     </ul>
                 </div>
             </div>
@@ -85,7 +84,7 @@
                 </div>
                 <div class="grid gap-3 sm:flex">
                     <div>
-                        <span class="text-xs font-black text-[#3477db] lg:text-base">Para postular nesecitas lo siguiente:</span>
+                        <span class="text-xs font-black text-[#2277db] lg:text-base">Para postular nesecitas lo siguiente:</span>
                         <ul class="text-xs grid gap-2 lg:pt-4">
                             <li class="flex"><i class='bx bx-check-circle pr-2 lg:text-xl'></i><span class="lg:text-base">Haber culminado la secundaria.</span></li>
                             <li class="flex"><i class='bx bx-check-circle pr-2 lg:text-xl'></i><span class="lg:text-base">Partida de nacimiento original.</span></li>
@@ -97,7 +96,7 @@
                         </ul>
                     </div>
                     <div>
-                        <span class="text-xs font-black text-[#3477db] lg:text-base">Para matricularte nesecitas lo siguiente:</span>
+                        <span class="text-xs font-black text-[#2277db] lg:text-base">Para matricularte nesecitas lo siguiente:</span>
                         <ul class="text-xs grid gap-2 lg:pt-4">
                             <li class="flex"><i class='bx bx-check-circle pr-2 lg:text-xl'></i><span class="lg:text-base">Pago por derecho de matricula.</span></li>
                             <li class="flex"><i class='bx bx-check-circle pr-2 lg:text-xl'></i><span class="lg:text-base">Aprobar como mínimo el 75% de créditos (Esto es solo para lo que ya están cursando su carrera).</span></li>
@@ -108,7 +107,7 @@
         </article>
         <article>
             <div class="text-center">
-                <a class="text-xs py-1 bg-[#3477db] px-8 text-white rounded-full lg:text-base lg:py-2 lg:px-20" href="{{ route('admision') }}">Obtiene mas informacion <span class="hidden lg:inline">sobre admisión</span></a>
+                <a class="text-xs py-1 bg-[#2277db] px-8 text-white rounded-full lg:text-base lg:py-2 lg:px-20" href="{{ route('admision') }}">Obtiene mas informacion <span class="hidden lg:inline">sobre admisión</span></a>
             </div>
         </article>
     </section>
@@ -121,25 +120,25 @@
         </article>
     </section>
     <section>
-        <article class="render bg-[#ebebeb]">
+        <article class="render bg-[#D9D9D9]">
             <div class="py-4 grid gap-2 sm:grid-cols-2 lg:py-10 lg:gap-6">
-                <div class="grid gap-2 bg-[#3477db] p-2 rounded-[30px] h-[350px] lg:p-4 2xl:p-8 xl:h-[400px]">
+                <div class="grid gap-2 bg-[#2277db] p-2 rounded-[30px] h-[350px] lg:p-4 2xl:p-8 xl:h-[400px]">
                     <div class="flex items-center justify-center gap-2 lg:gap-6">
                         <div class="w-8 h-8 flex items-center justify-center rounded-full bg-white lg:w-10 lg:h-10"><span class="text-xs font-black text-black lg:text-lg">1</span></div>
                         <span class="text-xs font-black lg:text-lg text-white">Ciclo I</span>
                     </div>
                     <div class="text-white">
                         <ul class="text-xs grid gap-2 xl:text-sm">
-                            <li class="flex"><i class='bx bx-check-circle pr-2'></i><span>Lectura y Escritura en la Educación Superior.</span></li>
-                            <li class="flex"><i class='bx bx-check-circle pr-2'></i><span>Resolución de Problemas Matemáticos I.</span></li>
-                            <li class="flex"><i class='bx bx-check-circle pr-2'></i><span>Desarrollo Personal I.</span></li>
-                            <li class="flex"><i class='bx bx-check-circle pr-2'></i><span>Práctica e Investigación I.</span></li>
-                            <li class="flex"><i class='bx bx-check-circle pr-2'></i><span>Educación y Sociedad en el siglo XXI.</span></li>
-                            <li class="flex"><i class='bx bx-check-circle pr-2'></i><span>English I.</span></li>
+                            <li class="flex"><i class='bx bx-check-circle pr-2'></i><span>Lectura y escritura en la Educación Superior.</span></li>
+                            <li class="flex"><i class='bx bx-check-circle pr-2'></i><span>Resolución de Problemas Matemáticos.</span></li>
+                            <li class="flex"><i class='bx bx-check-circle pr-2'></i><span>Desarrollo Personal.</span></li>
+                            <li class="flex"><i class='bx bx-check-circle pr-2'></i><span>Práctica e Investigación.</span></li>
+                            <li class="flex"><i class='bx bx-check-circle pr-2'></i><span>Fundamentos de la Educación Inicia.</span></li>
+                            <li class="flex"><i class='bx bx-check-circle pr-2'></i><span>Interacciones de calidad y desarrollo en la Primera Infancia I.</span></li>
                         </ul>
                     </div>
                 </div>
-                <div class="grid gap-2 bg-[#3477db] p-2 rounded-[30px] h-[350px] lg:p-4 2xl:p-8 xl:h-[400px]">
+                <div class="grid gap-2 bg-[#2277db] p-2 rounded-[30px] h-[350px] lg:p-4 2xl:p-8 xl:h-[400px]">
                     <div class="flex items-center justify-center gap-2 lg:gap-6">
                         <div class="w-8 h-8 flex items-center justify-center rounded-full bg-white lg:w-10 lg:h-10"><span class="text-xs font-black text-black lg:text-lg">2</span></div>
                         <span class="text-xs font-black lg:text-lg text-white">Ciclo II</span>
@@ -150,89 +149,96 @@
                             <li class="flex"><i class='bx bx-check-circle pr-2 xl:text-base'></i><span>Resolución de Problemas Matemáticos II.</span></li>
                             <li class="flex"><i class='bx bx-check-circle pr-2 xl:text-base'></i><span>Historia, Sociedad y Diversidad.</span></li>
                             <li class="flex"><i class='bx bx-check-circle pr-2 xl:text-base'></i><span>Práctica e Investigación II.</span></li>
-                            <li class="flex"><i class='bx bx-check-circle pr-2 xl:text-base'></i><span>Niñez y adolescencias: Desarrollo, Cambios e Identidades.</span></li>
-                            <li class="flex"><i class='bx bx-check-circle pr-2 xl:text-base'></i><span>English II.</span></li>
+                            <li class="flex"><i class='bx bx-check-circle pr-2 xl:text-base'></i><span>Planificación por Competencias y Evaluación para el aprendizaje I.</span></li>
+                            <li class="flex"><i class='bx bx-check-circle pr-2 xl:text-base'></i><span>Interacciones de calidad y desarrollo en la Primera Infancia II.</span></li>
                         </ul>
                     </div>
                 </div>
-                <div class="grid gap-2 bg-[#3477db] p-2 rounded-[30px] h-[350px] lg:p-4 2xl:p-8 xl:h-[400px]">
+                <div class="grid gap-2 bg-[#2277db] p-2 rounded-[30px] h-[350px] lg:p-4 2xl:p-8 xl:h-[400px]">
                     <div class="flex items-center justify-center gap-2 lg:gap-6">
                         <div class="w-8 h-8 flex items-center justify-center rounded-full bg-white lg:w-10 lg:h-10"><span class="text-xs font-black text-black lg:text-lg">3</span></div>
                         <span class="text-xs font-black lg:text-lg text-white">Ciclo III</span>
                     </div>
                     <div class="text-white">
                         <ul class="text-xs grid gap-2 xl:text-sm">
-                            <li class="flex"><i class='bx bx-check-circle pr-2 xl:text-base'></i><span>Ciencia y Epistemologías.</span></li>
                             <li class="flex"><i class='bx bx-check-circle pr-2 xl:text-base'></i><span>Arte, Creatividad y Aprendizaje.</span></li>
+                            <li class="flex"><i class='bx bx-check-circle pr-2 xl:text-base'></i><span>Inglés para Principiantes I / Beginner English I A1.</span></li>
+                            <li class="flex"><i class='bx bx-check-circle pr-2 xl:text-base'></i><span>Desarrollo Personal II.</span></li>
                             <li class="flex"><i class='bx bx-check-circle pr-2 xl:text-base'></i><span>Práctica e Investigación III.</span></li>
-                            <li class="flex"><i class='bx bx-check-circle pr-2 xl:text-base'></i><span>Niñez, adolescencias y aprendizajes.</span></li>
-                            <li class="flex"><i class='bx bx-check-circle pr-2 xl:text-base'></i><span>Planificación, Mediación y Evaluación de los Aprendizajes I.</span></li>
-                            <li class="flex"><i class='bx bx-check-circle pr-2 xl:text-base'></i><span>English III.</span></li>
+                            <li class="flex"><i class='bx bx-check-circle pr-2 xl:text-base'></i><span>Desarrollo personal y social en la primera infancia.</span></li>
+                            <li class="flex"><i class='bx bx-check-circle pr-2 xl:text-base'></i><span>Juego, Desarrollo y Aprendizaje en la Primera Infancia.</span></li>
+                            <li class="flex"><i class='bx bx-check-circle pr-2 xl:text-base'></i><span>Curso Electivo 1.</span></li>
                         </ul>
                     </div>
                 </div>
-                <div class="grid gap-2 bg-[#3477db] p-2 rounded-[30px] h-[350px] lg:p-4 2xl:p-8 xl:h-[400px]">
+                <div class="grid gap-2 bg-[#2277db] p-2 rounded-[30px] h-[350px] lg:p-4 2xl:p-8 xl:h-[400px]">
                     <div class="flex items-center justify-center gap-2 lg:gap-6">
                         <div class="w-8 h-8 flex items-center justify-center rounded-full bg-white lg:w-10 lg:h-10"><span class="text-xs font-black text-black lg:text-lg">4</span></div>
                         <span class="text-xs font-black lg:text-lg text-white">Ciclo IV</span>
                     </div>
                     <div class="text-white">
                         <ul class="text-xs grid gap-2 xl:text-sm">
+                            <li class="flex"><i class='bx bx-check-circle pr-2 xl:text-base'></i><span>Ciencia y Epistemologías.</span></li>
+                            <li class="flex"><i class='bx bx-check-circle pr-2 xl:text-base'></i><span>Inglés para Principiantes II / Beginner English II A1.</span></li>
                             <li class="flex"><i class='bx bx-check-circle pr-2 xl:text-base'></i><span>Deliberación y Participación.</span></li>
                             <li class="flex"><i class='bx bx-check-circle pr-2 xl:text-base'></i><span>Práctica e Investigación IV.</span></li>
-                            <li class="flex"><i class='bx bx-check-circle pr-2 xl:text-base'></i><span>Planificación, Mediación y Evaluación de los Aprendizajes II.</span></li>
-                            <li class="flex"><i class='bx bx-check-circle pr-2 xl:text-base'></i><span>Educación Sexual Integral.</span></li>
-                            <li class="flex"><i class='bx bx-check-circle pr-2 xl:text-base'></i><span>Approaches and methods in language teaching.</span></li>
-                            <li class="flex"><i class='bx bx-check-circle pr-2 xl:text-base'></i><span>English IV.</span></li>
+                            <li class="flex"><i class='bx bx-check-circle pr-2 xl:text-base'></i><span>Inclusión Educativa para la Atención a la Diversidad.</span></li>
+                            <li class="flex"><i class='bx bx-check-circle pr-2 xl:text-base'></i><span>Planificación por Competencias y Evaluación para el aprendizaje II.</span></li>
+                            <li class="flex"><i class='bx bx-check-circle pr-2 xl:text-base'></i><span>Curso Electivo 2.</span></li>
                         </ul>
                     </div>
                 </div>
-                <div class="grid gap-2 bg-[#3477db] p-2 rounded-[30px] h-[350px] lg:p-4 2xl:p-8 xl:h-[400px]">
+                <div class="grid gap-2 bg-[#2277db] p-2 rounded-[30px] h-[350px] lg:p-4 2xl:p-8 xl:h-[400px]">
                     <div class="flex items-center justify-center gap-2 lg:gap-6">
                         <div class="w-8 h-8 flex items-center justify-center rounded-full bg-white lg:w-10 lg:h-10"><span class="text-xs font-black text-black lg:text-lg">5</span></div>
                         <span class="text-xs font-black lg:text-lg text-white">Ciclo V</span>
                     </div>
                     <div class="text-white">
                         <ul class="text-xs grid gap-2 xl:text-sm">
-                            <li class="flex"><i class='bx bx-check-circle pr-2 xl:text-base'></i><span>Literatura y Sociedad en Contextos Diversos.</span></li>
+                            <li class="flex"><i class='bx bx-check-circle pr-2 xl:text-base'></i><span>Literatura y Sociedad en contextos diversos.</span></li>
+                            <li class="flex"><i class='bx bx-check-circle pr-2 xl:text-base'></i><span>Inglés para Principiantes III / Beginner English III A2.</span></li>
                             <li class="flex"><i class='bx bx-check-circle pr-2 xl:text-base'></i><span>Práctica e Investigación V.</span></li>
-                            <li class="flex"><i class='bx bx-check-circle pr-2 xl:text-base'></i><span>Culturas Escolares y Cambio Educativo.</span></li>
-                            <li class="flex"><i class='bx bx-check-circle pr-2 xl:text-base'></i><span>Linguistics for English Teachers.</span></li>
-                            <li class="flex"><i class='bx bx-check-circle pr-2 xl:text-base'></i><span>English V.</span></li>
+                            <li class="flex"><i class='bx bx-check-circle pr-2 xl:text-base'></i><span>Desarrollo del Pensamiento.</span></li>
+                            <li class="flex"><i class='bx bx-check-circle pr-2 xl:text-base'></i><span>Desarrollo de la Psicomotricidad en la Primera Infancia.</span></li>
+                            <li class="flex"><i class='bx bx-check-circle pr-2 xl:text-base'></i><span>Desarrollo de la Comunicación en la Primera Infancia.</span></li>
+                            <li class="flex"><i class='bx bx-check-circle pr-2 xl:text-base'></i><span>Curso Electivo 3.</span></li>
                         </ul>
                     </div>
                 </div>
-                <div class="grid gap-2 bg-[#3477db] p-2 rounded-[30px] h-[350px] lg:p-4 2xl:p-8 xl:h-[400px]">
+                <div class="grid gap-2 bg-[#2277db] p-2 rounded-[30px] h-[350px] lg:p-4 2xl:p-8 xl:h-[400px]">
                     <div class="flex items-center justify-center gap-2 lg:gap-6">
                         <div class="w-8 h-8 flex items-center justify-center rounded-full bg-white lg:w-10 lg:h-10"><span class="text-xs font-black text-black lg:text-lg">6</span></div>
                         <span class="text-xs font-black lg:text-lg text-white">Ciclo VI</span>
                     </div>
                     <div class="text-white">
                         <ul class="text-xs grid gap-2 xl:text-sm">
-                            <li class="flex"><i class='bx bx-check-circle pr-2 xl:text-base'></i><span>Ética y Filosofía para el Pensamiento Crítico.</span></li>
-                            <li class="flex"><i class='bx bx-check-circle pr-2 xl:text-base'></i><span>Práctica e Investigación VI .</span></li>
-                            <li class="flex"><i class='bx bx-check-circle pr-2 xl:text-base'></i><span>Planificación, Mediación y Evaluación de los Aprendizajes III.</span></li>
-                            <li class="flex"><i class='bx bx-check-circle pr-2 xl:text-base'></i><span>Literature perspectives I.</span></li>
-                            <li class="flex"><i class='bx bx-check-circle pr-2 xl:text-base'></i><span>English VI.</span></li>
+                            <li class="flex"><i class='bx bx-check-circle pr-2 xl:text-base'></i><span>Alfabetización Científica.</span></li>
+                            <li class="flex"><i class='bx bx-check-circle pr-2 xl:text-base'></i><span>Inglés para Principiantes IV / Beginner English IV A2.</span></li>
+                            <li class="flex"><i class='bx bx-check-circle pr-2 xl:text-base'></i><span>Práctica e Investigación VI.</span></li>
+                            <li class="flex"><i class='bx bx-check-circle pr-2 xl:text-base'></i><span>Convivencia y Ciudadanía en la Primera Infancia.</span></li>
+                            <li class="flex"><i class='bx bx-check-circle pr-2 xl:text-base'></i><span>Desarrollo de la Matemática en la primera Infancia.</span></li>
+                            <li class="flex"><i class='bx bx-check-circle pr-2 xl:text-base'></i><span>Expresión del Arte en la Primera Infancia.</span></li>
+                            <li class="flex"><i class='bx bx-check-circle pr-2 xl:text-base'></i><span>Curso Electivo 4.</span></li>
                         </ul>
                     </div>
                 </div>
-                <div class="grid gap-2 bg-[#3477db] p-2 rounded-[30px] h-[350px] lg:p-4 2xl:p-8 xl:h-[400px]">
+                <div class="grid gap-2 bg-[#2277db] p-2 rounded-[30px] h-[350px] lg:p-4 2xl:p-8 xl:h-[400px]">
                     <div class="flex items-center justify-center gap-2 lg:gap-6">
                         <div class="w-8 h-8 flex items-center justify-center rounded-full bg-white lg:w-10 lg:h-10"><span class="text-xs font-black text-black lg:text-lg">7</span></div>
                         <span class="text-xs font-black lg:text-lg text-white">Ciclo VII</span>
                     </div>
                     <div class="text-white">
                         <ul class="text-xs grid gap-2 xl:text-sm">
-                            <li class="flex"><i class='bx bx-check-circle pr-2 xl:text-base'></i><span>Desarrollo Personal II.</span></li>
+                            <li class="flex"><i class='bx bx-check-circle pr-2 xl:text-base'></i><span>Ética y Filosofía para el Pensamiento Crítico.</span></li>
                             <li class="flex"><i class='bx bx-check-circle pr-2 xl:text-base'></i><span>Práctica e Investigación VII.</span></li>
-                            <li class="flex"><i class='bx bx-check-circle pr-2 xl:text-base'></i><span>Convivencia Escolar y Orientación Educativa.</span></li>
-                            <li class="flex"><i class='bx bx-check-circle pr-2 xl:text-base'></i><span>Applied linguistics.</span></li>
-                            <li class="flex"><i class='bx bx-check-circle pr-2 xl:text-base'></i><span>English VII.</span></li>
+                            <li class="flex"><i class='bx bx-check-circle pr-2 xl:text-base'></i><span>Gestión de la Atención y Cuidado Infantil.</span></li>
+                            <li class="flex"><i class='bx bx-check-circle pr-2 xl:text-base'></i><span>Desarrollo de la Creatividad en la Primera Infancia.</span></li>
+                            <li class="flex"><i class='bx bx-check-circle pr-2 xl:text-base'></i><span>Aprendizaje y enseñanza de la Ciencia en ciclo II.</span></li>
+                            <li class="flex"><i class='bx bx-check-circle pr-2 xl:text-base'></i><span>Curso Electivo 5.</span></li>
                         </ul>
                     </div>
                 </div>
-                <div class="grid gap-2 bg-[#3477db] p-2 rounded-[30px] h-[350px] lg:p-4 2xl:p-8 xl:h-[400px]">
+                <div class="grid gap-2 bg-[#2277db] p-2 rounded-[30px] h-[350px] lg:p-4 2xl:p-8 xl:h-[400px]">
                     <div class="flex items-center justify-center gap-2 lg:gap-6">
                         <div class="w-8 h-8 flex items-center justify-center rounded-full bg-white lg:w-10 lg:h-10"><span class="text-xs font-black text-black lg:text-lg">8</span></div>
                         <span class="text-xs font-black lg:text-lg text-white">Ciclo VIII</span>
@@ -240,13 +246,14 @@
                     <div class="text-white">
                         <ul class="text-xs grid gap-2 xl:text-sm">
                             <li class="flex"><i class='bx bx-check-circle pr-2 xl:text-base'></i><span>Práctica e Investigación VIII.</span></li>
-                            <li class="flex"><i class='bx bx-check-circle pr-2 xl:text-base'></i><span>Gestión de Aprendizajes para la Atención a la Diversidad.</span></li>
-                            <li class="flex"><i class='bx bx-check-circle pr-2 xl:text-base'></i><span>Literature perspectives II.</span></li>
-                            <li class="flex"><i class='bx bx-check-circle pr-2 xl:text-base'></i><span>English VIII.</span></li>
+                            <li class="flex"><i class='bx bx-check-circle pr-2 xl:text-base'></i><span> Políticas y Gestión para el Servicio Educativo.</span></li>
+                            <li class="flex"><i class='bx bx-check-circle pr-2 xl:text-base'></i><span> Planificación por Competencias y Evaluación para el aprendizaje III.</span></li>
+                            <li class="flex"><i class='bx bx-check-circle pr-2 xl:text-base'></i><span>Atención a las Necesidades Educativas Especiales.</span></li>
+                            <li class="flex"><i class='bx bx-check-circle pr-2 xl:text-base'></i><span>Curso Electivo 6.</span></li>
                         </ul>
                     </div>
                 </div>
-                <div class="grid gap-2 bg-[#3477db] p-2 rounded-[30px] h-[350px] lg:p-4 2xl:p-8 xl:h-[400px]">
+                <div class="grid gap-2 bg-[#2277db] p-2 rounded-[30px] h-[350px] lg:p-4 2xl:p-8 xl:h-[400px]">
                     <div class="flex items-center justify-center gap-2 lg:gap-6">
                         <div class="w-8 h-8 flex items-center justify-center rounded-full bg-white lg:w-10 lg:h-10"><span class="text-xs font-black text-black lg:text-lg">9</span></div>
                         <span class="text-xs font-black lg:text-lg text-white">Ciclo IX</span>
@@ -254,11 +261,11 @@
                     <div class="text-white">
                         <ul class="text-xs grid gap-2 xl:text-sm">
                             <li class="flex"><i class='bx bx-check-circle pr-2 xl:text-base'></i><span>Práctica e Investigación IX.</span></li>
-                            <li class="flex"><i class='bx bx-check-circle pr-2 xl:text-base'></i><span>English, communities and cultures.</span></li>
+                            <li class="flex"><i class='bx bx-check-circle pr-2 xl:text-base'></i><span>Gestión de los Servicios Educativos en Educación Inicial.</span></li>
                         </ul>
                     </div>
                 </div>
-                <div class="grid gap-2 bg-[#3477db] p-2 rounded-[30px] h-[350px] lg:p-4 2xl:p-8 xl:h-[400px]">
+                <div class="grid gap-2 bg-[#2277db] p-2 rounded-[30px] h-[350px] lg:p-4 2xl:p-8 xl:h-[400px]">
                     <div class="flex items-center justify-center gap-2 lg:gap-6">
                         <div class="w-8 h-8 flex items-center justify-center rounded-full bg-white lg:w-10 lg:h-10"><span class="text-xs font-black text-black lg:text-lg">10</span></div>
                         <span class="text-xs font-black lg:text-lg text-white">Ciclo X</span>
@@ -266,7 +273,7 @@
                     <div class="text-white">
                         <ul class="text-xs grid gap-2 xl:text-sm">
                             <li class="flex"><i class='bx bx-check-circle pr-2 xl:text-base'></i><span>Práctica e Investigación X.</span></li>
-                            <li class="flex"><i class='bx bx-check-circle pr-2 xl:text-base'></i><span>Políticas y Gestión Territorial del Servicio Educativo.</span></li>
+                            <li class="flex"><i class='bx bx-check-circle pr-2 xl:text-base'></i><span>Escuela, Familia y Comunidad.</span></li>
                         </ul>
                     </div>
                 </div>
@@ -294,7 +301,7 @@
                         <span class="text-sm font-black lg:text-base">Ingreso Ordinario</span>
                         <p class="text-xs lg:text-base">Inscríbete en secretaria para dar tu examen de admisión.</p>
                         <div class="text-center">
-                            <a class="w-1/2 px-10 py-1 bg-[#2277db] text-xs rounded-full text-white lg:text-base lg:py-2 lg:px-20 hover:border-2 border-[#3477db] hover:text-black hover:bg-white" href="{{route('admision')}}">Conoce Más</a>
+                            <a class="w-1/2 px-10 py-1 bg-[#2277db] text-xs rounded-full text-white lg:text-base lg:py-2 lg:px-20  hover:border-2 border-[#3477db] hover:text-black hover:bg-white" href="{{route('admision')}}">Conoce Más</a>
                         </div>
                     </div>
                 </div>

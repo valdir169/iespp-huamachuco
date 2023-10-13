@@ -21,7 +21,7 @@
             <span>{{$titleRedes}}</span>
             <ul>
                 <li><a href="https://web.facebook.com/">Facebook</a></li>
-                <li><a href="https://web.facebook.com/">YoTube</a></li>
+                <li><a href="https://web.facebook.com/">YouTube</a></li>
                 <li><a href="https://web.facebook.com/">Instagram</a></li>
             </ul>
         </div>

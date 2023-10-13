@@ -22,26 +22,26 @@ class PaginasController extends Controller
         return view('pages.admision');
     }
 
-    public function carreras()
+    public function programas()
     {
-        return view('pages.carreras');
+        return view('pages.programas');
     }
 
 
     public function educacioninicial()
     {
-        return view('carreras.educacionInicial');
+        return view('pages.programas.educacionInicial');
     }
 
 
     public function idiomasingles()
     {
-        return view('carreras.ingles');
+        return view('pages.programas.ingles');
     }
 
     public function comunicacion()
     {
-        return view('carreras.comunicacion');
+        return view('pages.programas.comunicacion');
     }
 
     public function modalidad()
@@ -241,10 +241,15 @@ class PaginasController extends Controller
         return view('pages.servicios.topico');
     }
 
-    public function prevencionRiesgos()
+    public function brigadistas()
     {
-        return view('pages.servicios.prevencion_riesgos');
+        return view('pages.servicios.brigadistas');
     }
+    public function talleres()
+    {
+        return view('pages.servicios.talleres');
+    }
+
 
     // trámites
     public function contacto()

@@ -6,7 +6,7 @@
             <div>
                 <div class="grid gap-5 sm:gap-14">
                     <div class="text-center">
-                        <h1>Bienvenido al servicio de <span> {{$servicio}}</span></h1>
+                        <h2 class="title">Bienvenido al servicio de <span> {{$servicio}}</span></h1>
                     </div>
                     <div class="border-y-4 border-[#3477db] py-10 text-right ">
                         <p><i class='bx bxs-quote-alt-left'></i><span>{{$frase}}</span><i class='bx bxs-quote-alt-right' ></i></p>

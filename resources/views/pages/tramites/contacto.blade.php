@@ -1,6 +1,6 @@
 @extends('layout.app')
 
-@section('title', 'Contacto')
+@section('title', 'Contacto - Iespp Jfsc Huamachuco')
 
 @section('content')
     <div class="-mt-[120px] h-[700px] w-full bg-cover bg-no-repeat bg-center  flex items-center justify-center flex-col text-center gap-4"

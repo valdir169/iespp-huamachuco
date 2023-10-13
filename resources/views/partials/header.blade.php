@@ -85,8 +85,8 @@
                 </a>
 
                 <ul class="submenu">
-                    <li><a href="#">Trámite documentario</a></li>
                     <li><a href="{{ route('contacto') }}">Contáctnos</a></li>
+                    <li><a href="{{ route('matricula') }}">Matrícula</a></li>
                 </ul>
             </li>
 

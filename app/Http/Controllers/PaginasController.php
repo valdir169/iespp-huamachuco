@@ -246,10 +246,15 @@ class PaginasController extends Controller
         return view('pages.servicios.prevencion_riesgos');
     }
 
-    // contacto
+    // trámites
     public function contacto()
     {
-        return view('pages.contacto');
+        return view('pages.tramites.contacto');
+    }
+
+    public function matricula()
+    {
+        return view('pages.tramites.matricula');
     }
 
 

@@ -20,7 +20,6 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', [PaginasController::class, 'main'])->name('index');
 Route::get('/admision', [PaginasController::class, 'admision'])->name('admision');
 Route::get('/carreras', [PaginasController::class, 'carreras'])->name('carreras');
-Route::get('/contacto', [PaginasController::class, 'contacto'])->name('contacto');
 
 Route::get('/educacion_inicial', [PaginasController::class, 'educacioninicial'])->name('inicial');
 Route::get('/idiomas_especialidad_ingles', [PaginasController::class, 'idiomasingles'])->name('ingles');
@@ -53,6 +52,11 @@ Route::get('/calendario-academico', [PaginasController::class, 'calendarioAcadem
 Route::get('/convenios', [PaginasController::class, 'convenios'])->name('convenios');
 Route::get('/inversiones-donaciones', [PaginasController::class, 'inversionesDonaciones'])->name('inversiones-donaciones');
 Route::get('/documentos-transparencia', [PaginasController::class, 'documentosTransparencia'])->name('documentos-transparencia');
+
+// Route for Trámites
+Route::get('/contacto', [PaginasController::class, 'contacto'])->name('contacto');
+Route::get('/matricula', [PaginasController::class, 'matricula'])->name('matricula');
+
 
 // procees form
 Route::post('/contactanos', [PaginasController::class, 'processData'])->name('contacto.process');

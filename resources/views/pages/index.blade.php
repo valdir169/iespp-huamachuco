@@ -126,7 +126,7 @@
         </div>
     </article>
 
-    <section class="render py-28 bg-[#f2f2f2]">
+    <section class="render py-28 bg-[#ebebeb]">
         <div class="flex flex-col text-center py-4 justify-center z-50 ">
             <h2 class="text-4xl font-bold">Experiencias <span class="text-[#3477DB]">Exitosas</span></h2>
             <span class="text-xl mt-4">Nuestros estudiantes y egresados piensan de nosotros</span>

@@ -4,8 +4,8 @@
 
 @section('content')
     <x-hero image="{{ asset('images/carreras/carrera_ingles.png') }}" text="Inversiones y Donaciones" />
-    <div class="render py-8">
-        <p class="uppercase text-xl font-bold py-4">Documentos de inversiones y donaciones</p>
+    <div class="render py-16">
+        <p class="title mb-8">Documentos de inversiones y donaciones</p>
 
         <div class=" grid gap-8 md:gap-16 lg:grid-cols-3 max-w-[500px] mx-auto lg:max-w-full">
             <div>

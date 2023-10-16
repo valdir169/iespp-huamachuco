@@ -86,7 +86,7 @@
                 </a>
 
                 <ul class="submenu">
-                    <li><a href="{{ route('contacto') }}">Contáctnos</a></li>
+                    <li><a href="{{ route('contacto') }}">Contáctanos</a></li>
                     <li><a href="{{ route('matricula') }}">Matrícula</a></li>
                 </ul>
             </li>
@@ -97,7 +97,7 @@
                 </a>
 
                 <ul class="submenu">
-                    <li><a href="{{ route('galeria') }}">Galeria</a></li>
+                    <li><a href="{{ route('galeria') }}">Galería</a></li>
                     <li><a href="#">Eva</a></li>
                 </ul>
             </li>

@@ -1,18 +1,19 @@
 @extends('layout.app')
 
-@section('title', 'Presentación')
+@section('title', 'Presentación - Iespp Jfsc Huamachuco')
 @section('content')
     <x-hero image="{{ asset('images/carreras/carrera_ingles.png') }}" text="Presentación" />
 
     <article class="render py-12">
-        <h3 class="text-xl font-bold py-4">BIENVENIDA DE LA DIRECTORA</h3>
+        <h3 class="title py-4">Bienvenida de la directora</h3>
 
-        <section class="grid md:grid-cols-2 gap-4 lg:gap-8 xl:gap-12" >
+        <section class="grid md:grid-cols-2 gap-4 lg:gap-8 xl:gap-12 2xl:gap-20">
             <div class=" flex flex-col gap-2  text-center ">
-                <img class="h-full w-full xl:h-[60vh] 2xl:h-[50vh]" src="{{ asset('images/directora.png') }}" alt="Directora del IESPP JFSC">
-                <strong>Dra. Gladis Martha Alvares Medina</strong>
+                <img class="h-full w-full xl:h-[60vh] 2xl:h-[50vh] rounded-lg" src="{{ asset('images/directora.png') }}"
+                    alt="Directora del IESPP JFSC">
+                <strong class="text-xl mt-4">Dra. Gladis Martha Alvares Medina</strong>
             </div>
-            
+
             <div class="h-full">
                 <p>
                     Hay que resaltar que la educación es formar al ser humano para el cambio permanente y aún para la

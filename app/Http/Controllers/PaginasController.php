@@ -270,9 +270,9 @@ class PaginasController extends Controller
     }
 
     //Otros
-    public function galeria()
+    public function gallery()
     {
-        return view('pages.galeria');
+        return view('pages.others.gallery');
     }
 
 

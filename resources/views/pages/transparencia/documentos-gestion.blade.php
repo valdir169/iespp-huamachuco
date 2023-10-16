@@ -1,6 +1,6 @@
 @extends('layout.app')
 
-@section('title', 'Documentos de gestión - Iespp Jfsc')
+@section('title', 'Documentos de gestión - IESPP JFSC Huamachuco')
 
 @section('content')
     <x-hero image="{{ asset('images/carreras/carrera_ingles.png') }}" text="Documentos de gestión" />

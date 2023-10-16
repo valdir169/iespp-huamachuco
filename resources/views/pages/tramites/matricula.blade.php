@@ -1,11 +1,11 @@
 @extends('layout.app')
 
-@section('title', 'Matricuila - Iespp Jfsc Huamachuco')
+@section('title', 'Matrícula - Iespp Jfsc Huamachuco')
 
 @section('content')
     <x-hero image="{{ asset('images/slider/slider4.jpg') }}" text="Matrícula" />
     <section class="render py-16">
-        <h2>Requísitos de Matrícula</h2>
+        <h2 class="title">Requísitos de Matrícula</h2>
 
         <div>
             <div>

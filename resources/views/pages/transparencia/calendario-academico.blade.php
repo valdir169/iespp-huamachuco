@@ -1,6 +1,6 @@
 @extends('layout.app')
 
-@section('title', 'Calendario Académico - Iespp JFSC')
+@section('title', 'Calendario Académico - IESPP JFSC Huamachuco')
 
 
 @section('content')
@@ -15,6 +15,7 @@
                         <th class="bg-[#3477DB] text-white">Fecha</th>
                     </tr>
                 </thead>
+                
                 <tbody>
                     <tr>
                         <th class="w-9/12">Pagos de matrícula </th>

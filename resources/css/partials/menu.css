@@ -73,7 +73,7 @@ body.is-open {
 }
 
 .submenu li:hover {
-    background: #eeeeee;
+    background: #fff;
     transition: all .3s ease-in-out;
 }
 
@@ -129,7 +129,7 @@ body.is-open {
     .submenu {
         position: absolute;
         margin-top: 38px;
-        background: #D9D9D9;
+        background: #ebebeb;
         color: white;
         cursor: pointer;
         overflow: unset;

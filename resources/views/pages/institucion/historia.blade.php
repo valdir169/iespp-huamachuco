@@ -1,11 +1,11 @@
 @extends('layout.app')
 
-@section('title', 'Historia')
+@section('title', 'Historia - Iespp Jfsc Huamachuco')
+
 @section('content')
     <x-hero image="{{ asset('images/carreras/carrera_ingles.png') }}" text="Historia" />
-
     <article class="render py-12">
-        <h3 class="text-xl font-bold py-4">CONOCE NUESTRA HISTORIA</h3>
+        <h3 class="title py-4">Conoce nuestra historia</h3>
         <p>El 28 de abril de 1981 mediante la Resolución Ministerial 432 del año 1981 se reapertura Escuela Normal Mixta
             José
             Faustino Sánchez Carrión y con el Decreto Supremo
@@ -21,12 +21,14 @@
             incas, los emplumados, los canasteros, los
             huananayes, etc. Organizó eventos culturales como elección de la “ñusta huamachuquina. <br>
 
-            Creador y ejecutor del Proyecto Artístico Cultural “Waman Raymi” &#40;Fiesta del Halcón&#41;, que conjuga la historia,
+            Creador y ejecutor del Proyecto Artístico Cultural “Waman Raymi” &#40;Fiesta del Halcón&#41;, que conjuga la
+            historia,
             el
             mito, la magia y la leyenda de la cultura de los
             Wamachucos.
 
-            Fue responsable de ejecutar el Plan Nacional de Capacitación Docente &#45; PLANCAD 2001 capacitando a gran cantidad
+            Fue responsable de ejecutar el Plan Nacional de Capacitación Docente &#45; PLANCAD 2001 capacitando a gran
+            cantidad
             de
             docentes de nuestro ámbito.
 

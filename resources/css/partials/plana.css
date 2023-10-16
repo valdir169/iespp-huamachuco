@@ -15,7 +15,7 @@ td {
 }
 
 .table-cont tr:nth-child(even) {
-    background: #e5e0e0;
+    background: #ebebeb;
 }
 
 .table-cont {

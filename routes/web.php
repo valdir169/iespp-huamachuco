@@ -28,10 +28,8 @@ Route::get('/educacion-secundaria-especialidad-comunicacion', [PaginasController
 Route::get('/modalidad-admision', [PaginasController::class, 'modalidad'])->name('modalidad_admision');
 Route::get('/academia', [PaginasController::class, 'academia'])->name('academia');
 Route::get('/educacioninicial', [PaginasController::class, 'educacioninicial'])->name('educacioninicial');
-Route::get('/galeria', [PaginasController::class, 'galeria'])->name('galeria');
 
 //routes for services
-
 Route::get('/biblioteca', [PaginasController::class, 'biblioteca'])->name('biblioteca');
 Route::get('/psicopedagogia', [PaginasController::class, 'psicopedagogia'])->name('psicopedagogia');
 Route::get('/topico', [PaginasController::class, 'topico'])->name('topico');
@@ -58,6 +56,9 @@ Route::get('/documentos-transparencia', [PaginasController::class, 'documentosTr
 // Route for Trámites
 Route::get('/contacto', [PaginasController::class, 'contacto'])->name('contacto');
 Route::get('/matricula', [PaginasController::class, 'matricula'])->name('matricula');
+
+//Route for other
+Route::get('/galeria', [PaginasController::class, 'gallery'])->name('galeria');
 
 
 // procees form

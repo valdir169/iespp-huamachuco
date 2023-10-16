@@ -35,7 +35,7 @@
             <x-card>
                 <x-slot name="image">{{ asset('images/carreras/carrera_inicial.png') }}</x-slot>
                 <x-slot name="altText">Educación Inicial</x-slot>
-                <x-slot name="title">Educaci&oacute;n Inicial</x-slot>
+                <x-slot name="title">Educación Inicial</x-slot>
                 <x-slot name="content">
                     Formar profesionales que contribuyan a mejorar los entornos en los que se desarrollen los niños y
                     niñas...
@@ -46,7 +46,7 @@
             <x-card>
                 <x-slot name="image">{{ asset('images/carreras/carrera_ingles.png') }}</x-slot>
                 <x-slot name="altText">Idiomas, especialidad: Ingles</x-slot>
-                <x-slot name="title">Idiomas, Especialidad: Ingl&eacute;s</x-slot>
+                <x-slot name="title">Idiomas: Especialidad Inglés</x-slot>
                 <x-slot name="content">
                     Formar profesionales que contribuyan a mejorar los entornos en los que se desarrollen los niños y
                     niñas...
@@ -58,9 +58,9 @@
             <x-card>
                 <x-slot name="image">{{ asset('images/carreras/carrera_comunicacion.png') }}</x-slot>
                 <x-slot name="altText">Educación Secundaria, Especialidad: Comunicación</x-slot>
-                <x-slot name="title">Educaci&oacute;n Secundaria, Especialidad: Comunicaci&oacute;n</x-slot>
+                <x-slot name="title">Educación Secundaria: Especialidad Comunicación</x-slot>
                 <x-slot name="content">
-                    Formar docentes de Comunicaci&oacute;n con conocimeintos pedag&oacute;gicos y especializados, que
+                    Formar docentes de Comunicación con conocimeintos pedagógicos y especializados, que
                     trabajen de forma colaborativa...
                 </x-slot>
                 <x-button type="secondary" ruta="#">Ver Detalles</x-button>
@@ -129,7 +129,7 @@
     <section class="render py-28 bg-[#ebebeb]">
         <div class="flex flex-col text-center py-4 justify-center z-50 ">
             <h2 class="text-4xl font-bold">Experiencias <span class="text-[#3477DB]">Exitosas</span></h2>
-            <span class="text-xl mt-4">Nuestros estudiantes y egresados piensan de nosotros</span>
+            <span class="text-xl mt-4">¡Mira lo que dicen de nosotros!</span>
         </div>
 
         <article class="swiper-exp-cont">
@@ -213,8 +213,8 @@
     </section>
 
 
-    <section class="render my-10">
-        <h4 class="text-2xl font-bold mb-2">ACTIVIDADES IMPORTANTES</h4>
+    <section class="render py-24">
+        <h4 class="title">Actividades importantes</h4>
         <div class="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
             <div class="mx-auto">
                 <img class="w-full h-full object-fill" src="{{ asset('images/activity2.png') }}" alt="">
@@ -230,30 +230,29 @@
         </div>
     </section>
 
-    <div class="render my-10">
-        <span class="text-2xl font-bold ">ENLACES DE INTERES</span>
-        <div class="grid gap-4 place-items-center md:grid-cols-4 md:h-[150px] w-full flex lg:gap-10 mt-2">
-
+    <div class="render py-16">
+        <span class="title">Nuestros Aliados</span>
+        <div class="grid gap-4 place-items-center md:grid-cols-4 md:h-[150px] w-full flex lg:gap-10 xl:gap-20 mt-6">
 
             <a href="https://enlinea.sunedu.gob.pe/" target="_blank"
-                class="border rounded-md h-[150px] w-[300px] md:w-full p-4 hover:bg-[#D9D9D9] transition z-50">
+                class="border rounded-md h-[150px] w-[300px] md:w-full p-4 hover:bg-[#ebebeb] transition z-50">
                 <img class="w-full h-full" src="{{ asset('images/enlaces/sunedu.png') }}" alt="">
             </a>
 
 
             <a href="https://www.gob.pe/minedu" target="_blank"
-                class="border rounded-md h-[150px] w-[300px] md:w-full p-4 hover:bg-[#D9D9D9] transition z-50">
+                class="border rounded-md h-[150px] w-[300px] md:w-full p-4 hover:bg-[#ebebeb] transition z-50">
                 <img class="w-full h-full" src="{{ asset('images/enlaces/educacion.png') }}" alt="">
             </a>
 
             <a href="https://www.unesco.org/es" target="_blank"
-                class="border rounded-md h-[150px] w-[300px] md:w-full p-4 hover:bg-[#D9D9D9] transition z-50">
+                class="border rounded-md h-[150px] w-[300px] md:w-full p-4 hover:bg-[#ebebeb] transition z-50">
                 <img class="w-full h-full" src="{{ asset('images/enlaces/unesco.png') }}" alt="">
             </a>
 
             <a href="https://www.gob.pe/busquedas?institucion%5B%5D=sineace&reason=sheet&sheet=1&term=coneaces"
                 target="_blank"
-                class="border rounded-md h-[150px] w-[300px] md:w-full p-4 hover:bg-[#D9D9D9] transition z-50">
+                class="border rounded-md h-[150px] w-[300px] md:w-full p-4 hover:bg-[#ebebeb] transition z-50">
                 <img class="w-full h-full -z-10" src="{{ asset('images/enlaces/coneaces.png') }}" alt="">
             </a>
         </div>

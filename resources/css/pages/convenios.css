@@ -35,18 +35,21 @@
     justify-content: center;
     align-items: center;
     z-index: 100;
-    background: red;
+    background: #3477db;
     padding: 20px;
+    color: #ebebeb;
+    font-weight: bold;
 }
 
 .text-box {
     padding: 20px 30px;
-    background: #7e3b3b;
+    background: #3477db;
     position: relative;
     border-radius: 15px;
     right: 0;
     top: 32px;
     z-index: 100;
+    color: white;
 }
 
 
@@ -67,7 +70,7 @@
     position: absolute;
     width: 6px;
     height: 100%;
-    background: red;
+    background: #000;
     top: 0;
     left: 50%;
     margin-left: -3px;
@@ -95,7 +98,7 @@
     z-index: 1;
     border-top: 15px solid transparent;
     border-bottom: 15px solid transparent;
-    border-left: 15px solid red;
+    border-left: 15px solid #ebebeb;
     right: -15px;
 }
 
@@ -107,7 +110,7 @@
     z-index: 1;
     border-top: 15px solid transparent;
     border-bottom: 15px solid transparent;
-    border-right: 15px solid red;
+    border-right: 15px solid #ebebeb;
     left: -14px;
 }
 
@@ -155,8 +158,10 @@
     }
 
     .left-container-arrow, .right-container-arrow {
-        border-right: 15px solid red;
+        border-right: 30px solid red;
         border-left: 0;
-        left: 15px;
+        left: -20px;
+        z-index: -100;
+        display: none;
     }
 }

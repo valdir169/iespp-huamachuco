@@ -69,9 +69,38 @@
         </article>
     </section>
 
-    <article
-        class="bg-[#3477DB] px-4 sm:px-8 md:px-12 lg:px-16 xl:px-24 grid md:grid-cols-3 gap-10 md:gap-4 lg:gap-8 2xl:gap-20 py-20 text-white place-items-center w-full">
-        <p>Conoce nuestro campus</p>
+    <article class="bg-[#3477DB] render py-24 text-center">
+        <h4 class="title text-white text-center"> ¿Por qué estudiar con
+            <span class="bg-white text-[#3477db] py-1 px-3">nosotros?</span>
+        </h4>
+
+        <section class="grid gap-2 md:gap-4 grid-cols-2 md:grid-cols-4 pt-16 max-w-[500px] md:max-w-[100%] xl:max-w-[70%] mx-auto">
+            <div class="bg-[#ebebeb] p-2 flex flex-col gap-2 text-[#4377db] rounded-lg">
+                <span class="text-xl font-bold sm:text-2xl xl:text-3xl overflow-hidden">Infraestructura</span>
+                <p class="mt-4">Más del 95% de nuestros graduados logran conseguir empleo exitosamente</p>
+                <i class='bx bx-building text-8xl'></i>
+            </div>
+
+            <div class="bg-[#ebebeb] p-2 flex flex-col gap-2 text-[#4377db] rounded-lg">
+                <span class="text-xl font-bold sm:text-2xl xl:text-3xl">Prestigio</span>
+                <p class="mt-4">Con más de 40 años formando profesionales altamente competentes </p>
+                <i class='bx bx-building text-8xl'></i>
+            </div>
+
+            <div class="bg-[#ebebeb] p-2 flex flex-col gap-2 text-[#4377db] rounded-lg">
+                <span class="text-xl font-bold sm:text-2xl xl:text-3xl">Docentes</span>
+                <p class="mt-4">Experimentados docentes en pedagogía y materias para una educación de calidad</p>
+                <i class='bx bx-building text-8xl'></i>
+            </div>
+
+            <div class="bg-[#ebebeb] p-2 flex flex-col gap-2 text-[#4377db] rounded-lg overflow-hidden">
+                <span class="text-xl font-bold sm:text-2xl xl:text-3xl">Empleabilidad</span>
+                <p class="mt-4">Oportunidades de empleo en educación: maestro, instructor, coordinador o otros roles relacionados a la
+                    pedagogía.</p>
+                <i class='bx bx-building text-8xl'></i>
+            </div>
+
+        </section>
     </article>
 
 

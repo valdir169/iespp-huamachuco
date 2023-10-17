@@ -21,6 +21,7 @@
 @import url('./pages/documentos-gestion.css');
 @import url('./pages/servicios.css');
 @import url('./pages/convenios.css');
+@import url('./pages/gallery.css');
 
 @tailwind base;
 @tailwind components;

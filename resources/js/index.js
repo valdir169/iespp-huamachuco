@@ -9,16 +9,12 @@ var swiper = new Swiper(".mySwiper", {
         el: ".swiper-pagination",
         clickable: true,
     },
-    navigation: {
-        // nextEl: ".swiper-button-next",
-        // prevEl: ".swiper-button-prev",
-    },
 });
 
 
 var experience = new Swiper(".myExperience", {
     navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
     },
-  });
+});

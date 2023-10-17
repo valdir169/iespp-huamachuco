@@ -12,10 +12,11 @@
                         <div>
                             <div class="render w-full">
                                 <ul class="w-full grid grid-cols-2 sm:flex justify-center">
-                                    <li class="w-full h-[100px] p-1 border border-[#d9d9d9] flex items-center justify-center hover:bg-[#3477db] hover:text-white lg:w-[200px]"><a href="#"><span>Sobre el servicio</span></a></li>
-                                    <li class="w-full h-[100px] p-1 border border-[#d9d9d9] flex items-center justify-center hover:bg-[#3477db] hover:text-white lg:w-[200px]"><a href="#"><span>Cat&aacute;logo</span></a></li>
-                                    <li class="w-full h-[100px] p-1 border border-[#d9d9d9] flex items-center justify-center hover:bg-[#3477db] hover:text-white lg:w-[200px]"><a href="#"><span>Horarios</span></a></li>
-                                    <li class="w-full h-[100px] p-1 border border-[#d9d9d9] flex items-center justify-center hover:bg-[#3477db] hover:text-white lg:w-[200px]"><a href="#"><span>Preguntas Frecuentes</span></a></li>
+                                    <li class="w-full h-[100px] p-1 border border-[#d9d9d9] flex items-center justify-center hover:bg-[#3477db] hover:text-white lg:w-[200px]"><a href="#" class="flex flex-col text-center gap-2"><i class='bx bx-book-bookmark text-[25px]'></i><span>Sobre el servicio</span></a></li>
+                                    <li class="w-full h-[100px] p-1 border border-[#d9d9d9] flex items-center justify-center hover:bg-[#3477db] hover:text-white lg:w-[200px]"><a href="#" class="flex flex-col text-center gap-2"><i class='bx bx-list-ol text-[25px]'></i><span>Cat&aacute;logo</span></a></li>
+                                    <li class="w-full h-[100px] p-1 border border-[#d9d9d9] flex items-center justify-center hover:bg-[#3477db] hover:text-white lg:w-[200px]"><a href="#" class="flex flex-col text-center gap-2"><i class='bx bx-time-five text-[25px]' ></i><span>Horarios</span></a></li>
+                                    <li class="w-full h-[100px] p-1 border border-[#d9d9d9] flex items-center justify-center hover:bg-[#3477db] hover:text-white lg:w-[200px]"><a href="#" class="flex flex-col text-center gap-2"><i class='bx bx-user text-[25px]' ></i><span>Responsable</span></a></li>
+                                    <li class="w-full h-[100px] p-1 border border-[#d9d9d9] flex items-center justify-center hover:bg-[#3477db] hover:text-white lg:w-[200px]"><a href="#" class="flex flex-col text-center gap-2"><i class='bx bx-question-mark text-[25px]' ></i><span>Preguntas Frecuentes</span></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -76,16 +77,16 @@
                             <h4 class="subtitle">Horario de atenci&oacute;n</h4>
                         </div>
                         <div class="grid gap-4">
-                            <span>Dias de atenci&oacute;n</span>
+                            <span class="font-bold">Dias de atenci&oacute;n</span>
                             <div class="grid gap-5 sm:flex items-center sm:py-5">
-                                <ul>
-                                    <li><i class='bx bxs-calendar text-[#3477db]'></i><span>Lunes</span></li>
-                                    <li><i class='bx bxs-calendar text-[#3477db]'></i><span>Martes</span></li>
-                                    <li><i class='bx bxs-calendar text-[#3477db]'></i><span>Miercoles</span></li>
-                                    <li><i class='bx bxs-calendar text-[#3477db]'></i><span>Jueves</span></li>
-                                    <li><i class='bx bxs-calendar text-[#3477db]'></i><span>Viernes</span></li>
+                                <ul class="grid gap-2">
+                                    <li class="flex gap-3"><i class='bx bxs-calendar text-[25px] text-[#3477db]'></i><span>Lunes</span></li>
+                                    <li class="flex gap-3"><i class='bx bxs-calendar text-[25px] text-[#3477db]'></i><span>Martes</span></li>
+                                    <li class="flex gap-3"><i class='bx bxs-calendar text-[25px] text-[#3477db]'></i><span>Miercoles</span></li>
+                                    <li class="flex gap-3"><i class='bx bxs-calendar text-[25px] text-[#3477db]'></i><span>Jueves</span></li>
+                                    <li class="flex gap-3"><i class='bx bxs-calendar text-[25px] text-[#3477db]'></i><span>Viernes</span></li>
                                 </ul>
-                                <div class="sm:border-l-[2rem] sm:h-full sm:flex items-center sm:px-5"><span>La atenci&oacute;n es de 7:15 a 1:00</span></div>
+                                <div class="sm:border-l border-l-[#3477db] sm:h-full sm:flex items-center sm:px-5"><span class="text-xl font-[Roboto-thin] font-bold sm:text-2xl">La atenci&oacute;n es de 7:15am a 1:00pm</span></div>
                             </div>
                         </div>
                     </div>
@@ -102,7 +103,7 @@
                         <x-slot name="direccion">Prolog. Sánchez Carrión 1400 – Huamachuco</x-slot>
                         <x-slot name="telefono">949 949 494</x-slot>
                         <x-slot name="email">psicopedagogia@jfsc.edu.pe</x-slot>
-                        <x-slot name="titleRedes">Sigenos en</x-slot>
+                        <x-slot name="titleRedes">S&iacute;genos en</x-slot>
                     </x-card-servicios>
                 </div>
             </div>

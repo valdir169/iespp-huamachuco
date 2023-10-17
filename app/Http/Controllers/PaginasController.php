@@ -276,6 +276,10 @@ class PaginasController extends Controller
     }
 
 
+    public function error()
+    {
+        return view('pages.404');
+    }
 
     public function processData(Request $request)
     {

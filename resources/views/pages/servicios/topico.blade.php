@@ -45,37 +45,37 @@
                 </div>
                 <div class="card-container-topico">
                     <x-card-topico>
-                        <x-slot name="icon"><i class='bx bx-plus-medical'></i></x-slot>
+                        <x-slot name="icon"><i class='bx bx-plus-medical text-[55px] text-[#3477db]'></i></x-slot>
                         <x-slot name="title">Emergencias Médicas</x-slot>
                         <x-slot name="description">Atención inmediata y coordinación con servicios médicos de emergencia en casos de enfermedades súbitas, problemas respiratorios graves, reacciones alérgicas graves, etc.</x-slot>
                     </x-card-topico>
 
                     <x-card-topico>
-                        <x-slot name="icon"><i class='bx bx-swim' ></i></x-slot>
+                        <x-slot name="icon"><i class='bx bx-swim text-[55px] text-[#3477db]' ></i></x-slot>
                         <x-slot name="title">Lesiones Deportivas</x-slot>
                         <x-slot name="description">Asistencia para lesiones deportivas leves, como torceduras, esguinces, contusiones, y manejo inicial antes de referir a un profesional médico.</x-slot>
                     </x-card-topico>
 
                     <x-card-topico>
-                        <x-slot name="icon"><i class='bx bxs-clinic' ></i></x-slot>
+                        <x-slot name="icon"><i class='bx bxs-clinic text-[55px] text-[#3477db]' ></i></x-slot>
                         <x-slot name="title">Heridas y Cortaduras</x-slot>
                         <x-slot name="description">Atención a heridas y cortaduras menores, incluido el lavado y desinfección de la herida y la aplicación de vendajes.</x-slot>
                     </x-card-topico>
 
                     <x-card-topico>
-                        <x-slot name="icon"><i class='bx bxs-meteor' ></i></x-slot>
+                        <x-slot name="icon"><i class='bx bxs-meteor text-[55px] text-[#3477db]' ></i></x-slot>
                         <x-slot name="title">Quemaduras Leves</x-slot>
                         <x-slot name="description">Tratamiento inicial para quemaduras leves, incluido el enfriamiento de la zona afectada y la aplicación de apósitos o geles.</x-slot>
                     </x-card-topico>
 
                     <x-card-topico>
-                        <x-slot name="icon"><i class='bx bxs-virus' ></i></x-slot>
+                        <x-slot name="icon"><i class='bx bxs-virus text-[55px] text-[#3477db]' ></i></x-slot>
                         <x-slot name="title">Reacciones Alérgicas Menores</x-slot>
                         <x-slot name="description">Asistencia para reacciones alérgicas leves, como picaduras de insectos o contacto con alérgenos conocidos.</x-slot>
                     </x-card-topico>
 
                     <x-card-topico>
-                        <x-slot name="icon"><i class='bx bx-male-female' ></i></x-slot>
+                        <x-slot name="icon"><i class='bx bx-male-female text-[55px] text-[#3477db]' ></i></x-slot>
                         <x-slot name="title">Educación en Salud</x-slot>
                         <x-slot name="description">Proporcionar información educativa sobre temas de salud relevantes para los estudiantes.</x-slot>
                     </x-card-topico>
@@ -88,19 +88,19 @@
             <div>
                 <div class="grid gap-10">
                     <div>
-                        <h3  class="subtitle">Horario de atenci&oacute;n</h3>
+                        <h4 class="subtitle">Horario de atenci&oacute;n</h4>
                     </div>
                     <div class="grid gap-4">
-                        <span>Dias de atenci&oacute;n</span>
+                        <span class="font-bold">Dias de atenci&oacute;n</span>
                         <div class="grid gap-5 sm:flex items-center sm:py-5">
-                            <ul>
-                                <li><i class='bx bxs-calendar text-[#3477db]'></i><span>Lunes</span></li>
-                                <li><i class='bx bxs-calendar text-[#3477db]'></i><span>Martes</span></li>
-                                <li><i class='bx bxs-calendar text-[#3477db]'></i><span>Miercoles</span></li>
-                                <li><i class='bx bxs-calendar text-[#3477db]'></i><span>Jueves</span></li>
-                                <li><i class='bx bxs-calendar text-[#3477db]'></i><span>Viernes</span></li>
+                            <ul class="grid gap-2">
+                                <li class="flex gap-3"><i class='bx bxs-calendar text-[25px] text-[#3477db]'></i><span>Lunes</span></li>
+                                <li class="flex gap-3"><i class='bx bxs-calendar text-[25px] text-[#3477db]'></i><span>Martes</span></li>
+                                <li class="flex gap-3"><i class='bx bxs-calendar text-[25px] text-[#3477db]'></i><span>Miercoles</span></li>
+                                <li class="flex gap-3"><i class='bx bxs-calendar text-[25px] text-[#3477db]'></i><span>Jueves</span></li>
+                                <li class="flex gap-3"><i class='bx bxs-calendar text-[25px] text-[#3477db]'></i><span>Viernes</span></li>
                             </ul>
-                            <div class="sm:border-l-[2rem] sm:h-full sm:flex items-center sm:px-5"><span>La atenci&oacute;n es de 7:15 a 1:00</span></div>
+                            <div class="sm:border-l border-l-[#3477db] sm:h-full sm:flex items-center sm:px-5"><span class="text-xl font-[Roboto-thin] font-bold sm:text-2xl">La atenci&oacute;n es de 7:15am a 1:00am</span></div>
                         </div>
                     </div>
                 </div>
@@ -118,7 +118,7 @@
                 <x-slot name="direccion">Prolog. Sánchez Carrión 1400 – Huamachuco</x-slot>
                 <x-slot name="telefono">949 949 494</x-slot>
                 <x-slot name="email">psicopedagogia@jfsc.edu.pe</x-slot>
-                <x-slot name="titleRedes">Sigenos en</x-slot>
+                <x-slot name="titleRedes">S&iacute;genos en</x-slot>
             </x-card-servicios>
         </div>
     </article>

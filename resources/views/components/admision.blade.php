@@ -7,9 +7,9 @@
                 <h1 class="md:text-xl md:text-2xl xl:text-3xl  2xl:text-4xl">{{ $titulo }}</h1>
                 <p class="border-b pb-2 md:text-xl md:text-2xl xl:text-3xl  2xl:text-4xl">{{ $descripcion }}</p>
             </div>
-            <div class="md:pb-20 pb-8 lg:pb-32">
-                <p class="text-xs pr-4 md:text-sm xl:text-base">{{ $subtitulo1 }}<span class="pl-3 text-xs md:text-sm xl:text-base">{{ $subtitulo3 }}</span></p>
-                <p class="text-xs pr-4 md:text-sm xl:text-base">{{ $subtitulo2 }}<span class="pl-3 text-xs md:text-sm xl:text-base">{{ $subtitulo4 }}</span></p>
+            <div class="pb-24 md:pb-42 pb-8 lg:pb-60">
+                <p>{{ $subtitulo1 }}<span class="pl-3 text-xs md:text-sm xl:text-base">{{ $subtitulo3 }}</span></p>
+                <p>{{ $subtitulo2 }}<span class="pl-3 text-xs md:text-sm xl:text-base">{{ $subtitulo4 }}</span></p>
             </div>
         </div>
     </div>

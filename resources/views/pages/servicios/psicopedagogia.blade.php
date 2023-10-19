@@ -52,8 +52,9 @@
                             <span>Talleres</span>
                         </div>
                     </div>
-                    <div>
-                        <span>Confidencialidad y la ética en los servicios de Psicopedagía.</span>
+                    <div class="flex items-center">
+                        <i class='bx bx-lock text-[60px]'></i>
+                        <span>Confidencialidad y ética en los servicios de Psicopedagía.</span>
                     </div>
                 </div>
             </div>

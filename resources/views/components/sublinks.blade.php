@@ -1,10 +1,10 @@
 @props(['title', 'links'])
 
-<div>
-    <div class="text-sm font-black sm:text-base lg:text-xl 2xl:text-2xl"><p>{{ $title }}</p></div>
-    <ul class="text-xs mt-2 sm:text-sm">
+<div class="grid gap-4">
+    <div><p class="subtitle">{{ $title }}</p></div>
+    <ul class="grid gap-2">
         @foreach ($links as $linkText => $linkUrl)
-            <li><a href="{{ $linkUrl }}" class="hover:text-[#3277db]">{{ $linkText }}</a></li>
+            <li><a href="{{ $linkUrl }}" class="hover:text-[#3477db]">{{ $linkText }}</a></li>
         @endforeach
     </ul>
 </div>

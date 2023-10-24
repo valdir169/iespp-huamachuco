@@ -1,4 +1,4 @@
-var swiper = new Swiper(".myGallery", {
+var gallery = new Swiper(".myGallery", {
     slidesPerView: 1,
     spaceBetween: 50,
     pagination: {

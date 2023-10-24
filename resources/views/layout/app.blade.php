@@ -10,6 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel='stylesheet' href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
     @vite('resources/css/app.css')
 </head>
 
@@ -34,6 +35,8 @@
     @vite('resources/js/app.js')
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     <script src="https://cdn.lordicon.com/lordicon-1.1.0.js"></script>
+    {{-- <script src="https://cdn.lordicon.com/libs/2.0/lordicon.min.js"></script> --}}
+
 </body>
 
 </html>

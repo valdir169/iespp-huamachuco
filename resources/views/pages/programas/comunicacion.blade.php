@@ -295,7 +295,7 @@
                     <p>Aumenta mas tus posibilidades para ser parte de nuestra familia estudiantil</p>
                 </div>
                 <div class="grid gap-5 sm:grid-cols-2 lg:gap-14">
-                    <div class="text-center grid gap-2 border rounded-3xl p-8 h-[350px] lg:h-[430px] cursor-pointer hover:-translate-y-6 hover:shadow-lg shadow-[#ebebeb]">
+                    <div class="text-center grid gap-2 transition duration-300 border rounded-3xl p-8 h-[350px] lg:h-[430px] cursor-pointer hover:-translate-y-6 hover:shadow-lg shadow-[#ebebeb]">
                         <div class="flex justify-center"><div class="w-[60px] h-[60px] flex items-center justify-center rounded-full bg-[#2277db]"><span class="text-white text-3xl">I</span></div></div>
                         <span class="subtitle">Ingreso Extraordinario</span>
                         <p>Brindamos academia vacacional de una duración de 2 meses y dos semanas, de lunes a viernes, los horarios son de 7:30 a 1:00, realiza tus inscripciones en secretaria.</p>
@@ -303,7 +303,7 @@
                             <x-button type="secondary" ruta="{{route('academia')}}">Conoce Más</x-button>
                         </div>
                     </div>
-                    <div class="text-center grid gap-2 border rounded-3xl p-8 h-[350px] lg:h-[430px] cursor-pointer hover:-translate-y-6 hover:shadow-lg shadow-[#ebebeb]">
+                    <div class="text-center grid gap-2 transition duration-300 border rounded-3xl p-8 h-[350px] lg:h-[430px] cursor-pointer hover:-translate-y-6 hover:shadow-lg shadow-[#ebebeb]">
                         <div class="flex justify-center"><div class="w-[60px] h-[60px] flex items-center justify-center rounded-full bg-[#2277db]"><span class="text-white text-3xl">II</span></div></div>
                         <span class="subtitle">Ingreso Ordinario</span>
                         <p>Inscríbete en secretaria para dar tu examen de admisión.</p>

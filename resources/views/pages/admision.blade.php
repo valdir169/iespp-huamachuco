@@ -28,7 +28,7 @@
                                 de Admisión</a>
                         </div>
                         <div class="">
-                            <a href="#"class="text-white md:border-r px-3 py-2 lg:text-[#3477db] lg:border-[#3477db]">Requisitos
+                            <a href="{{route('matricula')}}"class="text-white md:border-r px-3 py-2 lg:text-[#3477db] lg:border-[#3477db]">Requisitos
                                 de Matricula</a>
                         </div>
                         <div class="">
@@ -87,7 +87,7 @@
         <article class="card__admision render">
             <div class="timeline-container__ad 2xl:justify-center">
                 <div class="timeline_admision"></div>
-            
+
                 <div class="card-ad h-[490px]">
                     <div class="card-number"><span>1</span></div>
                     <div class="card-title subtitle">Postula</div>
@@ -96,9 +96,9 @@
                         <div class="card-image"><img src="{{ asset('images/icon/postular.png') }}" alt="imgPostular"></div>
                     </div>
                 </div>
-            
+
                 <div class="timeline_admision"></div>
-            
+
                 <div class="card-ad h-[600px]">
                     <div class="card-number"><span>2</span></div>
                     <div class="card-title subtitle">Realiza los exámenes</div>
@@ -108,9 +108,9 @@
                         <div class="card-image"><img src="{{ asset('images/icon/examen.png') }}" alt="imgExamen"></div>
                     </div>
                 </div>
-            
+
                 <div class="timeline_admision"></div>
-            
+
                 <div class="card-ad h-[600px]">
                     <div class="card-number"><span>3</span></div>
                     <div class="card-title subtitle">Revisa tu resultado</div>
@@ -119,9 +119,9 @@
                         <div class="card-image"><img src="{{ asset('images/icon/resultados.png') }}" alt="imgResultados"></div>
                     </div>
                 </div>
-            
+
                 <div class="timeline_admision"></div>
-            
+
                 <div class="card-ad h-[490px]">
                     <div class="card-number"><span>4</span></div>
                     <div class="card-title subtitle">Proceso de Matrícula</div>

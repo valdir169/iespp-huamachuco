@@ -1,4 +1,4 @@
-var swiper = new Swiper(".myBrigadas", {
+var brigadas = new Swiper(".myBrigadas", {
     spaceBetween: 20,
     pagination: {
       el: ".swiper-pagination",

@@ -1,0 +1,15 @@
+.card-animation{
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.card-animation:hover {
+    transform: translateY(-15px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.cont_talleres{
+    width: 100%;
+    min-width: 100%;
+    overflow-x: auto;
+}

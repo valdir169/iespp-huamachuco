@@ -73,7 +73,7 @@
                 <div class="flex flex-col gap-6 lg:gap-8 sm:w-1/2">
                     <span class="text-[#3477db] subtitle">Podrás desempeñarte en:</span>
                     <ul class="pt-2 lg:pt-4">
-                        <li class="flex items-center"><i class='bx bx-check-circle pr-2 text-[25px]'></i><span>Instituciones Educativas de Educación Inicial (Publicas y Privadas), como Profesional Pedagógico en Idiomas, Especialidad: Ingles.</span></li>
+                        <li class="flex items-center"><i class='bx bx-check-circle pr-2 text-[25px]'></i><span>Instituciones Educativas de Educación Inicial (Publicas y Privadas), como Profesional Pedagógico en Educaci&oacute;n Inicial.</span></li>
                     </ul>
                 </div>
             </div>
@@ -134,8 +134,8 @@
                             <li class="flex items-center"><i class='bx bx-check-circle pr-2 text-[25px]'></i><span>Resolución de Problemas Matemáticos I.</span></li>
                             <li class="flex items-center"><i class='bx bx-check-circle pr-2 text-[25px]'></i><span>Desarrollo Personal I.</span></li>
                             <li class="flex items-center"><i class='bx bx-check-circle pr-2 text-[25px]'></i><span>Práctica e Investigación I.</span></li>
-                            <li class="flex items-center"><i class='bx bx-check-circle pr-2 text-[25px]'></i><span>Educación y Sociedad en el siglo XXI.</span></li>
-                            <li class="flex items-center"><i class='bx bx-check-circle pr-2 text-[25px]'></i><span>English I.</span></li>
+                            <li class="flex items-center"><i class='bx bx-check-circle pr-2 text-[25px]'></i><span>Fundamentos de la Educación Inicial.</span></li>
+                            <li class="flex items-center"><i class='bx bx-check-circle pr-2 text-[25px]'></i><span>nteracciones de calidad y desarrollo en la Primera Infancia I.</span></li>
                         </ul>
                     </div>
                 </div>
@@ -151,8 +151,8 @@
                             <li class="flex items-center"><i class='bx bx-check-circle pr-2 text-[25px]'></i><span>Resolución de Problemas Matemáticos II.</span></li>
                             <li class="flex items-center"><i class='bx bx-check-circle pr-2 text-[25px]'></i><span>Historia, Sociedad y Diversidad.</span></li>
                             <li class="flex items-center"><i class='bx bx-check-circle pr-2 text-[25px]'></i><span>Práctica e Investigación II.</span></li>
-                            <li class="flex items-center"><i class='bx bx-check-circle pr-2 text-[25px]'></i><span>Niñez y adolescencias: Desarrollo, Cambios e Identidades.</span></li>
-                            <li class="flex items-center"><i class='bx bx-check-circle pr-2 text-[25px]'></i><span>English II.</span></li>
+                            <li class="flex items-center"><i class='bx bx-check-circle pr-2 text-[25px]'></i><span>Planificación por Competencias y Evaluación para el aprendizaje I.</span></li>
+                            <li class="flex items-center"><i class='bx bx-check-circle pr-2 text-[25px]'></i><span>Interacciones de calidad y desarrollo en la Primera Infancia II.</span></li>
                         </ul>
                     </div>
                 </div>
@@ -164,12 +164,13 @@
                     </div>
                     <div class="text-white">
                         <ul class="grid gap-2">
-                            <li class="flex items-center"><i class='bx bx-check-circle pr-2 text-[25px]'></i><span>Ciencia y Epistemologías.</span></li>
                             <li class="flex items-center"><i class='bx bx-check-circle pr-2 text-[25px]'></i><span>Arte, Creatividad y Aprendizaje.</span></li>
+                            <li class="flex items-center"><i class='bx bx-check-circle pr-2 text-[25px]'></i><span>Inglés para Principiantes I / Beginner English I A1.</span></li>
+                            <li class="flex items-center"><i class='bx bx-check-circle pr-2 text-[25px]'></i><span>Desarrollo Personal II.</span></li>
                             <li class="flex items-center"><i class='bx bx-check-circle pr-2 text-[25px]'></i><span>Práctica e Investigación III.</span></li>
-                            <li class="flex items-center"><i class='bx bx-check-circle pr-2 text-[25px]'></i><span>Niñez, adolescencias y aprendizajes.</span></li>
-                            <li class="flex items-center"><i class='bx bx-check-circle pr-2 text-[25px]'></i><span>Planificación, Mediación y Evaluación de los Aprendizajes I.</span></li>
-                            <li class="flex items-center"><i class='bx bx-check-circle pr-2 text-[25px]'></i><span>English III.</span></li>
+                            <li class="flex items-center"><i class='bx bx-check-circle pr-2 text-[25px]'></i><span>Desarrollo personal y social en la primera infancia.</span></li>
+                            <li class="flex items-center"><i class='bx bx-check-circle pr-2 text-[25px]'></i><span>Juego, Desarrollo y Aprendizaje en la Primera Infancia.</span></li>
+                            <li class="flex items-center"><i class='bx bx-check-circle pr-2 text-[25px]'></i><span>Curso Electivo 1.</span></li>
                         </ul>
                     </div>
                 </div>
@@ -181,12 +182,13 @@
                     </div>
                     <div class="text-white">
                         <ul class="grid gap-2">
+                            <li class="flex items-center"><i class='bx bx-check-circle pr-2 text-[25px]'></i><span>Ciencia y Epistemologías.</span></li>
+                            <li class="flex items-center"><i class='bx bx-check-circle pr-2 text-[25px]'></i><span>Inglés para Principiantes II / Beginner English II A1.</span></li>
                             <li class="flex items-center"><i class='bx bx-check-circle pr-2 text-[25px]'></i><span>Deliberación y Participación.</span></li>
                             <li class="flex items-center"><i class='bx bx-check-circle pr-2 text-[25px]'></i><span>Práctica e Investigación IV.</span></li>
-                            <li class="flex items-center"><i class='bx bx-check-circle pr-2 text-[25px]'></i><span>Planificación, Mediación y Evaluación de los Aprendizajes II.</span></li>
-                            <li class="flex items-center"><i class='bx bx-check-circle pr-2 text-[25px]'></i><span>Educación Sexual Integral.</span></li>
-                            <li class="flex items-center"><i class='bx bx-check-circle pr-2 text-[25px]'></i><span>Approaches and methods in language teaching.</span></li>
-                            <li class="flex items-center"><i class='bx bx-check-circle pr-2 text-[25px]'></i><span>English IV.</span></li>
+                            <li class="flex items-center"><i class='bx bx-check-circle pr-2 text-[25px]'></i><span>Inclusión Educativa para la Atención a la Diversidad.</span></li>
+                            <li class="flex items-center"><i class='bx bx-check-circle pr-2 text-[25px]'></i><span>Planificación por Competencias y Evaluación para el aprendizaje II.</span></li>
+                            <li class="flex items-center"><i class='bx bx-check-circle pr-2 text-[25px]'></i><span>Curso Electivo 2.</span></li>
                         </ul>
                     </div>
                 </div>
@@ -199,10 +201,12 @@
                     <div class="text-white">
                         <ul class="grid gap-2">
                             <li class="flex items-center"><i class='bx bx-check-circle pr-2 text-[25px]'></i><span>Literatura y Sociedad en Contextos Diversos.</span></li>
+                            <li class="flex items-center"><i class='bx bx-check-circle pr-2 text-[25px]'></i><span>Inglés para Principiantes III / Beginner English II A2.</span></li>
                             <li class="flex items-center"><i class='bx bx-check-circle pr-2 text-[25px]'></i><span>Práctica e Investigación V.</span></li>
-                            <li class="flex items-center"><i class='bx bx-check-circle pr-2 text-[25px]'></i><span>Culturas Escolares y Cambio Educativo.</span></li>
-                            <li class="flex items-center"><i class='bx bx-check-circle pr-2 text-[25px]'></i><span>Linguistics for English Teachers.</span></li>
-                            <li class="flex items-center"><i class='bx bx-check-circle pr-2 text-[25px]'></i><span>English V.</span></li>
+                            <li class="flex items-center"><i class='bx bx-check-circle pr-2 text-[25px]'></i><span>Desarrollo del Pensamiento.</span></li>
+                            <li class="flex items-center"><i class='bx bx-check-circle pr-2 text-[25px]'></i><span>Desarrollo de la Psicomotricidad en la Primera Infancia.</span></li>
+                            <li class="flex items-center"><i class='bx bx-check-circle pr-2 text-[25px]'></i><span>Desarrollo de la Comunicación en la Primera Infancia.</span></li>
+                            <li class="flex items-center"><i class='bx bx-check-circle pr-2 text-[25px]'></i><span>Curso Electivo 3.</span></li>
                         </ul>
                     </div>
                 </div>
@@ -214,11 +218,13 @@
                     </div>
                     <div class="text-white">
                         <ul class="grid gap-2">
-                            <li class="flex items-center"><i class='bx bx-check-circle pr-2 text-[25px]'></i><span>Ética y Filosofía para el Pensamiento Crítico.</span></li>
+                            <li class="flex items-center"><i class='bx bx-check-circle pr-2 text-[25px]'></i><span>Alfabetización Científica .</span></li>
+                            <li class="flex items-center"><i class='bx bx-check-circle pr-2 text-[25px]'></i><span>Inglés para Principiantes IV / Beginner English IV A2.</span></li>
                             <li class="flex items-center"><i class='bx bx-check-circle pr-2 text-[25px]'></i><span>Práctica e Investigación VI.</span></li>
-                            <li class="flex items-center"><i class='bx bx-check-circle pr-2 text-[25px]'></i><span>Planificación, Mediación y Evaluación de los Aprendizajes III.</span></li>
-                            <li class="flex items-center"><i class='bx bx-check-circle pr-2 text-[25px]'></i><span>Literature perspectives I.</span></li>
-                            <li class="flex items-center"><i class='bx bx-check-circle pr-2 text-[25px]'></i><span>English VI.</span></li>
+                            <li class="flex items-center"><i class='bx bx-check-circle pr-2 text-[25px]'></i><span>Convivencia y Ciudadanía en la Primera Infancia.</span></li>
+                            <li class="flex items-center"><i class='bx bx-check-circle pr-2 text-[25px]'></i><span>Desarrollo de la Matemática en la primera Infancia.</span></li>
+                            <li class="flex items-center"><i class='bx bx-check-circle pr-2 text-[25px]'></i><span>Expresión del Arte en la primera Infancia.</span></li>
+                            <li class="flex items-center"><i class='bx bx-check-circle pr-2 text-[25px]'></i><span>Curso Electivo 4.</span></li>
                         </ul>
                     </div>
                 </div>
@@ -230,11 +236,12 @@
                     </div>
                     <div class="text-white">
                         <ul class="grid gap-2">
-                            <li class="flex items-center"><i class='bx bx-check-circle pr-2 text-[25px]'></i><span>Desarrollo Personal II.</span></li>
+                            <li class="flex items-center"><i class='bx bx-check-circle pr-2 text-[25px]'></i><span>Ética y Filosofía para el Pensamiento Crítico.</span></li>
                             <li class="flex items-center"><i class='bx bx-check-circle pr-2 text-[25px]'></i><span>Práctica e Investigación VII.</span></li>
-                            <li class="flex items-center"><i class='bx bx-check-circle pr-2 text-[25px]'></i><span>Convivencia Escolar y Orientación Educativa.</span></li>
-                            <li class="flex items-center"><i class='bx bx-check-circle pr-2 text-[25px]'></i><span>Applied linguistics.</span></li>
-                            <li class="flex items-center"><i class='bx bx-check-circle pr-2 text-[25px]'></i><span>English VII.</span></li>
+                            <li class="flex items-center"><i class='bx bx-check-circle pr-2 text-[25px]'></i><span>Gestión de la Atención y Cuidado Infantil.</span></li>
+                            <li class="flex items-center"><i class='bx bx-check-circle pr-2 text-[25px]'></i><span>Desarrollo de la Creatividad en la Primera Infancia.</span></li>
+                            <li class="flex items-center"><i class='bx bx-check-circle pr-2 text-[25px]'></i><span>Aprendizaje y enseñanza de la Ciencia en ciclo II.</span></li>
+                            <li class="flex items-center"><i class='bx bx-check-circle pr-2 text-[25px]'></i><span>Curso Electivo 5.</span></li>
                         </ul>
                     </div>
                 </div>
@@ -247,9 +254,10 @@
                     <div class="text-white">
                         <ul class="grid gap-2">
                             <li class="flex items-center"><i class='bx bx-check-circle pr-2 text-[25px]'></i><span>Práctica e Investigación VIII.</span></li>
-                            <li class="flex items-center"><i class='bx bx-check-circle pr-2 text-[25px]'></i><span>Gestión de Aprendizajes para la Atención a la Diversidad.</span></li>
-                            <li class="flex items-center"><i class='bx bx-check-circle pr-2 text-[25px]'></i><span>Literature perspectives II.</span></li>
-                            <li class="flex items-center"><i class='bx bx-check-circle pr-2 text-[25px]'></i><span>English VIII.</span></li>
+                            <li class="flex items-center"><i class='bx bx-check-circle pr-2 text-[25px]'></i><span>Políticas y Gestión para el Servicio Educativo.</span></li>
+                            <li class="flex items-center"><i class='bx bx-check-circle pr-2 text-[25px]'></i><span>Planificación por Competencias y Evaluación para el Aprendizaje III.</span></li>
+                            <li class="flex items-center"><i class='bx bx-check-circle pr-2 text-[25px]'></i><span>Atención a las Necesidades Educativas Especiales.</span></li>
+                            <li class="flex items-center"><i class='bx bx-check-circle pr-2 text-[25px]'></i><span>Curso Electivo 6.</span></li>
                         </ul>
                     </div>
                 </div>
@@ -262,7 +270,7 @@
                     <div class="text-white">
                         <ul class="grid gap-2">
                             <li class="flex items-center"><i class='bx bx-check-circle pr-2 text-[25px]'></i><span>Práctica e Investigación IX.</span></li>
-                            <li class="flex items-center"><i class='bx bx-check-circle pr-2 text-[25px]'></i><span>English, communities and cultures.</span></li>
+                            <li class="flex items-center"><i class='bx bx-check-circle pr-2 text-[25px]'></i><span>Gestión de los Servicios Educativos en Educación Inicia.</span></li>
                         </ul>
                     </div>
                 </div>
@@ -275,7 +283,7 @@
                     <div class="text-white">
                         <ul class="grid gap-2">
                             <li class="flex items-center"><i class='bx bx-check-circle pr-2 text-[25px]'></i><span>Práctica e Investigación X.</span></li>
-                            <li class="flex items-center"><i class='bx bx-check-circle pr-2 text-[25px]'></i><span>Políticas y Gestión Territorial del Servicio Educativo.</span></li>
+                            <li class="flex items-center"><i class='bx bx-check-circle pr-2 text-[25px]'></i><span>Escuela, Familia y Comunidad.</span></li>
                         </ul>
                     </div>
                 </div>

@@ -128,85 +128,103 @@
                 <div>
                     <h4 class="subtitle">Preguntas frecuentes sobre el Servicio de Biblioteca</h4>
                 </div>
-                <div class="desplegable_servicios">
+                <div class="desplegable_servicios grid gap-4">
                     <div class="desplegable-item">
-                        <div class="icon-container desplegable-item-list">
-                            <i class='bx bx-plus'></i>
-                        </div>
-                        <div>
+                        <div class="desplegable-item__content">
+                            <div class="icon-container desplegable-item-list w-[40px] bg-[#3477db] flex items-center justify-center text-white hover:bg-[#ebebeb] hover:text-black py-3 px-6">
+                                <i class='bx bx-plus'></i>
+                            </div>
                             <div class="desplegable-item-list"><span>¿QUÉ ES EL SERVICIO DE TÓPICO?</span></div>
+                        </div>
+                        <div>
                             <div class="desplegable-item-content">Profesional en la salud, que cumple la labor de orientar a los estudiantes cuando presentan alguna dificultad mental, emocional, académica y/o social.</div>
                         </div>
                     </div>
                     <div class="desplegable-item">
-                        <div class="icon-container desplegable-item-list">
-                            <i class='bx bx-plus'></i>
-                        </div>
-                        <div>
+                        <div class="desplegable-item__content">
+                            <div class="icon-container desplegable-item-list w-[40px] bg-[#3477db] flex items-center justify-center text-white hover:bg-[#ebebeb] hover:text-black py-3 px-6">
+                                <i class='bx bx-plus'></i>
+                            </div>
                             <div class="desplegable-item-list"><span>¿CÓMO PUEDO OBTENER EL SERVICO?</span></div>
+                        </div>
+                        <div>
                             <div class="desplegable-item-content">Profesional en la salud, que cumple la labor de orientar a los estudiantes cuando presentan alguna dificultad mental, emocional, académica y/o social.</div>
                         </div>
                     </div>
                     <div class="desplegable-item">
-                        <div class="icon-container desplegable-item-list">
-                            <i class='bx bx-plus'></i>
-                        </div>
-                        <div>
+                        <div class="desplegable-item__content">
+                            <div class="icon-container desplegable-item-list w-[40px] bg-[#3477db] flex items-center justify-center text-white hover:bg-[#ebebeb] hover:text-black py-3 px-6">
+                                <i class='bx bx-plus'></i>
+                            </div>
                             <div class="desplegable-item-list"><span>¿EN QUÉ SITUACIONES PUEDO BUSCAR AYUDA DEL SERVICIO DE TÓPICO?</span></div>
+                        </div>
+                        <div>
                             <div class="desplegable-item-content">Profesional en la salud, que cumple la labor de orientar a los estudiantes cuando presentan alguna dificultad mental, emocional, académica y/o social.</div>
                         </div>
                     </div>
                     <div class="desplegable-item">
-                        <div class="icon-container desplegable-item-list">
-                            <i class='bx bx-plus'></i>
-                        </div>
-                        <div>
+                        <div class="desplegable-item__content">
+                            <div class="icon-container desplegable-item-list w-[40px] bg-[#3477db] flex items-center justify-center text-white hover:bg-[#ebebeb] hover:text-black py-3 px-6">
+                                <i class='bx bx-plus'></i>
+                            </div>
                             <div class="desplegable-item-list"><span>¿ES NECESARIO AGENDAR UNA CITA PARA RECIBIR ATENCIÓN DEL SERVICIO DE TÓPICO?</span></div>
+                        </div>
+                        <div>
                             <div class="desplegable-item-content">Profesional en la salud, que cumple la labor de orientar a los estudiantes cuando presentan alguna dificultad mental, emocional, académica y/o social.</div>
                         </div>
                     </div>
                     <div class="desplegable-item">
-                        <div class="icon-container desplegable-item-list">
-                            <i class='bx bx-plus'></i>
-                        </div>
-                        <div>
+                        <div class="desplegable-item__content">
+                            <div class="icon-container desplegable-item-list w-[40px] bg-[#3477db] flex items-center justify-center text-white hover:bg-[#ebebeb] hover:text-black py-3 px-6">
+                                <i class='bx bx-plus'></i>
+                            </div>
                             <div class="desplegable-item-list"><span>¿QUIÉNES SON LOS PROFESIONALES ENCARGADOS DE BRINDAR ATENCIÓN EN EL SERVICIO DE TÓPICO?</span></div>
+                        </div>
+                        <div>
                             <div class="desplegable-item-content">Profesional en la salud, que cumple la labor de orientar a los estudiantes cuando presentan alguna dificultad mental, emocional, académica y/o social.</div>
                         </div>
                     </div>
                     <div class="desplegable-item">
-                        <div class="icon-container desplegable-item-list">
-                            <i class='bx bx-plus'></i>
-                        </div>
-                        <div>
+                        <div class="desplegable-item__content">
+                            <div class="icon-container desplegable-item-list w-[40px] bg-[#3477db] flex items-center justify-center text-white hover:bg-[#ebebeb] hover:text-black py-3 px-6">
+                                <i class='bx bx-plus'></i>
+                            </div>
                             <div class="desplegable-item-list"><span>¿EL SERVICIO DE TÓPICO TIENE ALGUN COSTO?</span></div>
+                        </div>
+                        <div>
                             <div class="desplegable-item-content">Profesional en la salud, que cumple la labor de orientar a los estudiantes cuando presentan alguna dificultad mental, emocional, académica y/o social.</div>
                         </div>
                     </div>
                     <div class="desplegable-item">
-                        <div class="icon-container desplegable-item-list">
-                            <i class='bx bx-plus'></i>
-                        </div>
-                        <div>
+                        <div class="desplegable-item__content">
+                            <div class="icon-container desplegable-item-list w-[40px] bg-[#3477db] flex items-center justify-center text-white hover:bg-[#ebebeb] hover:text-black py-3 px-6">
+                                <i class='bx bx-plus'></i>
+                            </div>
                             <div class="desplegable-item-list"><span>¿EL SERVICIO DE TÓPICO OFRECE ATENCIÓN FUERA DEL HORARIO REGULAR DE LA UNIVERSIDAD?</span></div>
+                        </div>
+                        <div>
                             <div class="desplegable-item-content">Profesional en la salud, que cumple la labor de orientar a los estudiantes cuando presentan alguna dificultad mental, emocional, académica y/o social.</div>
                         </div>
                     </div>
                     <div class="desplegable-item">
-                        <div class="icon-container desplegable-item-list">
-                            <i class='bx bx-plus'></i>
-                        </div>
-                        <div>
+                        <div class="desplegable-item__content">
+                            <div class="icon-container desplegable-item-list w-[40px] bg-[#3477db] flex items-center justify-center text-white hover:bg-[#ebebeb] hover:text-black py-3 px-6">
+                                <i class='bx bx-plus'></i>
+                            </div>
                             <div class="desplegable-item-list"><span>¿QUÉ DEBO HACER EN CASO DE UNA LESIÓN MÁS GRAVE QUE REQUIERA ATENCIÓN MÉDICA ESPECIALIZADA?</span></div>
+                        </div>
+                        <div>
                             <div class="desplegable-item-content">Profesional en la salud, que cumple la labor de orientar a los estudiantes cuando presentan alguna dificultad mental, emocional, académica y/o social.</div>
                         </div>
                     </div>
                     <div class="desplegable-item">
-                        <div class="icon-container desplegable-item-list">
-                            <i class='bx bx-plus'></i>
+                        <div class="desplegable-item__content">
+                            <div class="icon-container desplegable-item-list w-[40px] bg-[#3477db] flex items-center justify-center text-white hover:bg-[#ebebeb] hover:text-black py-3 px-6">
+                                <i class='bx bx-plus'></i>
+                            </div>
+                            <div class="desplegable-item-list"><span>¿PUEDO ACCEDER A SERVICIOS DE TÓPICO SI NO SOY ESTUDIANTE?</span></div>
                         </div>
                         <div>
-                            <div class="desplegable-item-list"><span>¿PUEDO ACCEDER A SERVICIOS DE PSICOLOGÍA SI NO SOY ESTUDIANTE?</span></div>
                             <div class="desplegable-item-content">Profesional en la salud, que cumple la labor de orientar a los estudiantes cuando presentan alguna dificultad mental, emocional, académica y/o social.</div>
                         </div>
                     </div>

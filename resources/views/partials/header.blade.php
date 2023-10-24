@@ -1,109 +1,126 @@
 <header class="render py-2 navbar sticky top-0">
+
+    {{-- container for logo --}}
     <div class="logo-container">
         <img src={{ asset('images/logo.png') }} alt="Iespp Huamachuco" class="w-full h-full">
     </div>
 
-    <nav class="w-full absolute nav-menu">
-        <ul class="flex flex-col h-full center items-center px-14 md:gap-2 xl:gap-4 shrink-0 ">
-            <li class="nav-link">
-                <a href="/" class="w-full flex">Inicio</a>
+    {{-- container for nav --}}
+    <nav class="w-full nav-menu">
+        <ul
+            class="nav-ul flex flex-col justify-start items-center lg:flex-row px-8 sm:px-12 py-4 lg:px-0 lg:justify-end">
+            <li class="list-item">
+                <a href="/" class="w-full link-button-click">Inicio</a>
             </li>
 
-            <li class="nav-link ">
-                <a class="w-full flex justify-between items-center gap-1 item-active">Institución
-                    <i class='bx bx-chevron-down text-xl'></i>
-                </a>
+            <li class=" w-full list-item">
+                <div class="link-button-click">
+                    <span class="w-full flex justify-between items-center gap-1">Institución
+                    </span>
+                    <i class='bx bx-chevron-right text-2xl list-arrow'></i>
+                </div>
 
                 <ul class="submenu">
-                    <li><a href="{{ route('presentacion') }}">Presentación</a></li>
-                    <li><a href="{{ route('historia') }}">Historia</a></li>
-                    <li><a href="{{ route('nosotros') }}">Misión, Visión y Valores</a></li>
-                    <li><a href="{{ route('organigrama') }}">Organigrama</a></li>
-                    <li><a href="{{ route('directorio') }}">Directorio Institucional</a></li>
-                    <li><a href="#">Reglamento Institucional</a></li>
-                    <li><a href="{{ route('plana-docente') }}">Plana Docente</a></li>
+                    <li><a class="nav-link" href="{{ route('presentacion') }}">Presentación</a></li>
+                    <li><a class="nav-link" href="{{ route('historia') }}">Historia</a></li>
+                    <li><a class="nav-link" href="{{ route('nosotros') }}">Misión, Visión y Valores</a></li>
+                    <li><a class="nav-link" href="{{ route('organigrama') }}">Organigrama</a></li>
+                    <li><a class="nav-link" href="{{ route('directorio') }}">Directorio Institucional</a></li>
+                    <li><a class="nav-link" href="#">Reglamento Institucional</a></li>
+                    <li><a class="nav-link" href="{{ route('plana-docente') }}">Plana Docente</a></li>
                 </ul>
             </li>
 
-            <li class="nav-link">
-                <a class="w-full flex justify-between items-center gap-1">Programas
-                    <i class='bx bx-chevron-down'></i>
-                </a>
+            <li class="w-full list-item">
+                <div class="link-button-click">
+                    <span class="w-full flex justify-between items-center gap-1">Programas</span>
+                    <i class='bx bx-chevron-right text-2xl list-arrow'></i>
+                </div>
+
                 <ul class="submenu">
-                    <li><a href="{{ route('ingles') }}">Ingles</a></li>
-                    <li><a href="{{ route('inicial') }}">Educación Inicial</a></li>
-                    <li><a href="{{ route('comunicacion') }}">Comunicación</a></li>
+                    <li><a class="nav-link" href="{{ route('ingles') }}">Ingles</a></li>
+                    <li><a class="nav-link" href="{{ route('inicial') }}">Educación Inicial</a></li>
+                    <li><a class="nav-link" href="{{ route('comunicacion') }}">Comunicación</a></li>
                 </ul>
             </li>
 
-            <li class="nav-link">
-                <a class="w-full flex justify-between items-center gap-1">Admisión
-                    <i class='bx bx-chevron-down'></i>
-                </a>
+            <li class="w-full list-item">
+                <div class="link-button-click">
+                    <span class="w-full flex justify-between items-center gap-1">Admisión</span>
+                    <i class='bx bx-chevron-right text-2xl list-arrow'></i>
+                </div>
+
                 <ul class="submenu">
-                    <li><a href="{{ route('admision') }}">Admisión 2024</a></li>
-                    <li><a href="{{ route('modalidad_admision') }}">Becas y Creditos</a></li>
+                    <li><a class="nav-link" href="{{ route('admision') }}">Admisión 2024</a></li>
+                    <li><a class="nav-link" href="{{ route('modalidad_admision') }}">Becas y Creditos</a></li>
                 </ul>
             </li>
 
-            <li class="nav-link">
-                <a class="w-full flex justify-between items-center gap-1">Transparencia
-                    <i class='bx bx-chevron-down'></i>
-                </a>
+            <li class="w-full list-item">
+                <div class="link-button-click">
+                    <span class="w-full flex justify-between items-center gap-1">Transparencia</span>
+                    <i class='bx bx-chevron-right text-2xl list-arrow'></i>
+                </div>
 
                 <ul class="submenu">
-                    <li><a href="{{ route('licenciamiento') }}">Licenciamiento</a></li>
-                    <li><a href="{{ route('documentos-gestion') }}">Documentos de Gestión</a></li>
-                    <li><a href="#">Convocatorias Laborales</a></li>
-                    <li><a href="{{ route('calendario-academico') }}">Calendario Académico</a></li>
-                    <li><a href="{{ route('convenios') }}">Convenios</a></li>
-                    <li><a href="{{ route('inversiones-donaciones') }}">Inversiones y Donaciones</a></li>
-                    <li><a href="#">Estadísticas</a></li>
-                    <li><a href="#">Denuncias y Reclamos</a></li>
-                    <li><a href="{{ route('documentos-transparencia') }}">Documentos de transparencia</a></li>
+                    <li><a class="nav-link" href="{{ route('licenciamiento') }}">Licenciamiento</a></li>
+                    <li><a class="nav-link" href="{{ route('documentos-gestion') }}">Documentos de Gestión</a></li>
+                    <li><a class="nav-link" href="#">Convocatorias Laborales</a></li>
+                    <li><a class="nav-link" href="{{ route('calendario-academico') }}">Calendario Académico</a></li>
+                    <li><a class="nav-link" href="{{ route('convenios') }}">Convenios</a></li>
+                    <li><a class="nav-link" href="{{ route('inversiones-donaciones') }}">Inversiones y Donaciones</a>
+                    </li>
+                    <li><a class="nav-link" href="#">Estadísticas</a></li>
+                    <li><a class="nav-link" href="#">Denuncias y Reclamos</a></li>
+                    <li><a class="nav-link" href="{{ route('documentos-transparencia') }}">Documentos de
+                            transparencia</a></li>
                 </ul>
             </li>
 
 
 
-            <li class="nav-link">
-                <a class="w-full flex justify-between items-center gap-1">Servicios
-                    <i class='bx bx-chevron-down'></i>
-                </a>
+            <li class="w-full list-item">
+                <div class="link-button-click">
+                    <span class="w-full flex justify-between items-center gap-1">Servicios</span>
+                    <i class='bx bx-chevron-right text-2xl list-arrow'></i>
+                </div>
 
                 <ul class="submenu">
-                    <li><a href="{{route('biblioteca')}}">Biblioteca</a></li>
-                    <li><a href="{{route('brigadistas')}}">Capacitacion de Brigadistas</a></li>
-                    <li><a href="{{route('topico')}}">Tópico</a></li>
-                    <li><a href="{{route('talleres')}}">Talleres</a></li>
-                    <li><a href="{{route('psicopedagogia')}}">Psicopedagogia</a></li>
+                    <li><a class="nav-link" href="{{ route('biblioteca') }}">Biblioteca</a></li>
+                    <li><a class="nav-link" href="{{ route('brigadistas') }}">Capacitacion de Brigadistas</a></li>
+                    <li><a class="nav-link" href="{{ route('topico') }}">Tópico</a></li>
+                    <li><a class="nav-link" href="{{ route('talleres') }}">Talleres</a></li>
+                    <li><a class="nav-link" href="{{ route('psicopedagogia') }}">Psicopedagogia</a></li>
                 </ul>
             </li>
 
-            <li class="nav-link">
-                <a class="w-full flex justify-between items-center gap-1">Trámites
-                    <i class='bx bx-chevron-down'></i>
-                </a>
+            <li class="w-full list-item">
+                <div class="link-button-click">
+                    <span  class="w-full flex justify-between items-center gap-1">Trámites                </span>
+                    <i class='bx bx-chevron-right text-2xl list-arrow'></i>
+                </div>
 
                 <ul class="submenu">
-                    <li><a href="{{ route('contacto') }}">Contáctanos</a></li>
-                    <li><a href="{{ route('matricula') }}">Matrícula</a></li>
+                    <li><a class="nav-link" href="{{ route('contacto') }}">Contáctanos</a></li>
+                    <li><a class="nav-link" href="{{ route('matricula') }}">Matrícula</a></li>
                 </ul>
             </li>
 
-            <li class="nav-link">
-                <a class="w-full flex justify-between items-center gap-1">Otros
-                    <i class='bx bx-chevron-down'></i>
-                </a>
+            <li class="w-full list-item">
+                <div class="link-button-click">
+                    <span class="w-full flex justify-between items-center gap-1">Otros </span>
+                    <i class='bx bx-chevron-right text-2xl list-arrow'></i>
+                </div>
 
                 <ul class="submenu">
-                    <li><a href="{{ route('galeria') }}">Galería</a></li>
-                    <li><a href="#">Eva</a></li>
+                    <li><a class="nav-link" href="{{ route('galeria') }}">Galería</a></li>
+                    <li><a class="nav-link" href="#">Eva</a></li>
                 </ul>
             </li>
         </ul>
     </nav>
 
+    {{-- button for menu responsive --}}
     <button class="btn-menu" type="button">
         <i class='bx bx-menu'></i>
     </button>

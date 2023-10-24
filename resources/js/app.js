@@ -3,7 +3,7 @@ import './contador'
 import './presentacion'
 import './planaDocente'
 import './servicios'
-import './index'
+import './experiences'
 import './gallery'
 
 import './bootstrap';

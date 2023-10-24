@@ -2,9 +2,10 @@ import contador from "./contador";
 
 document.addEventListener('DOMContentLoaded', () => {
     navBar(".btn-menu", ".nav-menu");
-    subMenu(".nav-link", ".submenu");
+    subMenu(".link-button-click");
     contador();
     topMenu(".navbar")
+    scrollTopMenu(".btn-scroll-top");
 });
 
 function navBar(btn, menu) {
@@ -16,39 +17,59 @@ function navBar(btn, menu) {
             document.body.classList.toggle("is-open")
 
             let width = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
-            width > 820 ? document.querySelector(".navbar").classList.remove("bg-white") : document.querySelector(".navbar").classList.toggle("bg-white");
-
-            document.querySelector(".btn-menu").classList.toggle("text-black");
+            width > 1024 ? document.querySelector(".navbar").classList.remove("bg-[#3477db]") : document.querySelector(".navbar").classList.toggle("bg-[#3477db]");
+            document.querySelector(".btn-menu").classList.toggle("text-white");
+            e.stopPropagation()
         }
+
+        if (e.target.matches(menu)) {
+            document.querySelector(menu).classList.remove("open")
+            document.querySelector(btn).classList.remove("open")
+            document.body.classList.toggle("is-open")
+
+            let width = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+            width > 1024 ? document.querySelector(".navbar").classList.remove("bg-[#3477db]") : document.querySelector(".navbar").classList.toggle("bg-[#3477db]");
+            document.querySelector(".btn-menu").classList.toggle("text-white");
+            e.stopPropagation()
+        }
+
+
     })
 }
 
-function subMenu(navLink, menu) {
+function subMenu(navLink) {
     const navLinkSelectors = document.querySelectorAll(navLink);
-    const menuSelector = document.querySelectorAll(menu);
 
-    navLinkSelectors.forEach((link) => {
-        link.addEventListener("click", e => {
-            const submenu = link.querySelector(menu);
-            submenu.classList.toggle("is-open");
-            e.stopPropagation();
+    function clickHandler(e) {
+        this.classList.toggle("arrow-down")
+        let height = 0
+        let submenu = this.nextElementSibling
+        // console.log(submenu.scrollHeight)
+        if (submenu.clientHeight === 0) {
+            height = submenu.scrollHeight
+        }
+        submenu.style.height = `${height}px`
+    }
 
-            let width = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
-            const elements = document.querySelectorAll(".submenu")
-
-            if (width > 820) {
-                elements.forEach(e => {
-                    e.classList.remove("is-open")
-                })
-            }
-        })
+    navLinkSelectors.forEach((item) => {
+        item.addEventListener("click", clickHandler)
     })
 
-    document.addEventListener("click", () => {
-        menuSelector.forEach(sub => {
-            sub.classList.remove("is-open");
-        })
-    })
+
+    function removeClickHandler() {
+        const width = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+        if (width > 1024) {
+            navLinkSelectors.forEach(item => {
+                item.removeEventListener("click", clickHandler)
+            })
+        } else {
+            navLinkSelectors.forEach(item => {
+                item.addEventListener("click", clickHandler)
+            })
+        }
+    }
+    removeClickHandler()
+    window.addEventListener("resize", removeClickHandler)
 }
 
 
@@ -62,6 +83,25 @@ function topMenu(menu) {
 
     document.addEventListener("click", e => {
         if (e.target.matches(menu)) {
+            window.scrollTo({
+                behavior: "smooth",
+                top: 0
+            })
+        }
+    });
+}
+
+
+function scrollTopMenu(button) {
+    const scrollButton = document.querySelector(button)
+
+    window.addEventListener("scroll", e => {
+        let scrollToTop = window.pageYOffset || document.documentElement.scrollTop;
+        scrollToTop > 180 ? scrollButton.classList.remove("hidden") : scrollButton.classList.add("hidden");
+    });
+
+    document.addEventListener("click", e => {
+        if (scrollButton.contains(e.target)) {
             window.scrollTo({
                 behavior: "smooth",
                 top: 0

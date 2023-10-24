@@ -1,10 +1,22 @@
 .desplegable-item{
     display: flex;
+    flex-direction: column;
+}
+
+.desplegable-item__content{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.desplegable-item-list{
+    cursor: pointer !important;
 }
 
 .desplegable-item-content {
     display: none;
     padding: 10px;
     border: 1px solid #ccc;
-    margin-top: 5px;
+    margin: 25px 0px;
+    margin-left: 70px;
 }

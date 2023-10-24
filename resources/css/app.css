@@ -24,6 +24,10 @@
 @import url('./pages/gallery.css');
 @import url('./pages/admision.css');
 
+/* Services */
+@import url('./pages/brigadas.css');
+@import url('./pages/animacion.css');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

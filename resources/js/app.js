@@ -5,5 +5,6 @@ import './planaDocente'
 import './servicios'
 import './index'
 import './gallery'
+import './brigadistas'
 
 import './bootstrap';

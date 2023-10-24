@@ -17,7 +17,8 @@
                 <div class="link-button-click">
                     <span class="w-full flex justify-between items-center gap-1">Institución
                     </span>
-                    <i class='bx bx-chevron-right text-2xl list-arrow'></i>
+                    <i class='bx bx-chevron-right text-2xl lg:hidden list-arrow'></i>
+                    <i class='bx bx-chevron-down text-2xl hidden lg:block list-arrow'></i>
                 </div>
 
                 <ul class="submenu">
@@ -34,7 +35,8 @@
             <li class="w-full list-item">
                 <div class="link-button-click">
                     <span class="w-full flex justify-between items-center gap-1">Programas</span>
-                    <i class='bx bx-chevron-right text-2xl list-arrow'></i>
+                    <i class='bx bx-chevron-right text-2xl lg:hidden list-arrow'></i>
+                    <i class='bx bx-chevron-down text-2xl hidden lg:block list-arrow'></i>
                 </div>
 
                 <ul class="submenu">
@@ -47,7 +49,8 @@
             <li class="w-full list-item">
                 <div class="link-button-click">
                     <span class="w-full flex justify-between items-center gap-1">Admisión</span>
-                    <i class='bx bx-chevron-right text-2xl list-arrow'></i>
+                    <i class='bx bx-chevron-right text-2xl lg:hidden list-arrow'></i>
+                    <i class='bx bx-chevron-down text-2xl hidden lg:block list-arrow'></i>
                 </div>
 
                 <ul class="submenu">
@@ -59,7 +62,8 @@
             <li class="w-full list-item">
                 <div class="link-button-click">
                     <span class="w-full flex justify-between items-center gap-1">Transparencia</span>
-                    <i class='bx bx-chevron-right text-2xl list-arrow'></i>
+                    <i class='bx bx-chevron-right text-2xl lg:hidden list-arrow'></i>
+                    <i class='bx bx-chevron-down text-2xl hidden lg:block list-arrow'></i>
                 </div>
 
                 <ul class="submenu">
@@ -82,7 +86,8 @@
             <li class="w-full list-item">
                 <div class="link-button-click">
                     <span class="w-full flex justify-between items-center gap-1">Servicios</span>
-                    <i class='bx bx-chevron-right text-2xl list-arrow'></i>
+                    <i class='bx bx-chevron-right text-2xl lg:hidden list-arrow'></i>
+                    <i class='bx bx-chevron-down text-2xl hidden lg:block list-arrow'></i>
                 </div>
 
                 <ul class="submenu">
@@ -96,8 +101,10 @@
 
             <li class="w-full list-item">
                 <div class="link-button-click">
-                    <span  class="w-full flex justify-between items-center gap-1">Trámites                </span>
-                    <i class='bx bx-chevron-right text-2xl list-arrow'></i>
+                    <span class="w-full flex justify-between items-center gap-1">Trámites </span>
+                    <i class='bx bx-chevron-right text-2xl lg:hidden list-arrow'></i>
+                    <i class='bx bx-chevron-down text-2xl hidden lg:block list-arrow'></i>
+
                 </div>
 
                 <ul class="submenu">
@@ -109,7 +116,8 @@
             <li class="w-full list-item">
                 <div class="link-button-click">
                     <span class="w-full flex justify-between items-center gap-1">Otros </span>
-                    <i class='bx bx-chevron-right text-2xl list-arrow'></i>
+                    <i class='bx bx-chevron-right text-2xl lg:hidden list-arrow'></i>
+                    <i class='bx bx-chevron-down text-2xl hidden lg:block list-arrow'></i>
                 </div>
 
                 <ul class="submenu">

@@ -117,7 +117,7 @@
                                         <x-table>
                                             <tr class="row-col">
                                                 <td class="colum-table">Formación General</td>
-                                                <td class="colum-table">12</td>
+                                                <td class="colum-table">17</td>
                                                 <td class="colum-table">24</td>
                                                 <td class="colum-table">24</td>
                                                 <td class="colum-table">24</td>
@@ -137,7 +137,7 @@
                                             </tr>
                                             <tr class="row-col">
                                                 <td class="colum-table">Formación Específica</td>
-                                                <td class="colum-table">25</td>
+                                                <td class="colum-table">22</td>
                                                 <td class="colum-table">68</td>
                                                 <td class="colum-table">68</td>
                                                 <td class="colum-table">58</td>
@@ -147,7 +147,7 @@
                                             </tr>
                                             <tr class="row-col">
                                                 <td class="colum-table">Electivos</td>
-                                                <td class="colum-table">4</td>
+                                                <td class="colum-table">6</td>
                                                 <td class="colum-table">8</td>
                                                 <td class="colum-table">8</td>
                                                 <td class="colum-table">8</td>
@@ -157,7 +157,8 @@
                                             </tr>
                                             <tr class="row-col">
                                                 <td class="colum-table">Total general </td>
-                                                <td class="colum-table">51</td>
+                                                <td class="colum-table">55
+                                                </td>
                                                 <td class="colum-table">140</td>
                                                 <td class="colum-table">140</td>
                                                 <td class="colum-table">160</td>

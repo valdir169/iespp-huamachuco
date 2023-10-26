@@ -43,7 +43,7 @@
         <div class="render py-10 grid gap-8">
             <div class="">
                 <small class="title font-black text-[#3477db] pb-4">Modalidad admisión</small>
-                <p class="text-xs sm:text-sm md:text-base">Te ofrecemos distintas opciones al momento que postulas a una de
+                <p>Te ofrecemos distintas opciones al momento que postulas a una de
                     nuestras carreras profecionales.</p>
             </div>
             <div class="grid gap-4 xl:gap-8">
@@ -84,7 +84,7 @@
                 </div>
             </div>
         </article>
-        <article class="card__admision render">
+        <article class="card__admision render py-20">
             <div class="timeline-container__ad 2xl:justify-center">
                 <div class="timeline_admision"></div>
 

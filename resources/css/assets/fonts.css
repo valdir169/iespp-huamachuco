@@ -28,6 +28,11 @@ h1 {
     font-family: 'Roboto-Bold';
 }
 
+.title-gel{
+    font-size: 48px;
+    font-family: 'Roboto-Black';
+}
+
 /* Sub Title */
 .title{
     font-size: 32px !important;

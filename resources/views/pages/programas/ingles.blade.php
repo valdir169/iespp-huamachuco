@@ -123,7 +123,7 @@
         </article>
         <article class="render">
             <div class="py-4 grid gap-2 sm:grid-cols-2 lg:py-10 lg:gap-6">
-                <div class="grid gap-2 bg-[#3477db] p-4 rounded-[30px] h-[350px] xl:h-[400px]">
+                <div class="grid gap-2 bg-[#3477db] p-4 rounded-[30px] h-[450px] xl:h-[400px]">
                     <div class="flex items-center justify-center gap-2 lg:gap-6">
                         <div class="w-[60px] h-[60px] flex items-center justify-center rounded-full bg-white"><span class="font-bold text-black text-3xl">1</span></div>
                         <span class="subtitle text-white">Ciclo I</span>
@@ -140,7 +140,7 @@
                     </div>
                 </div>
 
-                <div class="grid gap-2 bg-[#3477db] p-4 rounded-[30px] h-[350px] xl:h-[400px]">
+                <div class="grid gap-2 bg-[#3477db] p-4 rounded-[30px] h-[450px] xl:h-[400px]">
                     <div class="flex items-center justify-center gap-2 lg:gap-6">
                         <div class="w-[60px] h-[60px] flex items-center justify-center rounded-full bg-white"><span class="font-bold text-black text-3xl">2</span></div>
                         <span class="subtitle text-white">Ciclo II</span>
@@ -157,7 +157,7 @@
                     </div>
                 </div>
 
-                <div class="grid gap-2 bg-[#3477db] p-4 rounded-[30px] h-[350px] xl:h-[400px]">
+                <div class="grid gap-2 bg-[#3477db] p-4 rounded-[30px] h-[450px] xl:h-[400px]">
                     <div class="flex items-center justify-center gap-2 lg:gap-6">
                         <div class="w-[60px] h-[60px] flex items-center justify-center rounded-full bg-white"><span class="font-bold text-black text-3xl">3</span></div>
                         <span class="subtitle text-white">Ciclo III</span>
@@ -174,7 +174,7 @@
                     </div>
                 </div>
 
-                <div class="grid gap-2 bg-[#3477db] p-4 rounded-[30px] h-[350px] xl:h-[400px]">
+                <div class="grid gap-2 bg-[#3477db] p-4 rounded-[30px] h-[450px] xl:h-[400px]">
                     <div class="flex items-center justify-center gap-2 lg:gap-6">
                         <div class="w-[60px] h-[60px] flex items-center justify-center rounded-full bg-white"><span class="font-bold text-black text-3xl">4</span></div>
                         <span class="subtitle text-white">Ciclo IV</span>
@@ -191,7 +191,7 @@
                     </div>
                 </div>
 
-                <div class="grid gap-2 bg-[#3477db] p-4 rounded-[30px] h-[350px] xl:h-[400px]">
+                <div class="grid gap-2 bg-[#3477db] p-4 rounded-[30px] h-[450px] xl:h-[400px]">
                     <div class="flex items-center justify-center gap-2 lg:gap-6">
                         <div class="w-[60px] h-[60px] flex items-center justify-center rounded-full bg-white"><span class="font-bold text-black text-3xl">V</span></div>
                         <span class="subtitle text-white">Ciclo V</span>
@@ -207,7 +207,7 @@
                     </div>
                 </div>
 
-                <div class="grid gap-2 bg-[#3477db] p-4 rounded-[30px] h-[350px] xl:h-[400px]">
+                <div class="grid gap-2 bg-[#3477db] p-4 rounded-[30px] h-[450px] xl:h-[400px]">
                     <div class="flex items-center justify-center gap-2 lg:gap-6">
                         <div class="w-[60px] h-[60px] flex items-center justify-center rounded-full bg-white"><span class="font-bold text-black text-3xl">6</span></div>
                         <span class="subtitle text-white">Ciclo VI</span>
@@ -223,7 +223,7 @@
                     </div>
                 </div>
 
-                <div class="grid gap-2 bg-[#3477db] p-4 rounded-[30px] h-[350px] xl:h-[400px]">
+                <div class="grid gap-2 bg-[#3477db] p-4 rounded-[30px] h-[450px] xl:h-[400px]">
                     <div class="flex items-center justify-center gap-2 lg:gap-6">
                         <div class="w-[60px] h-[60px] flex items-center justify-center rounded-full bg-white"><span class="font-bold text-black text-3xl">7</span></div>
                         <span class="subtitle text-white">Ciclo VII</span>
@@ -239,7 +239,7 @@
                     </div>
                 </div>
 
-                <div class="grid gap-2 bg-[#3477db] p-4 rounded-[30px] h-[350px] xl:h-[400px]">
+                <div class="grid gap-2 bg-[#3477db] p-4 rounded-[30px] h-[450px] xl:h-[400px]">
                     <div class="flex items-center justify-center gap-2 lg:gap-6">
                         <div class="w-[60px] h-[60px] flex items-center justify-center rounded-full bg-white"><span class="font-bold text-black text-3xl">8</span></div>
                         <span class="subtitle text-white">Ciclo VIII</span>
@@ -254,7 +254,7 @@
                     </div>
                 </div>
 
-                <div class="grid gap-2 bg-[#3477db] p-4 rounded-[30px] h-[350px] xl:h-[400px]">
+                <div class="grid gap-2 bg-[#3477db] p-4 rounded-[30px] h-[450px] xl:h-[400px]">
                     <div class="flex items-center justify-center gap-2 lg:gap-6">
                         <div class="w-[60px] h-[60px] flex items-center justify-center rounded-full bg-white"><span class="font-bold text-black text-3xl">9</span></div>
                         <span class="subtitle text-white">Ciclo IX</span>
@@ -267,7 +267,7 @@
                     </div>
                 </div>
 
-                <div class="grid gap-2 bg-[#3477db] p-4 rounded-[30px] h-[350px] xl:h-[400px]">
+                <div class="grid gap-2 bg-[#3477db] p-4 rounded-[30px] h-[450px] xl:h-[400px]">
                     <div class="flex items-center justify-center gap-2 lg:gap-6">
                         <div class="w-[60px] h-[60px] flex items-center justify-center rounded-full bg-white"><span class="font-bold text-black text-3xl">10</span></div>
                         <span class="subtitle text-white">Ciclo X</span>
@@ -285,13 +285,13 @@
 
     <section>
         <article class="render py-20 sm:py-36">
-            <div class="grid gap-3 lg:gap-12">
-                <div class="text-center grid gap-8">
-                    <span class="title">Forma Parte de <span class="bg-[#ebebeb] text-[#3477db] py-3 px-2"> Nuestra Familia</span></span>
+            <div class="grid gap-12 lg:gap-12">
+                <div class="flex flex-col justify-center items-center text-center gap-8">
+                    <span class="title flex flex-col sm:flex-row items-center"><span>Forma Parte de</span> <span class="bg-[#ebebeb] text-[#3477db] py-3 px-2"> Nuestra Familia</span></span>
                     <p>Aumenta mas tus posibilidades para ser parte de nuestra familia estudiantil</p>
                 </div>
-                <div class="grid gap-5 sm:grid-cols-2 lg:gap-14">
-                    <div class="text-center grid gap-2 transition duration-300 border rounded-3xl p-8 h-[350px] lg:h-[430px] cursor-pointer hover:-translate-y-6 hover:shadow-lg shadow-[#ebebeb]">
+                <div class="grid gap-12 sm:grid-cols-2 lg:gap-14">
+                    <div class="text-center grid gap-2 transition duration-300 border rounded-3xl p-8 h-[450px] lg:h-[430px] cursor-pointer hover:-translate-y-6 hover:shadow-lg shadow-[#ebebeb]">
                         <div class="flex justify-center"><div class="w-[60px] h-[60px] flex items-center justify-center rounded-full bg-[#2277db]"><span class="text-white text-3xl">I</span></div></div>
                         <span class="subtitle">Ingreso Extraordinario</span>
                         <p>Brindamos academia vacacional de una duración de 2 meses y dos semanas, de lunes a viernes, los horarios son de 7:30 a 1:00, realiza tus inscripciones en secretaria.</p>
@@ -299,7 +299,7 @@
                             <x-button type="secondary" ruta="{{route('academia')}}">Conoce Más</x-button>
                         </div>
                     </div>
-                    <div class="text-center grid gap-2 transition duration-300 border rounded-3xl p-8 h-[350px] lg:h-[430px] cursor-pointer hover:-translate-y-6 hover:shadow-lg shadow-[#ebebeb]">
+                    <div class="text-center grid gap-2 transition duration-300 border rounded-3xl p-8 h-[450px] lg:h-[430px] cursor-pointer hover:-translate-y-6 hover:shadow-lg shadow-[#ebebeb]">
                         <div class="flex justify-center"><div class="w-[60px] h-[60px] flex items-center justify-center rounded-full bg-[#2277db]"><span class="text-white text-3xl">II</span></div></div>
                         <span class="subtitle">Ingreso Ordinario</span>
                         <p>Inscríbete en secretaria para dar tu examen de admisión.</p>

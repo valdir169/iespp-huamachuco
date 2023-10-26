@@ -10,7 +10,7 @@
         <div class="pt-[4rem] sm:pb-16 sm:pt-[8rem] lg:pl-[4rem] lg:pb-26 xl:pl-[6rem] md:w-[500px] lg:w-[700px] 2xl:w-[900px] 2xl:pb-32">
             <div>
                 <span>Programa de Estudios</span>
-                <h1 class="pt-4 lg:text-base">{{ $titulo }}</h1>
+                <h1 class="pt-4 title-gel">{{ $titulo }}</h1>
                 <p class="py-6">{{ $descripcion }}</p>
             </div>
             <div class="grid gap-2">

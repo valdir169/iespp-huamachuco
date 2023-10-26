@@ -9,7 +9,7 @@
                 <a class=" text-xs lg:sm" href="{{ $linkTitle }}">{{ $Title }}</a>
             </div>
             <div class="pt-[70px] sm:pt-[150px] md:pl-[3rem] lg:pt-[250px] lg:w-[700px] lg:pl-[6rem] xl:pt-[300px]">
-                <span class="font-black">{{ $Title }}</span>
+                <span class="title-gel">{{ $Title }}</span>
                 <p>{{ $Content }}</p>
             </div>
         </div>

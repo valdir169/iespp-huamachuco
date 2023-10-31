@@ -5,7 +5,7 @@
     <x-hero image="{{ asset('images/slider/slider4.jpg') }}" text="Misión, Misión y Valores" />
 
     <section class="render grid md:grid-cols-2 gap-4 lg:gap-8 xl:gap-28 2xl:gap-44 py-24">
-        <div class="h-full flex flex-col pt-8">
+        <div class="h-full flex flex-col md:pt-8">
             <span class="title">¿Qué hacemos? </span>
             <p class="mt-8">Brindamos una educación técnica profesional de calidad, diseñada con los más altos
                 estándares en el mundo de la educación moderna.La implementación del Buen Gobierno
@@ -16,7 +16,6 @@
         </div>
 
         <div class=" flex flex-col gap-2  text-center rounded-lg lg:h-[330px] bg-[red]">
-            {{-- <img class="h-full w-full xl:h-[60vh] 2xl:h-[50vh] rounded-lg" src="{{ asset('images/directora.png') }}" --}}
             <img class="h-full rounded-lg" src="{{ asset('images/directora.png') }}" alt="Directora del IESPP JFSC">
         </div>
     </section>

@@ -1,7 +1,7 @@
 @props(['image, altText'])
 
 <div
-    class="bg-[#ebebeb] rounded-lg shadow-md border-gray-900  hover:scale-105  hover:bg-[#ffffff] hover:border-gray-500  transition flex flex-col p-4 items-center jusitify-center">
+    class="bg-[#ebebeb] rounded-lg shadow-md border-gray-900  hover:scale-105  hover:bg-[#ffffff] hover:border-gray-500  transition flex flex-col p-4 items-center jusitify-center max-w-[400px] mx-auto">
 
     <picture class="flex justify-center">
         <img class="mb-5 rounded-lg w-full h-full" src={{ $image }} alt={{ $altText }} />

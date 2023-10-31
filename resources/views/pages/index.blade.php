@@ -6,20 +6,49 @@
     <div class="swiper mySwiper">
         <div class="swiper-wrapper">
 
-            <div class="swiper-slide">
-                <img class="h-full w-full" src="{{ asset('images/slider/slider2.jpg') }}" alt="">
+            <div class="swiper-slide bg-no-repeat bg-cover relative"
+                style="background-image: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.1), rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url(images/slider/slider2.jpg)">
+                <div class="render absolute left-0  flex flex-col items-start bottom-10 gap-10 ">
+                    <h1
+                        class="backdrop-blur-md bg-[#3477db]/30 text-white text-4xl sm:text-6xl xl:text-7xl font-[Roboto-Black] rounded-xl p-2 ">
+                        Educación
+                        Inicial</h1>
+
+                    <a href="{{ route('educacioninicial') }}"
+                        class="bg-[#3477DB] text-white cursor-pointer  outline-none font-bold rounded-lg
+                     py-2.5 text-center no-underline  px-12  mb-2 transition-all duration-200 ease-in-out hover:opacity-90">Descubre
+                        más<s></s></a>
+                </div>
             </div>
 
-            <div class="swiper-slide">
-                <img class="h-full w-full" src="{{ asset('images/slider/slider1.jpg') }}" alt="">
+            <div class="swiper-slide bg-no-repeat bg-cover relative"
+                style="background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4) ), url(images/slider/slider1.jpg)">
+                <div class="render absolute left-0  flex flex-col items-start bottom-10 gap-10 ">
+                    <h1
+                        class="backdrop-blur-md bg-[#3477db]/30 text-white text-4xl sm:text-6xl xl:text-7xl font-[Roboto-Black] rounded-xl p-2 ">
+                        Educación Secundaria: Especialidad Comunicación
+                    </h1>
+
+                    <a href="{{ route('educacioninicial') }}"
+                        class="bg-[#3477DB] text-white cursor-pointer  outline-none font-bold rounded-lg
+                     py-2.5 text-center no-underline  px-12  mb-2 transition-all duration-200 ease-in-out hover:opacity-90">Descubre
+                        más<s></s></a>
+                </div>
             </div>
 
-            <div class="swiper-slide">
-                <img class="h-full w-full" src="{{ asset('images/slider/slider3.jpg') }}" alt="">
-            </div>
+            <div class="swiper-slide bg-no-repeat bg-cover relative"
+                style="background-image: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.1), rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url(images/slider/slider4.jpg)">
+                <div class="render absolute left-0  flex flex-col items-start bottom-10 gap-10 ">
+                    <h1
+                        class="backdrop-blur-md bg-[#3477db]/30 text-white text-4xl sm:text-6xl xl:text-7xl font-[Roboto-Black] rounded-xl p-2 ">
+                        Idiomas: Especialidad Inglés
+                    </h1>
 
-            <div class="swiper-slide">
-                <img class="h-full w-full" src="{{ asset('images/slider/slider4.jpg') }}" alt="">
+                    <a href="{{ route('educacioninicial') }}"
+                        class="bg-[#3477DB] text-white cursor-pointer  outline-none font-bold rounded-lg
+                     py-2.5 text-center no-underline  px-12  mb-2 transition-all duration-200 ease-in-out hover:opacity-90">Descubre
+                        más<s></s></a>
+                </div>
             </div>
         </div>
     </div>
@@ -31,7 +60,7 @@
             <span class="text-xl">Al culminar recibe tu T&iacute;tulo a Nombre de la Naci&oacute;n</span>
         </article>
 
-        <article class="grid gap-8 sm:grid-cols-2 lg:grid-cols-3 md:gap-10 lg:gap-12 2xl:gap-20">
+        <article class="grid gap-8 sm:grid-cols-2 lg:grid-cols-3 md:gap-8  2xl:gap-12 ">
             <x-card>
                 <x-slot name="image">{{ asset('images/carreras/carrera_inicial.png') }}</x-slot>
                 <x-slot name="altText">Educación Inicial</x-slot>
@@ -74,30 +103,32 @@
             <span class="bg-white text-[#3477db] py-1 px-3">nosotros?</span>
         </h4>
 
-        <section class="grid gap-2 md:gap-4 grid-cols-2 md:grid-cols-4 pt-16 max-w-[500px] md:max-w-[100%] xl:max-w-[70%] mx-auto">
-            <div class="bg-[#ebebeb] p-2 flex flex-col gap-2 text-[#4377db] rounded-lg">
-                <span class="text-xl font-bold sm:text-2xl 2xl:text-3xl overflow-hidden">Infraestructura</span>
+        <section
+            class="grid gap-2 md:gap-4 grid-cols-2 lg:grid-cols-4 pt-16 max-w-[650px] lg:max-w-[100%] xl:max-w-[80%] 2xl:gap-6 mx-auto">
+            <div class="bg-[#ebebeb] p-2 flex flex-col gap-2 text-[#4377db] rounded-lg justify-evenly">
+                <span class="text-xl font-bold sm:text-2xl  overflow-hidden">Infraestructura</span>
                 <p class="mt-4">Más del 95% de nuestros graduados logran conseguir empleo exitosamente</p>
                 <i class='bx bx-building text-8xl'></i>
             </div>
 
-            <div class="bg-[#ebebeb] p-2 flex flex-col gap-2 text-[#4377db] rounded-lg">
-                <span class="text-xl font-bold sm:text-2xl 2xl:text-3xl">Prestigio</span>
+            <div class="bg-[#ebebeb] p-2 flex flex-col gap-2 text-[#4377db] rounded-lg justify-evenly">
+                <span class="text-xl font-bold sm:text-2xl ">Prestigio</span>
                 <p class="mt-4">Con más de 40 años formando profesionales altamente competentes </p>
-                <i class='bx bx-building text-8xl'></i>
+                <i class='bx bx-medal text-8xl'></i>
             </div>
 
-            <div class="bg-[#ebebeb] p-2 flex flex-col gap-2 text-[#4377db] rounded-lg">
-                <span class="text-xl font-bold sm:text-2xl 2xl:text-3xl">Docentes</span>
+            <div class="bg-[#ebebeb] p-2 flex flex-col gap-2 text-[#4377db] rounded-lg justify-evenly">
+                <span class="text-xl font-bold sm:text-2xl ">Docentes</span>
                 <p class="mt-4">Experimentados docentes en pedagogía y materias para una educación de calidad</p>
-                <i class='bx bx-building text-8xl'></i>
+                <i class='bx bxs-graduation text-8xl'></i>
             </div>
 
-            <div class="bg-[#ebebeb] p-2 flex flex-col gap-2 text-[#4377db] rounded-lg overflow-hidden">
-                <span class="text-xl font-bold sm:text-2xl 2xl:text-3xl">Empleabilidad</span>
-                <p class="mt-4">Oportunidades de empleo en educación: maestro, instructor, coordinador o otros roles relacionados a la
+            <div class="bg-[#ebebeb] p-2 flex flex-col gap-2 text-[#4377db] rounded-lg overflow-hidden justify-evenly">
+                <span class="text-xl font-bold sm:text-2xl ">Empleabilidad</span>
+                <p class="mt-4">Oportunidades de empleo en educación: maestro, instructor, coordinador o otros roles
+                    relacionados a la
                     pedagogía.</p>
-                <i class='bx bx-building text-8xl'></i>
+                <i class='bx bxs-user-plus text-8xl'></i>
             </div>
 
         </section>
@@ -105,12 +136,14 @@
 
 
 
-    <section class="render my-24 grid justify-center md:grid-cols-2 place-items-center gap-4 md:gap-8">
-        <div class="h-full w-full xl:h-[420px] rounded-lg">
+    <section class="render my-24 flex flex-col gap-12 lg:flex-row lg:h-[400px]">
+        {{-- <div class="h-full w-full xl:h-[420px] rounded-lg"> --}}
+        <picture class="w-full lg:w-6/12 h-full ">
             <img class="h-full w-full rounded-lg" src="{{ asset('images/directora.png') }}" alt="Directora del IESPP JFSC">
-        </div>
+        </picture>
+        {{-- </div> --}}
 
-        <div class="flex flex-col gap-6 h-auto items-center md:items-start ">
+        <div class="w-full lg:w-6/12 h-auto flex flex-col gap-4 mx-auto items-center md:items-start">
             <h2 class="title">Bienvenida de la Directora</h2>
             <p>
                 Hay que resaltar que la educación es formar al ser humano para el cambio permanente y aún para la
@@ -129,7 +162,7 @@
 
 
     <article
-        class="bg-[#3477DB] px-4 sm:px-8 md:px-12 lg:px-16 xl:px-24 grid md:grid-cols-3 gap-10 md:gap-4 lg:gap-8 2xl:gap-20 py-20 text-white place-items-center w-full">
+        class="render flex flex-col bg-[#3477DB] py-20 text-white gap-10 mx-auto w-full md:flex-row xl:px-56 lg:gap-20">
         <div
             class="carreras-count flex flex-col gap-2  justify-center items-center shadow-md shadow-[#D9D9D9] p-4 rounded-lg
             shadow-md border-gray-700 hover:scale-105 hover:bg-[#ebebeb] hover:border-gray-500  transition hover:text-[#3477DB]">
@@ -241,52 +274,123 @@
 
     </section>
 
+    <div class=" render h-[80vh] w-full bg-cover bg-no-repeat bg-fixed flex flex-col text-white justify-center items-center text-center "
+        style='background-image: linear-gradient(rgba(52, 119, 219, 0.7), rgba(52, 119, 219, 0.7)),
+    url(images/home/home.jpg);'>
+
+        <p class="text-2xl md:text-4xl  font-[Roboto-Black] lg:px-[20vw]">Nuestro campus es mucho más que un lugar
+            de aprendizaje; </p>
+        <span class="font-[Roboto-Thin] font-bold text-2xl lg:px-[20vw] ">es un espacio donde la inspiración se combina con
+            la
+            innovación para crear oportunidades sin límites.</span>
+    </div>
 
     <section class="render py-24">
-        <h4 class="title">Actividades importantes</h4>
-        <div class="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
-            <div class="mx-auto">
+        <h4 class="title">Noticias y Actividades importantes</h4>
+        <div class="grid gap-8 sm:grid-cols-2 lg:grid-cols-3 lg:gap-4 xl:gap-8 py-4 ">
+
+            <div
+                class="bg-[#ebebeb] rounded-lg shadow-md border-gray-900  hover:bg-[#ffffff]  transition flex flex-col p-4  jusitify-center  w-[350px]  mx-auto">
+                <picture class="flex justify-center h-[300px] w-full">
+                    <img class="mb-5 w-full h-full" src="images/activity2.png" alt="" />
+                </picture>
+
+                <article class="">
+                    <h2 class="my-2 font-bold  subtitle">
+                        Simulacro Nacional
+                    </h2>
+                    <p class="font-black text-[#3477db]">
+                        03 de Noviembre
+                    </p>
+                </article>
+            </div>
+
+           {{--  <div
+                class="bg-[#ebebeb] rounded-lg shadow-md border-gray-900  hover:bg-[#ffffff]  transition flex flex-col p-4  jusitify-center ">
+                <picture class="flex justify-center h-[300px] w-full">
+                    <img class="mb-5 w-full h-full" src="images/activity2.png" alt="" />
+                </picture>
+
+                <article class="">
+                    <h2 class="my-2 font-bold  subtitle">
+                        Simulacro Nacional
+                    </h2>
+                    <p class="font-black text-[#3477db]">
+                        03 de Noviembre
+                    </p>
+                </article>
+            </div>
+
+            <div
+                class="bg-[#ebebeb] rounded-lg shadow-md border-gray-900  hover:bg-[#ffffff]  transition flex flex-col p-4  jusitify-center">
+                <picture class="flex justify-center h-[300px] w-full">
+                    <img class="mb-5 w-full h-full" src="images/activity2.png" alt="" />
+                </picture>
+
+                <article class="">
+                    <h2 class="my-2 font-bold  subtitle">
+                        Simulacro Nacional
+                    </h2>
+                    <p class="font-black text-[#3477db]">
+                        03 de Noviembre
+                    </p>
+                </article>
+            </div>
+
+            <div
+                class="bg-[#ebebeb] rounded-lg shadow-md border-gray-900  hover:bg-[#ffffff]  transition flex flex-col p-4  jusitify-center">
+                <picture class="flex justify-center h-[300px] w-full">
+                    <img class="mb-5 w-full h-full" src="images/activity2.png" alt="" />
+                </picture>
+
+                <article class="">
+                    <h2 class="my-2 font-bold  subtitle">
+                        Simulacro Nacional
+                    </h2>
+                    <p class="font-black text-[#3477db]">
+                        03 de Noviembre
+                    </p>
+                </article>
+            </div> --}}
+
+            {{--  <div class="mx-auto">
                 <img class="w-full h-full object-fill" src="{{ asset('images/activity2.png') }}" alt="">
             </div>
 
             <div class="mx-auto">
-                <img class="w-full h-full" src="{{ asset('images/activity2.png') }}" alt="">
+                <img class="w-full h-full rounded-lg" src="{{ asset('images/activity2.png') }}" alt="">
             </div>
 
             <div class="mx-auto">
                 <img class="w-full h-full object-fill" src="{{ asset('images/activity3.png') }}" alt="">
-            </div>
+            </div> --}}
         </div>
     </section>
 
-    <div class="render py-16">
+    <article class="render pb-16">
         <span class="title">Nuestros Aliados</span>
         <div class="grid gap-4 place-items-center md:grid-cols-4 md:h-[150px] w-full flex lg:gap-10 xl:gap-20 mt-6">
 
             <a href="https://enlinea.sunedu.gob.pe/" target="_blank"
-                class="border rounded-md h-[150px] w-[300px] md:w-full p-4 hover:bg-[#ebebeb] transition z-50">
+                class="border rounded-md h-[150px] w-[300px] md:w-full p-2 hover:bg-[#ebebeb] transition z-50">
                 <img class="w-full h-full" src="{{ asset('images/enlaces/sunedu.png') }}" alt="">
             </a>
 
-
             <a href="https://www.gob.pe/minedu" target="_blank"
-                class="border rounded-md h-[150px] w-[300px] md:w-full p-4 hover:bg-[#ebebeb] transition z-50">
+                class="border rounded-md h-[150px] w-[300px] md:w-full p-2 hover:bg-[#ebebeb] transition z-50">
                 <img class="w-full h-full" src="{{ asset('images/enlaces/educacion.png') }}" alt="">
             </a>
 
             <a href="https://www.unesco.org/es" target="_blank"
-                class="border rounded-md h-[150px] w-[300px] md:w-full p-4 hover:bg-[#ebebeb] transition z-50">
+                class="border rounded-md h-[150px] w-[300px] md:w-full p-2 hover:bg-[#ebebeb] transition z-50">
                 <img class="w-full h-full" src="{{ asset('images/enlaces/unesco.png') }}" alt="">
             </a>
 
             <a href="https://www.gob.pe/busquedas?institucion%5B%5D=sineace&reason=sheet&sheet=1&term=coneaces"
                 target="_blank"
-                class="border rounded-md h-[150px] w-[300px] md:w-full p-4 hover:bg-[#ebebeb] transition z-50">
+                class="border rounded-md h-[150px] w-[300px] md:w-full p-2 hover:bg-[#ebebeb] transition z-50">
                 <img class="w-full h-full -z-10" src="{{ asset('images/enlaces/coneaces.png') }}" alt="">
             </a>
         </div>
-    </div>
-
-
-
+    </article>
 @endsection

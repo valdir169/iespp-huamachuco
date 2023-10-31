@@ -8,8 +8,6 @@
     @media screen and (min-width: 720px) {
       padding: 0rem 3rem;
     }
-
-
   
     @media screen and (min-width: 920px) {
       padding: 0rem 4rem;
@@ -17,5 +15,9 @@
   
     @media screen and (min-width: 1200px) {
       padding: 0rem 6rem;
+    }
+
+    @media screen and (min-width: 1400px) {
+      padding: 0rem 16rem;
     }
   }

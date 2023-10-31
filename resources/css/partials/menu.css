@@ -145,7 +145,7 @@ body.is-open {
 .btn-scroll-top {
     position: fixed;
     z-index: 999;
-    bottom: 11vh;
+    bottom: 9vh;
     right: 2vw;
     border: 2px solid #3477db;
     color: #3477db;

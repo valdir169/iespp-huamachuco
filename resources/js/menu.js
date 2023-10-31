@@ -9,31 +9,25 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 function navBar(btn, menu) {
+    const menuElement = document.querySelector(menu),
+        btnElement = document.querySelector(btn),
+        navbarElement = document.querySelector(".navbar")
+
+    function toggleNavbar() {
+        menuElement.classList.toggle("open")
+        btnElement.classList.toggle("open")
+        document.body.classList.toggle("is-open")
+
+        let width = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+        width > 1024 ? navbarElement.classList.remove("bg-[#3477db]") : navbarElement.classList.toggle("bg-[#3477db]");
+        btnElement.classList.toggle("text-white")
+    }
+
     document.addEventListener("click", e => {
-
-        if (e.target.matches(btn) || e.target.matches(`${btn} *`)) {
-            document.querySelector(menu).classList.toggle("open")
-            document.querySelector(btn).classList.toggle("open")
-            document.body.classList.toggle("is-open")
-
-            let width = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
-            width > 1024 ? document.querySelector(".navbar").classList.remove("bg-[#3477db]") : document.querySelector(".navbar").classList.toggle("bg-[#3477db]");
-            document.querySelector(".btn-menu").classList.toggle("text-white");
-            e.stopPropagation()
+        if (e.target.matches(btn) || e.target.matches(`${btn} *`) || e.target.matches(menu)) {
+            toggleNavbar();
+            e.stopPropagation();
         }
-
-        if (e.target.matches(menu)) {
-            document.querySelector(menu).classList.remove("open")
-            document.querySelector(btn).classList.remove("open")
-            document.body.classList.toggle("is-open")
-
-            let width = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
-            width > 1024 ? document.querySelector(".navbar").classList.remove("bg-[#3477db]") : document.querySelector(".navbar").classList.toggle("bg-[#3477db]");
-            document.querySelector(".btn-menu").classList.toggle("text-white");
-            e.stopPropagation()
-        }
-
-
     })
 }
 
@@ -44,7 +38,6 @@ function subMenu(navLink) {
         this.classList.toggle("arrow-down")
         let height = 0
         let submenu = this.nextElementSibling
-        // console.log(submenu.scrollHeight)
         if (submenu.clientHeight === 0) {
             height = submenu.scrollHeight
         }
@@ -55,15 +48,21 @@ function subMenu(navLink) {
         item.addEventListener("click", clickHandler)
     })
 
-
     function removeClickHandler() {
+        const menuElement = document.querySelector(".nav-menu"),
+            navbarElement = document.querySelector(".navbar")
+
         const width = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
         if (width > 1024) {
+            menuElement.classList.remove("open")
+            document.body.classList.remove("is-open")
+            navbarElement.classList.remove("bg-[#3477db]")
             navLinkSelectors.forEach(item => {
                 item.removeEventListener("click", clickHandler)
             })
         } else {
             navLinkSelectors.forEach(item => {
+                0
                 item.addEventListener("click", clickHandler)
             })
         }
@@ -90,7 +89,6 @@ function topMenu(menu) {
         }
     });
 }
-
 
 function scrollTopMenu(button) {
     const scrollButton = document.querySelector(button)

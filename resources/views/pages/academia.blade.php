@@ -36,12 +36,56 @@
     </section>
     <section class="py-20">
         <article class="render">
-            <div class="sm:flex items-center gap-4">
-                <div>
-                    <img src="https://www.itmplatform.com/wp-content/uploads/altaeducacion.png" alt="">
+            <div class="gap-4 sm:flex items-center sm:flex-col-reverse sm:gap-16 lg:flex-row">
+                <div class="flex flex-col gap-4 sm:gap-8">
+                    <div class="flex flex-col text-center">
+                        <span class="font-[Roboto-thin] text-xl font-semibold">Nosotros queremos que si o si formes parte de nuestra institución</span>
+                        <span>¡Contamos con Docentes Altamente Capacitados, que aseguraran tu Ingreso!</span>
+                    </div>
+                    <div class="flex flex-col">
+                        <span class="font-[Roboto-thin] text-3xl font-semibold">Cursos de Preparatoria</span>
+                    </div>
+                    <div class="grid gap-4 sm:grid-cols-2">
+                        <div class="p-3 grid gap-4 bg-[#3477db] text-white rounded-lg">
+                            <div class="flex justify-between items-center">
+                                <div><span>Matemática</span></div>
+                                <div><i class='bx bx-grid-alt text-[35px]' ></i></div>
+                            </div>
+                            <div><p class="font-[Roboto-thin]">Brindar Asistencia Inmediata en Situaciones de Emergencia.</p></div>
+                        </div>
+                        
+                        <div class="p-3 grid gap-4 bg-[#3477db] text-white rounded-lg">
+                            <div class="flex justify-between items-center">
+                                <div><span>Comunicación</span></div>
+                                <div><i class='bx  bxs-message-detail text-[35px]' ></i></div>
+                            </div>
+                            <div><p class="font-[Roboto-thin]">Impulsar Iniciativas de Prevención Ambiental y de Riesgos.</p></div>
+                        </div>
+    
+                        <div class="p-3 grid gap-4 bg-[#3477db] text-white rounded-lg">
+                            <div class="flex justify-between items-center">
+                                <div><span>Ingles</span></div>
+                                <div><i class='bx bx-sort-a-z text-[35px]'></i></div>
+                            </div>
+                            <div><p class="font-[Roboto-thin]">Garantizar la Seguridad a través de Brigadas Especializadas.</p></div>
+                        </div>
+    
+                        <div class="p-3 grid gap-4 bg-[#3477db] text-white rounded-lg">
+                            <div class="flex justify-between items-center">
+                                <div><span>Cultura General</span></div>
+                                <div><i class='bx bx-world text-[35px]' ></i></div>
+                            </div>
+                            <div><p class="font-[Roboto-thin]">Cultivar un Entorno Educativo que Promueva el Bienestar Integral.</p></div>
+                        </div>
+                    </div>
                 </div>
-                <div>
-                    <span>Aumenta tus posibilidades de ser parte de nuestra familia estudiantil, contamos con docentes capacitados para ayudarte en tu proceso de  preparación y que estés listo para tus exámenes de admisión. Exámenes de simulacro todos los viernes.</span>
+                <div class="lg:w-2/5">
+                    <div>
+                        <img src="https://www.itmplatform.com/wp-content/uploads/altaeducacion.png" alt="">
+                    </div>
+                    <div>
+                        <span>Aumenta tus posibilidades de ser parte de nuestra familia estudiantil, contamos con docentes capacitados para ayudarte en tu proceso de  preparación y que estés listo para tus exámenes de admisión. Exámenes de simulacro todos los viernes.</span>
+                    </div>
                 </div>
             </div>
         </article>

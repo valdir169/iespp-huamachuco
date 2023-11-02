@@ -14,30 +14,34 @@
                     <div class="flex flex-col items-center justify-center gap-8 sm:w-1/2">
                         <div><span class="font-[Roboto-thin] text-xl font-semibold">Desarrolla Habilidades en:</span></div>
                         <div class="grid gap-4 lg:grid-cols-2">
-                            <div class="p-2 grid gap-2 bg-[#3477db] text-white rounded-lg">
-                                <div>
+                            <div class="p-3 grid gap-4 bg-[#3477db] text-white rounded-lg">
+                                <div class="flex justify-between items-center">
                                     <div><span>Asistencia</span></div>
+                                    <div><i class='bx bx-handicap text-[35px]' ></i></div>
                                 </div>
                                 <div><p class="font-[Roboto-thin]">Brindar Asistencia Inmediata en Situaciones de Emergencia.</p></div>
                             </div>
                             
-                            <div class="p-2 grid gap-2 bg-[#3477db] text-white rounded-lg">
-                                <div>
+                            <div class="p-3 grid gap-4 bg-[#3477db] text-white rounded-lg">
+                                <div class="flex justify-between items-center">
                                     <div><span>Prevención</span></div>
+                                    <div><i class='bx bxs-message-alt-error text-[35px]' ></i></div>
                                 </div>
                                 <div><p class="font-[Roboto-thin]">Impulsar Iniciativas de Prevención Ambiental y de Riesgos.</p></div>
                             </div>
     
-                            <div class="p-2 grid gap-2 bg-[#3477db] text-white rounded-lg">
-                                <div>
+                            <div class="p-3 grid gap-4 bg-[#3477db] text-white rounded-lg">
+                                <div class="flex justify-between items-center">
                                     <div><span>Seguridad</span></div>
+                                    <div><i class='bx bxs-shield-alt-2 text-[35px]'></i></div>
                                 </div>
                                 <div><p class="font-[Roboto-thin]">Garantizar la Seguridad a través de Brigadas Especializadas.</p></div>
                             </div>
     
-                            <div class="p-2 grid gap-2 bg-[#3477db] text-white rounded-lg">
-                                <div>
+                            <div class="p-3 grid gap-4 bg-[#3477db] text-white rounded-lg">
+                                <div class="flex justify-between items-center">
                                     <div><span>Bienestar</span></div>
+                                    <div><i class='bx bx-male-female text-[35px]' ></i></div>
                                 </div>
                                 <div><p class="font-[Roboto-thin]">Cultivar un Entorno Educativo que Promueva el Bienestar Integral.</p></div>
                             </div>
@@ -69,8 +73,8 @@
                                     <div class="brig_content">
                                         <div class="card_brig" id="primeros-auxilios">
                                             <div class="title_brig">
-                                                <i class='bx bxs-ambulance'></i>
-                                                <h2>Brigada de Primeros Auxilios</h2>
+                                                <i class='bx bx-plus-medical text-[50px] text-[#3477db]'></i>
+                                                <h2 class="font-bold text-black">Brigada de Primeros Auxilios</h2>
                                             </div>
                                             <div class="info_desc-Brig flex flex-col gap-3">
                                                 <p class="text-center"><strong>Responsabilidades:</strong></p>
@@ -88,8 +92,8 @@
                                     <div class="brig_content">
                                         <div class="card_brig" id="primeros-auxilios">
                                             <div class="title_brig">
-                                                <i class='bx bxs-ambulance'></i>
-                                                <h2>Brigada contraincendios</h2>
+                                                <i class='bx bxs-hot text-[50px] text-[#3477db]'></i>
+                                                <h2 class="font-bold text-black">Brigada contraincendios</h2>
                                             </div>
                                             <div class="info_desc-Brig flex flex-col gap-3">
                                                 <p class="text-center"><strong>Responsabilidades:</strong></p>
@@ -106,8 +110,8 @@
                                     <div class="brig_content">
                                         <div class="card_brig" id="primeros-auxilios">
                                             <div class="title_brig">
-                                                <i class='bx bxs-ambulance'></i>
-                                                <h2>Brigada Ambiental</h2>
+                                                <i class='bx bxs-tree-alt text-[50px] text-[#3477db]'></i>
+                                                <h2 class="font-bold text-black">Brigada Ambiental</h2>
                                             </div>
                                             <div class="info_desc-Brig flex flex-col gap-3">
                                                 <p class="text-center"><strong>Responsabilidades:</strong></p>
@@ -124,8 +128,8 @@
                                     <div class="brig_content">
                                         <div class="card_brig" id="primeros-auxilios">
                                             <div class="title_brig">
-                                                <i class='bx bxs-ambulance'></i>
-                                                <h2>Brigada de Evacuación y Rescate</h2>
+                                                <i class='bx bxs-ambulance text-[50px] text-[#3477db]'></i>
+                                                <h2 class="font-bold text-black">Brigada de Evacuación y Rescate</h2>
                                             </div>
                                             <div class="info_desc-Brig flex flex-col gap-3">
                                                 <p class="text-center"><strong>Responsabilidades:</strong></p>
@@ -142,8 +146,8 @@
                                     <div class="brig_content">
                                         <div class="card_brig" id="primeros-auxilios">
                                             <div class="title_brig">
-                                                <i class='bx bxs-ambulance'></i>
-                                                <h2>Brigada de Soporte Socio-Emocional</h2>
+                                                <i class='bx bxs-happy-beaming text-[50px] text-[#3477db]' ></i>
+                                                <h2 class="font-bold text-black">Brigada de Soporte Socio-Emocional</h2>
                                             </div>
                                             <div class="info_desc-Brig flex flex-col gap-3">
                                                 <p class="text-center"><strong>Responsabilidades:</strong></p>

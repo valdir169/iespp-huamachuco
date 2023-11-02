@@ -165,7 +165,7 @@
         class="render flex flex-col bg-[#3477DB] py-20 text-white gap-10 mx-auto w-full md:flex-row xl:px-56 lg:gap-20">
         <div
             class="carreras-count flex flex-col gap-2  justify-center items-center shadow-md shadow-[#D9D9D9] p-4 rounded-lg
-            shadow-md border-gray-700 hover:scale-105 hover:bg-[#ebebeb] hover:border-gray-500  transition hover:text-[#3477DB]">
+            shadow-md border-gray-700 hover:scale-105 hover:bg-[#ffffff] hover:border-gray-500  transition hover:text-[#3477DB]">
             <i class='bx bxs-graduation text-8xl'></i>
             <span class="text-6xl font-['Roboto-Bold'] " data-valor="4">0</span>
             <small class="text-2xl md:text-xl lg:text-2xl font-bold">CARRERAS</small>
@@ -188,7 +188,7 @@
         </div>
     </article>
 
-    <section class="render py-28 bg-[#ebebeb]">
+    <section class="render py-28">
         <div class="flex flex-col text-center py-4 justify-center z-50 ">
             <h2 class="text-4xl font-bold">Experiencias <span class="text-[#3477DB]">Exitosas</span></h2>
             <span class="text-xl mt-4">¡Mira lo que dicen de nosotros!</span>
@@ -268,16 +268,12 @@
                 <div class="swiper-button-next"></div>
                 <div class="swiper-button-prev"></div>
             </div>
-
-
         </article>
-
     </section>
 
-    <div class=" render h-[80vh] w-full bg-cover bg-no-repeat bg-fixed flex flex-col text-white justify-center items-center text-center "
+    <div class=" render h-[90vh] w-full bg-cover bg-no-repeat bg-fixed flex flex-col text-white justify-center items-center text-center "
         style='background-image: linear-gradient(rgba(52, 119, 219, 0.7), rgba(52, 119, 219, 0.7)),
     url(images/home/home.jpg);'>
-
         <p class="text-2xl md:text-4xl  font-[Roboto-Black] lg:px-[20vw]">Nuestro campus es mucho más que un lugar
             de aprendizaje; </p>
         <span class="font-[Roboto-Thin] font-bold text-2xl lg:px-[20vw] ">es un espacio donde la inspiración se combina con
@@ -304,66 +300,6 @@
                     </p>
                 </article>
             </div>
-
-           {{--  <div
-                class="bg-[#ebebeb] rounded-lg shadow-md border-gray-900  hover:bg-[#ffffff]  transition flex flex-col p-4  jusitify-center ">
-                <picture class="flex justify-center h-[300px] w-full">
-                    <img class="mb-5 w-full h-full" src="images/activity2.png" alt="" />
-                </picture>
-
-                <article class="">
-                    <h2 class="my-2 font-bold  subtitle">
-                        Simulacro Nacional
-                    </h2>
-                    <p class="font-black text-[#3477db]">
-                        03 de Noviembre
-                    </p>
-                </article>
-            </div>
-
-            <div
-                class="bg-[#ebebeb] rounded-lg shadow-md border-gray-900  hover:bg-[#ffffff]  transition flex flex-col p-4  jusitify-center">
-                <picture class="flex justify-center h-[300px] w-full">
-                    <img class="mb-5 w-full h-full" src="images/activity2.png" alt="" />
-                </picture>
-
-                <article class="">
-                    <h2 class="my-2 font-bold  subtitle">
-                        Simulacro Nacional
-                    </h2>
-                    <p class="font-black text-[#3477db]">
-                        03 de Noviembre
-                    </p>
-                </article>
-            </div>
-
-            <div
-                class="bg-[#ebebeb] rounded-lg shadow-md border-gray-900  hover:bg-[#ffffff]  transition flex flex-col p-4  jusitify-center">
-                <picture class="flex justify-center h-[300px] w-full">
-                    <img class="mb-5 w-full h-full" src="images/activity2.png" alt="" />
-                </picture>
-
-                <article class="">
-                    <h2 class="my-2 font-bold  subtitle">
-                        Simulacro Nacional
-                    </h2>
-                    <p class="font-black text-[#3477db]">
-                        03 de Noviembre
-                    </p>
-                </article>
-            </div> --}}
-
-            {{--  <div class="mx-auto">
-                <img class="w-full h-full object-fill" src="{{ asset('images/activity2.png') }}" alt="">
-            </div>
-
-            <div class="mx-auto">
-                <img class="w-full h-full rounded-lg" src="{{ asset('images/activity2.png') }}" alt="">
-            </div>
-
-            <div class="mx-auto">
-                <img class="w-full h-full object-fill" src="{{ asset('images/activity3.png') }}" alt="">
-            </div> --}}
         </div>
     </section>
 

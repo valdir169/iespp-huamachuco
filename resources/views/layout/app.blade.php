@@ -23,7 +23,7 @@
     @yield('content')
 
     <a href="https://api.whatsapp.com/send?phone=51916443619&text=Hola,%20¿Qué%20tal%20estás?" target="_blank"
-        class="fixed text-white flex justify-center items-center font-bold bottom-[2vh] right-[2vw] rounded-full bg-[#25d366] text-[42px] p-1 hover:opacity-75"
+        class="fixed text-white flex justify-center items-center font-bold bottom-[2vh] right-[20px] rounded-full bg-[#25d366] text-[42px] p-1 hover:opacity-75"
         style="z-index:1000 ">
         <i class='bx bxl-whatsapp'></i>
     </a>

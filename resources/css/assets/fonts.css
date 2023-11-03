@@ -31,6 +31,7 @@ h1 {
 .title-gel{
     font-size: 48px;
     font-family: 'Roboto-Black';
+    font-size: clamp(26px, 3vw, 60px) !important;
 }
 
 /* Sub Title */

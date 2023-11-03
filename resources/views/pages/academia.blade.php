@@ -20,7 +20,7 @@
             <div class="py-10 grid gap-5 lg:gap-16">
                 <div class="font-black flex justify-center flex-col text-center">
                     <i class='bx bx-book-open text-[60px] text-[#3477db]'></i>
-                    <span class="title">Academia Vacacional IESPP-Huamachuco</span>
+                    <span class="title">Academia Vacacional IESPP-JFSC_Huamachuco</span>
                 </div>
                 <div class="grid gap-8 lg:gap-12">
                     <span class="subtitle font-black border-b border-[#ebebeb] py-2 max-w-[300px] text-[#3477db]">Sobre la Academia</span>
@@ -92,22 +92,25 @@
     </section>
     <section>
         <article class="render">
-            <div class="py-10 grid gap-12">
+            <div class="py-10 grid gap-16 lg:gap-36">
                 <div class="font-black flex justify-center flex-col text-center">
                     <i class='bx bx-user-plus text-[60px] text-[#3477db]'></i>
                     <span class="subtitle">Beneficios</span>
                 </div>
-                <div>
-                    <ul class="grid gap-3">
+                <div class="flex flex-col gap-8 sm:flex-row items-center sm:gap-16 2xl:gap-36">
+                    <ul class="flex flex-col gap-3">
                         <li class="flex gap-2">
                             <i class="bx  bx-check-square text-[25px]"></i>
                             <span>Ingreso directo por exámenes simulacro primero y segundo puesto.</span>
                         </li>
                         <li class="flex gap-2">
                             <i class="bx  bx-check-square text-[25px]"></i>
-                            <span>Mas del 80% que se preparan en nuestra academia ingresan y son parte de nuestra familia estudiantil.</span>
+                            <span>Mas del 70% que se preparan en nuestra academia ingresan y son parte de nuestra familia estudiantil.</span>
                         </li>
                     </ul>
+                    <div>
+                        <img src="{{ asset('images/carreras/CarreraComunicacion.png') }}" alt="">
+                    </div>
                 </div>
             </div>
         </article>

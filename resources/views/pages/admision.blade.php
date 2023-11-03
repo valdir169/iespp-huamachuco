@@ -32,7 +32,7 @@
                                 de Matricula</a>
                         </div>
                         <div class="">
-                            <a href="#" class="text-white sm:px-3 py-2 lg:text-[#3477db]">Campus Institucional</a>
+                            <a href="#" class="text-white sm:px-3 py-2 lg:text-[#3477db]">Academia IESPP-JFSC</a>
                         </div>
                     </div>
                 </div>
@@ -46,7 +46,7 @@
                 <p>Te ofrecemos distintas opciones al momento que postulas a una de
                     nuestras carreras profecionales.</p>
             </div>
-            <div class="grid gap-4 xl:gap-8">
+            <div class="grid gap-16 lg:gap-36">
                 <div class="sm:flex justify-center items-center gap-5 sm:flex-row-reverse xl:gap-20">
                     <div class=" flex flex-col text-center md:text-start">
                         <small class="font-black subtitle">Excelencia Académica</small>
@@ -85,7 +85,7 @@
             </div>
         </article>
         <article class="card__admision render py-20">
-            <div class="timeline-container__ad 2xl:justify-center">
+            <div class="timeline-container__ad">
                 <div class="timeline_admision"></div>
 
                 <div class="card-ad h-[490px]">

@@ -165,7 +165,27 @@
         </article>
         <article>
             <div class="py-16">
-                <span>contamos con apoyo</span>
+                <div class="render">
+                    <div class="flex flex-col gap-8 lg:gap-16 2xl:gap-36">
+                        <div><span class="title">Contamos con el apoyo de:</span></div>
+                        <div class="flex flex-col gap-8 sm:flex-row">
+                            <div class="flex flex-col items-center gap-8 lg:flex-row lg:gap-4">
+                                <div class="flex flex-col gap-4 text-center">
+                                    <span class="font-bold">Serenazgo Huamachuco</span>
+                                    <span>profesionales de la educación con una cultura ambiental y capaces de prevenir y enfrentar</span>
+                                </div>
+                                <div><img src="{{ asset('images/carreras/CarreraComunicacion.png') }}" alt=""></div>
+                            </div>
+                            <div class="flex flex-col items-center gap-8 lg:flex-row lg:gap-4">
+                                <div class="flex flex-col gap-4 text-center">
+                                    <span class="font-bold">Ejército Del Perú</span>
+                                    <span>Batallón de Infantería Motorizado (BIM) 323 "Oscar de la Barrera"</span>  
+                                </div>
+                                <div><img src="{{ asset('images/carreras/CarreraComunicacion.png') }}" alt=""></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </article>
     </section>

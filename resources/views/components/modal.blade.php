@@ -4,7 +4,6 @@
     <div class="render h-[45vh] py-4 sm:h-[500px] lg:h-[600px] xl:h-[700px]">
         <div class="text-white">
             <div class="pt-28">
-                <a class="text-[#ebebeb] text-xs lg:sm" href="{{ $inicioLink }}">{{ $inicioText }}</a><span class="px-3">/</span>
                 <a class="text-[#ebebeb] text-xs lg:sm" href="{{ $link }}">{{ $linkText }}</a><span class="px-3">/</span>
                 <a class=" text-xs lg:sm" href="{{ $linkTitle }}">{{ $Title }}</a>
             </div>

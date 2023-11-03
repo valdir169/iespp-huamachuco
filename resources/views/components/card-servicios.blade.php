@@ -18,17 +18,17 @@
                     </div>
                     <div class="flex flex-col gap-3">
                         <span class="font-bold text-[#3477db] pt-4">{{$departamento}}</span>
-                        <span class="pt-8 flex items-center gap-2"><i class='bx bx-current-location text-[25px] text-[#3477db]' ></i>{{$direccion}}</span>
-                        <span class=" flex items-center gap-2"><i class='bx bxs-phone-call text-[25px] text-[#3477db]'></i>{{$telefono}}</span>
-                        <span class=" flex items-center gap-2"><i class='bx bxs-envelope text-[25px] text-[#3477db]' ></i>{{$email}}</span>
+                        <span class="pt-8 flex items-center gap-2"><i class='bx bx-current-location text-[25px]' ></i>{{$direccion}}</span>
+                        <span class=" flex items-center gap-2"><i class='bx bxs-phone-call text-[25px]'></i>{{$telefono}}</span>
+                        <span class=" flex items-center gap-2"><i class='bx bxs-envelope text-[25px]' ></i>{{$email}}</span>
                     </div>
                 </div>
                 <div class="flex flex-col gap-8">
                     <span class="subtitle">{{$titleRedes}}</span>
                     <ul class="flex justify-center gap-2 lg:flex-col ">
-                        <li><a href="https://web.facebook.com/" class="flex items-center gap-2 hover:text-[#3477db]"><i class='bx bxl-facebook-circle text-[25px]'></i> <span class="hidden lg:block">Facebook</span></a></li>
-                        <li><a href="https://web.facebook.com/" class="flex items-center gap-2 hover:text-[#FE0101]"><i class='bx bxl-youtube text-[25px]'></i> <span class="hidden lg:block">YouTube</span></a></li>
-                        <li><a href="https://web.facebook.com/" class="flex items-center gap-2 hover:text-[#E14669]"><i class='bx bxl-instagram-alt text-[25px]'></i> <span class="hidden lg:block">Instagram</span></a></li>
+                        <li><a href="https://web.facebook.com/" class="flex items-center gap-2"><i class='bx bxl-facebook-circle text-[25px]'></i> <span class="hidden lg:block">Facebook</span></a></li>
+                        <li><a href="https://web.facebook.com/" class="flex items-center gap-2"><i class='bx bxl-youtube text-[25px]'></i> <span class="hidden lg:block">YouTube</span></a></li>
+                        <li><a href="https://web.facebook.com/" class="flex items-center gap-2"><i class='bx bxl-instagram-alt text-[25px]'></i> <span class="hidden lg:block">Instagram</span></a></li>
                     </ul>
                 </div>
            </div>

@@ -6,12 +6,10 @@
     <section>
         <x-presentation>
             <x-slot name="img">{{ asset('images/bg-admision.jpg')}}</x-slot>
-            <x-slot name="inicioLink">{{ route('index') }}</x-slot>
-            <x-slot name="inicioText">Inicio</x-slot>
             <x-slot name="carrerasLink">{{ route('programas') }}</x-slot>
             <x-slot name="carrerasText">Programas</x-slot>
             <x-slot name="especialidadLink">{{ route('comunicacion') }}</x-slot>
-            <x-slot name="titulo">EDUCACI&Oacute;N SECUNDARIA, ESPECILIDAD: COMUNICACI&Oacute;N</x-slot>
+            <x-slot name="titulo">EDUCACI&Oacute;N SECUNDARIA, ESPECIALIDAD: COMUNICACI&Oacute;N</x-slot>
             <x-slot name="descripcion">Formar profesionales que contribuyan a mejorar los entornos en los que se desarrollan los niños y niñas, promover que los niños establezcan vínculos, que logren autonomía misma, y que desarrollen iniciativa para jugar.</x-slot>
             <x-slot name="duracion">10 Semestres Académicos (5 años)</x-slot>
             <x-slot name="titulacion">Profesional Pedagógico en Educaci&oacute;n Secundaria, Especialidad: Comunicaci&oacute;n</x-slot>
@@ -82,7 +80,7 @@
             <div class="grid gap-3 lg:gap-8 lg:gap-20" id="requisitos">
                 <div class="text-center">
                     <span class="title">Requisitos</span>
-                    <p >Para poder estudiar esta carrera nesecitas lo siguiente:</p>
+                    <p >Para postular necesitas lo siguiente:</p>
                 </div>
                 <div class="grid gap-8 sm:flex lg:gap-20">
                     <div class="flex flex-col gap-6 lg:gap-8">
@@ -125,8 +123,8 @@
             <div class="py-4 grid gap-2 sm:grid-cols-2 lg:py-10 lg:gap-6">
                 <div class="grid gap-2 bg-[#3477db] p-4 rounded-[30px] h-[450px] xl:h-[400px]">
                     <div class="flex items-center justify-center gap-2 lg:gap-6">
-                        <div class="w-[60px] h-[60px] flex items-center justify-center rounded-full bg-white"><span class="font-bold text-black text-3xl">1</span></div>
-                        <span class="subtitle text-white">Ciclo I</span>
+                        <div class="w-[60px] h-[60px] flex items-center justify-center rounded-full bg-white"><span class="font-bold text-black text-3xl">I</span></div>
+                        <span class="subtitle text-white">Ciclo</span>
                     </div>
                     <div class="text-white">
                         <ul class="grid gap-2">
@@ -142,8 +140,8 @@
 
                 <div class="grid gap-2 bg-[#3477db] p-4 rounded-[30px] h-[450px] xl:h-[400px]">
                     <div class="flex items-center justify-center gap-2 lg:gap-6">
-                        <div class="w-[60px] h-[60px] flex items-center justify-center rounded-full bg-white"><span class="font-bold text-black text-3xl">2</span></div>
-                        <span class="subtitle text-white">Ciclo II</span>
+                        <div class="w-[60px] h-[60px] flex items-center justify-center rounded-full bg-white"><span class="font-bold text-black text-3xl">II</span></div>
+                        <span class="subtitle text-white">Ciclo</span>
                     </div>
                     <div class="text-white">
                         <ul class="grid gap-2">
@@ -159,8 +157,8 @@
 
                 <div class="grid gap-2 bg-[#3477db] p-4 rounded-[30px] h-[450px] xl:h-[400px]">
                     <div class="flex items-center justify-center gap-2 lg:gap-6">
-                        <div class="w-[60px] h-[60px] flex items-center justify-center rounded-full bg-white"><span class="font-bold text-black text-3xl">3</span></div>
-                        <span class="subtitle text-white">Ciclo III</span>
+                        <div class="w-[60px] h-[60px] flex items-center justify-center rounded-full bg-white"><span class="font-bold text-black text-3xl">III</span></div>
+                        <span class="subtitle text-white">Ciclo</span>
                     </div>
                     <div class="text-white">
                         <ul class="grid gap-2">
@@ -177,8 +175,8 @@
 
                 <div class="grid gap-2 bg-[#3477db] p-4 rounded-[30px] h-[450px] xl:h-[400px]">
                     <div class="flex items-center justify-center gap-2 lg:gap-6">
-                        <div class="w-[60px] h-[60px] flex items-center justify-center rounded-full bg-white"><span class="font-bold text-black text-3xl">4</span></div>
-                        <span class="subtitle text-white">Ciclo IV</span>
+                        <div class="w-[60px] h-[60px] flex items-center justify-center rounded-full bg-white"><span class="font-bold text-black text-3xl">IV</span></div>
+                        <span class="subtitle text-white">Ciclo</span>
                     </div>
                     <div class="text-white">
                         <ul class="grid gap-2">
@@ -212,8 +210,8 @@
 
                 <div class="grid gap-2 bg-[#3477db] p-4 rounded-[30px] h-[450px] xl:h-[400px]">
                     <div class="flex items-center justify-center gap-2 lg:gap-6">
-                        <div class="w-[60px] h-[60px] flex items-center justify-center rounded-full bg-white"><span class="font-bold text-black text-3xl">6</span></div>
-                        <span class="subtitle text-white">Ciclo VI</span>
+                        <div class="w-[60px] h-[60px] flex items-center justify-center rounded-full bg-white"><span class="font-bold text-black text-3xl">VI</span></div>
+                        <span class="subtitle text-white">Ciclo</span>
                     </div>
                     <div class="text-white">
                         <ul class="grid gap-2">
@@ -229,8 +227,8 @@
 
                 <div class="grid gap-2 bg-[#3477db] p-4 rounded-[30px] h-[450px] xl:h-[400px]">
                     <div class="flex items-center justify-center gap-2 lg:gap-6">
-                        <div class="w-[60px] h-[60px] flex items-center justify-center rounded-full bg-white"><span class="font-bold text-black text-3xl">7</span></div>
-                        <span class="subtitle text-white">Ciclo VII</span>
+                        <div class="w-[60px] h-[60px] flex items-center justify-center rounded-full bg-white"><span class="font-bold text-black text-3xl">VII</span></div>
+                        <span class="subtitle text-white">Ciclo</span>
                     </div>
                     <div class="text-white">
                         <ul class="grid gap-2">
@@ -245,8 +243,8 @@
 
                 <div class="grid gap-2 bg-[#3477db] p-4 rounded-[30px] h-[450px] xl:h-[400px]">
                     <div class="flex items-center justify-center gap-2 lg:gap-6">
-                        <div class="w-[60px] h-[60px] flex items-center justify-center rounded-full bg-white"><span class="font-bold text-black text-3xl">8</span></div>
-                        <span class="subtitle text-white">Ciclo VIII</span>
+                        <div class="w-[60px] h-[60px] flex items-center justify-center rounded-full bg-white"><span class="font-bold text-black text-3xl">VIII</span></div>
+                        <span class="subtitle text-white">Ciclo</span>
                     </div>
                     <div class="text-white">
                         <ul class="grid gap-2">
@@ -260,8 +258,8 @@
 
                 <div class="grid gap-2 bg-[#3477db] p-4 rounded-[30px] h-[450px] xl:h-[400px]">
                     <div class="flex items-center justify-center gap-2 lg:gap-6">
-                        <div class="w-[60px] h-[60px] flex items-center justify-center rounded-full bg-white"><span class="font-bold text-black text-3xl">9</span></div>
-                        <span class="subtitle text-white">Ciclo IX</span>
+                        <div class="w-[60px] h-[60px] flex items-center justify-center rounded-full bg-white"><span class="font-bold text-black text-3xl">IX</span></div>
+                        <span class="subtitle text-white">Ciclo</span>
                     </div>
                     <div class="text-white">
                         <ul class="grid gap-2">
@@ -273,8 +271,8 @@
 
                 <div class="grid gap-2 bg-[#3477db] p-4 rounded-[30px] h-[450px] xl:h-[400px]">
                     <div class="flex items-center justify-center gap-2 lg:gap-6">
-                        <div class="w-[60px] h-[60px] flex items-center justify-center rounded-full bg-white"><span class="font-bold text-black text-3xl">10</span></div>
-                        <span class="subtitle text-white">Ciclo X</span>
+                        <div class="w-[60px] h-[60px] flex items-center justify-center rounded-full bg-white"><span class="font-bold text-black text-3xl">X</span></div>
+                        <span class="subtitle text-white">Ciclo</span>
                     </div>
                     <div class="text-white">
                         <ul class="grid gap-2">

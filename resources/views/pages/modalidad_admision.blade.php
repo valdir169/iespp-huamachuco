@@ -5,8 +5,6 @@
     <section>
         <x-modal
             img="{{ asset('images/bg-admision.jpg') }}"
-            inicioLink="{{ route('index') }}"
-            inicioText="Inicio"
             link="{{ route('admision') }}"
             linkText="Admisión"
             linkTitle="{{ route('modalidad_admision') }}"
@@ -46,8 +44,8 @@
                 <div class="container">
                     <div class="tab-content active" id="tab1">
                         <div class="flex justify-center items-center flex-col">
-                            <div class="flex justify-center items-center gap-5 flex-col lg:gap-16 2xl:gap-24">
-                                <div class="flex gap-5 w-full flex-col">
+                            <div class="flex justify-center items-center gap-16 flex-col lg:gap-36">
+                                <div class="flex gap-20 w-full flex-col">
                                     <div class="grid gap-2">
                                         <span class="font-black border-b border-[#3477db] py-1 w-full sm:w-2/5 lg:w-3/5 xl:w-1/2 subtitle">Modalidad por Exoneración</span>
                                         <p>Las personas que cumplen con los siguientes requisitos para esta modalidad no rinden en examen ordinario.</p>
@@ -67,7 +65,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="flex gap-5 w-full flex-col ">
+                                <div class="flex gap-20 w-full flex-col ">
                                     <div class="grid gap-2">
                                         <span class="font-black border-b border-[#3477db] py-1 w-full sm:w-2/5 lg:w-3/5 xl:w-1/2 subtitle">Modalidad Academia de Preparación</span>
                                         <p>Las personas que cumplen con los siguientes requisitos para esta modalidad no rinden en examen ordinario.</p>
@@ -83,7 +81,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="flex gap-5 w-full flex-col">
+                                <div class="flex gap-20 w-full flex-col">
                                     <div class="grid gap-2">
                                         <span class="font-black border-b border-[#3477db] py-1 w-full sm:w-2/5 lg:w-3/5 xl:w-1/2 subtitle">Modalidad Examen de Ordinario</span>
                                         <p>Esta dirigido a todos los las personas que culminaron la secundaria y los que se prepararon en la academia que brindo la institución.</p>
@@ -105,7 +103,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="py-10 w-full">
+                            <div class="py-20 w-full">
                                 <div class="sm:flex h-[140px]">
                                     <div class="h-[70px] flex justify-center items-center bg-[#d9d9d9] sm:h-full sm:w-1/2 px-2"><span>Total de vacantes en <span class="font-black">Educaci&oacute;n Inicial</span></span></div>
                                     <div class="h-[70px] flex justify-center items-center bg-[#2277db] sm:h-full sm:w-1/2"><p class="font-black text-2xl text-white flex items-center gap-5 sm:text-4xl lg:text-6xl"><i class='bx bxs-user'></i><span>60</span></p></div>
@@ -174,8 +172,8 @@
                     </div>
                     <div class="tab-content" id="tab2">
                         <div class="flex justify-center items-center flex-col">
-                            <div class="flex justify-center items-center gap-5 flex-col lg:gap-16 2xl:gap-24">
-                                <div class="flex gap-5 w-full flex-col">
+                            <div class="flex justify-center items-center gap-16 flex-col lg:gap-36">
+                                <div class="flex gap-20 w-full flex-col">
                                     <div class="grid gap-2">
                                         <span class="font-black border-b border-[#3477db] py-1 w-full sm:w-2/5 lg:w-3/5 xl:w-1/2 subtitle">Modalidad por Exoneración</span>
                                         <p>Las personas que cumplen con los siguientes requisitos para esta modalidad no rinden en examen ordinario.</p>
@@ -195,7 +193,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="flex gap-5 sm:w-full flex-col ">
+                                <div class="flex gap-20 sm:w-full flex-col ">
                                     <div class="grid gap-2">
                                         <span class="font-black border-b border-[#3477db] py-1 w-full sm:w-2/5 lg:w-3/5 xl:w-1/2 subtitle">Modalidad Academia de Preparación</span>
                                         <p >Las personas que cumplen con los siguientes requisitos para esta modalidad no rinden en examen ordinario.</p>
@@ -211,7 +209,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="flex gap-5 w-full flex-col">
+                                <div class="flex gap-20 w-full flex-col">
                                     <div class="grid gap-2">
                                         <span class="font-black border-b border-[#3477db] py-1 w-full sm:w-2/5 lg:w-3/5 xl:w-1/2 subtitle">Modalidad Examen de Ordinario</span>
                                         <p>Esta dirigido a todos los las personas que culminaron la secundaria y los que se prepararon en la academia que brindo la institución.</p>
@@ -233,7 +231,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="py-10 w-full">
+                            <div class="py-20 w-full">
                                 <div class="sm:flex h-[140px]">
                                     <div class="h-[70px] flex justify-center items-center bg-[#d9d9d9] sm:h-full sm:w-1/2 px-2"><span>Total de vacantes en <span class="font-black">Idiomas, Especilidad: Ingles</span></span></div>
                                     <div class="h-[70px] flex justify-center items-center bg-[#2277db] sm:h-full sm:w-1/2"><p class="font-black text-2xl text-white flex items-center gap-5 sm:text-4xl lg:text-6xl"><i class='bx bxs-user'></i><span>30</span></p></div>
@@ -301,8 +299,8 @@
                     </div>
                     <div class="tab-content" id="tab3">
                         <div class="flex justify-center items-center flex-col">
-                            <div class="flex justify-center items-center gap-5 flex-col lg:gap-16 2xl:gap-24">
-                                <div class="flex gap-5 w-full flex-col">
+                            <div class="flex justify-center items-center gap-16 flex-col lg:gap-36">
+                                <div class="flex gap-20 w-full flex-col">
                                     <div class="grid gap-2">
                                         <span class="font-black border-b border-[#3477db] py-1 w-full sm:w-2/5 lg:w-3/5 xl:w-1/2 subtitle">Modalidad por Exoneración</span>
                                         <p>Las personas que cumplen con los siguientes requisitos para esta modalidad no rinden en examen ordinario.</p>
@@ -322,7 +320,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="flex gap-5 sm:w-full flex-col ">
+                                <div class="flex gap-20 sm:w-full flex-col ">
                                     <div class="grid gap-2">
                                         <span class="font-black border-b border-[#3477db] py-1 w-full sm:w-2/5 lg:w-3/5 xl:w-1/2 subtitle">Modalidad Academia de Preparación</span>
                                         <p>Las personas que cumplen con los siguientes requisitos para esta modalidad no rinden en examen ordinario.</p>
@@ -338,7 +336,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="flex gap-5 w-full flex-col">
+                                <div class="flex gap-20 w-full flex-col">
                                     <div class="grid gap-2">
                                         <span class="font-black border-b border-[#3477db] py-1 w-full sm:w-2/5 lg:w-3/5 xl:w-1/2 subtitle">Modalidad Examen de Ordinario</span>
                                         <p>Esta dirigido a todos los las personas que culminaron la secundaria y los que se prepararon en la academia que brindo la institución.</p>
@@ -360,7 +358,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="py-10 w-full">
+                            <div class="py-20 w-full">
                                 <div class="sm:flex h-[140px]">
                                     <div class="h-[70px] flex justify-center items-center bg-[#d9d9d9] sm:h-full sm:w-1/2 px-2"><span>Total de vacantes en <span class="font-black">Educaci&oacute;n Secundaria, Especilidad: Comunicaci&oacute;n</span></span></div>
                                     <div class="h-[70px] flex justify-center items-center bg-[#2277db] sm:h-full sm:w-1/2"><p class="font-black text-2xl text-white flex items-center gap-5 sm:text-4xl lg:text-6xl"><i class='bx bxs-user'></i><span>30</span></p></div>
@@ -432,9 +430,9 @@
     </section>
     <section>
         <article class="render mb-5 md:mb-10">
-            <div class="border-2 border-[#d9d9d9] p-3 grid gap-4 sm:flex justify-center items-center sm:gap-5 lg:gap-10 2xl:gap-30">
+            <div class="border-2 border-[#d9d9d9] p-3 grid gap-4 sm:flex justify-center items-center sm:gap-5 lg:gap-10 2xl:gap-30 card-animation">
                 <span class="min-w-[55px] min-h-[55px] flex items-center justify-center bg-[#d9d9d9] rounded-full font-black text-2xl lg:text-3xl 2xl:text-5xl 2xl:min-w-[80px] 2xl:min-h-[80px] ">!</span>
-                <p class="text-xs sm:text-sm lg:text-base">Los postulantes que no ingresan al IESPP-JFSC Humachuco,  a traves de cada modalidad que ofrecemos, tienen una semana para recoger sus documentos,  atte. Dirección.</p>
+                <p>Los postulantes que no ingresan al IESPP-JFSC Humachuco,  a traves de cada modalidad que ofrecemos, tienen una semana para recoger sus documentos,  atte. Dirección.</p>
             </div>
         </article>
     </section>

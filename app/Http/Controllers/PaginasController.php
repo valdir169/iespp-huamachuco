@@ -74,37 +74,7 @@ class PaginasController extends Controller
 
     public function planaDocente()
     {
-
-        $initialEducationTeachers = [
-            [
-                'name' => 'Gladis Martha Alvares Medina',
-                'units' => ['Gestión y Organización de Instituciones'],
-                'cv'  => 'https://drive.google.com/file/d/1LlzIzf4hc3paZBRmFKOTr2LrjNGat2c6/view',
-            ],
-            [
-                'name' => 'Profesor de Educacion Inicial',
-                'units' => ['Unidad 1', 'Unidad 2'],
-                'cv'  => 'https://drive.google.com/file/d/1LlzIzf4hc3paZBRmFKOTr2LrjNGat2c6/view',
-            ]
-        ];
-
-        $englishTeachers = [
-            [
-                'name' => 'Profesor de Educacion Ingles',
-                'units' => ['Desarrollo Personal I', 'Englisj I'],
-                'cv'  => 'https://drive.google.com/file/d/1LlzIzf4hc3paZBRmFKOTr2LrjNGat2c6/view',
-            ]
-        ];
-
-        $comunicacionTeachers = [
-            [
-                'name' => 'Profesor de Educacion Inicial',
-                'units' => ['Unidad 1'],
-                'cv'  => 'https://drive.google.com/file/d/1LlzIzf4hc3paZBRmFKOTr2LrjNGat2c6/view',
-            ]
-        ];
-
-        return view('pages.institucion.plana', compact('initialEducationTeachers', 'englishTeachers',  'comunicacionTeachers'));
+        return view('pages.institucion.plana');
     }
 
     public function directorio()
@@ -112,81 +82,74 @@ class PaginasController extends Controller
         $jefaturas = [
             [
                 'image' => './images/institucion/direccion_general.png',
-                'name' => 'Dr. Gladis Martha Alvares Medina',
-                'jefatura' => 'Dirección General',
-                'email'  => 'galvares@iesppjfschco.edu.pe',
+                'name' => 'Dra. Gladys Martha Alvarez Medina',
+                'jefatura' => 'Directora General',
+                'email'  => 'maestramartha1@hotmail.com',
                 'fyle' => 'cvdireccion.pdf',
             ],
             [
-                'jefatura' => 'Jefatura de la Unidad de Administración',
+                'jefatura' => 'Secretario Académico',
                 'image' => './images/institucion/asertividad.png',
-                'name' => 'CPC. Juan Angel Boñon Chavez',
-                'email'  => 'gchavez@iesppjfschco.edu.pe',
-                'fyle' => 'cvdireccion.pdf',
-            ],
-            [
-                'jefatura' => 'Jefatura de Unidad Acádemica',
-                'image' => './images/institucion/asertividad.png',
-                'name' => 'Mg. Marivel Santos Layza Rodriguez',
-                'email'  => 'mlayza@iesppjfschco.edu.pe',
-                'fyle' => 'cvacademica.pdf',
-            ],
-            [
-                'jefatura' => 'Jefatura de la Unidad de Investigación ',
-                'image' => './images/institucion/asertividad.png',
-                'name' => 'Mg. Jose Oracio Pimentel Longobarde',
-                'email'  => 'jpimentel@iesppjfschco.edu.pe',
+                'name' => 'Mg. Rodolfo Eleuterio Cruz Avalos',
+                'email'  => 'rodolfocruzavalos@gmail.com',
                 'fyle' => 'cvdireccion.pdf',
             ],
             [
                 'jefatura' => 'Jefe de la Unidad de Bienestar y Empleabilidad',
                 'image' => './images/institucion/asertividad.png',
-                'name' => 'Prof. Luis Humberto Carbonell Garcia',
-                'email'  => 'lcarbonell@iesppjfschco.edu.pe',
+                'name' => 'Prof. Luis Humberto Carbonell García',
+                'email'  => 'brujito110267@gmail.com',
                 'fyle' => 'cvdireccion.pdf',
             ],
             [
-                'jefatura' => 'Coordinador del Área de Calidad',
+                'jefatura' => 'Jefe de la Unidad de Investigación',
+                'image' => './images/institucion/asertividad.png',
+                'name' => 'Mg. José Horacio Pimentel Longobardi',
+                'email'  => 'pimentellongobardi05@gmail.com',
+                'fyle' => 'cvacademica.pdf',
+            ],
+            [
+                'jefatura' => 'Jefe de Unidad Académica',
+                'image' => './images/institucion/asertividad.png',
+                'name' => 'Mg. Marivel Santos Layza Rodríguez',
+                'email'  => 'Mlayzar1213@gmail.com',
+                'fyle' => 'cvdireccion.pdf',
+            ],
+            [
+                'jefatura' => 'Coordinadora del área de Calidad',
                 'image' => './images/institucion/asertividad.png',
                 'name' => 'Mg. Marita Magdalena Andrade Condori',
-                'email'  => 'mandrade@iesppjfschco.edu.pe',
+                'email'  => 'mmand9@hotmail.com',
                 'fyle' => 'cvdireccion.pdf',
             ],
             [
-                'jefatura' => 'Coordinador del Área de Práticas Pre-Profesionales',
+                'jefatura' => 'Coordinadora del área de Práctica',
                 'image' => './images/institucion/asertividad.png',
-                'name' => 'Mg. Soledad Del Carmen Garcia Martin',
-                'email'  => 'sgarcia@iesppjfschco.edu.pe',
+                'name' => 'Mg. Soledad del Carmen García Martín',
+                'email'  => 'solfer0102@gmail.com',
                 'fyle' => 'cvdireccion.pdf',
             ],
             [
-                'jefatura' => 'Coordinador del Programas de Estudios Idiomas: Especialidad Ingles',
+                'jefatura' => 'Coordinadora del Programa de Estudios de Idiomas, Inglés',
                 'image' => './images/institucion/asertividad.png',
-                'name' => 'Mg. Zulma Jannett De La Cruz Contreras',
-                'email'  => 'zcontreras@iesppjfschco.edu.pe',
+                'name' => 'Mg. Zulma Janett de la Cruz Contreras',
+                'email'  => 'zulma_770@hotmail.com',
                 'fyle' => 'cvdireccion.pdf',
             ],
             [
-                'jefatura' => 'Coordinador del Programas de Estudios Educación Secundaria: Especialidad Comunicación',
+                'jefatura' => 'Coordinador del Programa de Estudios de Educación Secundaria, especialidad Comunicación',
                 'image' => './images/institucion/asertividad.png',
-                'name' => 'Lic. Walter Felix Reyes Vasquez',
+                'name' => 'Lic. Walter Felix Reyes Vásquez',
+                'email'  => 'walterrv79@gmail.com',
+                'fyle' => 'cvdireccion.pdf',
+            ],
+            [
+                'jefatura' => 'Coordinadora del Programa de Educación Inicial',
+                'image' => './images/institucion/asertividad.png',
+                'name' => 'Prof. María Ofelia Cobian Galvez',
                 'email'  => 'wreyes@iesppjfschco.edu.pe',
                 'fyle' => 'cvdireccion.pdf',
             ],
-            [
-                'jefatura' => 'Coordinador del Programas de Estudios Educación Inicial',
-                'image' => './images/institucion/asertividad.png',
-                'name' => 'Profesora Maria Ofelia Cobian Galvez',
-                'email'  => 'wreyes@iesppjfschco.edu.pe',
-                'fyle' => 'cvdireccion.pdf',
-            ],
-            [
-                'jefatura' => 'Secretaría Académica',
-                'image' => './images/institucion/asertividad.png',
-                'name' => 'Mg. Rodolfo Eleuterio Cruz Avalo',
-                'email'  => 'wreyes@iesppjfschco.edu.pe',
-                'fyle' => 'cvdireccion.pdf',
-            ]
         ];
         return view('pages.institucion.directorio', compact('jefaturas'));
     }

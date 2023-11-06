@@ -2,18 +2,18 @@
     <table class="w-full mb-8">
         <thead>
             <tr>
-                <th class="bg-[#3477DB] text-white">Docente</th>
-                <th class="bg-[#3477DB] text-white">Unidad Didáctica</th>
-                <th class="bg-[#3477DB] text-white">CV</th>
+                <th class="bg-[#3477DB] text-white !font-black">Docente</th>
+                <th class="bg-[#3477DB] text-white !font-black">Unidad Didáctica</th>
+                <th class="bg-[#3477DB] text-white !font-black">CV</th>
             </tr>
         </thead>
         <tbody>
             @foreach ($teachers as $teacher)
                 <tr>
                     <th class="w-6/12">{{ $teacher['name'] }}</th>
-                    <th class="w-6/12">
+                    <th class="w-6/12 !text-start !pl-[15px]">
                         @foreach ($teacher['units'] as $unit)
-                            {{ $unit }} <br>
+                            - {{ $unit }} <br>
                         @endforeach
                     </th>
                     <th class="w-6/12">
@@ -29,5 +29,4 @@
             @endforeach
         </tbody>
     </table>
-
 </div>

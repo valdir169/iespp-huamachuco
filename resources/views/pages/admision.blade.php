@@ -28,7 +28,8 @@
                                 de Admisión</a>
                         </div>
                         <div class="">
-                            <a href="{{route('matricula')}}"class="text-white md:border-r px-3 py-2 lg:text-[#3477db] lg:border-[#3477db]">Requisitos
+                            <a
+                                href="{{ route('matricula') }}"class="text-white md:border-r px-3 py-2 lg:text-[#3477db] lg:border-[#3477db]">Requisitos
                                 de Matricula</a>
                         </div>
                         <div class="">
@@ -75,63 +76,70 @@
             </div>
         </div>
     </section>
-    <section>
+    <section class="bg-[#ebebeb]">
         <article>
-            <div class="render py-12">
+            <div class=" py-12">
                 <div class="display text-center">
                     <span class="font-black text-[#3477db] title">Proceso de Admisión</span>
                     <p class="pt-2 pb-8">Para ingresar al IESPP-Huamachuco debe seguir los siguientes pasos.</p>
                 </div>
             </div>
         </article>
-        <article class="card__admision render py-20">
-            <div class="timeline-container__ad">
-                <div class="timeline_admision"></div>
+        <section class="render ">
+            <article class="card__admision ">
+                <div class="timeline-container__ad">
+                    <div class="timeline_admision"></div>
 
-                <div class="card-ad h-[490px]">
-                    <div class="card-number"><span>1</span></div>
-                    <div class="card-title subtitle">Postula</div>
-                    <div class="card-description">
-                        <p>Realiza tu inscripción en la secretaría de nuestra institución</p>
-                        <div class="card-image"><img src="{{ asset('images/icon/postular.png') }}" alt="imgPostular"></div>
+                    <div class="card-ad h-[490px]">
+                        <div class="card-number"><span>1</span></div>
+                        <div class="card-title subtitle">Postula</div>
+                        <div class="card-description">
+                            <p>Realiza tu inscripción en la secretaría de nuestra institución</p>
+                            <div class="card-image"><img src="{{ asset('images/icon/postular.png') }}" alt="imgPostular">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline_admision"></div>
+
+                    <div class="card-ad h-[600px]">
+                        <div class="card-number"><span>2</span></div>
+                        <div class="card-title subtitle">Realiza los exámenes</div>
+                        <div class="card-description grid gap-5">
+                            <p>1.- Evaluación de competencias fundamentales (Ingreso Ordinario).</p>
+                            <p>2.- Prueba de competencias específicas y test de aptitud personal vocacional (Ingreso
+                                Ordinario).</p>
+                            <div class="card-image"><img src="{{ asset('images/icon/examen.png') }}" alt="imgExamen"></div>
+                        </div>
+                    </div>
+
+                    <div class="timeline_admision"></div>
+
+                    <div class="card-ad h-[600px]">
+                        <div class="card-number"><span>3</span></div>
+                        <div class="card-title subtitle">Revisa tu resultado</div>
+                        <div class="card-description">
+                            <p>Los resultados son publicados en las redes sociales y también en la institución.</p>
+                            <div class="card-image"><img src="{{ asset('images/icon/resultados.png') }}"
+                                    alt="imgResultados"></div>
+                        </div>
+                    </div>
+
+                    <div class="timeline_admision"></div>
+
+                    <div class="card-ad h-[490px]">
+                        <div class="card-number"><span>4</span></div>
+                        <div class="card-title subtitle">Proceso de Matrícula</div>
+                        <div class="card-description">
+                            <p>Si lograste realizar los pasos anteriores satisfactoriamente, acércate a la oficina para
+                                realizar los trámites de matrícula.</p>
+                            <div class="card-image"><img src="{{ asset('images/icon/matricula.png') }}" alt="imgMatricula">
+                            </div>
+                        </div>
                     </div>
                 </div>
+            </article>
 
-                <div class="timeline_admision"></div>
-
-                <div class="card-ad h-[600px]">
-                    <div class="card-number"><span>2</span></div>
-                    <div class="card-title subtitle">Realiza los exámenes</div>
-                    <div class="card-description grid gap-5">
-                        <p>1.- Evaluación de competencias fundamentales (Ingreso Ordinario).</p>
-                        <p>2.- Prueba de competencias específicas y test de aptitud personal vocacional (Ingreso Ordinario).</p>
-                        <div class="card-image"><img src="{{ asset('images/icon/examen.png') }}" alt="imgExamen"></div>
-                    </div>
-                </div>
-
-                <div class="timeline_admision"></div>
-
-                <div class="card-ad h-[600px]">
-                    <div class="card-number"><span>3</span></div>
-                    <div class="card-title subtitle">Revisa tu resultado</div>
-                    <div class="card-description">
-                        <p>Los resultados son publicados en las redes sociales y también en la institución.</p>
-                        <div class="card-image"><img src="{{ asset('images/icon/resultados.png') }}" alt="imgResultados"></div>
-                    </div>
-                </div>
-
-                <div class="timeline_admision"></div>
-
-                <div class="card-ad h-[490px]">
-                    <div class="card-number"><span>4</span></div>
-                    <div class="card-title subtitle">Proceso de Matrícula</div>
-                    <div class="card-description">
-                        <p>Si lograste realizar los pasos anteriores satisfactoriamente, acércate a la oficina para realizar los trámites de matrícula.</p>
-                        <div class="card-image"><img src="{{ asset('images/icon/matricula.png') }}" alt="imgMatricula"></div>
-                    </div>
-                </div>
-            </div>
-        </article>
-
+        </section>
     </section>
 @endsection

@@ -8,26 +8,24 @@
         <h2 class="title text-center">Plana docente por programas de estudio</h2>
 
         <div class=" grid gap-2 mt-8">
-            <h3
+            <a href="https://drive.google.com/file/d/1jvNBoMIXGStIoDXwC_tVoDTLEZw4OpU6/view?usp=sharing" target="_blank"
                 class="item-program flex items-center w-full justify-between bg-[#ebebeb] py-2 px-10 cursor-pointer font-bold hover:bg-[#3477DB] transition hover:text-white">
                 <p> Educación Inicial </p>
                 <i class='bx bx-plus'></i>
-            </h3>
-            <x-teacher-table :teachers="$initialEducationTeachers" />
+            </a>
 
-            <h3 class="item-program flex items-center w-full justify-between bg-[#ebebeb] py-2 px-10 cursor-pointer font-bold hover:bg-[#3477DB] transition hover:text-white"
+            <a href="https://drive.google.com/file/d/1IKugTigwF56HudkFDr1gFIGScnBCkv5r/view?usp=sharing" target="_blank"
+                class="item-program flex items-center w-full justify-between bg-[#ebebeb] py-2 px-10 cursor-pointer font-bold hover:bg-[#3477DB] transition hover:text-white"
                 id="table-open">
-                <p> Idiomas, Especialidad Ingles </p>
+                <p> Idiomas, Especialidad Inglés </p>
                 <i class='bx bx-plus'></i>
-            </h3>
-            <x-teacher-table :teachers="$englishTeachers" />
+            </a>
 
-            <h3
+            <a href="https://drive.google.com/file/d/1kH5fSn3XsQinGugDqivlhFLrij1dD7to/view?usp=sharing" target="_blank"
                 class="item-program flex items-center w-full justify-between bg-[#ebebeb] py-2 px-10 cursor-pointer font-bold hover:bg-[#3477DB] transition hover:text-white">
                 <p> Educación Secundaria, Especialidad Comunicación </p>
                 <i class='bx bx-plus'></i>
-            </h3>
-            <x-teacher-table :teachers="$comunicacionTeachers" />
+            </a>
         </div>
     </div>
 @endsection

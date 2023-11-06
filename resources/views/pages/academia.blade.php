@@ -50,28 +50,28 @@
                     <div class="grid gap-4 sm:grid-cols-2">
                         <div class="p-2 grid gap-2 bg-[#3477db] text-white rounded-lg">
                             <div>
-                                <div><span>Asistencia</span></div>
+                                <div><span>Matemática</span></div>
                             </div>
                             <div><p class="font-[Roboto-thin]">Brindar Asistencia Inmediata en Situaciones de Emergencia.</p></div>
                         </div>
                         
                         <div class="p-2 grid gap-2 bg-[#3477db] text-white rounded-lg">
                             <div>
-                                <div><span>Prevención</span></div>
+                                <div><span>Comunicación</span></div>
                             </div>
                             <div><p class="font-[Roboto-thin]">Impulsar Iniciativas de Prevención Ambiental y de Riesgos.</p></div>
                         </div>
     
                         <div class="p-2 grid gap-2 bg-[#3477db] text-white rounded-lg">
                             <div>
-                                <div><span>Seguridad</span></div>
+                                <div><span>Inglés</span></div>
                             </div>
                             <div><p class="font-[Roboto-thin]">Garantizar la Seguridad a través de Brigadas Especializadas.</p></div>
                         </div>
     
                         <div class="p-2 grid gap-2 bg-[#3477db] text-white rounded-lg">
                             <div>
-                                <div><span>Bienestar</span></div>
+                                <div><span>Cultura General</span></div>
                             </div>
                             <div><p class="font-[Roboto-thin]">Cultivar un Entorno Educativo que Promueva el Bienestar Integral.</p></div>
                         </div>

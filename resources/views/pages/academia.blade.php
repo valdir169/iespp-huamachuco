@@ -73,7 +73,7 @@
                             <div>
                                 <div><span>Cultura General</span></div>
                             </div>
-                            <div><p class="font-[Roboto-thin]">Cultivar un Entorno Educativo que</p></div>
+                            <div><p class="font-[Roboto-thin]">Cultivar un Entorno Educativo </p></div>
                         </div>
                     </div>
                 </div>

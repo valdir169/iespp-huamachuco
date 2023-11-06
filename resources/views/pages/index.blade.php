@@ -5,29 +5,33 @@
 @section('content')
     <div class="swiper mySwiper">
         <div class="swiper-wrapper">
-
             <div class="swiper-slide bg-no-repeat bg-cover relative"
                 style="background-image: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.1), rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url(images/slider/slider2.jpg)">
-                <div class="render absolute left-0  flex flex-col items-start bottom-10 gap-10 ">
-                    <h1
-                        class="backdrop-blur-md bg-[#3477db]/30 text-white text-4xl sm:text-6xl xl:text-7xl font-[Roboto-Black] rounded-xl p-2 ">
+                <div class="render absolute inset-0  flex flex-col items-start gap-8 pb-[32px] h-full justify-end">
+                    <span
+                        class="backdrop-blur-md bg-[#3477db]/30 text-white text-4xl sm:text-6xl xl:text-7xl font-[Roboto-Black] rounded-xl p-2  bottom-0 ">
                         Educación
-                        Inicial</h1>
+                        Inicial</span>
 
                     <a href="{{ route('educacioninicial') }}"
-                        class="bg-[#3477DB] text-white cursor-pointer  outline-none font-bold rounded-lg
+                        class="bg-[#3477DB]  text-white cursor-pointer  outline-none font-bold rounded-lg
                      py-2.5 text-center no-underline  px-12  mb-2 transition-all duration-200 ease-in-out hover:opacity-90">Descubre
-                        más<s></s></a>
+                        más</a>
                 </div>
             </div>
 
             <div class="swiper-slide bg-no-repeat bg-cover relative"
                 style="background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4) ), url(images/slider/slider1.jpg)">
-                <div class="render absolute left-0  flex flex-col items-start bottom-10 gap-10 ">
-                    <h1
-                        class="backdrop-blur-md bg-[#3477db]/30 text-white text-4xl sm:text-6xl xl:text-7xl font-[Roboto-Black] rounded-xl p-2 ">
+                <div class="render absolute inset-0  flex flex-col items-start gap-8 pb-[32px] h-full justify-end ">
+                    <span
+                        class="backdrop-blur-md bg-[#3477db]/30 text-white text-4xl sm:text-6xl xl:text-7xl font-[Roboto-Black] rounded-xl p-2 hidden lg:block ">
                         Educación Secundaria: Especialidad Comunicación
-                    </h1>
+                    </span>
+
+                    <span
+                        class="backdrop-blur-md bg-[#3477db]/30 text-white text-4xl sm:text-6xl xl:text-7xl font-[Roboto-Black] rounded-xl p-2 lg:hidden">
+                        Especialidad Comunicación
+                    </span>
 
                     <a href="{{ route('educacioninicial') }}"
                         class="bg-[#3477DB] text-white cursor-pointer  outline-none font-bold rounded-lg
@@ -38,11 +42,16 @@
 
             <div class="swiper-slide bg-no-repeat bg-cover relative"
                 style="background-image: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.1), rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url(images/slider/slider4.jpg)">
-                <div class="render absolute left-0  flex flex-col items-start bottom-10 gap-10 ">
-                    <h1
-                        class="backdrop-blur-md bg-[#3477db]/30 text-white text-4xl sm:text-6xl xl:text-7xl font-[Roboto-Black] rounded-xl p-2 ">
+                <div class="render absolute inset-0  flex flex-col items-start gap-8 pb-[32px] h-full justify-end">
+                    <span
+                        class="backdrop-blur-md bg-[#3477db]/30 text-white text-4xl sm:text-6xl xl:text-7xl font-[Roboto-Black] rounded-xl p-2 hidden lg:block ">
                         Idiomas: Especialidad Inglés
-                    </h1>
+                    </span>
+
+                    <span
+                        class="backdrop-blur-md bg-[#3477db]/30 text-white text-4xl sm:text-6xl xl:text-7xl font-[Roboto-Black] rounded-xl p-2 lg:hidden">
+                        Especialidad Inglés
+                    </span>
 
                     <a href="{{ route('educacioninicial') }}"
                         class="bg-[#3477DB] text-white cursor-pointer  outline-none font-bold rounded-lg
@@ -53,32 +62,32 @@
         </div>
     </div>
 
-    <section class="render py-24">
+    <section class="py-24">
         <article class="flex flex-col justify-center text-center pb-12 gap-3">
             <h2 class="title">¡Contamos con las siguientes <span class="text-[#3477db]">programas de
                     estudio!</span></h2>
             <span class="text-xl">Al culminar recibe tu T&iacute;tulo a Nombre de la Naci&oacute;n</span>
         </article>
 
-        <article class="grid gap-8 sm:grid-cols-2 lg:grid-cols-3 md:gap-8  2xl:gap-12 ">
+        <article class="render grid gap-8 sm:grid-cols-2 lg:grid-cols-3 md:gap-8  2xl:gap-12 ">
             <x-card>
                 <x-slot name="image">{{ asset('images/carreras/carrera_inicial.png') }}</x-slot>
                 <x-slot name="altText">Educación Inicial</x-slot>
                 <x-slot name="title">Educación Inicial</x-slot>
                 <x-slot name="content">
                     Formar profesionales que contribuyan a mejorar los entornos en los que se desarrollen los niños y
-                    niñas...
+                    niñas en las primeras etapas de su educación, promoviendo un entorno de cuidado y estimulación adecuado.
                 </x-slot>
                 <x-button type="secondary" ruta="{{ route('educacioninicial') }}">Ver Detalles</x-button>
             </x-card>
 
             <x-card>
-                <x-slot name="image">{{ asset('images/carreras/carrera_ingles.png') }}</x-slot>
+                <x-slot name="image">{{ asset('images/carreras/carrera_ingles1.jpg') }}</x-slot>
                 <x-slot name="altText">Idiomas, especialidad: Ingles</x-slot>
                 <x-slot name="title">Idiomas: Especialidad Inglés</x-slot>
                 <x-slot name="content">
-                    Formar profesionales que contribuyan a mejorar los entornos en los que se desarrollen los niños y
-                    niñas...
+                    Formar profesionales en el ámbito del idiomas inglés que contribuyan a mejorar las competencias
+                    lingüísticas y la comunicación en inglés en diversos contextos y situaciones.
                 </x-slot>
                 <x-button type="secondary" ruta="#">Ver Detalles</x-button>
 
@@ -89,8 +98,8 @@
                 <x-slot name="altText">Educación Secundaria, Especialidad: Comunicación</x-slot>
                 <x-slot name="title">Educación Secundaria: Especialidad Comunicación</x-slot>
                 <x-slot name="content">
-                    Formar docentes de Comunicación con conocimeintos pedagógicos y especializados, que
-                    trabajen de forma colaborativa...
+                    Formar docentes de Comunicación con conocimientos pedagógicos y especializados, que
+                    trabajen de forma colaborativa.
                 </x-slot>
                 <x-button type="secondary" ruta="#">Ver Detalles</x-button>
 
@@ -98,22 +107,21 @@
         </article>
     </section>
 
-    <article class="bg-[#3477DB] render py-24 text-center">
+    <article class="bg-[#3477DB] py-24 text-center">
         <h4 class="title text-white text-center"> ¿Por qué estudiar con
             <span class="bg-white text-[#3477db] py-1 px-3">nosotros?</span>
         </h4>
 
-        <section
-            class="grid gap-2 md:gap-4 grid-cols-2 lg:grid-cols-4 pt-16 max-w-[650px] lg:max-w-[100%] xl:max-w-[80%] 2xl:gap-6 mx-auto">
+        <section class="render grid gap-2 md:gap-4 grid-cols-2 lg:grid-cols-4 pt-16 md:w-[80%] lg:w-full 2xl:gap-6 mx-auto">
             <div class="bg-[#ebebeb] p-2 flex flex-col gap-2 text-[#4377db] rounded-lg justify-evenly">
                 <span class="text-xl font-bold sm:text-2xl  overflow-hidden">Infraestructura</span>
-                <p class="mt-4">Más del 95% de nuestros graduados logran conseguir empleo exitosamente</p>
+                <p class="mt-4">Infraestructura de calidad respalda la formación y éxito educativo.</p>
                 <i class='bx bx-building text-8xl'></i>
             </div>
 
             <div class="bg-[#ebebeb] p-2 flex flex-col gap-2 text-[#4377db] rounded-lg justify-evenly">
                 <span class="text-xl font-bold sm:text-2xl ">Prestigio</span>
-                <p class="mt-4">Con más de 40 años formando profesionales altamente competentes </p>
+                <p class="mt-4">Con más de 41 años formando profesionales altamente competentes </p>
                 <i class='bx bx-medal text-8xl'></i>
             </div>
 
@@ -137,11 +145,9 @@
 
 
     <section class="render my-24 flex flex-col gap-12 lg:flex-row lg:h-[400px]">
-        {{-- <div class="h-full w-full xl:h-[420px] rounded-lg"> --}}
         <picture class="w-full lg:w-6/12 h-full ">
             <img class="h-full w-full rounded-lg" src="{{ asset('images/directora.png') }}" alt="Directora del IESPP JFSC">
         </picture>
-        {{-- </div> --}}
 
         <div class="w-full lg:w-6/12 h-auto flex flex-col gap-4 mx-auto items-center md:items-start">
             <h2 class="title">Bienvenida de la Directora</h2>
@@ -161,31 +167,24 @@
 
 
 
-    <article
-        class="render flex flex-col bg-[#3477DB] py-20 text-white gap-10 mx-auto w-full md:flex-row xl:px-56 lg:gap-20">
-        <div
-            class="carreras-count flex flex-col gap-2  justify-center items-center shadow-md shadow-[#D9D9D9] p-4 rounded-lg
+    <article class="bg-[#3477DB] py-20 text-white ">
+        <section class="render flex flex-col gap-10 mx-auto w-full md:flex-row xl:px-56 lg:gap-20">
+            <div
+                class="carreras-count flex flex-col gap-2  justify-center items-center shadow-md shadow-[#D9D9D9] p-4 rounded-lg
             shadow-md border-gray-700 hover:scale-105 hover:bg-[#ffffff] hover:border-gray-500  transition hover:text-[#3477DB]">
-            <i class='bx bxs-graduation text-8xl'></i>
-            <span class="text-6xl font-['Roboto-Bold'] " data-valor="4">0</span>
-            <small class="text-2xl md:text-xl lg:text-2xl font-bold">CARRERAS</small>
-        </div>
+                <i class='bx bxs-graduation text-8xl'></i>
+                <span class="text-6xl font-['Roboto-Bold'] " data-valor="3">0</span>
+                <small class="text-2xl md:text-xl lg:text-2xl font-bold">CARRERAS</small>
+            </div>
 
-        <div
-            class="carreras-count flex flex-col justify-center gap-2 items-center shadow-md shadow-[#D9D9D9] p-4 rounded-lg
+            <div
+                class="carreras-count flex flex-col gap-2 justify-center items-center shadow-md shadow-[#D9D9D9] p-4 rounded-lg
         shadow-md border-gray-700 hover:scale-105 hover:bg-[#ffffff] hover:border-gray-500  transition hover:text-[#3477DB]"">
-            <i class='bx bxs-graduation text-8xl'></i>
-            <span class="text-6xl font-['Roboto-Bold']" data-valor="8">0</span>
-            <small class="text-2xl md:text-xl lg:text-2xl font-bold">ESPECIALIZACIONES</small>
-        </div>
-
-        <div
-            class="carreras-count flex flex-col gap-2 justify-center items-center shadow-md shadow-[#D9D9D9] p-4 rounded-lg
-        shadow-md border-gray-700 hover:scale-105 hover:bg-[#ffffff] hover:border-gray-500  transition hover:text-[#3477DB]"">
-            <i class='bx bx-edit text-8xl'></i>
-            <span class="text-6xl font-['Roboto-Bold']" data-valor="10">0</span>
-            <small class="text-2xl md:text-xl lg:text-2xl font-bold">CONVENIOS</small>
-        </div>
+                <i class='bx bx-edit text-8xl'></i>
+                <span class="text-6xl font-['Roboto-Bold']" data-valor="30">0</span>
+                <small class="text-2xl md:text-xl lg:text-2xl font-bold">CONVENIOS</small>
+            </div>
+        </section>
     </article>
 
     <section class="render py-28">
@@ -194,7 +193,7 @@
             <span class="text-xl mt-4">¡Mira lo que dicen de nosotros!</span>
         </div>
 
-        <article class="swiper-exp-cont">
+        <article class="swiper-exp-cont ">
             <div class="experience myExperience">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
@@ -271,14 +270,17 @@
         </article>
     </section>
 
-    <div class=" render h-[90vh] w-full bg-cover bg-no-repeat bg-fixed flex flex-col text-white justify-center items-center text-center "
+    <div class="h-screen w-full bg-cover bg-no-repeat bg-fixed "
         style='background-image: linear-gradient(rgba(52, 119, 219, 0.7), rgba(52, 119, 219, 0.7)),
     url(images/home/home.jpg);'>
-        <p class="text-2xl md:text-4xl  font-[Roboto-Black] lg:px-[20vw]">Nuestro campus es mucho más que un lugar
-            de aprendizaje; </p>
-        <span class="font-[Roboto-Thin] font-bold text-2xl lg:px-[20vw] ">es un espacio donde la inspiración se combina con
-            la
-            innovación para crear oportunidades sin límites.</span>
+        <div class="render flex flex-col text-white justify-center items-center text-center h-full ">
+            <p class="text-2xl md:text-4xl  font-[Roboto-Black] lg:px-[20vw]">Nuestro campus es mucho más que un lugar
+                de aprendizaje; </p>
+            <span class="font-[Roboto-Thin] font-bold text-2xl lg:px-[20vw] ">es un espacio donde la inspiración se combina
+                con
+                la
+                innovación para crear oportunidades sin límites.</span>
+        </div>
     </div>
 
     <section class="render py-24">
@@ -305,27 +307,36 @@
 
     <article class="render pb-16">
         <span class="title">Nuestros Aliados</span>
-        <div class="grid gap-4 place-items-center md:grid-cols-4 md:h-[150px] w-full flex lg:gap-10 xl:gap-20 mt-6">
+        <div class="grid gap-4 place-items-center md:grid-cols-6 md:h-[100px] w-full  mt-6">
 
-            <a href="https://enlinea.sunedu.gob.pe/" target="_blank"
-                class="border rounded-md h-[150px] w-[300px] md:w-full p-2 hover:bg-[#ebebeb] transition z-50">
-                <img class="w-full h-full" src="{{ asset('images/enlaces/sunedu.png') }}" alt="">
+            <a href="https://www.minedu.gob.pe/superiorpedagogica/" target="_blank"
+                class="border rounded-md h-[100px] w-[300px] md:w-full p-2 hover:bg-[#ebebeb] transition z-50">
+                <img class="w-full h-full" src="{{ asset('images/enlaces/difoid.png') }}" alt="">
             </a>
 
             <a href="https://www.gob.pe/minedu" target="_blank"
-                class="border rounded-md h-[150px] w-[300px] md:w-full p-2 hover:bg-[#ebebeb] transition z-50">
+                class="border rounded-md h-[100px] w-[300px] md:w-full p-2 hover:bg-[#ebebeb] transition z-50">
                 <img class="w-full h-full" src="{{ asset('images/enlaces/educacion.png') }}" alt="">
             </a>
 
-            <a href="https://www.unesco.org/es" target="_blank"
-                class="border rounded-md h-[150px] w-[300px] md:w-full p-2 hover:bg-[#ebebeb] transition z-50">
-                <img class="w-full h-full" src="{{ asset('images/enlaces/unesco.png') }}" alt="">
+            <a href="http://grell.gob.pe/" target="_blank"
+                class="border rounded-md h-[100px] w-[300px] md:w-full p-2 hover:bg-[#ebebeb] transition z-50">
+                <img class="w-full h-full" src="{{ asset('images/enlaces/grell.png') }}" alt="">
             </a>
 
-            <a href="https://www.gob.pe/busquedas?institucion%5B%5D=sineace&reason=sheet&sheet=1&term=coneaces"
-                target="_blank"
-                class="border rounded-md h-[150px] w-[300px] md:w-full p-2 hover:bg-[#ebebeb] transition z-50">
-                <img class="w-full h-full -z-10" src="{{ asset('images/enlaces/coneaces.png') }}" alt="">
+            <a href="https://www.munihuamachuco.gob.pe/" target="_blank"
+                class="border rounded-md h-[100px] w-[300px] md:w-full px-28 md:px-8 lg:px-12 py-2 hover:bg-[#ebebeb] transition z-50">
+                <img class="w-full h-full -z-10" src="{{ asset('images/enlaces/logo_m_mpsch.png') }}" alt="">
+            </a>
+
+            <a href="https://enlinea.sineace.gob.pe/" target="_blank"
+                class="border rounded-md h-[100px] w-[300px] md:w-full p-2 hover:bg-[#ebebeb] transition z-50">
+                <img class="w-full h-full -z-10" src="{{ asset('images/enlaces/sineace.png') }}" alt="">
+            </a>
+
+            <a href="https://risscarrion.gob.pe/" target="_blank"
+                class="border rounded-md h-[100px] w-[300px] md:w-full p-2 hover:bg-[#ebebeb] transition z-50">
+                <img class="w-full h-full -z-10" src="{{ asset('images/enlaces/red-salud.png') }}" alt="">
             </a>
         </div>
     </article>

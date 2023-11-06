@@ -94,6 +94,10 @@ body.is-open {
 }
 
 /* style for submenu */
+.submenu-link {
+    display: none;
+}
+
 .submenu {
     background: #ebebeb;
     transition: heigth .4s;

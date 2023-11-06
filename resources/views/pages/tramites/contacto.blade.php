@@ -59,7 +59,7 @@
                             class="bg-white cursor-pointer hover:bg-[#3477DB] text-center
                         outline-none font-bold rounded-lg  px-10 py-2 hover:text-white font-bold
                         border hover:border-[#D9D9D9] font-[Roboto-Regular] lg:max-w-full max-w-full
-                        mb-2 hover:shadow-lg transition-all duration-200 ease-in-out ">Envikar</button>
+                        mb-2 hover:shadow-lg transition-all duration-200 ease-in-out ">Enviar</button>
                     </div>
                 </form>
             </div>
@@ -89,7 +89,7 @@
         </article>
     </section>
 
-    <section class="render bg-[#ebebeb] py-32 h-auto">
+    <section class="render py-16">
         <span class="title font-bold">Visita nuestro local</span>
         <iframe class="w-full h-[60vh] pt-4"
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3952.733683933727!2d-78.04230968875837!3d-7.817988877605852!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91ade566b5c19db1%3A0x8a6144e6b61a089a!2sIESP%20JOS%C3%89%20FAUSTINO%20S%C3%81NCHEZ%20CARRI%C3%93N!5e0!3m2!1ses-419!2spe!4v1694987281895!5m2!1ses-419!2spe"

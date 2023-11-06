@@ -3,7 +3,7 @@
         class="flex flex-col md:flex-row items-center md:items-start px-4 py-16 gap-12 md:gap-6 justify-center  max-w-[1024px] mx-auto">
         <div class="w-full md:max-w-[25%]">
             <div class="w-[150px] mx-auto md:mx-0">
-                <img class="w-full h-full" src="{{ asset('images/logo.png') }}" alt="">
+                <img class="w-full h-full" src="{{ asset('images/others/logo.png') }}" alt="">
             </div>
         </div>
 

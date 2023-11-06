@@ -6,7 +6,7 @@
     <div class="swiper mySwiper">
         <div class="swiper-wrapper">
             <div class="swiper-slide bg-no-repeat bg-cover relative"
-                style="background-image: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.1), rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url(images/slider/slider2.jpg)">
+                style="background-image: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.1), rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url(images/slider/Bienvenida.jpg)">
                 <div class="render absolute inset-0  flex flex-col items-start gap-8 pb-[32px] h-full justify-end">
                     <span
                         class="backdrop-blur-md bg-[#3477db]/30 text-white text-4xl sm:text-6xl xl:text-7xl font-[Roboto-Black] rounded-xl p-2  bottom-0 ">

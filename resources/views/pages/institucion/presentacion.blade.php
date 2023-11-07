@@ -9,7 +9,7 @@
 
         <section class="grid md:grid-cols-2 gap-4 lg:gap-8 xl:gap-12 2xl:gap-20">
             <div class=" flex flex-col gap-2  text-center ">
-                <img class="h-full w-full xl:h-[60vh] 2xl:h-[50vh] rounded-lg" src="{{ asset('images/directora.png') }}"
+                <img class="h-full w-full xl:h-[60vh] 2xl:h-[50vh] rounded-lg" src="{{ asset('images/home/directora.png') }}"
                     alt="Directora del IESPP JFSC">
                 <strong class="text-xl mt-4">Dra. Gladys Martha Alvarez Medina</strong>
             </div>

@@ -3,7 +3,7 @@
 @section('title', 'IESPP José Faustino Sánchez Carrión')
 
 @section('content')
-    <div class="swiper mySwiper">
+    <div class="swiper mySwier">
         <div class="swiper-wrapper">
             <div class="swiper-slide bg-no-repeat bg-cover relative"
                 style="background-image: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.1), rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url(images/slider/Bienvenida.jpg)">
@@ -71,7 +71,7 @@
 
         <article class="render grid gap-8 sm:grid-cols-2 lg:grid-cols-3 md:gap-8  2xl:gap-12 ">
             <x-card>
-                <x-slot name="image">{{ asset('images/carreras/carrera_inicial.png') }}</x-slot>
+                <x-slot name="image">{{ asset('images/home/carreras/carrera_inicial.png') }}</x-slot>
                 <x-slot name="altText">Educación Inicial</x-slot>
                 <x-slot name="title">Educación Inicial</x-slot>
                 <x-slot name="content">
@@ -82,7 +82,7 @@
             </x-card>
 
             <x-card>
-                <x-slot name="image">{{ asset('images/carreras/carrera_ingles1.jpg') }}</x-slot>
+                <x-slot name="image">{{ asset('images/home/carreras/carrera_ingles.jpg') }}</x-slot>
                 <x-slot name="altText">Idiomas, especialidad: Ingles</x-slot>
                 <x-slot name="title">Idiomas: Especialidad Inglés</x-slot>
                 <x-slot name="content">
@@ -94,7 +94,7 @@
             </x-card>
 
             <x-card>
-                <x-slot name="image">{{ asset('images/carreras/carrera_comunicacion.png') }}</x-slot>
+                <x-slot name="image">{{ asset('images/home/carreras/carrera_comunicacion.png') }}</x-slot>
                 <x-slot name="altText">Educación Secundaria, Especialidad: Comunicación</x-slot>
                 <x-slot name="title">Educación Secundaria: Especialidad Comunicación</x-slot>
                 <x-slot name="content">
@@ -146,7 +146,8 @@
 
     <section class="render my-24 flex flex-col gap-12 lg:flex-row lg:h-[400px]">
         <picture class="w-full lg:w-6/12 h-full ">
-            <img class="h-full w-full rounded-lg" src="{{ asset('images/directora.png') }}" alt="Directora del IESPP JFSC">
+            <img class="h-full w-full rounded-lg" src="{{ asset('images/home/directora.png') }}"
+                alt="Directora del IESPP JFSC">
         </picture>
 
         <div class="w-full lg:w-6/12 h-auto flex flex-col gap-4 mx-auto items-center md:items-start">
@@ -170,7 +171,7 @@
     <article class="bg-[#3477DB] py-20 text-white ">
         <section class="render flex flex-col gap-10 mx-auto w-full md:flex-row xl:px-56 lg:gap-20">
             <div
-                class="carreras-count flex flex-col gap-2  justify-center items-center shadow-md shadow-[#D9D9D9] p-4 rounded-lg
+                class="carreras-count flex flex-col gap-2  justify-center items-center shadow-[#D9D9D9] p-4 rounded-lg
             shadow-md border-gray-700 hover:scale-105 hover:bg-[#ffffff] hover:border-gray-500  transition hover:text-[#3477DB]">
                 <i class='bx bxs-graduation text-8xl'></i>
                 <span class="text-6xl font-['Roboto-Bold'] " data-valor="3">0</span>
@@ -178,7 +179,7 @@
             </div>
 
             <div
-                class="carreras-count flex flex-col gap-2 justify-center items-center shadow-md shadow-[#D9D9D9] p-4 rounded-lg
+                class="carreras-count flex flex-col gap-2 justify-center items-center shadow-[#D9D9D9] p-4 rounded-lg
         shadow-md border-gray-700 hover:scale-105 hover:bg-[#ffffff] hover:border-gray-500  transition hover:text-[#3477DB]"">
                 <i class='bx bx-edit text-8xl'></i>
                 <span class="text-6xl font-['Roboto-Bold']" data-valor="30">0</span>
@@ -199,7 +200,7 @@
                     <div class="swiper-slide">
                         <section class="flex gap-12 items-start w-[65%] md:w-[70%] flex-col md:flex-row h-auto">
                             <div class="w-full md:w-6/12">
-                                <img class="w-full h-auto" src="{{ asset('images/experiences/experience.png') }}"
+                                <img class="w-full h-auto" src="{{ asset('images/home/experiences/experience.png') }}"
                                     alt="">
                             </div>
 
@@ -271,16 +272,18 @@
     </section>
 
     <div class="h-screen w-full bg-cover bg-no-repeat bg-fixed "
-        style='background-image: linear-gradient(rgba(52, 119, 219, 0.7), rgba(52, 119, 219, 0.7)),
-    url(images/home/home.jpg);'>
-        <div class="render flex flex-col text-white justify-center items-center text-center h-full ">
+        style='background-image:    url(https://drive.google.com/file/d/1TkJVd2-luNMvdoGCx-OAK-HEqIhwc9gh/view?usp=drive_link);'>
+        {{-- <div class="render flex flex-col text-white justify-center items-center text-center h-full ">
             <p class="text-2xl md:text-4xl  font-[Roboto-Black] lg:px-[20vw]">Nuestro campus es mucho más que un lugar
                 de aprendizaje; </p>
             <span class="font-[Roboto-Thin] font-bold text-2xl lg:px-[20vw] ">es un espacio donde la inspiración se combina
                 con
                 la
                 innovación para crear oportunidades sin límites.</span>
-        </div>
+        </div> --}}
+        {{-- 
+        <video src="{{ asset('images/home/campus_video.mp4') }}" width="100%" height="100%" autoplay >
+        </video> --}}
     </div>
 
     <section class="render py-24">
@@ -290,7 +293,7 @@
             <div
                 class="bg-[#ebebeb] rounded-lg shadow-md border-gray-900  hover:bg-[#ffffff]  transition flex flex-col p-4  jusitify-center  w-[350px]  mx-auto">
                 <picture class="flex justify-center h-[300px] w-full">
-                    <img class="mb-5 w-full h-full" src="images/activity2.png" alt="" />
+                    <img class="mb-5 w-full h-full" src="{{ asset('images/home/actividades/activity2.png') }}" alt="" />
                 </picture>
 
                 <article class="">
@@ -311,32 +314,32 @@
 
             <a href="https://www.minedu.gob.pe/superiorpedagogica/" target="_blank"
                 class="border rounded-md h-[100px] w-[300px] md:w-full p-2 hover:bg-[#ebebeb] transition z-50">
-                <img class="w-full h-full" src="{{ asset('images/enlaces/difoid.png') }}" alt="">
+                <img class="w-full h-full" src="{{ asset('images/home/enlaces/difoid.png') }}" alt="">
             </a>
 
             <a href="https://www.gob.pe/minedu" target="_blank"
                 class="border rounded-md h-[100px] w-[300px] md:w-full p-2 hover:bg-[#ebebeb] transition z-50">
-                <img class="w-full h-full" src="{{ asset('images/enlaces/educacion.png') }}" alt="">
+                <img class="w-full h-full" src="{{ asset('images/home/enlaces/educacion.png') }}" alt="">
             </a>
 
             <a href="http://grell.gob.pe/" target="_blank"
                 class="border rounded-md h-[100px] w-[300px] md:w-full p-2 hover:bg-[#ebebeb] transition z-50">
-                <img class="w-full h-full" src="{{ asset('images/enlaces/grell.png') }}" alt="">
+                <img class="w-full h-full" src="{{ asset('images/home/enlaces/grell.png') }}" alt="">
             </a>
 
             <a href="https://www.munihuamachuco.gob.pe/" target="_blank"
                 class="border rounded-md h-[100px] w-[300px] md:w-full px-28 md:px-8 lg:px-12 py-2 hover:bg-[#ebebeb] transition z-50">
-                <img class="w-full h-full -z-10" src="{{ asset('images/enlaces/logo_m_mpsch.png') }}" alt="">
+                <img class="w-full h-full -z-10" src="{{ asset('images/home/enlaces/logo_m_mpsch.png') }}" alt="">
             </a>
 
             <a href="https://enlinea.sineace.gob.pe/" target="_blank"
                 class="border rounded-md h-[100px] w-[300px] md:w-full p-2 hover:bg-[#ebebeb] transition z-50">
-                <img class="w-full h-full -z-10" src="{{ asset('images/enlaces/sineace.png') }}" alt="">
+                <img class="w-full h-full -z-10" src="{{ asset('images/home/enlaces/sineace.png') }}" alt="">
             </a>
 
             <a href="https://risscarrion.gob.pe/" target="_blank"
                 class="border rounded-md h-[100px] w-[300px] md:w-full p-2 hover:bg-[#ebebeb] transition z-50">
-                <img class="w-full h-full -z-10" src="{{ asset('images/enlaces/red-salud.png') }}" alt="">
+                <img class="w-full h-full -z-10" src="{{ asset('images/home/enlaces/red-salud.png') }}" alt="">
             </a>
         </div>
     </article>

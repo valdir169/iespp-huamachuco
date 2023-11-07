@@ -15,8 +15,8 @@
                 EFICIENCIA DE NUESTRA GESTIÓN.</p>
         </div>
 
-        <div class=" flex flex-col gap-2  text-center rounded-lg lg:h-[330px] bg-[red]">
-            <img class="h-full rounded-lg" src="{{ asset('images/directora.png') }}" alt="Directora del IESPP JFSC">
+        <div class=" flex flex-col gap-2  text-center rounded-lg lg:h-[330px]">
+            <img class="h-full rounded-lg" src="{{ asset('images/home/directora.png') }}" alt="Directora del IESPP JFSC">
         </div>
     </section>
 

@@ -5,16 +5,31 @@
 @section('content')
     <div class="-mt-[120px] h-[700px] w-full bg-cover bg-no-repeat bg-center  flex items-center justify-center flex-col text-center gap-4"
         style='background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8)),
-        url({{ asset('images/contacto.png') }});'>
+        url({{ asset('images/.png') }});'>
         <h1 class="text-white text-4xl md:text-6xl font-bold font-[Roboto-Bold] mt-[0px] md:mt-[150px] sm:mt-[0px]">¡Estamos aquí para  ayudarte!</h1>
         <span class="text-white  mt-2 md:mt-4  sm:text-xl px-8 xl:px-72 font-[Roboto-Thin] font-bold">Comuníquese con nosotros en cualquier momento y estaremos
             encantados
             de responder a sus preguntas.</span>
     </div>
 
+    @if (session('message'))
+    <div id="message-alert" class="fixed rounded-xl right-12 bottom-[100px] z-[500]  bg-[white] border-[#3477db] border-2  h-auto">
+      <div class="flex  justify-end flex-col">
+        <i id="close" class='bx bx-x ml-[92%] absolute -top-5  flex justify-center items-center rounded-full px-1 text-[white] bg-[#3477db]  text-xl font-bold  cursor-pointer border-[white] border-2'></i>
+        <div class="flex items-center justify-center p-4">
+          <i class='bx bx-check check text-[#2dbf65] text-2xl font-bold mr-1'></i>
+          <p>Mensaje enviado con éxito...</p>
+        </div>
+      </div>
+    </div>
+  @endif
+
+
+
+
     <section class="-mt-[150px] md:-mt-[100px] w-full pb-8 ">
         <article
-            class="mx-6 sm:mx-6  lg:mx-32 xl:mx-48 bg-[#3477DB] flex flex-col md:flex-row gap-4 py-8 px-6 sm:px-16 md:px-4 lg:px-8 xl:px-16  xl:mx-60 2xl:gap-16 font-[Roboto-Thin] font-bold">
+            class="mx-6 sm:mx-6  lg:mx-32 bg-[#3477DB] flex flex-col md:flex-row gap-4 py-8 px-6 sm:px-16 md:px-4 lg:px-8 xl:px-16  xl:mx-60 2xl:gap-16 font-[Roboto-Thin] font-bold">
 
             <div class="w-full text-center md:text-start">
                 <span class="font-[Roboto-Regular] text-white text-2xl md:text-4xl ">Envía tu mensaje</span>
@@ -24,7 +39,7 @@
                         <input type="text" name="name" placeholder=" " style="border-color:#fff;color:#fff;">
                         <label>Ingresa tus nombres</label>
                         @error('name')
-                            <span>{{ 'message' }}</span>
+                            <span>{{ $message }}</span>
                         @enderror
                     </div>
 
@@ -33,7 +48,7 @@
                             style="border-color:#fff;color:#fff;">
                         <label>Ingresa tu correo electrónico</label>
                         @error('email')
-                            <span>{{ 'message' }}</span>
+                            <span>{{ $message }}</span>
                         @enderror
                     </div>
 
@@ -41,7 +56,7 @@
                         <input type="text" name="cellphone" placeholder=" " style="border-color:#fff;color:#fff;">
                         <label>Ingresa tu número de celular</label>
                         @error('cellphone')
-                            <span>{{ 'message' }}</span>
+                            <span>{{ $message }}</span>
                         @enderror
                     </div>
 
@@ -50,14 +65,14 @@
                             style="resize:none;border-color:#fff;color:#fff;"></textarea>
                         <label>Ingresa tu duda o consulta</label>
                         @error('message')
-                            <span>{{ 'message' }}</span>
+                            <span>{{ $message }}</span>
                         @enderror
                     </div>
 
                     <div class="button">
                         <button type="submit"
                             class="bg-white cursor-pointer hover:bg-[#3477DB] text-center
-                        outline-none font-bold rounded-lg  px-10 py-2 hover:text-white font-bold
+                        outline-none rounded-lg  px-10 py-2 hover:text-white font-bold
                         border hover:border-[#D9D9D9] font-[Roboto-Regular] lg:max-w-full max-w-full
                         mb-2 hover:shadow-lg transition-all duration-200 ease-in-out ">Enviar</button>
                     </div>

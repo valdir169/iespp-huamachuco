@@ -59,7 +59,7 @@ Route::get('/matricula', [PaginasController::class, 'matricula'])->name('matricu
 
 //Route for other
 Route::get('/galeria', [PaginasController::class, 'gallery'])->name('galeria');
-// Route::get('/{any}', [PaginasController::class, 'error'])->where('any', '.*')->name('error');
+Route::get('/{any}', [PaginasController::class, 'error'])->where('any', '.*')->name('error');
 
 
 // procees form

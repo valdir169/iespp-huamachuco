@@ -1,12 +1,22 @@
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+}
+
   .group {
       position: relative;
-      margin-top: 20px;
       width: 100%;
 
   }
 
   .group span {
       color: red;
+      position: relative;
+      /* inset: 0; */
+      left: 0;
+      bottom: -10px;
   }
 
   .group input {

@@ -45,35 +45,40 @@
                         <span>Aumenta tus posibilidades de ser parte de nuestra familia estudiantil, contamos con docentes capacitados para ayudarte en tu proceso de  preparación y que estés listo para tus exámenes de admisión. Exámenes de simulacro todos los viernes.</span>
                     </div>
                 </div>
-                <div class="flex flex-col items-center justify-center gap-8">
-                    <div><span class="font-[Roboto-thin] text-xl font-semibold">Desarrolla Habilidades en:</span></div>
+                <div class="flex flex-col justify-center gap-8">
+                    <div class="text-center"><span class="font-[Roboto-thin] text-xl font-semibold">¡Asegura tu futuro hoy, ven y prepárate en nuestra academia vacacional!</span></div>
+                    <div><span class="font-[Roboto-thin] text-3xl font-semibold">Cursos a Desarrollar</span></div>
                     <div class="grid gap-4 sm:grid-cols-2">
                         <div class="p-2 grid gap-2 bg-[#3477db] text-white rounded-lg">
-                            <div>
-                                <div><span>Matemática</span></div>
+                            <div class="flex justify-between items-center">
+                                <div><span>Matemática </span></div>
+                                <div><i class='bx bx-category text-[40px]'></i></div>
                             </div>
                             <div><p class="font-[Roboto-thin]">Brindar Asistencia Inmediata en Situaciones de Emergencia.</p></div>
                         </div>
                         
-                        <div class="p-2 grid gap-2 bg-[#3477db] text-white rounded-lg">
-                            <div>
+                        <div class="p-3 grid gap-2 bg-[#3477db] text-white rounded-lg">
+                            <div class="flex justify-between items-center">
                                 <div><span>Comunicación</span></div>
+                                <div><i class='bx bxs-message-detail text-[40px]' ></i></div>
                             </div>
                             <div><p class="font-[Roboto-thin]">Impulsar Iniciativas de Prevención Ambiental y de Riesgos.</p></div>
                         </div>
-    
-                        <div class="p-2 grid gap-2 bg-[#3477db] text-white rounded-lg">
-                            <div>
+
+                        <div class="p-3 grid gap-2 bg-[#3477db] text-white rounded-lg">
+                            <div class="flex justify-between items-center">
                                 <div><span>Inglés</span></div>
+                                <div><i class='bx bx-sort-a-z text-[40px]'></i></div>
                             </div>
                             <div><p class="font-[Roboto-thin]">Garantizar la Seguridad a través de Brigadas Especializadas.</p></div>
                         </div>
-    
-                        <div class="p-2 grid gap-2 bg-[#3477db] text-white rounded-lg">
-                            <div>
-                                <div><span>Cultura General</span></div>
+
+                        <div class="p-3 grid gap-2 bg-[#3477db] text-white rounded-lg">
+                            <div class="flex justify-between items-center">
+                                <div><span>Historia del Perú</span></div>
+                                <div><i class='bx bxs-landmark text-[40px]'></i></div>
                             </div>
-                            <div><p class="font-[Roboto-thin]">Cultivar un Entorno Educativo </p></div>
+                            <div><p class="font-[Roboto-thin]">Cultivar un Entorno Educativo que Promueva el Bienestar Integral.</p></div>
                         </div>
                     </div>
                 </div>

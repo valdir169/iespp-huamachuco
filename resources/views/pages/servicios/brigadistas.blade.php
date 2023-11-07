@@ -15,29 +15,33 @@
                         <div><span class="font-[Roboto-thin] text-xl font-semibold">Desarrolla Habilidades en:</span></div>
                         <div class="grid gap-4 lg:grid-cols-2">
                             <div class="p-2 grid gap-2 bg-[#3477db] text-white rounded-lg">
-                                <div>
+                                <div class="flex justify-between items-center">
                                     <div><span>Asistencia</span></div>
+                                    <div><i class='bx bx-handicap text-[40px]'></i></div>
                                 </div>
                                 <div><p class="font-[Roboto-thin]">Brindar Asistencia Inmediata en Situaciones de Emergencia.</p></div>
                             </div>
                             
-                            <div class="p-2 grid gap-2 bg-[#3477db] text-white rounded-lg">
-                                <div>
+                            <div class="p-3 grid gap-2 bg-[#3477db] text-white rounded-lg">
+                                <div class="flex justify-between items-center">
                                     <div><span>Prevención</span></div>
+                                    <div><i class='bx bxs-landscape text-[40px]' ></i></div>
                                 </div>
                                 <div><p class="font-[Roboto-thin]">Impulsar Iniciativas de Prevención Ambiental y de Riesgos.</p></div>
                             </div>
     
-                            <div class="p-2 grid gap-2 bg-[#3477db] text-white rounded-lg">
-                                <div>
+                            <div class="p-3 grid gap-2 bg-[#3477db] text-white rounded-lg">
+                                <div class="flex justify-between items-center">
                                     <div><span>Seguridad</span></div>
+                                    <div><i class='bx bx-shield-quarter text-[40px]'></i></div>
                                 </div>
                                 <div><p class="font-[Roboto-thin]">Garantizar la Seguridad a través de Brigadas Especializadas.</p></div>
                             </div>
     
-                            <div class="p-2 grid gap-2 bg-[#3477db] text-white rounded-lg">
-                                <div>
+                            <div class="p-3 grid gap-2 bg-[#3477db] text-white rounded-lg">
+                                <div class="flex justify-between items-center">
                                     <div><span>Bienestar</span></div>
+                                    <div><i class='bx bx-male-female text-[40px]'></i></div>
                                 </div>
                                 <div><p class="font-[Roboto-thin]">Cultivar un Entorno Educativo que Promueva el Bienestar Integral.</p></div>
                             </div>
@@ -69,8 +73,8 @@
                                     <div class="brig_content">
                                         <div class="card_brig" id="primeros-auxilios">
                                             <div class="title_brig">
-                                                <i class='bx bxs-ambulance'></i>
-                                                <h2>Brigada de Primeros Auxilios</h2>
+                                                <i class='bx bxs-first-aid text-[70px] text-[#3477db]' ></i>
+                                                <h2 class="font-bold text-black">Brigada de Primeros Auxilios</h2>
                                             </div>
                                             <div class="info_desc-Brig flex flex-col gap-3">
                                                 <p class="text-center"><strong>Responsabilidades:</strong></p>
@@ -88,8 +92,8 @@
                                     <div class="brig_content">
                                         <div class="card_brig" id="primeros-auxilios">
                                             <div class="title_brig">
-                                                <i class='bx bxs-ambulance'></i>
-                                                <h2>Brigada contraincendios</h2>
+                                                <i class='bx bxs-hot text-[70px] text-[#3477db]' ></i>
+                                                <h2 class="font-bold text-black">Brigada contraincendios</h2>
                                             </div>
                                             <div class="info_desc-Brig flex flex-col gap-3">
                                                 <p class="text-center"><strong>Responsabilidades:</strong></p>
@@ -106,8 +110,8 @@
                                     <div class="brig_content">
                                         <div class="card_brig" id="primeros-auxilios">
                                             <div class="title_brig">
-                                                <i class='bx bxs-ambulance'></i>
-                                                <h2>Brigada Ambiental</h2>
+                                                <i class='bx bxs-leaf text-[70px] text-[#3477db]'></i>
+                                                <h2 class="font-bold text-black">Brigada Ambiental</h2>
                                             </div>
                                             <div class="info_desc-Brig flex flex-col gap-3">
                                                 <p class="text-center"><strong>Responsabilidades:</strong></p>
@@ -124,8 +128,8 @@
                                     <div class="brig_content">
                                         <div class="card_brig" id="primeros-auxilios">
                                             <div class="title_brig">
-                                                <i class='bx bxs-ambulance'></i>
-                                                <h2>Brigada de Evacuación y Rescate</h2>
+                                                <i class='bx bxs-ambulance text-[70px] text-[#3477db]'></i>
+                                                <h2 class="font-bold text-black">Brigada de Evacuación y Rescate</h2>
                                             </div>
                                             <div class="info_desc-Brig flex flex-col gap-3">
                                                 <p class="text-center"><strong>Responsabilidades:</strong></p>
@@ -142,8 +146,8 @@
                                     <div class="brig_content">
                                         <div class="card_brig" id="primeros-auxilios">
                                             <div class="title_brig">
-                                                <i class='bx bxs-ambulance'></i>
-                                                <h2>Brigada de Soporte Socio-Emocional</h2>
+                                                <i class='bx bxs-happy text-[70px] text-[#3477db]' ></i>
+                                                <h2 class="font-bold text-black">Brigada de Soporte Socio-Emocional</h2>
                                             </div>
                                             <div class="info_desc-Brig flex flex-col gap-3">
                                                 <p class="text-center"><strong>Responsabilidades:</strong></p>
@@ -168,20 +172,20 @@
                 <div class="render">
                     <div class="flex flex-col gap-8 lg:gap-16 2xl:gap-36">
                         <div><span class="title">Contamos con el apoyo de:</span></div>
-                        <div class="flex flex-col gap-8 sm:flex-row">
-                            <div class="flex flex-col items-center gap-8 lg:flex-row lg:gap-4">
+                        <div class="flex flex-col gap-16 sm:flex-row 2xl:gap-32">
+                            <div class="flex flex-col items-center gap-8 sm:w-1/2 lg:flex-row lg:gap-4">
                                 <div class="flex flex-col gap-4 text-center">
                                     <span class="font-bold">Serenazgo Huamachuco</span>
                                     <span>profesionales de la educación con una cultura ambiental y capaces de prevenir y enfrentar</span>
                                 </div>
-                                <div><img src="{{ asset('images/carreras/CarreraComunicacion.png') }}" alt=""></div>
+                                <div class="flex items-center justify-center"><img class="max-w-[250px] max-h-[200px]" src="{{ asset('images/servicios/Serenazgo.png') }}" alt="Serenazgo"></div>
                             </div>
-                            <div class="flex flex-col items-center gap-8 lg:flex-row lg:gap-4">
+                            <div class="flex flex-col items-center gap-8 sm:w-1/2 lg:flex-row lg:gap-4">
                                 <div class="flex flex-col gap-4 text-center">
                                     <span class="font-bold">Ejército Del Perú</span>
                                     <span>Batallón de Infantería Motorizado (BIM) 323 "Oscar de la Barrera"</span>  
                                 </div>
-                                <div><img src="{{ asset('images/carreras/CarreraComunicacion.png') }}" alt=""></div>
+                                <div class="flex items-center justify-center"><img class="max-w-[250px] max-h-[200px]" src="{{ asset('images/servicios/Ejercito_Perú.png') }}" alt="Ejercito_Perú"></div>
                             </div>
                         </div>
                     </div>

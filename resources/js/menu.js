@@ -1,3 +1,4 @@
+import { showModal } from "./contacto";
 import contador from "./contador";
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -6,6 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
     contador();
     topMenu(".navbar")
     scrollTopMenu(".btn-scroll-top");
+    showModal();
 });
 
 function navBar(btn, menu) {

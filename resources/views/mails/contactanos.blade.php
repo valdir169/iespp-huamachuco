@@ -118,7 +118,7 @@
 <body>
     <main>
         <div class="header">
-            <img class="header-img" src="{{ asset('images/logo.png') }}" alt="">
+            <img class="header-img" src="{{ asset('images/others/logo.png') }}" alt="Iespp Jfsc Huamachuco">
             <h1 class="header__title"><a href="#">IESPP - JOŚE FAUSTINO SANCHEZ CARRION</a></h1><span
                 class="header__brand">Dudas o Consultas </span>
         </div>

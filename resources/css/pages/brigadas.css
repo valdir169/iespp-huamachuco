@@ -10,6 +10,7 @@
     position: relative;
     padding: 20px 0px;
     width: 280px;
+    cursor: pointer;
     height: 400px; /* Ajusta la altura según tus necesidades */
 }
 
@@ -41,5 +42,5 @@
 }
 
 .card_brig:hover .info_desc-Brig {
-    transform: translateY(80px); /* Ajusta según tus necesidades */
+    transform: translateY(140px); /* Ajusta según tus necesidades */
 }

@@ -242,7 +242,7 @@
                     <div class="swiper-slide">
                         <section class="flex gap-12 items-start w-[65%] md:w-[70%] flex-col md:flex-row h-auto">
                             <div class="w-full md:w-6/12">
-                                <img class="w-full h-auto" src="" alt="Elonk Musk">
+                                <img class="w-full h-auto" src="{{ asset('images/home/experiences/experiencia.jpg') }}" alt="Elonk Musk">
                             </div>
 
                             <div class="flex flex-col w-full md:w-6/12">

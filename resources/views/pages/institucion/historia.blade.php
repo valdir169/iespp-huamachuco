@@ -3,7 +3,7 @@
 @section('title', 'Historia - Iespp Jfsc Huamachuco')
 
 @section('content')
-    <x-hero image="{{ asset('images/carreras/carrera_ingles.png') }}" text="Historia" />
+    <x-hero image="{{ asset('images/institucion/hero_institucion.webp') }}" text="Historia" />
     <article class="render py-12">
         <h3 class="title py-4">Conoce nuestra historia</h3>
         <div class="flex gap-2 flex-col lg:flex-row lg:gap-8">

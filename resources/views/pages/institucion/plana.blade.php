@@ -3,7 +3,7 @@
 @section('title', 'Plana Docente - IESPP JFSC Huamachuco ')
 
 @section('content')
-    <x-hero image="{{ asset('images/slider/slider4.jpg') }}" text="Plana Docente" />
+    <x-hero image="{{ asset('images/institucion/hero_institucion.webp') }}" text="Plana Docente" />
     <div class="render py-16">
         <h2 class="title text-center">Plana docente por programas de estudio</h2>
 

@@ -2,7 +2,7 @@
 
 @section('title', 'Presentación - Iespp Jfsc Huamachuco')
 @section('content')
-    <x-hero image="{{ asset('images/institucion/hero_institucion.jpg') }}" text="Institución" />
+    <x-hero image="{{ asset('images/institucion/hero_institucion.webp') }}" text="Presentación" />
 
     <article class="render py-12">
         <h3 class="title py-4">Bienvenida de la directora</h3>

@@ -3,7 +3,7 @@
 @section('title', 'Directorio Institucional - IESPP JFSC Huamachuco')
 
 @section('content')
-    <x-hero image="{{ asset('images/slider/slider4.jpg') }}" text="Directorio Institucional" />
+    <x-hero image="{{ asset('images/institucion/hero_institucion.webp') }}" text="Directorio Institucional" />
     <section class="py-24  ">
         <div class="render  grid sm:grid-cols-2 lg:grid-cols-3 md:gap-x-6 lg:gap-x-[2vw]  gap-y-8 gap-2 ">
             @foreach ($jefaturas as $jefatura)

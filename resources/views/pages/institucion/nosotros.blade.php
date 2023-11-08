@@ -2,7 +2,7 @@
 
 @section('title', 'Nosotros - Iespp Jfsc Huamachuco')
 @section('content')
-    <x-hero image="{{ asset('images/institucion/hero_institucion.jpg') }}" text="Institución" />
+    <x-hero image="{{ asset('images/institucion/hero_institucion.webp') }}" text="Institución" />
 
     <section class="render grid md:grid-cols-2 gap-4 lg:gap-8 xl:gap-28 2xl:gap-44 py-24">
         <div class="h-full flex flex-col md:pt-8">
@@ -61,7 +61,7 @@
 
         <div class="flex flex-wrap gap-8 py-4 justify-center">
             <div
-                class="border border-[#3477DB] rounded-lg  p-2 flex  hover:bg-[#ebebeb] transition cursor-pointer w-[350px] mx-auto lg:mx-0">
+                class="border border-[#3477DB] rounded-lg  p-2 flex hover:bg-[#3477db] hover:text-[#ffffff] transition cursor-pointer w-[350px] mx-auto lg:mx-0">
                 <div class="w-6/12 p-4">
                     <img class="h-full w-full" src="{{ asset('images/institucion/respeto.png') }}" alt="Respeto">
                 </div>
@@ -73,7 +73,7 @@
             </div>
 
             <div
-                class="border border-[#3477DB] rounded-lg  p-2 flex  hover:bg-[#ebebeb] transition cursor-pointer w-[350px] mx-auto lg:mx-0">
+                class="border border-[#3477DB] rounded-lg  p-2 flex  hover:bg-[#3477db] hover:text-[#ffffff] transition cursor-pointer w-[350px] mx-auto lg:mx-0">
                 <div class="w-6/12 p-4">
                     <img class=" w-full h-full"" src="{{ asset('images/institucion/asertividad.png') }}" alt="Asertividad">
 
@@ -86,7 +86,7 @@
             </div>
 
             <div
-                class="border border-[#3477DB] rounded-lg  p-2 flex  hover:bg-[#ebebeb] transition cursor-pointer gap-4 w-[350px] mx-auto lg:mx-0">
+                class="border border-[#3477DB] rounded-lg  p-2 flex  hover:bg-[#3477db] hover:text-[#ffffff] transition cursor-pointer gap-4 w-[350px] mx-auto lg:mx-0">
                 <div class="w-6/12 p-4">
                     <img class="w-full h-full" src="{{ asset('images/institucion/empatia.png') }}" alt="Empatía">
                 </div>

@@ -33,7 +33,7 @@
                         Especialidad Inglés
                     </span>
 
-                    <a href="{{ route('#') }}"
+                    <a href="{{ route('ingles') }}"
                         class="bg-[#3477DB] text-white cursor-pointer  outline-none font-bold rounded-lg
                      py-2.5 text-center no-underline  px-12  mb-2 transition-all duration-200 ease-in-out hover:opacity-90">Descubre
                         más<s></s></a>
@@ -48,7 +48,7 @@
                         Educación Inicial
                     </span>
 
-                    <a href="{{ route('#') }}"
+                    <a href="{{ route('educacioninicial') }}"
                         class="bg-[#3477DB] text-white cursor-pointer  outline-none font-bold rounded-lg
                      py-2.5 text-center no-underline  px-12  mb-2 transition-all duration-200 ease-in-out hover:opacity-90">Descubre
                         más<s></s></a>
@@ -67,7 +67,7 @@
                         Especialidad Comunicación
                     </span>
 
-                    <a href="{{ route('#') }}"
+                    <a href="{{ route('comunicacion') }}"
                         class="bg-[#3477DB] text-white cursor-pointer  outline-none font-bold rounded-lg
                      py-2.5 text-center no-underline  px-12  mb-2 transition-all duration-200 ease-in-out hover:opacity-90">Descubre
                         más<s></s></a>
@@ -96,7 +96,7 @@
             </x-card>
 
             <x-card>
-                <x-slot name="image">{{ asset('images/home/carreras/carrera_ingles.jpg') }}</x-slot>
+                <x-slot name="image">{{ asset('images/home/carreras/carrera_ingles.webp') }}</x-slot>
                 <x-slot name="altText">Idiomas, especialidad: Ingles</x-slot>
                 <x-slot name="title">Idiomas: Especialidad Inglés</x-slot>
                 <x-slot name="content">
@@ -156,8 +156,6 @@
         </section>
     </article>
 
-
-
     <section class="render my-24 flex flex-col gap-12 lg:flex-row lg:h-[400px]">
         <picture class="w-full lg:w-6/12 h-full ">
             <img class="h-full w-full rounded-lg" src="{{ asset('images/home/directora.png') }}"
@@ -180,8 +178,6 @@
         </div>
     </section>
 
-
-
     <article class="bg-[#3477DB] py-20 text-white ">
         <section class="render flex flex-col gap-10 mx-auto w-full md:flex-row xl:px-56 lg:gap-20">
             <div
@@ -189,7 +185,7 @@
             shadow-md border-gray-700 hover:scale-105 hover:bg-[#ffffff] hover:border-gray-500  transition hover:text-[#3477DB]">
                 <i class='bx bxs-graduation text-8xl'></i>
                 <span class="text-6xl font-['Roboto-Bold'] " data-valor="3">0</span>
-                <small class="text-2xl md:text-xl lg:text-2xl font-bold">CARRERAS</small>
+                <small class="text-2xl md:text-xl lg:text-2xl font-bold">PROGRAMAS DE ESTUDIO</small>
             </div>
 
             <div
@@ -201,6 +197,22 @@
             </div>
         </section>
     </article>
+
+    <div class="w-full h-auto overflow-hidden relative">
+        <video autoplay muted loop>
+            <source src="{{ asset('images/home/campus_video.mp4') }}" type="video/mp4">
+        </video>
+
+        <div class="absolute inset-0" style="background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3));">
+            <div class="render absolute inset-0 flex flex-col text-white justify-center items-center text-center h-full ">
+                <p class="bottom-0 text-xl sm:text-4xl  lg:text-6xl font-[Roboto-Black] lg:px-[10vw] leading-normal">
+                    Nuestro campus es mucho más que un lugar
+                    de aprendizaje; </p>
+                <span class="font-[Roboto-Thin] font-bold text-md sm:text-2xl lg:text-4xl text-center lg:px-[5vw] mt-8 ">es un espacio donde la inspiración se
+                    combina con la  innovación para crear oportunidades sin límites.</span>
+            </div>
+        </div>
+    </div>
 
     <section class="render py-28">
         <div class="flex flex-col text-center py-4 justify-center z-50 ">
@@ -237,7 +249,8 @@
                     <div class="swiper-slide">
                         <section class="flex gap-12 items-start w-[65%] md:w-[70%] flex-col md:flex-row h-auto">
                             <div class="w-full md:w-6/12">
-                                <img class="w-full h-auto" src="{{ asset('images/home/experiences/experiencia.jpg') }}" alt="Elonk Musk">
+                                <img class="w-full h-auto" src="{{ asset('images/home/experiences/experiencia.jpg') }}"
+                                    alt="Elonk Musk">
                             </div>
 
                             <div class="flex flex-col w-full md:w-6/12">
@@ -285,29 +298,15 @@
         </article>
     </section>
 
-    <div class="h-screen w-full bg-cover bg-no-repeat bg-fixed "
-        style='background-image:    url(https://drive.google.com/file/d/1TkJVd2-luNMvdoGCx-OAK-HEqIhwc9gh/view?usp=drive_link);'>
-        {{-- <div class="render flex flex-col text-white justify-center items-center text-center h-full ">
-            <p class="text-2xl md:text-4xl  font-[Roboto-Black] lg:px-[20vw]">Nuestro campus es mucho más que un lugar
-                de aprendizaje; </p>
-            <span class="font-[Roboto-Thin] font-bold text-2xl lg:px-[20vw] ">es un espacio donde la inspiración se combina
-                con
-                la
-                innovación para crear oportunidades sin límites.</span>
-        </div> --}}
-        {{-- 
-        <video src="{{ asset('images/home/campus_video.mp4') }}" width="100%" height="100%" autoplay >
-        </video> --}}
-    </div>
-
-    <section class="render py-24">
+    <section class="render pb-20">
         <h4 class="title">Noticias y Actividades importantes</h4>
         <div class="grid gap-8 sm:grid-cols-2 lg:grid-cols-3 lg:gap-4 xl:gap-8 py-4 ">
 
             <div
                 class="bg-[#ebebeb] rounded-lg shadow-md border-gray-900  hover:bg-[#ffffff]  transition flex flex-col p-4  jusitify-center  w-[350px]  mx-auto">
                 <picture class="flex justify-center h-[300px] w-full">
-                    <img class="mb-5 w-full h-full" src="{{ asset('images/home/actividades/activity2.png') }}" alt="" />
+                    <img class="mb-5 w-full h-full" src="{{ asset('images/home/actividades/activity2.png') }}"
+                        alt="" />
                 </picture>
 
                 <article class="">
@@ -343,7 +342,8 @@
 
             <a href="https://www.munihuamachuco.gob.pe/" target="_blank"
                 class="border rounded-md h-[100px] w-[300px] md:w-full px-28 md:px-8 lg:px-12 py-2 hover:bg-[#ebebeb] transition z-50">
-                <img class="w-full h-full -z-10" src="{{ asset('images/home/enlaces/logo_m_mpsch.png') }}" alt="">
+                <img class="w-full h-full -z-10" src="{{ asset('images/home/enlaces/logo_m_mpsch.png') }}"
+                    alt="">
             </a>
 
             <a href="https://enlinea.sineace.gob.pe/" target="_blank"

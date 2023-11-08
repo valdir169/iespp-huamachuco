@@ -81,7 +81,7 @@ class PaginasController extends Controller
     {
         $jefaturas = [
             [
-                'image' => './images/institucion/direccion_general.png',
+                'image' => './images/institucion/directorio/directora.jpg',
                 'name' => 'Dra. Gladys Martha Alvarez Medina',
                 'jefatura' => 'Directora General',
                 'email'  => 'maestramartha1@hotmail.com',

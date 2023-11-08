@@ -10,7 +10,7 @@
                 <a href="{{ url('/descargar-file/' . $jefatura['fyle']) }}"
                     class="border border-[#3477DB] rounded-lg max-w-[300px] mx-auto shadow-md  hover:scale-105 hover:bg-[#ebebeb]  transition flex flex-col p-2 cursor-pointer">
 
-                    <picture class="h-[200px]">
+                    <picture class="h-[250px]">
                         <img class="mb-4 rounded-lg w-[200px] h-full mx-auto" src={{ $jefatura['image'] }} />
                     </picture>
 

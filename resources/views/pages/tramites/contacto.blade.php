@@ -5,7 +5,7 @@
 @section('content')
     <div class="-mt-[120px] h-[700px] w-full bg-cover bg-no-repeat bg-center  flex items-center justify-center flex-col text-center gap-4"
         style='background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8)),
-        url({{ asset('images/.png') }});'>
+        url({{ asset('images/others/hero_contact.jpg') }});'>
         <h1 class="text-white text-4xl md:text-6xl font-bold font-[Roboto-Bold] mt-[0px] md:mt-[150px] sm:mt-[0px]">¡Estamos aquí para  ayudarte!</h1>
         <span class="text-white  mt-2 md:mt-4  sm:text-xl px-8 xl:px-72 font-[Roboto-Thin] font-bold">Comuníquese con nosotros en cualquier momento y estaremos
             encantados

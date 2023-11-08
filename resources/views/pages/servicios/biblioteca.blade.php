@@ -3,7 +3,7 @@
 @section('title', 'Biblioteca IESPP-JFSC-Huamachuco')
 
 @section('content')
-    <x-hero image="{{asset('images/slider/slider4.jpg') }}" text="Biblioteca" />
+    <x-hero image="{{asset('images/servicios/Biblioteca.jpg') }}" text="Biblioteca" />
     <section>
         <article>
             <div class="py-16">
@@ -26,13 +26,14 @@
             <div id="servicio">
                 <x-services>
                     <x-slot name='servicio'>Biblioteca</x-slot>
-                    <x-slot name='frase'>La lectura es el viaje más corto a mundos infinitos.</x-slot>
+                    <x-slot name='frase'>El que lee mucho y anda mucho, ve mucho y sabe mucho</x-slot>
+                    <x-slot name='autor'> _Miguel de Cervantes Saavedra</x-slot>
                     <x-slot name='img'>{{ asset('images/carreras/CarreraComunicacion.png') }}</x-slot>
                     <x-slot name='altImg'>Servicio de Biblioteca</x-slot>
                     <x-slot name='parrafo'>
                         <p class="grid sm:px-6 lg:px-22 xl:px-32">
-                            <span>La lectura es un viaje donde las palabras son destinos. En cada página, se despliegan mundos desconocidos y se abren puertas a la imaginación. La magia de un buen libro es la capacidad de transportarnos más allá de las palabras impresas, hacia horizontes infinitos de descubrimiento.</span> <br>
-                            <span>En la lectura, encuentro refugio entre las páginas que conforman un universo propio. Las letras se convierten en arquitectos de emociones, construyendo castillos de historias que residen en la mente mucho después de cerrar el libro. Cada palabra es un paso más profundo hacia la comprensión y la conexión con el mundo que se revela ante mis ojos. </span>
+                            <span>El servicio de Biblioteca tiene como objetivo fomentar el acceso a la información, promover la lectura y contribuir al desarrollo académico y cultural de la comunidad educativa del "IESPP-JFSC Huamachuco". Nuestra misión es proporcionar recursos y servicios que apoyen el aprendizaje, la investigación y el enriquecimiento personal.</span> <br>
+                            <span>Además, nos esforzamos por crear un ambiente acogedor y propicio para el estudio individual y colaborativo. La biblioteca no solo es un depósito de libros, sino un centro dinámico que busca apoyar el desarrollo integral de nuestros estudiantes.</span>
                         </p>
                     </x-slot>
                 </x-services>

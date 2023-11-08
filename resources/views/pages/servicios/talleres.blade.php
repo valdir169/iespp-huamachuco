@@ -11,7 +11,7 @@
                 <span class="title">Bienvenido al servicio de Talleres Académicos </span>
             </div>
             <div class="flex flex-col gap-8 sm:flex-row items-center">
-                <div><img src="{{asset('images/carreras/CarreraComunicacion.png')}}" alt=""></div>
+                <div><img src="{{asset('images/home/carreras/carrera_comunicacion1.png')}}" alt="Talleres"></div>
                 <div class="flex flex-col gap-4">
                     <div class="text-center"><span class="font-[Roboto-thin] text-2xl font-bold">Talleres Académicos</span></div>
                     <div class="grid gap-3">
@@ -60,7 +60,7 @@
             <div class="py-16 lg:py-36">
                 <div class="grid gap-8 sm:gap-16 lg:gap-20">
                     <div class="text-center flex flex-col">
-                        <span class="subtitle">Talleres para la comunidad Huamachuquina</span> 
+                        <span class="subtitle">Talleres para la comunidad Huamachuquina</span>
                         <span class="text-[#3477db] font-[Roboto-thin] text-lg font-semibold">(Esta dirigido a todos los adolecentes y niños)</span>
                     </div>
                     <div class="flex items-center gap-8 cont_talleres lg:justify-center py-8">

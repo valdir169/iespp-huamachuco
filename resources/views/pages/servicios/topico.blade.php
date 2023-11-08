@@ -28,12 +28,13 @@
             <x-services>
                 <x-slot name='servicio'>Topico</x-slot>
                 <x-slot name='frase'>La salud no lo es todo pero sin ella, todo lo demás es nada.</x-slot>
+                <x-slot name='autor'> _Miguel de Cervantes Saavedra</x-slot>
                 <x-slot name='img'>{{ asset('images/carreras/CarreraComunicacion.png') }}</x-slot>
                 <x-slot name='altImg'>ServicioTopico</x-slot>
                 <x-slot name='parrafo'>
                     <p class="grid sm:px-6 lg:px-22 xl:px-32">
-                        <span>La lectura es un viaje donde las palabras son destinos. En cada página, se despliegan mundos desconocidos y se abren puertas a la imaginación. La magia de un buen libro es la capacidad de transportarnos más allá de las palabras impresas, hacia horizontes infinitos de descubrimiento.</span> <br>
-                        <span>En la lectura, encuentro refugio entre las páginas que conforman un universo propio. Las letras se convierten en arquitectos de emociones, construyendo castillos de historias que residen en la mente mucho después de cerrar el libro. Cada palabra es un paso más profundo hacia la comprensión y la conexión con el mundo que se revela ante mis ojos. </span>
+                        <span>El servicio de Tópico tiene como propósito fundamental contribuir al cuidado y bienestar de la comunidad educativa del "IESPP-JFSC Huamachuco". Nuestra misión se enfoca en proporcionar servicios de atención médica y promover prácticas saludables entre los estudiantes y el personal.</span> <br>
+                        <span>Estamos comprometidos con la prevención, el cuidado y la atención de situaciones de salud, trabajando para mantener un ambiente seguro y saludable en el entorno educativo. Nos esforzamos por brindar asistencia inmediata en casos de emergencias médicas, así como para ofrecer orientación en temas de salud preventiva.</span>
                     </p>
                 </x-slot>
             </x-services>

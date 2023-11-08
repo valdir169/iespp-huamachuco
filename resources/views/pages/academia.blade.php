@@ -16,12 +16,27 @@
         />
     </section>
     <section>
-        <article class="render">
-            <div class="py-10 grid gap-5 lg:gap-16">
+        <div class="render py-16 flex flex-col gap-16">
+            <div>
                 <div class="font-black flex justify-center flex-col text-center">
                     <i class='bx bx-book-open text-[60px] text-[#3477db]'></i>
                     <span class="title">Academia Vacacional IESPP-JFSC_Huamachuco</span>
                 </div>
+            </div>
+            <div class="flex items-center gap-8 lg:gap-16">
+                <div>
+                    <img src="https://www.itmplatform.com/wp-content/uploads/altaeducacion.png" alt="">
+                </div>
+                <div class="flex flex-col gap-8">
+                    <div class="text-center"><span class="font-[Roboto-thin] text-xl font-semibold">¡Asegura tu futuro hoy, ven y prepárate en nuestra academia vacacional!</span></div>
+                    <span>Aumenta tus posibilidades de ser parte de nuestra familia estudiantil, contamos con docentes capacitados para ayudarte en tu proceso de  preparación y que estés listo para tus exámenes de admisión. Exámenes de simulacro todos los viernes.</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <article class="render">
+            <div class="py-10">
                 <div class="grid gap-8 lg:gap-12">
                     <span class="subtitle font-black border-b border-[#ebebeb] py-2 max-w-[300px] text-[#3477db]">Sobre la Academia</span>
                     <ul class="grid gap-4">
@@ -36,19 +51,10 @@
     </section>
     <section class="py-20">
         <article class="render">
-            <div class="lg:flex lg:gap-16">
-                <div class="flex flex-col items-center gap-8 lg:gap-16 lg:w-1/2">
-                    <div>
-                        <img src="https://www.itmplatform.com/wp-content/uploads/altaeducacion.png" alt="">
-                    </div>
-                    <div>
-                        <span>Aumenta tus posibilidades de ser parte de nuestra familia estudiantil, contamos con docentes capacitados para ayudarte en tu proceso de  preparación y que estés listo para tus exámenes de admisión. Exámenes de simulacro todos los viernes.</span>
-                    </div>
-                </div>
+            <div>
                 <div class="flex flex-col justify-center gap-8">
-                    <div class="text-center"><span class="font-[Roboto-thin] text-xl font-semibold">¡Asegura tu futuro hoy, ven y prepárate en nuestra academia vacacional!</span></div>
                     <div><span class="font-[Roboto-thin] text-3xl font-semibold">Cursos a Desarrollar</span></div>
-                    <div class="grid gap-4 sm:grid-cols-2">
+                    <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
                         <div class="p-2 grid gap-2 bg-[#3477db] text-white rounded-lg">
                             <div class="flex justify-between items-center">
                                 <div><span>Matemática </span></div>
@@ -56,7 +62,7 @@
                             </div>
                             <div><p class="font-[Roboto-thin]">Brindar Asistencia Inmediata en Situaciones de Emergencia.</p></div>
                         </div>
-                        
+
                         <div class="p-3 grid gap-2 bg-[#3477db] text-white rounded-lg">
                             <div class="flex justify-between items-center">
                                 <div><span>Comunicación</span></div>
@@ -87,7 +93,7 @@
     </section>
     <section>
         <article class="render">
-            <div class="py-10 grid gap-16 lg:gap-36">
+            <div class="pb-32 pt-16 flex flex-col gap-8 lg:gap-16">
                 <div class="font-black flex justify-center flex-col text-center">
                     <i class='bx bx-user-plus text-[60px] text-[#3477db]'></i>
                     <span class="subtitle">Beneficios</span>

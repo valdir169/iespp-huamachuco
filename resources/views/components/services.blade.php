@@ -1,4 +1,4 @@
-@props(['servicio', 'frase', 'img', 'altImg', 'parrafo'])
+@props(['servicio', 'frase', 'autor', 'img', 'altImg', 'parrafo'])
 
 <div class="py-5">
     <div>
@@ -8,8 +8,13 @@
                     <div class="text-center">
                         <h2 class="title">Bienvenido al servicio de <span> {{$servicio}}</span></h1>
                     </div>
-                    <div class="border-y-4 border-[#3477db] py-10 text-right ">
-                        <p><i class='bx bxs-quote-alt-left'></i><span>{{$frase}}</span><i class='bx bxs-quote-alt-right' ></i></p>
+                    <div class="border-y-4 border-[#3477db] py-10 text-right">
+                        <p>
+                            <i class='bx bxs-quote-alt-left text-[30px] text-[#3477db]'></i>
+                            <span class="px-2">{{$frase}}</span>
+                            <i class='bx bxs-quote-alt-right text-[30px] text-[#3477db]' ></i> 
+                            <span>{{$autor}}</span>
+                        </p>
                     </div>
                     <div class="grid gap-5 sm:flex items-center md:gap-10 lg:gap-24">
                         <div>

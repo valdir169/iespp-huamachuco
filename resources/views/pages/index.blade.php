@@ -3,7 +3,7 @@
 @section('title', 'IESPP José Faustino Sánchez Carrión')
 
 @section('content')
-    <div class="swiper mySwier">
+    <div class="swiper mySwiper">
         <div class="swiper-wrapper">
             <div class="swiper-slide bg-no-repeat bg-cover relative"
                 style="background-image: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.1), rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url(images/slider/Bienvenida.jpg)">

@@ -26,12 +26,13 @@
             <x-services>
                 <x-slot name='servicio'>Psicopedagogia</x-slot>
                 <x-slot name='frase'>El secreto de la existencia humana no sólo está en vivir, sino también en saber para qué se vive.</x-slot>
+                <x-slot name='autor'> _Miguel de Cervantes Saavedra</x-slot>
                 <x-slot name='img'>{{ asset('images/carreras/CarreraComunicacion.png') }}</x-slot>
                 <x-slot name='altImg'>Servicio de Psicopedagogia</x-slot>
                 <x-slot name='parrafo'>
                     <p class="grid sm:px-6 lg:px-22 xl:px-32">
-                        <span>La lectura es un viaje donde las palabras son destinos. En cada página, se despliegan mundos desconocidos y se abren puertas a la imaginación. La magia de un buen libro es la capacidad de transportarnos más allá de las palabras impresas, hacia horizontes infinitos de descubrimiento.</span> <br>
-                        <span>En la lectura, encuentro refugio entre las páginas que conforman un universo propio. Las letras se convierten en arquitectos de emociones, construyendo castillos de historias que residen en la mente mucho después de cerrar el libro. Cada palabra es un paso más profundo hacia la comprensión y la conexión con el mundo que se revela ante mis ojos. </span>
+                        <span>El servicio de Socopedagogía tiene como objetivo principal promover el desarrollo integral de los estudiantes en el contexto educativo del "IESPP-JFSC Huamachuco". Nuestra misión se centra en ofrecer recursos y servicios que apoyen el aprendizaje, la adaptación y el bienestar socioemocional de la comunidad educativa.</span> <br>
+                        <span>Este servicio está dedicado a brindar orientación y apoyo a los estudiantes en aspectos académicos y socioemocionales. Buscamos crear un espacio inclusivo y colaborativo donde se fomente el crecimiento personal, la autoestima y las habilidades sociales. Además, nos esforzamos por identificar y abordar las necesidades individuales de cada estudiante, proporcionando estrategias y recursos personalizados.</span>
                     </p>
                 </x-slot>
             </x-services>

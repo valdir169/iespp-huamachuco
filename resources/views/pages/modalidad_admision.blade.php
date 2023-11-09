@@ -3,10 +3,7 @@
 @section('title', 'Modalidad de Admisión - Iespp José Faustino Sánchez Carrión Huamachuco')
 @section('content')
     <section>
-        <x-modal img="{{ asset('images/bg-admision.jpg') }}" link="{{ route('admision') }}" linkText="Admisión"
-            linkTitle="{{ route('modalidad_admision') }}" Title="Modalidad de Admisión"
-            Content="Nosotros ofrecemos diferentes tipos de modalidades para  los que van ha postular y formar parte de nuestra familia estudiantil." />
-
+        
         <x-modal
             img="{{ asset('images/admision/bg_iespp-jfsc.jpg') }}"
             link="{{ route('admision') }}"
@@ -25,9 +22,10 @@
                         <ul class="nav nav-tabs grid grid-cols-2 min-[400px]:grid-cols-3">
                             <li class="h-[120px] active lg:h-[150px]">
                                 <a class="h-full" href="#tab1">
-                                    <p class="flex justify-center items-center flex-col"><i
-                                            class='bx bx-child text-[2rem] lg:text-[3rem]'></i><span
-                                            class="text-xs text-center lg:text-sm">Educaci&oacute;n Inicial</span></p>
+                                    <p class="flex justify-center items-center flex-col">
+                                        <i class='bx bx-child text-[2rem] lg:text-[3rem]'></i>
+                                        <span class="text-xs text-center lg:text-sm">Educaci&oacute;n Inicial</span>
+                                    </p>
                                 </a>
                             </li>
                             <li class="h-[120px] lg:h-[150px]">

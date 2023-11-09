@@ -10,7 +10,7 @@
             <x-slot name="carrerasText">Programas</x-slot>
             <x-slot name="especialidadLink">{{ route('comunicacion') }}</x-slot>
             <x-slot name="titulo">EDUCACI&Oacute;N SECUNDARIA, ESPECIALIDAD: COMUNICACI&Oacute;N</x-slot>
-            <x-slot name="descripcion">Formar profesionales que contribuyan a mejorar los entornos en los que se desarrollan los niños y niñas, promover que los niños establezcan vínculos, que logren autonomía misma, y que desarrollen iniciativa para jugar.</x-slot>
+            <x-slot name="descripcion">Formar docentes de Comunicación con conocimientos pedagógicos y especializados, que trabajen de forma colaborativa.</x-slot>
             <x-slot name="duracion">10 Semestres Académicos (5 años)</x-slot>
             <x-slot name="titulacion">Profesional Pedagógico en Educaci&oacute;n Secundaria, Especialidad: Comunicaci&oacute;n</x-slot>
             <x-slot name="modalidad">Presencial</x-slot>

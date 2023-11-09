@@ -10,7 +10,7 @@
             <x-slot name="carrerasText">Programas</x-slot>
             <x-slot name="especialidadLink">{{ route('ingles') }}</x-slot>
             <x-slot name="titulo">IDIOMAS, ESPECIALIDAD: INGLES</x-slot>
-            <x-slot name="descripcion">Formar profesionales que contribuyan a mejorar los entornos en los que se desarrollan los niños y niñas, promover que los niños establezcan vínculos, que logren autonomía misma, y que desarrollen iniciativa para jugar.</x-slot>
+            <x-slot name="descripcion">Formar profesionales en el ámbito del idiomas inglés que contribuyan a mejorar las competencias lingüísticas y la comunicación en inglés en diversos contextos y situaciones.</x-slot>
             <x-slot name="duracion">10 Semestres Académicos (5 años)</x-slot>
             <x-slot name="titulacion">Profesional Pedagógico en Idiomas, Especialidad: Ingles</x-slot>
             <x-slot name="modalidad">Presencial</x-slot>

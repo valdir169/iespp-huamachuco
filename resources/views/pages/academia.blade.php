@@ -55,36 +55,32 @@
                 <div class="flex flex-col justify-center gap-8">
                     <div><span class="font-[Roboto-thin] text-3xl font-semibold">Cursos a Desarrollar</span></div>
                     <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-                        <div class="p-2 grid gap-2 bg-[#3477db] text-white rounded-lg">
+                        <div class="p-2 bg-[#3477db] text-white rounded-lg">
                             <div class="flex justify-between items-center">
                                 <div><span>Matemática </span></div>
                                 <div><i class='bx bx-category text-[40px]'></i></div>
                             </div>
-                            <div><p class="font-[Roboto-thin]">Brindar Asistencia Inmediata en Situaciones de Emergencia.</p></div>
                         </div>
 
-                        <div class="p-3 grid gap-2 bg-[#3477db] text-white rounded-lg">
+                        <div class="p-3 bg-[#3477db] text-white rounded-lg">
                             <div class="flex justify-between items-center">
                                 <div><span>Comunicación</span></div>
                                 <div><i class='bx bxs-message-detail text-[40px]' ></i></div>
                             </div>
-                            <div><p class="font-[Roboto-thin]">Impulsar Iniciativas de Prevención Ambiental y de Riesgos.</p></div>
                         </div>
 
-                        <div class="p-3 grid gap-2 bg-[#3477db] text-white rounded-lg">
+                        <div class="p-3 bg-[#3477db] text-white rounded-lg">
                             <div class="flex justify-between items-center">
                                 <div><span>Inglés</span></div>
                                 <div><i class='bx bx-sort-a-z text-[40px]'></i></div>
                             </div>
-                            <div><p class="font-[Roboto-thin]">Garantizar la Seguridad a través de Brigadas Especializadas.</p></div>
                         </div>
 
-                        <div class="p-3 grid gap-2 bg-[#3477db] text-white rounded-lg">
+                        <div class="p-3 bg-[#3477db] text-white rounded-lg">
                             <div class="flex justify-between items-center">
                                 <div><span>Historia del Perú</span></div>
                                 <div><i class='bx bxs-landmark text-[40px]'></i></div>
                             </div>
-                            <div><p class="font-[Roboto-thin]">Cultivar un Entorno Educativo que Promueva el Bienestar Integral.</p></div>
                         </div>
                     </div>
                 </div>
@@ -122,10 +118,10 @@
             <x-sublinks
             :title="'Te Puede Interesar...'"
             :links='[
-                "Conoce Nuestras Programas de Estudio" => route("admision"),
+                "Conoce Nuestras Programas de Estudio" => route("programas"),
                 "Requisitos de Matrícula" => route("ingles"),
-                "Campus Institucional" => route("programas"),
-                "Modaliad de Admisión" => route("modalidad_admision"),
+                "Contactános" => route("contacto"),
+                "Modaliad de Admisión" => route("modalidad_admision")
             ]'
             />
         </article>

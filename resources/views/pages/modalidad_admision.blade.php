@@ -4,7 +4,7 @@
 @section('content')
     <section>
         <x-modal
-            img="{{ asset('images/bg-admision.jpg') }}"
+            img="{{ asset('images/admision/bg_iespp-jfsc.jpg') }}"
             link="{{ route('admision') }}"
             linkText="Admisión"
             linkTitle="{{ route('modalidad_admision') }}"
@@ -445,7 +445,7 @@
                 "Conoce Nuestras Carreras" => route("admision"),
                 "Requisitos de Matrícula" => route("ingles"),
                 "Academia Institucional" => route("academia"),
-                "Campus Institucional" => route("programas"),
+                "Contactános" => route("contacto")
             ]'
             />
         </article>

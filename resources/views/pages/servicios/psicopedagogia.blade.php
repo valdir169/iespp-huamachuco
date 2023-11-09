@@ -3,7 +3,7 @@
 @section('title', 'Psicopedagogia IESPP-JFSC-Huamachuco')
 
 @section('content')
-<x-hero image="{{ asset('images/slider/slider4.jpg') }}" text="Psicopedagogia" />
+<x-hero image="{{ asset('images/servicios/psicopedagogia.jpg') }}" text="Psicopedagogia" />
 <section class="grid gap-16">
     <article>
         <div class="py-16">
@@ -25,8 +25,8 @@
         <div id="servicio">
             <x-services>
                 <x-slot name='servicio'>Psicopedagogia</x-slot>
-                <x-slot name='frase'>El secreto de la existencia humana no sólo está en vivir, sino también en saber para qué se vive.</x-slot>
-                <x-slot name='autor'> _Miguel de Cervantes Saavedra</x-slot>
+                <x-slot name='frase'>El sabio no dice todo lo que piensa, pero siempre piensa todo lo que dice</x-slot>
+                <x-slot name='autor'> (Aristóteles)</x-slot>
                 <x-slot name='img'>{{ asset('images/carreras/CarreraComunicacion.png') }}</x-slot>
                 <x-slot name='altImg'>Servicio de Psicopedagogia</x-slot>
                 <x-slot name='parrafo'>
@@ -54,8 +54,8 @@
                         </div>
                     </div>
                     <div class="flex items-center">
-                        <i class='bx bx-lock text-[60px]'></i>
-                        <span>Confidencialidad y ética en los servicios de Psicopedagía.</span>
+                        <i class='bx bx-lock text-[60px] text-[#3477db]'></i>
+                        <span>Confidencialidad y ética en los servicios de Psicopedagogía.</span>
                     </div>
                 </div>
             </div>

@@ -3,7 +3,7 @@
 @section('title', 'Topico IESPP-JFSC-Huamachuco')
 
 @section('content')
-<x-hero image="{{ asset('images/slider/slider4.jpg') }}" text="Topico" />
+<x-hero image="{{ asset('images/servicios/topico.jpg') }}" text="Tópico" />
 <section>
     <article>
         <div class="py-16">
@@ -26,11 +26,11 @@
         </div>
         <div>
             <x-services>
-                <x-slot name='servicio'>Topico</x-slot>
-                <x-slot name='frase'>La salud no lo es todo pero sin ella, todo lo demás es nada.</x-slot>
-                <x-slot name='autor'> _Miguel de Cervantes Saavedra</x-slot>
+                <x-slot name='servicio'>Tópico</x-slot>
+                <x-slot name='frase'>Una vida sin salud es como un río sin agua. </x-slot>
+                <x-slot name='autor'> (Maxime Lagacé)</x-slot>
                 <x-slot name='img'>{{ asset('images/carreras/CarreraComunicacion.png') }}</x-slot>
-                <x-slot name='altImg'>ServicioTopico</x-slot>
+                <x-slot name='altImg'>ServicioTópico</x-slot>
                 <x-slot name='parrafo'>
                     <p class="grid sm:px-6 lg:px-22 xl:px-32">
                         <span>El servicio de Tópico tiene como propósito fundamental contribuir al cuidado y bienestar de la comunidad educativa del "IESPP-JFSC Huamachuco". Nuestra misión se enfoca en proporcionar servicios de atención médica y promover prácticas saludables entre los estudiantes y el personal.</span> <br>

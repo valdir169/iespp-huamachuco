@@ -3,129 +3,145 @@
 @section('title', 'Psicopedagogía - Iespp José Faustino Sánchez Carrión Huamachuco')
 
 @section('content')
-    <x-hero image="{{ asset('images/slider/slider4.jpg') }}" text="Psicopedagogia" />
+
+    <x-hero image="{{ asset('images/servicios/psicopedagogia.jpg') }}" text="Psicopedagogia" />
     <section class="grid gap-16">
         <article>
             <div class="py-16">
                 <div class="sm:border-y border-y-[#d9d9d9]  w-full">
-
-<x-hero image="{{ asset('images/servicios/psicopedagogia.jpg') }}" text="Psicopedagogia" />
-<section class="grid gap-16">
-    <article>
-        <div class="py-16">
-            <div class="sm:border-y border-y-[#d9d9d9]  w-full">
-                <div>
-
                     <div>
+
                         <div>
-                            <div class="render w-full">
-                                <ul class="w-full grid grid-cols-2 sm:flex justify-center">
-                                    <li
-                                        class="w-full h-[100px] p-1 border border-[#d9d9d9] flex items-center justify-center hover:bg-[#3477db] hover:text-white lg:w-[200px]">
-                                        <a href="#servicio" class="flex flex-col text-center gap-3"><i
-                                                class='bx bx-brain text-[25px]'></i><span>Sobre el Servicio</span></a></li>
-                                    <li
-                                        class="w-full h-[100px] p-1 border border-[#d9d9d9] flex items-center justify-center hover:bg-[#3477db] hover:text-white lg:w-[200px]">
-                                        <a href="#horario" class="flex flex-col text-center gap-3"><i
-                                                class='bx bx-time-five text-[25px]'></i><span>Horarios</span></a></li>
-                                    <li
-                                        class="w-full h-[100px] p-1 border border-[#d9d9d9] flex items-center justify-center hover:bg-[#3477db] hover:text-white lg:w-[200px]">
-                                        <a href="#responsable" class="flex flex-col text-center gap-3"><i
-                                                class='bx bx-user text-[25px]'></i><span>Responsable</span></a></li>
-                                    <li
-                                        class="w-full h-[100px] p-1 border border-[#d9d9d9] flex items-center justify-center hover:bg-[#3477db] hover:text-white lg:w-[200px]">
-                                        <a href="#preguntas" class="flex flex-col text-center gap-3"><i
-                                                class='bx bx-question-mark text-[25px]'></i><span>Preguntas
-                                                Frecuentes</span></a></li>
-                                </ul>
+                            <div>
+                                <div class="render w-full">
+                                    <ul class="w-full grid grid-cols-2 sm:flex justify-center">
+                                        <li
+                                            class="w-full h-[100px] p-1 border border-[#d9d9d9] flex items-center justify-center hover:bg-[#3477db] hover:text-white lg:w-[200px]">
+                                            <a href="#servicio" class="flex flex-col text-center gap-3"><i
+                                                    class='bx bx-brain text-[25px]'></i><span>Sobre el Servicio</span></a>
+                                        </li>
+                                        <li
+                                            class="w-full h-[100px] p-1 border border-[#d9d9d9] flex items-center justify-center hover:bg-[#3477db] hover:text-white lg:w-[200px]">
+                                            <a href="#horario" class="flex flex-col text-center gap-3"><i
+                                                    class='bx bx-time-five text-[25px]'></i><span>Horarios</span></a>
+                                        </li>
+                                        <li
+                                            class="w-full h-[100px] p-1 border border-[#d9d9d9] flex items-center justify-center hover:bg-[#3477db] hover:text-white lg:w-[200px]">
+                                            <a href="#responsable" class="flex flex-col text-center gap-3"><i
+                                                    class='bx bx-user text-[25px]'></i><span>Responsable</span></a>
+                                        </li>
+                                        <li
+                                            class="w-full h-[100px] p-1 border border-[#d9d9d9] flex items-center justify-center hover:bg-[#3477db] hover:text-white lg:w-[200px]">
+                                            <a href="#preguntas" class="flex flex-col text-center gap-3"><i
+                                                    class='bx bx-question-mark text-[25px]'></i><span>Preguntas
+                                                    Frecuentes</span></a>
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div id="servicio">
-                <x-services>
-                    <x-slot name='servicio'>Psicopedagogia</x-slot>
-                    <x-slot name='frase'>El secreto de la existencia humana no sólo está en vivir, sino también en saber
-                        para qué se vive.</x-slot>
-                    <x-slot name='autor'> _Miguel de Cervantes Saavedra</x-slot>
-                    <x-slot name='img'>{{ asset('images/carreras/CarreraComunicacion.png') }}</x-slot>
-                    <x-slot name='altImg'>Servicio de Psicopedagogia</x-slot>
-                    <x-slot name='parrafo'>
-                        <p class="grid sm:px-6 lg:px-22 xl:px-32">
-                            <span>El servicio de Socopedagogía tiene como objetivo principal promover el desarrollo integral
-                                de los estudiantes en el contexto educativo del "IESPP-JFSC Huamachuco". Nuestra misión se
-                                centra en ofrecer recursos y servicios que apoyen el aprendizaje, la adaptación y el
-                                bienestar socioemocional de la comunidad educativa.</span> <br>
-                            <span>Este servicio está dedicado a brindar orientación y apoyo a los estudiantes en aspectos
-                                académicos y socioemocionales. Buscamos crear un espacio inclusivo y colaborativo donde se
-                                fomente el crecimiento personal, la autoestima y las habilidades sociales. Además, nos
-                                esforzamos por identificar y abordar las necesidades individuales de cada estudiante,
-                                proporcionando estrategias y recursos personalizados.</span>
-                        </p>
-                    </x-slot>
-                </x-services>
-                <div class="bg-[#ebebeb]">
-                    <div class="render py-12 grid gap-8 sm:gap-14">
-                        <div><span class="subtitle">Ofrecemos</span></div>
-                        <div class="grid gap-4 sm:flex items-center justify-center">
-                            <div
-                                class="flex items-center gap-5 sm:flex items-center justify-center sm:flex-col sm:w-[200px] sm:h-[250px] border border-[#3477db] lg:w-[300px] card-animation">
-                                <i class='bx bxs-user-check text-[50px] text-[#3477db]'></i>
-                                <span>Asesoramiento Individual</span>
-                            </div>
-                            <div
-                                class="flex items-center gap-5 sm:flex items-center justify-center sm:flex-col sm:w-[200px] sm:h-[250px] border border-[#3477db] lg:w-[300px] card-animation">
-                                <i class='bx bx-male-female text-[50px] text-[#3477db]'></i>
-                                <span>Terapia Grupal</span>
-                            </div>
-                            <div
-                                class="flex items-center gap-5 sm:flex items-center justify-center sm:flex-col sm:w-[200px] sm:h-[250px] border border-[#3477db] lg:w-[300px] card-animation">
-                                <i class='bx bxs-book-reader text-[50px] text-[#3477db]'></i>
-                                <span>Talleres</span>
-                            </div>
+                <div id="servicio">
+                    <x-services>
+                        <x-slot name='servicio'>Psicopedagogia</x-slot>
+                        <x-slot name='frase'>El secreto de la existencia humana no sólo está en vivir, sino también en
+                            saber
+                            para qué se vive.</x-slot>
+                        <x-slot name='autor'> _Miguel de Cervantes Saavedra</x-slot>
+                        <x-slot name='img'>{{ asset('images/carreras/CarreraComunicacion.png') }}</x-slot>
+                        <x-slot name='altImg'>Servicio de Psicopedagogia</x-slot>
+                        <x-slot name='parrafo'>
+                            <p class="grid sm:px-6 lg:px-22 xl:px-32">
+                                <span>El servicio de Socopedagogía tiene como objetivo principal promover el desarrollo
+                                    integral
+                                    de los estudiantes en el contexto educativo del "IESPP-JFSC Huamachuco". Nuestra misión
+                                    se
+                                    centra en ofrecer recursos y servicios que apoyen el aprendizaje, la adaptación y el
+                                    bienestar socioemocional de la comunidad educativa.</span> <br>
+                                <span>Este servicio está dedicado a brindar orientación y apoyo a los estudiantes en
+                                    aspectos
+                                    académicos y socioemocionales. Buscamos crear un espacio inclusivo y colaborativo donde
+                                    se
+                                    fomente el crecimiento personal, la autoestima y las habilidades sociales. Además, nos
+                                    esforzamos por identificar y abordar las necesidades individuales de cada estudiante,
+                                    proporcionando estrategias y recursos personalizados.</span>
+                            </p>
+                        </x-slot>
+                    </x-services>
+                    <div class="bg-[#ebebeb]">
+                        <div class="render py-12 grid gap-8 sm:gap-14">
+                            <div><span class="subtitle">Ofrecemos</span></div>
+                            <div class="grid gap-4 sm:flex items-center justify-center">
+                                <div
+                                    class="flex gap-5 sm:flex items-center justify-center sm:flex-col sm:w-[200px] sm:h-[250px] border border-[#3477db] lg:w-[300px] card-animation">
+                                    <i class='bx bxs-user-check text-[50px] text-[#3477db]'></i>
+                                    <span>Asesoramiento Individual</span>
+                                </div>
+                                <div
+                                    class="flex  gap-5 sm:flex items-center justify-center sm:flex-col sm:w-[200px] sm:h-[250px] border border-[#3477db] lg:w-[300px] card-animation">
+                                    <i class='bx bx-male-female text-[50px] text-[#3477db]'></i>
+                                    <span>Terapia Grupal</span>
+                                </div>
+                                <div
+                                    class="flex  gap-5 sm:flex items-center justify-center sm:flex-col sm:w-[200px] sm:h-[250px] border border-[#3477db] lg:w-[300px] card-animation">
+                                    <i class='bx bxs-book-reader text-[50px] text-[#3477db]'></i>
+                                    <span>Talleres</span>
+                                </div>
 
-        </div>
-        <div id="servicio">
-            <x-services>
-                <x-slot name='servicio'>Psicopedagogia</x-slot>
-                <x-slot name='frase'>El sabio no dice todo lo que piensa, pero siempre piensa todo lo que dice</x-slot>
-                <x-slot name='autor'> (Aristóteles)</x-slot>
-                <x-slot name='img'>{{ asset('images/carreras/CarreraComunicacion.png') }}</x-slot>
-                <x-slot name='altImg'>Servicio de Psicopedagogia</x-slot>
-                <x-slot name='parrafo'>
-                    <p class="grid sm:px-6 lg:px-22 xl:px-32">
-                        <span>El servicio de Socopedagogía tiene como objetivo principal promover el desarrollo integral de los estudiantes en el contexto educativo del "IESPP-JFSC Huamachuco". Nuestra misión se centra en ofrecer recursos y servicios que apoyen el aprendizaje, la adaptación y el bienestar socioemocional de la comunidad educativa.</span> <br>
-                        <span>Este servicio está dedicado a brindar orientación y apoyo a los estudiantes en aspectos académicos y socioemocionales. Buscamos crear un espacio inclusivo y colaborativo donde se fomente el crecimiento personal, la autoestima y las habilidades sociales. Además, nos esforzamos por identificar y abordar las necesidades individuales de cada estudiante, proporcionando estrategias y recursos personalizados.</span>
-                    </p>
-                </x-slot>
-            </x-services>
-            <div class="bg-[#ebebeb]">
-                <div class="render py-12 grid gap-8 sm:gap-14">
-                    <div><span class="subtitle">Ofrecemos</span></div>
-                    <div class="grid gap-4 sm:flex items-center justify-center">
-                        <div class="flex items-center gap-5 sm:flex items-center justify-center sm:flex-col sm:w-[200px] sm:h-[250px] border border-[#3477db] lg:w-[300px] card-animation">
-                            <i class='bx bxs-user-check text-[50px] text-[#3477db]'></i>
-                            <span>Asesoramiento Individual</span>
-                        </div>
-                        <div class="flex items-center gap-5 sm:flex items-center justify-center sm:flex-col sm:w-[200px] sm:h-[250px] border border-[#3477db] lg:w-[300px] card-animation">
-                            <i class='bx bx-male-female text-[50px] text-[#3477db]'></i>
-                            <span>Terapia Grupal</span>
->
-                        </div>
-                        <div class="flex items-center">
-                            <i class='bx bx-lock text-[60px]'></i>
-                            <span>Confidencialidad y ética en los servicios de Psicopedagía.</span>
-                        </div>
-                    </div>
+                            </div>
+                            <div id="servicio">
+                                <x-services>
+                                    <x-slot name='servicio'>Psicopedagogia</x-slot>
+                                    <x-slot name='frase'>El sabio no dice todo lo que piensa, pero siempre piensa todo lo
+                                        que dice</x-slot>
+                                    <x-slot name='autor'> (Aristóteles)</x-slot>
+                                    <x-slot name='img'>{{ asset('images/carreras/CarreraComunicacion.png') }}</x-slot>
+                                    <x-slot name='altImg'>Servicio de Psicopedagogia</x-slot>
+                                    <x-slot name='parrafo'>
+                                        <p class="grid sm:px-6 lg:px-22 xl:px-32">
+                                            <span>El servicio de Socopedagogía tiene como objetivo principal promover el
+                                                desarrollo integral de los estudiantes en el contexto educativo del
+                                                "IESPP-JFSC Huamachuco". Nuestra misión se centra en ofrecer recursos y
+                                                servicios que apoyen el aprendizaje, la adaptación y el bienestar
+                                                socioemocional de la comunidad educativa.</span> <br>
+                                            <span>Este servicio está dedicado a brindar orientación y apoyo a los
+                                                estudiantes en aspectos académicos y socioemocionales. Buscamos crear un
+                                                espacio inclusivo y colaborativo donde se fomente el crecimiento personal,
+                                                la autoestima y las habilidades sociales. Además, nos esforzamos por
+                                                identificar y abordar las necesidades individuales de cada estudiante,
+                                                proporcionando estrategias y recursos personalizados.</span>
+                                        </p>
+                                    </x-slot>
+                                </x-services>
+                                <div class="bg-[#ebebeb]">
+                                    <div class="render py-12 grid gap-8 sm:gap-14">
+                                        <div><span class="subtitle">Ofrecemos</span></div>
+                                        <div class="grid gap-4 sm:flex items-center justify-center">
+                                            <div
+                                                class="flex gap-5 sm:flex items-center justify-center sm:flex-col sm:w-[200px] sm:h-[250px] border border-[#3477db] lg:w-[300px] card-animation">
+                                                <i class='bx bxs-user-check text-[50px] text-[#3477db]'></i>
+                                                <span>Asesoramiento Individual</span>
+                                            </div>
+                                            <div
+                                                class="flex gap-5 sm:flex items-center justify-center sm:flex-col sm:w-[200px] sm:h-[250px] border border-[#3477db] lg:w-[300px] card-animation">
+                                                <i class='bx bx-male-female text-[50px] text-[#3477db]'></i>
+                                                <span>Terapia Grupal</span>
+                                                >
+                                            </div>
+                                            <div class="flex items-center">
+                                                <i class='bx bx-lock text-[60px]'></i>
+                                                <span>Confidencialidad y ética en los servicios de Psicopedagía.</span>
+                                            </div>
+                                        </div>
 
-                    <div class="flex items-center">
-                        <i class='bx bx-lock text-[60px] text-[#3477db]'></i>
-                        <span>Confidencialidad y ética en los servicios de Psicopedagogía.</span>
-                    </div>
+                                        <div class="flex items-center">
+                                            <i class='bx bx-lock text-[60px] text-[#3477db]'></i>
+                                            <span>Confidencialidad y ética en los servicios de Psicopedagogía.</span>
+                                        </div>
 
-                </div>
-            </div>
+                                    </div>
+                                </div>
         </article>
         <article>
             <div class="render py-16" id="horario">

@@ -4,7 +4,7 @@
 
 @section('content')
     <section>
-        <x-admision img="{{ asset('images/bg-admision.jpg') }}" titulo="Admisión 2024" descripcion="INSCRIPCIONES ABIERTAS!!!"
+        <x-admision img="{{ asset('images/admision/admision.jpg') }}" titulo="Admisión 2024" descripcion="INSCRIPCIONES ABIERTAS!!!"
             subtitulo1="Inicio de Inscripciones:" subtitulo2="Cierre de Inscripciones:" subtitulo3="15 de marzo."
             subtitulo4="7 de abril." />
     </section>
@@ -41,11 +41,11 @@
         </div>
     </section>
     <section>
-        <div class="render py-10 grid gap-8">
+        <div class="render py-16 grid gap-8">
             <div class="">
                 <small class="title font-black text-[#3477db] pb-4">Modalidad admisión</small>
-                <p>Te ofrecemos distintas opciones al momento que postulas a una de
-                    nuestras carreras profecionales.</p>
+                <p>Te ofrecemos distintas opciones al momento que postulas a uno de
+                    nuestros Programas de Estudios Profecionales.</p>
             </div>
             <div class="grid gap-16 lg:gap-36">
                 <div class="sm:flex justify-center items-center gap-5 sm:flex-row-reverse xl:gap-20">
@@ -78,10 +78,10 @@
     </section>
     <section class="bg-[#ebebeb]">
         <article>
-            <div class=" py-12">
+            <div class="py-16">
                 <div class="display text-center">
                     <span class="font-black text-[#3477db] title">Proceso de Admisión</span>
-                    <p class="pt-2 pb-8">Para ingresar al IESPP-Huamachuco debe seguir los siguientes pasos.</p>
+                    <p class="pt-2">Para ingresar al IESPP-JFSC Huamachuco debe seguir los siguientes pasos.</p>
                 </div>
             </div>
         </article>

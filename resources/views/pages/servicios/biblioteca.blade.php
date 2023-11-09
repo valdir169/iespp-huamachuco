@@ -27,7 +27,7 @@
                 <x-services>
                     <x-slot name='servicio'>Biblioteca</x-slot>
                     <x-slot name='frase'>El que lee mucho y anda mucho, ve mucho y sabe mucho</x-slot>
-                    <x-slot name='autor'> _Miguel de Cervantes Saavedra</x-slot>
+                    <x-slot name='autor'> (Miguel de Cervantes Saavedra)</x-slot>
                     <x-slot name='img'>{{ asset('images/carreras/CarreraComunicacion.png') }}</x-slot>
                     <x-slot name='altImg'>Servicio de Biblioteca</x-slot>
                     <x-slot name='parrafo'>

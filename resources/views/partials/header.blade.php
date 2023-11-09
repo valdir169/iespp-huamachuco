@@ -125,7 +125,13 @@
 
                     <ul class="submenu">
                         <li><a class="nav-link" href="{{ route('galeria') }}">Galería</a></li>
-                        <li><a class="nav-link" href="#">Eva</a></li>
+                        <li><a class="nav-link"
+                                href="https://login.microsoftonline.com/common/oauth2/v2.0/authorize?client_id=4765445b-32c6-49b0-83e6-1d93765276ca&redirect_uri=https%3A%2F%2Fwww.microsoft365.com%2Flandingv2&response_type=code%20id_token&scope=openid%20profile%20https%3A%2F%2Fwww.office.com%2Fv2%2FOfficeHome.All&response_mode=form_post&nonce=638350947590415018.MjQ2NmE5YmEtODU3Yy00NDNiLTllZTItYjYzNDNkNjAzYjYwNmY0YjUxY2YtNTgxNC00YThkLTk0OGQtNjgxZDcxYTY4OGNh&ui_locales=es&mkt=es&client-request-id=cac81983-93e2-4386-b824-ec556f625aa0&state=_sLy8lCliVNoTKFmqDPnAWdWSJ2cW6XQbBMd_dL2Uwh8kHy3piS3EIPUTZc0D6euy4plX5pIc9XbebAVSAF7-McjRMAD7ok7gQYlK7Aii4QEFWogC1S2PrMDojq_Fan_yjD1p9BG2Ms6Jp_BM26TOrXK3oG4CQmWNsOstBp9g7LZgHkge_l3JRQLlehOnUZoTp-rn2IZif5UCqIDTW5w2X8j-bRDYoCwdANMuh1ja7KPxsZqki1AV9CbwWt5_f4NoyIVmuH5FgZ_YmWG4ZSOGCH2s_H2We_9Vf3nd1sfpE0&x-client-SKU=ID_NET6_0&x-client-ver=6.30.1.0&sso_reload=true"
+                                target="_blank">Eva</a>
+                        </li>
+
+                        <li><a class="nav-link" href="https://registra.minedu.gob.pe/" target="_blank">Registra</a>
+                        </li>
                     </ul>
                 </li>
             </ul>

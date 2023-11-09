@@ -1,6 +1,6 @@
 @extends('layout.app')
 
-@section('title', 'Topico IESPP-JFSC-Huamachuco')
+@section('title', 'Tópico - Iespp José Faustino Sánchez Carrión Huamachuco')
 
 @section('content')
 <x-hero image="{{ asset('images/servicios/topico.jpg') }}" text="Tópico" />

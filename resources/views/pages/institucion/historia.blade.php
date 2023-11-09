@@ -1,6 +1,6 @@
 @extends('layout.app')
 
-@section('title', 'Historia - Iespp Jfsc Huamachuco')
+@section('title', 'Historia - Iespp José Faustino Sánchez Carrión Huamachuco')
 
 @section('content')
     <x-hero image="{{ asset('images/institucion/hero_institucion.webp') }}" text="Historia" />
@@ -72,6 +72,6 @@
             Secundaria
             en
             la especialidad de Comunicación, Idiomas en la
-            especialidad de Inglés y Educación Inicial. Vienen formándose 476 estudiantes</p>
+            especialidad de Inglés y Educación Inicial.</p>
     </article>
 @endsection

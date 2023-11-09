@@ -1,6 +1,6 @@
 @extends('layout.app')
 
-@section('title', 'Presentación - Iespp Jfsc Huamachuco')
+@section('title', 'Presentación - Iespp José Faustino Sánchez Carrión Huamachuco')
 @section('content')
     <x-hero image="{{ asset('images/institucion/hero_institucion.webp') }}" text="Presentación" />
 

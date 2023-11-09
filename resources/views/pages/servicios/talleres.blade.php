@@ -1,6 +1,6 @@
 @extends('layout.app')
 
-@section('title', 'Talles Académicos')
+@section('title', 'Talles Académicos - Iespp José Faustino Sánchez Carrión Huamachuco')
 
 @section('content')
 <x-hero image="{{ asset('images/servicios/talleres.jpg') }}" text="Talleres Académicos" />

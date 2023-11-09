@@ -1,6 +1,6 @@
 @extends('layout.app')
 
-@section('title', 'Capacitacion de prevencion de riesgos ambientales')
+@section('title', 'Capacitacion - Iespp José Faustino Sánchez Carrión Huamachuco')
 
 @section('content')
     <x-hero image="{{ asset('images/servicios/brigadas.jpg') }}" text="Capacitacion de Brigadistas" />

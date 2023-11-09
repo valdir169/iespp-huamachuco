@@ -1,6 +1,6 @@
 @extends('layout.app')
 
-@section('title', 'Licenciamiento - IESPP JFSC Huamachuco')
+@section('title', 'Licenciamiento - Iespp José Faustino Sánchez Carrión Huamachuco')
 
 @section('content')
     <x-hero image="{{ asset('images/carreras/carrera_ingles.png') }}" text="Licenciamiento" />

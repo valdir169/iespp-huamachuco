@@ -1,6 +1,6 @@
 @extends('layout.app')
 
-@section('title', 'Documentos de gestión - IESPP JFSC Huamachuco')
+@section('title', 'Documentos de gestión - Iespp José Faustino Sánchez Carrión Huamachuco')
 
 @section('content')
     <x-hero image="{{ asset('images/carreras/carrera_ingles.png') }}" text="Documentos de gestión" />
@@ -23,7 +23,7 @@
                             <a class="bg-[#3477DB] text-white cursor-pointer hover:bg-[#ffffff] text-center
                                 focus:ring-4 focus:outline-none focus:ring-[#1da1f2]/50 font-bold rounded-lg
                                 hover:text-black hover:border-[#3477DB] hover:border
-                                 py-2.5 text-center no-underline lg:max-w-full xl:max-w-[300px] px-10
+                                 py-2.5  no-underline lg:max-w-full xl:max-w-[300px] px-10
                                    mb-2 hover:shadow-lg transition-all duration-200 ease-in-out
                                     gap-x-2 opacity-90 hover:opacity-100"
                                 type="secondary" href="#" target="_blank">Ver</a>
@@ -37,7 +37,7 @@
                             <a class="bg-[#3477DB] text-white cursor-pointer hover:bg-[#ffffff] text-center
                                 focus:ring-4 focus:outline-none focus:ring-[#1da1f2]/50 font-bold rounded-lg
                                 hover:text-black hover:border-[#3477DB] hover:border
-                                 py-2.5 text-center no-underline lg:max-w-full xl:max-w-[300px] px-10
+                                 py-2.5 no-underline lg:max-w-full xl:max-w-[300px] px-10
                                    mb-2 hover:shadow-lg transition-all duration-200 ease-in-out
                                     gap-x-2 opacity-90 hover:opacity-100"
                                 type="secondary" href="#" target="_blank">Ver</a>

@@ -1,6 +1,6 @@
 @extends('layout.app')
 
-@section('title', 'IESPP José Faustino Sánchez Carrión')
+@section('title', 'Instituto de Educación Superior Pedagógico Público - José Faustino Sánchez Carrión - Huamachuco')
 
 @section('content')
     <div class="swiper mySwiper">
@@ -8,15 +8,17 @@
             <div class="swiper-slide bg-no-repeat bg-cover relative"
                 style="background-image: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.1), rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url(images/slider/Bienvenida.jpg)">
                 <div class="render absolute inset-0  flex flex-col items-start gap-8 pb-[32px] h-full justify-end">
-                    {{-- <span
-                        class="backdrop-blur-md bg-[#3477db]/30 text-white text-4xl sm:text-6xl xl:text-7xl font-[Roboto-Black] rounded-xl p-2  bottom-0 ">
-                        Educación
-                        Inicial</span>
+                    <div class="flex flex-col backdrop-blur-md bg-[#3477db]/30  rounded-xl py-2 px-4  bottom-0">
+                        <span class="text-white text-4xl sm:text-6xl xl:text-7xl font-[Roboto-Bold]  leading-6">
+                            Bienvenidos al IESPP
+                        </span>
+                        <small class="mt-4 text-white text-2xl sm:text-4xl xl:text-5xl font-[Roboto-Thin] ">"Jośe
+                            Faustino Sánchez Carrión"</small>
 
-                    <a href="{{ route('educacioninicial') }}"
-                        class="bg-[#3477DB]  text-white cursor-pointer  outline-none font-bold rounded-lg
-                     py-2.5 text-center no-underline  px-12  mb-2 transition-all duration-200 ease-in-out hover:opacity-90">Descubre
-                        más</a> --}}
+                    </div>
+                    {{-- <span class="  text-white font-bold ">
+                        Con más de 40 años formando profesionales de calidad
+                    </span> --}}
                 </div>
             </div>
 
@@ -208,8 +210,9 @@
                 <p class="bottom-0 text-xl sm:text-4xl  lg:text-6xl font-[Roboto-Black] lg:px-[10vw] leading-normal">
                     Nuestro campus es mucho más que un lugar
                     de aprendizaje; </p>
-                <span class="font-[Roboto-Thin] font-bold text-md sm:text-2xl lg:text-4xl text-center lg:px-[5vw] mt-8 ">es un espacio donde la inspiración se
-                    combina con la  innovación para crear oportunidades sin límites.</span>
+                <span class="font-[Roboto-Thin] font-bold text-md sm:text-2xl lg:text-4xl text-center lg:px-[5vw] mt-8 ">es
+                    un espacio donde la inspiración se
+                    combina con la innovación para crear oportunidades sin límites.</span>
             </div>
         </div>
     </div>
@@ -217,10 +220,10 @@
     <section class="render py-28">
         <div class="flex flex-col text-center py-4 justify-center z-50 ">
             <h2 class="text-4xl font-bold">Experiencias <span class="text-[#3477DB]">Exitosas</span></h2>
-            <span class="text-xl mt-4">¡Mira lo que dicen de nosotros!</span>
+            <span class="text-xl mt-4 font-black">¡Mira lo que dicen de nosotros!</span>
         </div>
 
-        <article class="swiper-exp-cont ">
+        <article class="swiper-exp-cont pt-16">
             <div class="experience myExperience">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
@@ -234,7 +237,7 @@
                                 <div class="flex flex-col gap-2 md:mt-8">
                                     <h2 class="text-2xl font-bold">Gladis Medina </h2>
                                     <span class="text-xl font-['Roboto-Thin'] font-bold text-[#3477db]">Idioma
-                                        Ingles</span>
+                                        Inglés</span>
                                 </div>
 
                                 <p class="mt-6 ppx-4">

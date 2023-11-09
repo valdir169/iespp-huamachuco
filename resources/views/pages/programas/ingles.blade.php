@@ -1,6 +1,6 @@
 @extends('layout.app')
 
-@section('title', 'Idiomas, Especialidad: Ingles')
+@section('title', 'Idiomas, Especialidad Inglés - Iespp José Faustino Sánchez Carrión Huamachuco')
 
 @section('content')
     <section class="background">

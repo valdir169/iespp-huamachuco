@@ -1,6 +1,6 @@
 @extends('layout.app')
 
-@section('title', 'Biblioteca IESPP-JFSC-Huamachuco')
+@section('title', 'Biblioteca - Iespp José Faustino Sánchez Carrión Huamachuco')
 
 @section('content')
     <x-hero image="{{asset('images/servicios/Biblioteca.jpg') }}" text="Biblioteca" />

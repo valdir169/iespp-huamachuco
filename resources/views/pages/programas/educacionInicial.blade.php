@@ -10,7 +10,7 @@
             <x-slot name="carrerasText">Programas</x-slot>
             <x-slot name="especialidadLink">{{ route('inicial') }}</x-slot>
             <x-slot name="titulo">EDUCACI&Oacute;N INICIAL</x-slot>
-            <x-slot name="descripcion">Formar profesionales que contribuyan a mejorar los entornos en los que se desarrollan los niños y niñas, promover que los niños establezcan vínculos, que logren autonomía misma, y que desarrollen iniciativa para jugar.</x-slot>
+            <x-slot name="descripcion">Formar profesionales que contribuyan a mejorar los entornos en los que se desarrollen los niños y niñas en las primeras etapas de su educación, promoviendo un entorno de cuidado y estimulación adecuado.</x-slot>
             <x-slot name="duracion">10 Semestres Académicos (5 años)</x-slot>
             <x-slot name="titulacion">Profesional Pedagógico en Educaci&oacute;n Inicial</x-slot>
             <x-slot name="modalidad">Presencial</x-slot>

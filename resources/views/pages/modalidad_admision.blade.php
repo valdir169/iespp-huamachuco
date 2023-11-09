@@ -6,6 +6,15 @@
         <x-modal img="{{ asset('images/bg-admision.jpg') }}" link="{{ route('admision') }}" linkText="Admisión"
             linkTitle="{{ route('modalidad_admision') }}" Title="Modalidad de Admisión"
             Content="Nosotros ofrecemos diferentes tipos de modalidades para  los que van ha postular y formar parte de nuestra familia estudiantil." />
+
+        <x-modal
+            img="{{ asset('images/admision/bg_iespp-jfsc.jpg') }}"
+            link="{{ route('admision') }}"
+            linkText="Admisión"
+            linkTitle="{{ route('modalidad_admision') }}"
+            Title="Modalidad de Admisión"
+            Content="Nosotros ofrecemos diferentes tipos de modalidades para  los que van ha postular y formar parte de nuestra familia estudiantil."
+        />
     </section>
     <section class="preparate-tabs py-10">
         <section class="tabs preparation flex items-center flex-col gap-5 lg:gap-10 2xl:gap-30">
@@ -582,12 +591,23 @@
     <section>
         <article class="border-t border-[#d9d9d9">
             <div class="render mb-8 pt-6">
+
                 <x-sublinks :title="'Te Puede Interesar...'" :links='[
                     'Conoce Nuestras Carreras' => route('admision'),
                     'Requisitos de Matrícula' => route('ingles'),
                     'Academia Institucional' => route('academia'),
                     'Campus Institucional' => route('programas'),
                 ]' />
+
+            <x-sublinks
+            :title="'Te Puede Interesar...'"
+            :links='[
+                "Conoce Nuestras Carreras" => route("admision"),
+                "Requisitos de Matrícula" => route("ingles"),
+                "Academia Institucional" => route("academia"),
+                "Contactános" => route("contacto")
+            ]'
+
         </article>
     </section>
 @endsection

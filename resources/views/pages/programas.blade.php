@@ -6,8 +6,8 @@
     <section>
         <x-hero image="{{ asset('images/bg-admision.jpg') }}" text="Programas de Estudios" />
     </section>
-    <section class="">
-        <div class="render bg-[#3477db] w-full py-10 xl:py-18">
+    <section class="bg-[#3477db] w-full py-20 xl:py-18">
+        <div class="render">
             <div class="flex justify-center flex-col text-center gap-3">
                 <h1 class="text-sm font-black text-white sm:text-lg md:text-xl xl:text-3xl">Contamos con tres Programas de Estudios Profesionales</h1>
                 <p class="text-xs text-white sm:text-ms xl:text-lg">Nosotros formamos profesionales de calidad, ven estudia con nosotros y recibe tu Título Profesional a Nombre de la Nación</p>

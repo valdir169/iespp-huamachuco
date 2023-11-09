@@ -3,7 +3,7 @@
 @section('title', 'Talles Académicos - Iespp José Faustino Sánchez Carrión Huamachuco')
 
 @section('content')
-<x-hero image="{{ asset('images/slider/slider4.jpg') }}" text="Talleres Académicos" />
+<x-hero image="{{ asset('images/servicios/talleres.jpg') }}" text="Talleres Académicos" />
 <section>
     <article>
         <div class="render py-16 lg:py-36">

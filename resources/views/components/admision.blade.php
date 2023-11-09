@@ -3,7 +3,7 @@
 <div class="bg-cover bg-no-repeat bg-center -mt-[120px]" style='background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8)), url({{ $img }});'>
     <div class="render py-5">
         <div class="grid gap-2 text-white h-[40vh] sm:w-[60%] md:h-[400px] lg:h-[600px] xl:h-[700px]">
-            <div class="pt-48 lg:pt-72">
+            <div class="pt-36 lg:pt-72">
                 <h1 class="title-gel">{{ $titulo }}</h1>
                 <p class="border-b pb-2 title-gel">{{ $descripcion }}</p>
             </div>

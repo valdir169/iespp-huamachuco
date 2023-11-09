@@ -3,7 +3,7 @@
 @section('title', 'Capacitacion - Iespp José Faustino Sánchez Carrión Huamachuco')
 
 @section('content')
-    <x-hero image="{{ asset('images/slider/slider4.jpg') }}" text="Capacitacion de Brigadistas" />
+    <x-hero image="{{ asset('images/servicios/brigadas.jpg') }}" text="Capacitacion de Brigadistas" />
     <section>
         <article>
             <div class="render py-16 grid gap-8 sm:gap-16 lg:py-28">
@@ -173,17 +173,17 @@
                     <div class="flex flex-col gap-8 lg:gap-16 2xl:gap-36">
                         <div><span class="title">Contamos con el apoyo de:</span></div>
                         <div class="flex flex-col gap-16 sm:flex-row 2xl:gap-32">
-                            <div class="flex flex-col items-center gap-8 sm:w-1/2 lg:flex-row lg:gap-4">
+                            <div class="flex flex-col items-center gap-8 border border-[#ebebeb] p-3 sm:w-1/2 lg:flex-row lg:gap-4">
                                 <div class="flex flex-col gap-4 text-center">
                                     <span class="font-bold">Serenazgo Huamachuco</span>
-                                    <span>profesionales de la educación con una cultura ambiental y capaces de prevenir y enfrentar</span>
+                                    <span>Capacitan a los estudiantes en medidas de seguridad ambiental, procedimientos de evacuación y soporte emocional en situaciones de crisis.</span>
                                 </div>
                                 <div class="flex items-center justify-center"><img class="max-w-[250px] max-h-[200px]" src="{{ asset('images/servicios/Serenazgo.png') }}" alt="Serenazgo"></div>
                             </div>
-                            <div class="flex flex-col items-center gap-8 sm:w-1/2 lg:flex-row lg:gap-4">
+                            <div class="flex flex-col items-center gap-8 border border-[#ebebeb] p-3 sm:w-1/2 lg:flex-row lg:gap-4">
                                 <div class="flex flex-col gap-4 text-center">
                                     <span class="font-bold">Ejército Del Perú</span>
-                                    <span>Batallón de Infantería Motorizado (BIM) 323 "Oscar de la Barrera"</span>  
+                                    <span>Batallón de Infantería Motorizado (BIM) 323 "Oscar de la Barrera", realiza simulacros y ejercicios prácticos para enseñar a los estudiantes técnicas efectivas en situaciones de emergencia. </span>  
                                 </div>
                                 <div class="flex items-center justify-center"><img class="max-w-[250px] max-h-[200px]" src="{{ asset('images/servicios/Ejercito_Perú.png') }}" alt="Ejercito_Perú"></div>
                             </div>

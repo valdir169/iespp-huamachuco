@@ -1,6 +1,6 @@
 @extends('layout.app')
 
-@section('title', 'Organigrama - IESPP JFSC Huamachuco')
+@section('title', 'Organigrama - Iespp José Faustino Sánchez Carrión Huamachuco')
 @section('content')
     <x-hero image="{{ asset('images/institucion/hero_institucion.webp') }}" text="Organigrama Institucional" />
     <div class="render py-24">

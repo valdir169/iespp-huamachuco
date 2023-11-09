@@ -40,7 +40,7 @@ Route::get('/talleres', [PaginasController::class, 'talleres'])->name('talleres'
 // routes for institucion
 Route::get('/presentacion', [PaginasController::class, 'presentacion'])->name('presentacion');
 Route::get('/historia', [PaginasController::class, 'historia'])->name('historia');
-Route::get('/nosotros', [PaginasController::class, 'nosotros'])->name('nosotros');
+Route::get('/mision-vision', [PaginasController::class, 'nosotros'])->name('nosotros');
 Route::get('/organigrama', [PaginasController::class, 'organigrama'])->name('organigrama');
 Route::get('/directorio', [PaginasController::class, 'directorio'])->name('directorio');
 Route::get('/plana-docente', [PaginasController::class, 'planaDocente'])->name('plana-docente');
@@ -60,6 +60,7 @@ Route::get('/matricula', [PaginasController::class, 'matricula'])->name('matricu
 //Route for other
 Route::get('/galeria', [PaginasController::class, 'gallery'])->name('galeria');
 Route::get('/{any}', [PaginasController::class, 'error'])->where('any', '.*')->name('error');
+Route::get('/{any}/{any}', [PaginasController::class, 'error'])->where('any', '.*')->name('error');
 
 
 // procees form

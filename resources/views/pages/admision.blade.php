@@ -1,6 +1,6 @@
 @extends('layout.app')
 
-@section('title', 'Admisión IESPP-Humachuco')
+@section('title', 'Admisión - Iespp Jośe Faustino Sánchez Carrión Huamachuco')
 
 @section('content')
     <section>

@@ -1,6 +1,6 @@
 @extends('layout.app')
 
-@section('title','Carreras Profecionales')
+@section('title','Carreras Profesionales - Iespp José Faustino Sánchez Carrión Huamachuco')
 
 @section('content')
     <section>

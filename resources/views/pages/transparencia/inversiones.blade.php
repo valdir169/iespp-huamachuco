@@ -1,6 +1,6 @@
 @extends('layout.app')
 
-@section('title', 'Inversiones y Donaciones - Iespp Jfsc')
+@section('title', 'Inversiones y Donaciones - Iespp José Faustino Sánchez Carrión Huamachuco')
 
 @section('content')
     <x-hero image="{{ asset('images/carreras/carrera_ingles.png') }}" text="Inversiones y Donaciones" />
@@ -17,7 +17,7 @@
                     <p class="font-bold">LIsta de archivos</p>
                     <a class="bg-[#3477DB] text-white cursor-pointer hover:bg-[#ffffff] text-center
                      outline-none  font-bold rounded-lg hover:text-black hover:border-[#3477DB] hover:border
-                     py-2.5 text-center no-underline  px-10 duration-200 ease-in-out"
+                     py-2.5 no-underline  px-10 duration-200 ease-in-out"
                         href="" target="_blank">Descargar</a>
                 </div>
             </div>
@@ -31,7 +31,7 @@
                     <p class="font-bold">Informes Económicos 2021 - 2022</p>
                     <a class="bg-[#3477DB] text-white cursor-pointer hover:bg-[#ffffff] text-center
                      outline-none  font-bold rounded-lg hover:text-black hover:border-[#3477DB] hover:border
-                     py-2.5 text-center no-underline  px-10 duration-200 ease-in-out"
+                     py-2.5  no-underline  px-10 duration-200 ease-in-out"
                         href="" target="_blank">Descargar</a>
                 </div>
             </div>

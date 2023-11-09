@@ -64,7 +64,7 @@ class PaginasController extends Controller
 
     public function nosotros()
     {
-        return view('pages.institucion.nosotros');
+        return view('pages.institucion.mision_vision');
     }
 
     public function organigrama()
@@ -89,63 +89,63 @@ class PaginasController extends Controller
             ],
             [
                 'jefatura' => 'Secretario Académico',
-                'image' => './images/institucion/asertividad.png',
+                'image' => './images/institucion/directorio/images.png',
                 'name' => 'Mg. Rodolfo Eleuterio Cruz Avalos',
                 'email'  => 'rodolfocruzavalos@gmail.com',
                 'fyle' => 'cvdireccion.pdf',
             ],
             [
                 'jefatura' => 'Jefe de la Unidad de Bienestar y Empleabilidad',
-                'image' => './images/institucion/asertividad.png',
+                'image' => './images/institucion/directorio/images.png',
                 'name' => 'Prof. Luis Humberto Carbonell García',
                 'email'  => 'brujito110267@gmail.com',
                 'fyle' => 'cvdireccion.pdf',
             ],
             [
                 'jefatura' => 'Jefe de la Unidad de Investigación',
-                'image' => './images/institucion/asertividad.png',
+                'image' => './images/institucion/directorio/images.png',
                 'name' => 'Mg. José Horacio Pimentel Longobardi',
                 'email'  => 'pimentellongobardi05@gmail.com',
                 'fyle' => 'cvacademica.pdf',
             ],
             [
                 'jefatura' => 'Jefe de Unidad Académica',
-                'image' => './images/institucion/asertividad.png',
+                'image' => './images/institucion/directorio/images.png',
                 'name' => 'Mg. Marivel Santos Layza Rodríguez',
                 'email'  => 'Mlayzar1213@gmail.com',
                 'fyle' => 'cvdireccion.pdf',
             ],
             [
                 'jefatura' => 'Coordinadora del área de Calidad',
-                'image' => './images/institucion/asertividad.png',
+                'image' => './images/institucion/directorio/images.png',
                 'name' => 'Mg. Marita Magdalena Andrade Condori',
                 'email'  => 'mmand9@hotmail.com',
                 'fyle' => 'cvdireccion.pdf',
             ],
             [
                 'jefatura' => 'Coordinadora del área de Práctica',
-                'image' => './images/institucion/asertividad.png',
+                'image' => './images/institucion/directorio/images.png',
                 'name' => 'Mg. Soledad del Carmen García Martín',
                 'email'  => 'solfer0102@gmail.com',
                 'fyle' => 'cvdireccion.pdf',
             ],
             [
                 'jefatura' => 'Coordinadora del Programa de Estudios de Idiomas, Inglés',
-                'image' => './images/institucion/asertividad.png',
+                'image' => './images/institucion/directorio/images.png',
                 'name' => 'Mg. Zulma Janett de la Cruz Contreras',
                 'email'  => 'zulma_770@hotmail.com',
                 'fyle' => 'cvdireccion.pdf',
             ],
             [
                 'jefatura' => 'Coordinador del Programa de Estudios de Educación Secundaria, especialidad Comunicación',
-                'image' => './images/institucion/asertividad.png',
+                'image' => './images/institucion/directorio/images.png',
                 'name' => 'Lic. Walter Felix Reyes Vásquez',
                 'email'  => 'walterrv79@gmail.com',
                 'fyle' => 'cvdireccion.pdf',
             ],
             [
                 'jefatura' => 'Coordinadora del Programa de Educación Inicial',
-                'image' => './images/institucion/asertividad.png',
+                'image' => './images/institucion/directorio/images.png',
                 'name' => 'Prof. María Ofelia Cobian Galvez',
                 'email'  => 'wreyes@iesppjfschco.edu.pe',
                 'fyle' => 'cvdireccion.pdf',
@@ -241,7 +241,7 @@ class PaginasController extends Controller
 
     public function error()
     {
-        return view('pages.404');
+        return view('pages.others.404');
     }
 
     public function processData(Request $request)

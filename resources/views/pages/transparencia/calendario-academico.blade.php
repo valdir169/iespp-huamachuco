@@ -1,6 +1,6 @@
 @extends('layout.app')
 
-@section('title', 'Calendario Académico - IESPP JFSC Huamachuco')
+@section('title', 'Calendario Académico - Iespp José Faustino Sánchez Carrión Huamachuco')
 
 
 @section('content')

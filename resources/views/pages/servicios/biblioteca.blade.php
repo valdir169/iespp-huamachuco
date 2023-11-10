@@ -134,19 +134,17 @@
     </div>
 
     <div id="responsable">
-        <div>
-            <x-card-servicios>
-                <x-slot name="img">{{ asset('images/carreras/CarreraComunicacion.png') }}</x-slot>
-                <x-slot name="altImg">Lcda. Ana</x-slot>
-                <x-slot name="nombre">Lcda. Ana Roely Vasquez Cruzado</x-slot>
-                <x-slot name="title">Informacion de Contacto</x-slot>
-                <x-slot name="departamento">Departameto de Psicopedagogia</x-slot>
-                <x-slot name="direccion">Prolog. Sánchez Carrión 1400 – Huamachuco</x-slot>
-                <x-slot name="telefono">949 949 494</x-slot>
-                <x-slot name="email">psicopedagogia@jfsc.edu.pe</x-slot>
-                <x-slot name="titleRedes">S&iacute;genos en</x-slot>
-            </x-card-servicios>
-        </div>
+        <x-card-servicios>
+            <x-slot name="img">{{ asset('images/carreras/CarreraComunicacion.png') }}</x-slot>
+            <x-slot name="altImg">Lcda. Ana</x-slot>
+            <x-slot name="nombre">Lcda. Ana Roely Vasquez Cruzado</x-slot>
+            <x-slot name="title">Informacion de Contacto</x-slot>
+            <x-slot name="departamento">Departameto de Psicopedagogia</x-slot>
+            <x-slot name="direccion">Prolog. Sánchez Carrión 1400 – Huamachuco</x-slot>
+            <x-slot name="telefono">949 949 494</x-slot>
+            <x-slot name="email">psicopedagogia@jfsc.edu.pe</x-slot>
+            <x-slot name="titleRedes">S&iacute;genos en</x-slot>
+        </x-card-servicios>
     </div>
 
 
@@ -242,24 +240,6 @@
                         </div>
                         <div class="desplegable-item-list"><span>¿CÓMO PUEDO SUGERIR LA ADQUISICIÓN DE NUEVOS LIBROS O
                                 MATERIALES?</span></div>
-                    </div>
-
-                    <div class="desplegable-item-content">Profesional en la salud, que cumple la labor de orientar a
-                        los estudiantes cuando presentan alguna dificultad mental, emocional, académica y/o social.
-                    </div>
-                </div>
-
-
-                <div class="desplegable-item">
-                    <div class="desplegable-item__content">
-                        <div
-                            class="icon-container desplegable-item-list w-[40px] bg-[#3477db] flex items-center justify-center text-white hover:bg-[#ebebeb] hover:text-black py-3 px-6">
-                            <i class='bx bx-plus'></i>
-                        </div>
-
-                        <div class="desplegable-item-list">
-                            <span>¿PUEDO ACCEDER A SERVICIOS DE BIBLIOTECA SI NO SOY ESTUDIANTE?</span>
-                        </div>
                     </div>
 
                     <div class="desplegable-item-content">Profesional en la salud, que cumple la labor de orientar a

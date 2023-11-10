@@ -5,8 +5,8 @@
 @section('content')
     <x-hero image="{{ asset('images/servicios/brigadas.jpg') }}" text="Capacitacion de Brigadistas" />
     <section>
-        <article>
-            <div class="render py-16 grid gap-8 sm:gap-16 lg:py-28">
+        <article class="py-16  lg:py-28">
+            <div class="render grid gap-8 sm:gap-16">
                 <div class="text-center border-b border-b-[#ebebeb] pb-20">
                     <span class="title">Bienvenido al servicio de Brigadas de Educación Ambiental y de Gestión del riesgo de
                         desastres</span>
@@ -224,7 +224,7 @@
         </article>
 
 
-        <div class="render py-16">
+        <article class="render py-16">
             <span class="title">Contamos con el apoyo de:</span>
 
             <div class="flex flex-col gap-8 lg:gap-16 2xl:gap-36 pt-8">
@@ -257,6 +257,6 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </article>
     </section>
 @endsection

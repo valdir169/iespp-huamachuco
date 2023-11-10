@@ -51,7 +51,6 @@
     </section>
     <section class="py-20">
         <article class="render">
-            <div>
                 <div class="flex flex-col justify-center gap-8">
                     <div><span class="font-[Roboto-thin] text-3xl font-semibold">Cursos a Desarrollar</span></div>
                     <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
@@ -84,7 +83,6 @@
                         </div>
                     </div>
                 </div>
-            </div>
         </article>
     </section>
     <section>
@@ -115,15 +113,16 @@
     <section>
         <article class="border-t border-[#d9d9d9">
             <div class="render mb-8 pt-6">
-            <x-sublinks
-            :title="'Te Puede Interesar...'"
-            :links='[
-                "Conoce Nuestras Programas de Estudio" => route("programas"),
-                "Requisitos de Matrícula" => route("ingles"),
-                "Contactános" => route("contacto"),
-                "Modaliad de Admisión" => route("modalidad_admision")
-            ]'
-            />
+                <x-sublinks
+                :title="'Te Puede Interesar...'"
+                :links='[
+                    "Conoce Nuestras Programas de Estudio" => route("programas"),
+                    "Requisitos de Matrícula" => route("ingles"),
+                    "Contactános" => route("contacto"),
+                    "Modaliad de Admisión" => route("modalidad_admision")
+                ]'
+                />
+            </div>
         </article>
     </section>
 @endsection

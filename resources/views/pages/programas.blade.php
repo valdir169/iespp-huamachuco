@@ -16,7 +16,7 @@
     </section>
     <main class="render py-10 xl:py-18">
         <div class="grid gap-3">
-            <article class="p-2 border-2 sm:flex items-center sm:gap-3 lg:gap-8 xl:border-0 xl:border-b xl:border-[#3477db] xl:py-10">
+            <div class="p-2 border-2 sm:flex items-center sm:gap-3 lg:gap-8 xl:border-0 xl:border-b xl:border-[#3477db] xl:py-10">
                 <div class="w-full md:w-[45%] lg:w-full">
                     <img src="{{asset('images/carreras/CarreraComunicacion.png')}}" alt="">
                 </div>
@@ -41,8 +41,8 @@
                         <a href="{{route('inicial')}}" class="text-xs w-full py-2 text-center bg-[#3477db] h-8 text-white rounded-lg lg:text-sm xl:h-10 2xl:text-base">Obtener Más Información</a>
                     </div>
                 </div>
-            </article>
-            <article class="p-2 border-2 sm:flex items-center sm:gap-3 lg:gap-8 xl:border-0 xl:border-b xl:border-[#3477db] xl:py-10">
+            </div>
+            <div class="p-2 border-2 sm:flex items-center sm:gap-3 lg:gap-8 xl:border-0 xl:border-b xl:border-[#3477db] xl:py-10">
                 <div class="w-full md:w-[45%] lg:w-full">
                     <img src="{{asset('images/carreras/CarreraComunicacion.png')}}" alt="">
                 </div>
@@ -67,8 +67,8 @@
                         <a href="{{route('ingles')}}" class="text-xs w-full py-2 text-center bg-[#3477db] h-8 text-white rounded-lg lg:text-sm xl:h-10 2xl:text-base">Obtener Más Información</a>
                     </div>
                 </div>
-            </article>
-            <article class="p-2 border-2 sm:flex items-center sm:gap-3 lg:gap-8 xl:border-0 xl:py-10">
+            </div>
+            <div class="p-2 border-2 sm:flex items-center sm:gap-3 lg:gap-8 xl:border-0 xl:py-10">
                 <div class="w-full md:w-[45%] lg:w-full">
                     <img src="{{asset('images/carreras/CarreraComunicacion.png')}}" alt="">
                 </div>
@@ -93,7 +93,7 @@
                         <a href="{{route('comunicacion')}}" class="text-xs w-full py-2 text-center bg-[#3477db] h-8 text-white rounded-lg lg:text-sm xl:h-10 2xl:text-base">Obtener Más Información</a>
                     </div>
                 </div>
-            </article>
+            </div>
         </div>
     </main>
 @endsection

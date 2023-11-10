@@ -114,7 +114,7 @@
             </div>
         </article>
         <article>
-            <div class="grid gap-3 lg:gap-8 lg:gap-20" id="requisitos">
+            <div class="grid gap-3 lg:gap-20" id="requisitos">
                 <div class="text-center">
                     <span class="title">Requisitos</span>
                     <p>Para postular necesitas lo siguiente:</p>

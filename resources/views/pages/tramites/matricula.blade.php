@@ -12,9 +12,15 @@
                 <i class='bx bx-chevron-right-circle text-4xl text-[#3477db]'></i>
 
                 <div class="mt-2">
-                    <p class="mb-4 uppercase font-bold">Pago por derecho de matrícula</p>
-                    <span>Pago por Derecho de Matricula en el Banco de la Nación y luego presentarlo a secretaría. (Monto:
-                        S/ 200.00) </span>
+                    <p class="mb-4 uppercase font-bold">Ingresantes</p>
+                    <span>Todos los ingresantes al I Semestre a las diferentes especialidades ofrecidas en el proceso de admisión.</span>
+                        <ul class="mt-4 list-disc">
+                            <li>Constancia de ingreso</li>
+                            <li>Partida de nacimiento (original)</li>
+                            <li>Copia de DNI</li>
+                            <li>Certificado de estudios de educación secundaria bisado por la UGEL</li>
+                            <li>Recibo por derecho de matrícula</li>
+                        </ul>
                 </div>
             </div>
 

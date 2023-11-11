@@ -32,7 +32,7 @@
                 </p>
             </div>
             <picture class="lg:w-6/12 h-auto ">
-                <img class="h-full rounded-lg" src="{{ asset('images/institucion/historia.jpg') }}" alt="">
+                <img class="h-full rounded-lg" src="{{ asset('images/institucion/historia.webp') }}" alt="">
             </picture>
 
 

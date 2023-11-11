@@ -37,18 +37,28 @@ function subMenu(navLink) {
     const navLinkSelectors = document.querySelectorAll(navLink);
 
     function clickHandler(e) {
-        this.classList.toggle("arrow-down")
-        let height = 0
-        let submenu = this.nextElementSibling
-        if (submenu.clientHeight === 0) {
-            height = submenu.scrollHeight
+        // Close all submenus opened
+        navLinkSelectors.forEach(item => {
+            if (item !== this) {
+                item.classList.remove("arrow-down");
+                let submenu = item.nextElementSibling;
+                if (submenu) {
+                    submenu.style.height = 0;
+                }
+            }
+        });
+    
+        // Open or close the current submenu
+        this.classList.toggle("arrow-down");
+        let submenu = this.nextElementSibling;
+        if (submenu) {
+            let height = 0;
+            if (submenu.clientHeight === 0) {
+                height = submenu.scrollHeight;
+            }
+            submenu.style.height = `${height}px`;
         }
-        submenu.style.height = `${height}px`
     }
-
-    navLinkSelectors.forEach((item) => {
-        item.addEventListener("click", clickHandler)
-    })
 
     function removeClickHandler() {
         const menuElement = document.querySelector(".nav-menu"),

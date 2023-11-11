@@ -87,7 +87,7 @@
 
         <article class="render grid gap-8 sm:grid-cols-2 lg:grid-cols-3 md:gap-8  2xl:gap-12 ">
             <x-card>
-                <x-slot name="image">{{ asset('images/home/carreras/carrera_inicial.png') }}</x-slot>
+                <x-slot name="image">{{ asset('images/home/carreras/inicial/carrera_inicial.webp') }}</x-slot>
                 <x-slot name="altText">Educación Inicial</x-slot>
                 <x-slot name="title">Educación Inicial</x-slot>
                 <x-slot name="content">
@@ -98,7 +98,7 @@
             </x-card>
 
             <x-card>
-                <x-slot name="image">{{ asset('images/home/carreras/carrera_ingles.webp') }}</x-slot>
+                <x-slot name="image">{{ asset('images/home/carreras/ingles/carrera_ingles.webp') }}</x-slot>
                 <x-slot name="altText">Idiomas, especialidad: Ingles</x-slot>
                 <x-slot name="title">Idiomas: Especialidad Inglés</x-slot>
                 <x-slot name="content">
@@ -110,7 +110,7 @@
             </x-card>
 
             <x-card>
-                <x-slot name="image">{{ asset('images/home/carreras/carrera_comunicacion.png') }}</x-slot>
+                <x-slot name="image">{{ asset('images/home/carreras/comunicacion/carrera_comunicacion.webp') }}</x-slot>
                 <x-slot name="altText">Educación Secundaria, Especialidad: Comunicación</x-slot>
                 <x-slot name="title">Educación Secundaria: Especialidad Comunicación</x-slot>
                 <x-slot name="content">
@@ -202,7 +202,7 @@
 
     <div class="w-full h-auto overflow-hidden relative">
         <video autoplay muted loop>
-            <source src="{{ asset('images/home/campus_video.mp4') }}" type="video/mp4">
+            <source src="{{ asset('images/home/campus_video.webm') }}" type="video/mp4">
         </video>
 
         <div class="absolute inset-0" style="background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3));">
@@ -229,8 +229,8 @@
                     <div class="swiper-slide">
                         <section class="flex gap-12 items-start w-[65%] md:w-[70%] flex-col md:flex-row h-auto">
                             <div class="w-full md:w-6/12">
-                                <img class="w-full h-auto" src="{{ asset('images/home/experiences/experience.png') }}"
-                                    alt="">
+                                <img class="w-full h-auto" src="{{ asset('images/home/experiences/experience1.webp') }}"
+                                    alt="Experiencia Uno">
                             </div>
 
                             <div class="flex flex-col w-full md:w-6/12">

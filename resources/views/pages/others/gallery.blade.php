@@ -23,11 +23,11 @@
                     </div>
 
                     <div class="swiper-slide">
-                        <img src="{{ asset('images/home/carreras/inicial/inicial1.webp') }}" alt="Idiomas Inglés">
+                        <img src="{{ asset('images/home/carreras/inicial/inicial4.jpg') }}" alt="Idiomas Inglés">
                     </div>
 
                     <div class="swiper-slide">
-                        <img src="{{ asset('images/home/carreras/inicial/inicial1.webp') }}" alt="Idiomas Inglés">
+                        <img src="{{ asset('images/home/carreras/inicial/inicial5.jpg') }}" alt="Idiomas Inglés">
                     </div>
                 </div>
                 <div class="swiper-pagination"></div>
@@ -41,23 +41,23 @@
             <div class="swiper myGallery">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                        <img src="{{ asset('images/home/carreras/ingles/ingles1.jpg') }}" alt="Idiomas Inglés">
+                        <img src="{{ asset('images/home/carreras/ingles/ingles1.webp') }}" alt="Idiomas Inglés">
                     </div>
 
                     <div class="swiper-slide">
-                        <img src="{{ asset('images/home/carreras/ingles/ingles2.jpg') }}" alt="Idiomas Inglés">
+                        <img src="{{ asset('images/home/carreras/ingles/ingles2.webp') }}" alt="Idiomas Inglés">
                     </div>
 
                     <div class="swiper-slide">
-                        <img src="{{ asset('images/home/carreras/ingles/ingles3.jpg') }}" alt="Idiomas Inglés">
+                        <img src="{{ asset('images/home/carreras/ingles/ingles3.webp') }}" alt="Idiomas Inglés">
                     </div>
 
                     <div class="swiper-slide">
-                        <img src="{{ asset('images/home/carreras/ingles/ingles4.jpg') }}" alt="Idiomas Inglés">
+                        <img src="{{ asset('images/home/carreras/ingles/ingles4.webp') }}" alt="Idiomas Inglés">
                     </div>
 
                     <div class="swiper-slide">
-                        <img src="{{ asset('images/home/carreras/ingles/ingles5.jpg') }}" alt="Idiomas Inglés">
+                        <img src="{{ asset('images/home/carreras/ingles/ingles5.webp') }}" alt="Idiomas Inglés">
                     </div>
                 </div>
                 <div class="swiper-pagination"></div>

@@ -4,8 +4,8 @@ body.is-open {
 
 /* style for container of logo */
 .logo-container {
-    width: 80px;
-    height: 80px;
+    width: 100px;
+    height: 100px;
 
     @media screen and (max-width:1024px) {
         display: block;
@@ -15,7 +15,7 @@ body.is-open {
 /* style for navbar */
 .navbar {
     display: flex;
-    height: 100px;
+    height: 120px;
     z-index: 1000;
     position: relative;
     color: white;
@@ -24,7 +24,7 @@ body.is-open {
 
     @media screen and (min-width:1024px) {
         align-items: center;
-        justify-content: space-evenly;
+        justify-content: center;
     }
 }
 
@@ -32,7 +32,7 @@ body.is-open {
 .nav-menu {
     left: 0;
     height: 100vh;
-    transform: translate(0, -110%);
+    transform: translate(0, -90%);
     transition: transform 0.3s ease;
     position: absolute;
 
@@ -41,6 +41,7 @@ body.is-open {
         display: none;
         overflow-y: auto;
     }
+
 }
 
 /* style for nav-menu ul(nav-ul) */
@@ -139,7 +140,7 @@ body.is-open {
 }
 
 .nav-menu.open {
-    transform: translate(0, 90px);
+    transform: translate(0, 120px);
     display: block;
     color: black;
     overflow: hidden;
@@ -177,7 +178,7 @@ body.is-open {
     }
 
     .navbar {
-        height: 100px;
+        height: 120px;
         position: unset;
         font-weight: unset;
         width: unset;
@@ -190,8 +191,9 @@ body.is-open {
         transform: translate(0, 0);
         transition: unset;
         position: relative;
-        background: none;
         width: unset !important;
+        display: flex;
+
         align-items: center;
     }
 
@@ -230,6 +232,7 @@ body.is-open {
         color: black;
         position: absolute;
         border-radius: 5px;
+        padding: 5px 0px;
         height: auto !important;
     }
 

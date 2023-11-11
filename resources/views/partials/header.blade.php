@@ -1,8 +1,8 @@
-<header class="py-2 navbar sticky top-0">
-    <div class="render flex justify-between w-full">
+<header class="navbar sticky top-0">
+    <div class="render flex justify-between w-full ">
 
         {{-- container for logo --}}
-        <div class="logo-container">
+        <div class="logo-container mt-2 lg:mt-0 ">
             <img src={{ asset('images/others/logo.png') }} alt="Iespp Huamachuco" class="w-full h-full">
         </div>
 
@@ -41,7 +41,7 @@
                     </div>
 
                     <ul class="submenu">
-                        <li><a class="nav-link" href="{{ route('ingles') }}">Ingles</a></li>
+                        <li><a class="nav-link" href="{{ route('ingles') }}">Inglés</a></li>
                         <li><a class="nav-link" href="{{ route('inicial') }}">Educación Inicial</a></li>
                         <li><a class="nav-link" href="{{ route('comunicacion') }}">Comunicación</a></li>
                     </ul>

@@ -578,7 +578,7 @@
     <section>
         <article class="render mb-5 md:mb-10">
             <div
-                class="border-2 border-[#d9d9d9] p-3 grid gap-4 sm:flex justify-center items-center sm:gap-5 lg:gap-10 2xl:gap-30 card-animation">
+                class="border-2 border-[#ebebeb] p-3 grid gap-4 sm:flex justify-center items-center sm:gap-5 lg:gap-10 2xl:gap-30 card-animation">
                 <span
                     class="min-w-[55px] min-h-[55px] flex items-center justify-center bg-[#d9d9d9] rounded-full font-black text-2xl lg:text-3xl 2xl:text-5xl 2xl:min-w-[80px] 2xl:min-h-[80px] ">!</span>
                 <p>Los postulantes que no ingresan al IESPP-JFSC Humachuco, a traves de cada modalidad que ofrecemos, tienen
@@ -587,25 +587,17 @@
         </article>
     </section>
     <section>
-        <article class="border-t border-[#d9d9d9">
+        <article class="border-t border-[#ebebeb">
             <div class="render mb-8 pt-6">
-
-                <x-sublinks :title="'Te Puede Interesar...'" :links='[
-                    'Conoce Nuestras Carreras' => route('admision'),
-                    'Requisitos de Matrícula' => route('ingles'),
-                    'Academia Institucional' => route('academia'),
-                    'Campus Institucional' => route('programas'),
-                ]' />
-
-            <x-sublinks
-            :title="'Te Puede Interesar...'"
-            :links='[
-                "Conoce Nuestras Carreras" => route("admision"),
-                "Requisitos de Matrícula" => route("ingles"),
-                "Academia Institucional" => route("academia"),
-                "Contactános" => route("contacto")
-            ]'
-
+                <x-sublinks
+                :title="'Te Puede Interesar...'"
+                :links='[
+                    "Conoce Nuestras Carreras" => route("admision"),
+                    "Requisitos de Matrícula" => route("ingles"),
+                    "Academia Institucional" => route("academia"),
+                    "Contactános" => route("contacto")
+                ]'/>
+            </div>
         </article>
     </section>
 @endsection

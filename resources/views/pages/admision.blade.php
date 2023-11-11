@@ -48,11 +48,10 @@
                 nuestros Programas de Estudios Profecionales.</p>
         </div>
         <div class="grid gap-16 lg:gap-36">
-            <div class="sm:flex justify-center items-center gap-5 sm:flex-row-reverse xl:gap-20">
-                <div class=" flex flex-col text-center md:text-start">
+            <div class="md:flex justify-center items-center gap-5 sm:flex-row-reverse xl:gap-20">
+                <div class="flex flex-col text-center md:text-start lg:w-[80%]">
                     <small class="font-black subtitle">Excelencia Académica</small>
-                    <p class="py-3 2xl:py-6">Para poder obtener este beneficio se requiere haber alcanzado en nivel
-                        secundario el primer o segundo puesto, premio de excelencia de su institución educativa.</p>
+                    <p class="py-3 2xl:py-6">Para poder obtener este beneficio, es necesario haber alcanzado el primer o segundo puesto durante los grados de 3ª, 4º y 5º en educación secundaria y haber recibido un premio de excelencia de parte de la institución educativa. El objetivo de este beneficio sea reconocer y apoyar a los estudiantes que han demostrado un alto nivel de dedicación y excelencia en sus estudios y actividades dentro y fuera del aula.</p>
                     <x-button type="secondary" ruta="{{ route('modalidad_admision') }}">Más Información</x-button>
                 </div>
                 <div>
@@ -60,12 +59,10 @@
                         alt="">
                 </div>
             </div>
-            <div class="sm:flex justify-center items-center gap-5 xl:gap-20">
-                <div class="flex flex-col text-center md:text-start">
+            <div class="md:flex justify-center items-center gap-5 xl:gap-20">
+                <div class="flex flex-col text-center md:text-start lg:w-[80%]">
                     <small class="font-black subtitle">Prueba de Aptitud</small>
-                    <p class="py-3 2xl:py-6">El principal objetivo de esta modalidad es seleccionar a los ingresantes
-                        que tienen las capacidades y competencias básicas para desarrollar y acceder a su carrera
-                        profesional</p>
+                    <p class="py-3 2xl:py-6">La finalidad principal de esta modalidad es evaluar y seleccionar a aquellos aspirantes que poseen las capacidades y competencias fundamentales para ingresar a un programa de estudios de educación superior. Esta evaluación se diseña con el propósito de garantizar que los estudiantes admitidos cuenten con las aptitudes necesarias para enfrentar los desafíos de su campo de estudio.</p>
                     <x-button type="secondary" ruta="{{ route('modalidad_admision') }}">Más Información</x-button>
                 </div>
                 <div>
@@ -82,8 +79,8 @@
             <p class="pt-2">Para ingresar al IESPP-JFSC Huamachuco debe seguir los siguientes pasos.</p>
         </div>
 
-        <section class="render ">
-            <article class="card__admision ">
+        <div class="render ">
+            <div class="card__admision ">
                 <div class="timeline-container__ad">
                     <div class="timeline_admision"></div>
 
@@ -135,8 +132,7 @@
                         </div>
                     </div>
                 </div>
-            </article>
-
-        </section>
+            </div>
+        </div>
     </section>
 @endsection

@@ -5,7 +5,7 @@
 @section('content')
     <section>
         <x-presentation>
-            <x-slot name="img">{{ asset('images/bg-admision.jpg')}}</x-slot>
+            <x-slot name="img">{{ asset('images/home/carreras/Profesor.jpg')}}</x-slot>
             <x-slot name="carrerasLink">{{ route('programas') }}</x-slot>
             <x-slot name="carrerasText">Programas</x-slot>
             <x-slot name="especialidadLink">{{ route('inicial') }}</x-slot>
@@ -77,7 +77,7 @@
             </div>
         </article>
         <article>
-            <div class="grid gap-3 lg:gap-8 lg:gap-20" id="requisitos">
+            <div class="grid gap-3 lg:gap-20" id="requisitos">
                 <div class="text-center">
                     <span class="title">Requisitos</span>
                     <p >Para poder estudiar esta carrera nesecitas lo siguiente:</p>

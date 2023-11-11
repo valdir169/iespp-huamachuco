@@ -7,71 +7,63 @@
     <section>
         <article>
             <div class="py-16">
-
-
                 <div class="render">
-
                     <div class="grid gap-5 lg:gap-10">
                         <div class="text-center"><span class="text-sm sm:text-base lg:text-xl 2xl:text-3xl">Buenos
                                 Habitos</span></div>
                         <ul class="w-auto shadow-2xl  sm:flex justify-center">
                             <li
                                 class="w-full sm:h-[100px] p-2 flex items-center justify-center hover:bg-[#3477db] hover:text-white lg:w-[180px]  xl:h-[120px]">
-                                <a class="min-w-[90%] flex items-center gap-4 text-center sm:flex-col sm:gap-2"
+                                <a class="min-w-[90%] flex items-center justify-center gap-4 text-center sm:flex-col sm:gap-2"
                                     href="#"><i class='bx bxs-bowl-rice xl:text-[2.5rem]'></i><span>Buena
                                         Alimentaci&oacute;n</span></a>
                             </li>
                             <li
                                 class="w-full sm:h-[100px] p-2 flex items-center justify-center hover:bg-[#3477db] hover:text-white lg:w-[180px]  xl:h-[120px]">
-                                <a class="min-w-[90%] flex items-center gap-4 text-center sm:flex-col sm:gap-2"
+                                <a class="min-w-[90%] flex items-center justify-center gap-4 text-center sm:flex-col sm:gap-2"
                                     href="#"><i class='bx bx-run xl:text-[2.5rem]'></i><span>Hacer
                                         Ejercicio</span></a>
                             </li>
                             <li
                                 class="w-full sm:h-[100px] p-2 flex items-center justify-center hover:bg-[#3477db] hover:text-white lg:w-[180px]  xl:h-[120px]">
-                                <a class="min-w-[90%] flex items-center gap-4 text-center sm:flex-col sm:gap-2"
+                                <a class="min-w-[90%] flex items-center justify-center gap-4 text-center sm:flex-col sm:gap-2"
                                     href="#"><i class='bx bx-bed xl:text-[2.5rem]'></i><span>Dormir lo
                                         Suficinete</span></a>
                             </li>
                             <li
                                 class="w-full sm:h-[100px] p-2 flex items-center justify-center hover:bg-[#3477db] hover:text-white lg:w-[180px]  xl:h-[120px]">
-                                <a class="min-w-[90%] flex items-center gap-4 text-center sm:flex-col sm:gap-2"
+                                <a class="min-w-[90%] flex items-center justify-center gap-4 text-center sm:flex-col sm:gap-2"
                                     href="#"><i class='bx bxs-wine xl:text-[2.5rem]'></i><span>Hidratarse</span></a>
                             </li>
                             <li
                                 class="w-full sm:h-[100px] p-2 flex items-center justify-center hover:bg-[#3477db] hover:text-white lg:w-[180px]  xl:h-[120px]">
-                                <a class="min-w-[90%] flex items-center gap-4 text-center sm:flex-col sm:gap-2"
+                                <a class="min-w-[90%] flex items-center justify-center gap-4 text-center sm:flex-col sm:gap-2"
                                     href="#"><i class='bx bxs-donate-blood xl:text-[2.5rem]'></i><span>Buena
                                         Higiene</span></a>
                             </li>
                         </ul>
                     </div>
-
                 </div>
-
             </div>
-
-            <div>
-                <x-services>
-                    <x-slot name='servicio'>Tópico</x-slot>
-                    <x-slot name='frase'>Una vida sin salud es como un río sin agua. </x-slot>
-                    <x-slot name='autor'> (Maxime Lagacé)</x-slot>
-                    <x-slot name='img'>{{ asset('images/carreras/CarreraComunicacion.png') }}</x-slot>
-                    <x-slot name='altImg'>ServicioTópico</x-slot>
-                    <x-slot name='parrafo'>
-                        <p class="grid sm:px-6 lg:px-22 xl:px-32">
-                            <span>El servicio de Tópico tiene como propósito fundamental contribuir al cuidado y bienestar
-                                de la comunidad educativa del "IESPP-JFSC Huamachuco". Nuestra misión se enfoca en
-                                proporcionar servicios de atención médica y promover prácticas saludables entre los
-                                estudiantes y el personal.</span> <br>
-                            <span>Estamos comprometidos con la prevención, el cuidado y la atención de situaciones de salud,
-                                trabajando para mantener un ambiente seguro y saludable en el entorno educativo. Nos
-                                esforzamos por brindar asistencia inmediata en casos de emergencias médicas, así como para
-                                ofrecer orientación en temas de salud preventiva.</span>
-                        </p>
-                    </x-slot>
-                </x-services>
-            </div>
+            <x-services>
+                <x-slot name='servicio'>Tópico</x-slot>
+                <x-slot name='frase'>Una vida sin salud, es como un río sin agua. </x-slot>
+                <x-slot name='autor'> (Maxime Lagacé)</x-slot>
+                <x-slot name='img'>{{ asset('images/home/carreras/carrera_comunicacion1.png') }}</x-slot>
+                <x-slot name='altImg'>ServicioTópico</x-slot>
+                <x-slot name='parrafo'>
+                    <p class="grid sm:px-6 lg:px-22 xl:px-32">
+                        <span>El servicio de Tópico tiene como propósito fundamental contribuir al cuidado y bienestar
+                            de la comunidad educativa del "IESPP-JFSC Huamachuco". Nuestra misión se enfoca en
+                            proporcionar servicios de atención médica y promover prácticas saludables entre los
+                            estudiantes y el personal.</span> <br>
+                        <span>Estamos comprometidos con la prevención, el cuidado y la atención de situaciones de salud,
+                            trabajando para mantener un ambiente seguro y saludable en el entorno educativo. Nos
+                            esforzamos por brindar asistencia inmediata en casos de emergencias médicas, así como para
+                            ofrecer orientación en temas de salud preventiva.</span>
+                    </p>
+                </x-slot>
+            </x-services>
             <div class="bg-[#ebebeb] py-16">
                 <div class="render grid gap-4  lg:gap-8">
                     <div>
@@ -126,7 +118,7 @@
         </article>
 
 
-        <div class="render py-16">
+        <article class="render py-16">
             <div class="grid gap-10">
                 <div>
                     <h4 class="subtitle">Horario de atenci&oacute;n</h4>
@@ -154,11 +146,11 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </article>
 
 
         <x-card-servicios>
-            <x-slot name="img">{{ asset('images/carreras/CarreraComunicacion.png') }}</x-slot>
+            <x-slot name="img">{{ asset('images/home/carreras/carrera_comunicacion1.png') }}</x-slot>
             <x-slot name="altImg">Lcda. Ana</x-slot>
             <x-slot name="nombre">Lcda. Ana Roely Vasquez Cruzado</x-slot>
             <x-slot name="title">Informacion de Contacto</x-slot>
@@ -174,7 +166,7 @@
             <div class="render py-16">
                 <div class="grid gap-6">
                     <div>
-                        <h4 class="subtitle">Preguntas frecuentes sobre el Servicio de Biblioteca</h4>
+                        <h4 class="subtitle">Preguntas frecuentes sobre el Servicio de Tópico</h4>
                     </div>
 
                     <div class="desplegable_servicios grid gap-4">
@@ -187,9 +179,9 @@
                                 <div class="desplegable-item-list"><span>¿QUÉ ES EL SERVICIO DE TÓPICO?</span></div>
                             </div>
                             <div>
-                                <div class="desplegable-item-content">Profesional en la salud, que cumple la labor de
-                                    orientar a los estudiantes cuando presentan alguna dificultad mental, emocional,
-                                    académica y/o social.</div>
+                                <div class="desplegable-item-content">
+                                    <span>El Servicio de Tópico es un servicio de atención médica básica disponible para los estudiantes. Ofrece asistencia para problemas de salud menores y proporciona servicios como primeros auxilios, evaluación de síntomas y administración de medicamentos de venta libre.</span>
+                                </div>
                             </div>
                         </div>
                         <div class="desplegable-item">
@@ -198,12 +190,12 @@
                                     class="icon-container desplegable-item-list w-[40px] bg-[#3477db] flex items-center justify-center text-white hover:bg-[#ebebeb] hover:text-black py-3 px-6">
                                     <i class='bx bx-plus'></i>
                                 </div>
-                                <div class="desplegable-item-list"><span>¿CÓMO PUEDO OBTENER EL SERVICO?</span></div>
+                                <div class="desplegable-item-list"><span>¿CÓMO PUEDO ACCEDER AL SERVICO?</span></div>
                             </div>
                             <div>
-                                <div class="desplegable-item-content">Profesional en la salud, que cumple la labor de
-                                    orientar a los estudiantes cuando presentan alguna dificultad mental, emocional,
-                                    académica y/o social.</div>
+                                <div class="desplegable-item-content">
+                                    <span>Puedes acceder al Servicio de Tópico presentando tu tarjeta de identificación estudiantil en la recepción. Está ubicado en [ubicación] y opera durante el horario regular de la universidad.</span>
+                                </div>
                             </div>
                         </div>
                         <div class="desplegable-item">
@@ -216,9 +208,9 @@
                                         SERVICIO DE TÓPICO?</span></div>
                             </div>
                             <div>
-                                <div class="desplegable-item-content">Profesional en la salud, que cumple la labor de
-                                    orientar a los estudiantes cuando presentan alguna dificultad mental, emocional,
-                                    académica y/o social.</div>
+                                <div class="desplegable-item-content">
+                                    <span>El Servicio de Tópico está diseñado para situaciones de salud menores, como pequeñas lesiones, dolores leves, o síntomas de enfermedades comunes. Siempre se recomienda buscar atención especializada para casos más graves.</span>
+                                </div>
                             </div>
                         </div>
                         <div class="desplegable-item">
@@ -231,9 +223,9 @@
                                         ATENCIÓN DEL SERVICIO DE TÓPICO?</span></div>
                             </div>
                             <div>
-                                <div class="desplegable-item-content">Profesional en la salud, que cumple la labor de
-                                    orientar a los estudiantes cuando presentan alguna dificultad mental, emocional,
-                                    académica y/o social.</div>
+                                <div class="desplegable-item-content">
+                                    <span>Generalmente, no es necesario agendar una cita para el Servicio de Tópico. Sin embargo, durante períodos ocupados, como el inicio de semestre, puede ser útil llamar con antelación para verificar la disponibilidad y reducir el tiempo de espera.</span>
+                                </div>
                             </div>
                         </div>
 
@@ -247,9 +239,9 @@
                                         BRINDAR ATENCIÓN EN EL SERVICIO DE TÓPICO?</span></div>
                             </div>
                             <div>
-                                <div class="desplegable-item-content">Profesional en la salud, que cumple la labor de
-                                    orientar a los estudiantes cuando presentan alguna dificultad mental, emocional,
-                                    académica y/o social.</div>
+                                <div class="desplegable-item-content">
+                                    <span>El Servicio de Tópico cuenta con enfermeros y profesionales de la salud capacitados para brindar atención básica. En casos más complejos, pueden referirte a un médico o especialista según sea necesario.</span>
+                                </div>
                             </div>
                         </div>
 
@@ -262,10 +254,10 @@
                                 <div class="desplegable-item-list"><span>¿EL SERVICIO DE TÓPICO TIENE ALGUN COSTO?</span>
                                 </div>
                             </div>
-
-                            <div class="desplegable-item-content">Profesional en la salud, que cumple la labor de
-                                orientar a los estudiantes cuando presentan alguna dificultad mental, emocional,
-                                académica y/o social.
+                            <div>
+                                <div class="desplegable-item-content">
+                                    <span>Por lo general, el Servicio de Tópico está incluido como parte de los beneficios de salud para estudiantes. Se recomienda verificar con el departamento de servicios estudiantiles para obtener información específica sobre cobertura y posibles costos.</span>
+                                </div>
                             </div>
 
                         </div>
@@ -280,9 +272,9 @@
                                         HORARIO REGULAR DE LA UNIVERSIDAD?</span></div>
                             </div>
                             <div>
-                                <div class="desplegable-item-content">Profesional en la salud, que cumple la labor de
-                                    orientar a los estudiantes cuando presentan alguna dificultad mental, emocional,
-                                    académica y/o social.</div>
+                                <div class="desplegable-item-content">
+                                    <span>El Servicio de Tópico opera durante el horario regular de la universidad. Para situaciones fuera de ese horario, se sugiere buscar atención en servicios de urgencias o centros médicos locales.</span>
+                                </div>
                             </div>
                         </div>
                         <div class="desplegable-item">
@@ -295,25 +287,9 @@
                                         QUE REQUIERA ATENCIÓN MÉDICA ESPECIALIZADA?</span></div>
                             </div>
                             <div>
-                                <div class="desplegable-item-content">Profesional en la salud, que cumple la labor de
-                                    orientar a los estudiantes cuando presentan alguna dificultad mental, emocional,
-                                    académica y/o social.</div>
-                            </div>
-                        </div>
-
-                        <div class="desplegable-item">
-                            <div class="desplegable-item__content">
-                                <div
-                                    class="icon-container desplegable-item-list w-[40px] bg-[#3477db] flex items-center justify-center text-white hover:bg-[#ebebeb] hover:text-black py-3 px-6">
-                                    <i class='bx bx-plus'></i>
+                                <div class="desplegable-item-content">
+                                    <span>En casos de lesiones más graves que requieran atención especializada, se recomienda buscar atención médica de emergencia o dirigirse al hospital más cercano. El Servicio de Tópico está destinado para situaciones menos urgentes.</span>
                                 </div>
-                                <div class="desplegable-item-list"><span>¿PUEDO ACCEDER A SERVICIOS DE TÓPICO SI NO SOY
-                                        ESTUDIANTE?</span></div>
-                            </div>
-                            <div>
-                                <div class="desplegable-item-content">Profesional en la salud, que cumple la labor de
-                                    orientar a los estudiantes cuando presentan alguna dificultad mental, emocional,
-                                    académica y/o social.</div>
                             </div>
                         </div>
                     </div>

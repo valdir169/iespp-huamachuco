@@ -50,7 +50,7 @@
             <x-slot name='servicio'>Biblioteca</x-slot>
             <x-slot name='frase'>El que lee mucho y anda mucho, ve mucho y sabe mucho</x-slot>
             <x-slot name='autor'> (Miguel de Cervantes Saavedra)</x-slot>
-            <x-slot name='img'>{{ asset('images/carreras/CarreraComunicacion.png') }}</x-slot>
+            <x-slot name='img'>{{ asset('images/home/carreras/carrera_comunicacion1.png') }}</x-slot>
             <x-slot name='altImg'>Servicio de Biblioteca</x-slot>
             <x-slot name='parrafo'>
                 <p class="grid sm:px-6 lg:px-22 xl:px-32">
@@ -135,7 +135,7 @@
 
     <div id="responsable">
         <x-card-servicios>
-            <x-slot name="img">{{ asset('images/carreras/CarreraComunicacion.png') }}</x-slot>
+            <x-slot name="img">{{ asset('images/home/carreras/carrera_comunicacion1.png') }}</x-slot>
             <x-slot name="altImg">Lcda. Ana</x-slot>
             <x-slot name="nombre">Lcda. Ana Roely Vasquez Cruzado</x-slot>
             <x-slot name="title">Informacion de Contacto</x-slot>
@@ -160,15 +160,27 @@
                             class="icon-container desplegable-item-list w-[40px] bg-[#3477db] flex items-center justify-center text-white hover:bg-[#ebebeb] hover:text-black py-3 px-6">
                             <i class='bx bx-plus'></i>
                         </div>
-                        <div class="desplegable-item-list"><span>¿CÓMO PUEDO OBTENER EL SERVICO?</span></div>
+                        <div class="desplegable-item-list"><span>¿CÓMO PUEDO ACCEDER A LA BIBLIOTECA?</span></div>
                     </div>
 
                     <div class="desplegable-item-content">
-                        Profesional en la salud, que cumple la labor de orientar a los
-                        estudiantes cuando presentan alguna dificultad mental, emocional, académica y/o social.
+                        <span>Para acceder a la biblioteca, simplemente presenta tu tarjeta de identificación estudiantil en el mostrador de entrada. Si eres un estudiante nuevo, puedes solicitar una tarjeta en la oficina de servicios estudiantiles. El horario de la biblioteca es de lunes a viernes de 8:00 a.m. a 7:00 p.m. y los sábados de 9:00 a.m. a 4:00 p.m.</span>
                     </div>
                 </div>
 
+                <div class="desplegable-item">
+                    <div class="desplegable-item__content">
+                        <div
+                            class="icon-container desplegable-item-list w-[40px] bg-[#3477db] flex items-center justify-center text-white hover:bg-[#ebebeb] hover:text-black py-3 px-6">
+                            <i class='bx bx-plus'></i>
+                        </div>
+                        <div class="desplegable-item-list"><span>¿QUÉ MATERIALES HAY EN LA BIBLIOTECA?</span></div>
+                    </div>
+
+                    <div class="desplegable-item-content">
+                        <span>La biblioteca cuenta con una amplia gama de materiales, incluyendo libros impresos, revistas, periódicos y materiales multimedia. Además, ofrecemos acceso a recursos en línea, bases de datos académicas y libros electrónicos para apoyar tus estudios e investigaciones.</span>
+                    </div>
+                </div>
 
                 <div class="desplegable-item">
                     <div class="desplegable-item__content">
@@ -179,8 +191,8 @@
                         <div class="desplegable-item-list"><span>¿QUÉ MATERIALES PUEDO TOMAR PRESTADOS?</span></div>
                     </div>
 
-                    <div class="desplegable-item-content">Profesional en la salud, que cumple la labor de orientar a
-                        los estudiantes cuando presentan alguna dificultad mental, emocional, académica y/o social.
+                    <div class="desplegable-item-content">
+                        <span>Puedes tomar prestados libros, DVDs, CDs, y otros materiales físicos de la biblioteca. Además, ofrecemos acceso en línea a una variedad de recursos digitales. La duración del préstamo es de dos semanas para libros y una semana para materiales multimedia.</span>
                     </div>
                 </div>
 
@@ -197,11 +209,10 @@
                     </div>
 
                     <div class="desplegable-item-content">
-                        Profesional en la salud, que cumple la labor de orientar a
-                        los estudiantes cuando presentan alguna dificultad mental, emocional, académica y/o social.
+                        <span>Sí, hay un límite de 5 materiales por estudiante para préstamos simultáneos. Sin embargo, puedes renovar el préstamo si es necesario, siempre y cuando no haya solicitudes de otros estudiantes para el mismo material.</span>
                     </div>
-
                 </div>
+
                 <div class="desplegable-item">
                     <div class="desplegable-item__content">
                         <div
@@ -212,8 +223,8 @@
                         </div>
                     </div>
 
-                    <div class="desplegable-item-content">Profesional en la salud, que cumple la labor de orientar a
-                        los estudiantes cuando presentan alguna dificultad mental, emocional, académica y/o social.
+                    <div class="desplegable-item-content">
+                        <span>En caso de perder un libro o material prestado, te pedimos que nos informes de inmediato. Puedes pagar el costo de reemplazo del material perdido o proporcionar una copia nueva del mismo. Haremos todo lo posible por encontrar una solución justa y resolver el problema.</span>
                     </div>
                 </div>
 
@@ -227,23 +238,8 @@
                                 BIBLIOTECA?</span></div>
                     </div>
 
-                    <div class="desplegable-item-content">Profesional en la salud, que cumple la labor de orientar a
-                        los estudiantes cuando presentan alguna dificultad mental, emocional, académica y/o social.
-                    </div>
-                </div>
-
-                <div class="desplegable-item">
-                    <div class="desplegable-item__content">
-                        <div
-                            class="icon-container desplegable-item-list w-[40px] bg-[#3477db] flex items-center justify-center text-white hover:bg-[#ebebeb] hover:text-black py-3 px-6">
-                            <i class='bx bx-plus'></i>
-                        </div>
-                        <div class="desplegable-item-list"><span>¿CÓMO PUEDO SUGERIR LA ADQUISICIÓN DE NUEVOS LIBROS O
-                                MATERIALES?</span></div>
-                    </div>
-
-                    <div class="desplegable-item-content">Profesional en la salud, que cumple la labor de orientar a
-                        los estudiantes cuando presentan alguna dificultad mental, emocional, académica y/o social.
+                    <div class="desplegable-item-content">
+                        <span>Sí, la biblioteca ofrece espacios de estudio grupal equipados con mesas, sillas y pizarras para facilitar la colaboración entre estudiantes. Puedes reservar estas salas de estudio en línea o en el mostrador de información de la biblioteca.</span>
                     </div>
                 </div>
             </div>

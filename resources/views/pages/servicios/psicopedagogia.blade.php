@@ -42,7 +42,7 @@
                             saber
                             para qué se vive.</x-slot>
                         <x-slot name='autor'> _Miguel de Cervantes Saavedra</x-slot>
-                        <x-slot name='img'>{{ asset('images/carreras/CarreraComunicacion.png') }}</x-slot>
+                        <x-slot name='img'>{{ asset('images/home/carreras/carrera_comunicacion1.png') }}</x-slot>
                         <x-slot name='altImg'>Servicio de Psicopedagogia</x-slot>
                         <x-slot name='parrafo'>
                             <p class="grid sm:px-6 lg:px-22 xl:px-32">
@@ -124,7 +124,7 @@
         <article>
             <div id="responsable">
                 <x-card-servicios>
-                    <x-slot name="img">{{ asset('images/carreras/CarreraComunicacion.png') }}</x-slot>
+                    <x-slot name="img">{{ asset('images/home/carreras/carrera_comunicacion1.png') }}</x-slot>
                     <x-slot name="altImg">Lcda. Ana</x-slot>
                     <x-slot name="nombre">Lcda. Ana Roely Vasquez Cruzado</x-slot>
                     <x-slot name="title">Informacion de Contacto</x-slot>
@@ -149,13 +149,28 @@
                                     class="icon-container desplegable-item-list w-[40px] bg-[#3477db] flex items-center justify-center text-white hover:bg-[#ebebeb] hover:text-black py-3 px-6">
                                     <i class='bx bx-plus'></i>
                                 </div>
+                                <div class="desplegable-item-list"><span>¿CUAL ES LA FUNCIÓN DE UN PSICÓLOGO?</span></div>
+                            </div>
+                            <div>
+                                <div class="desplegable-item-content">
+                                    <span>La función de un psicólogo en nuestro centro de estudios es proporcionar apoyo emocional y psicológico a los estudiantes. Ayudamos a abordar desafíos emocionales, académicos y personales, facilitando estrategias para mejorar el bienestar general y el rendimiento académico.</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="desplegable-item">
+                            <div class="desplegable-item__content">
+                                <div
+                                    class="icon-container desplegable-item-list w-[40px] bg-[#3477db] flex items-center justify-center text-white hover:bg-[#ebebeb] hover:text-black py-3 px-6">
+                                    <i class='bx bx-plus'></i>
+                                </div>
                                 <div class="desplegable-item-list"><span>¿CÓMO PUEDO PROGRAMAR UNA CITA CON UN
                                         PSICÓLOGO?</span></div>
                             </div>
                             <div>
-                                <div class="desplegable-item-content">Profesional en la salud, que cumple la labor de
-                                    orientar a los estudiantes cuando presentan alguna dificultad mental, emocional,
-                                    académica y/o social.</div>
+                                <div class="desplegable-item-content">
+                                    <span>Para programar una cita con un psicólogo, puedes hacerlo a través de nuestro sistema en línea, llamando a la oficina de servicios estudiantiles o visitando personalmente el centro. También ofrecemos citas urgentes para situaciones que requieren atención inmediata.</span>
+                                </div>
                             </div>
                         </div>
                         <div class="desplegable-item">
@@ -168,9 +183,9 @@
                                         DE PSICOLOGÍA?</span></div>
                             </div>
                             <div>
-                                <div class="desplegable-item-content">Profesional en la salud, que cumple la labor de
-                                    orientar a los estudiantes cuando presentan alguna dificultad mental, emocional,
-                                    académica y/o social.</div>
+                                <div class="desplegable-item-content">
+                                    <span>Los servicios de psicología para estudiantes no conllevan costos adicionales. Queremos garantizar que todos los estudiantes tengan acceso a los recursos necesarios para su bienestar emocional.</span>
+                                </div>
                             </div>
                         </div>
                         <div class="desplegable-item">
@@ -183,9 +198,9 @@
                                         CON QUÉ FRECUENCIA?</span></div>
                             </div>
                             <div>
-                                <div class="desplegable-item-content">Profesional en la salud, que cumple la labor de
-                                    orientar a los estudiantes cuando presentan alguna dificultad mental, emocional,
-                                    académica y/o social.</div>
+                                <div class="desplegable-item-content">
+                                    <span>El número de sesiones de asesoramiento puede variar según las necesidades individuales. Generalmente, los estudiantes pueden programar sesiones de asesoramiento según sea necesario, y la frecuencia se determina de manera colaborativa entre el estudiante y el psicólogo.</span>
+                                </div>
                             </div>
                         </div>
                         <div class="desplegable-item">
@@ -198,9 +213,9 @@
                                         CONFIDENCIALES?</span></div>
                             </div>
                             <div>
-                                <div class="desplegable-item-content">Profesional en la salud, que cumple la labor de
-                                    orientar a los estudiantes cuando presentan alguna dificultad mental, emocional,
-                                    académica y/o social.</div>
+                                <div class="desplegable-item-content">
+                                    <span>Sí, todas las sesiones de asesoramiento son confidenciales. La información compartida durante las sesiones se mantiene en privado, a menos que haya una preocupación inmediata por la seguridad del estudiante o de otros, en cuyo caso se seguirán los protocolos de seguridad.</span>
+                                </div>
                             </div>
                         </div>
                         <div class="desplegable-item">
@@ -213,9 +228,9 @@
                                         PROCESO DE ASESORAMIENTO?</span></div>
                             </div>
                             <div>
-                                <div class="desplegable-item-content">Profesional en la salud, que cumple la labor de
-                                    orientar a los estudiantes cuando presentan alguna dificultad mental, emocional,
-                                    académica y/o social.</div>
+                                <div class="desplegable-item-content">
+                                    <span>La participación de familiares o amigos en el proceso de asesoramiento se discute caso por caso. En general, respetamos la confidencialidad, pero podemos considerar la participación de personas de apoyo si es beneficioso para el estudiante y se obtiene su consentimiento.</span>
+                                </div>
                             </div>
                         </div>
                         <div class="desplegable-item">
@@ -228,9 +243,9 @@
                                         UNA CITA?</span></div>
                             </div>
                             <div>
-                                <div class="desplegable-item-content">Profesional en la salud, que cumple la labor de
-                                    orientar a los estudiantes cuando presentan alguna dificultad mental, emocional,
-                                    académica y/o social.</div>
+                                <div class="desplegable-item-content">
+                                    <span>Si necesitas cancelar o reprogramar una cita, te pedimos que nos avises con la mayor antelación posible. Puedes hacerlo llamando a la oficina de servicios estudiantiles o a través de nuestro sistema en línea. Respetamos tu tiempo y queremos asegurarnos de que recibas la atención que necesitas.</span>
+                                </div>
                             </div>
                         </div>
                     </div>

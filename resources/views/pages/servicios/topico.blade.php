@@ -49,7 +49,7 @@
                 <x-slot name='servicio'>Tópico</x-slot>
                 <x-slot name='frase'>Una vida sin salud, es como un río sin agua. </x-slot>
                 <x-slot name='autor'> (Maxime Lagacé)</x-slot>
-                <x-slot name='img'>{{ asset('images/carreras/CarreraComunicacion.png') }}</x-slot>
+                <x-slot name='img'>{{ asset('images/home/carreras/carrera_comunicacion1.png') }}</x-slot>
                 <x-slot name='altImg'>ServicioTópico</x-slot>
                 <x-slot name='parrafo'>
                     <p class="grid sm:px-6 lg:px-22 xl:px-32">
@@ -150,7 +150,7 @@
 
 
         <x-card-servicios>
-            <x-slot name="img">{{ asset('images/carreras/CarreraComunicacion.png') }}</x-slot>
+            <x-slot name="img">{{ asset('images/home/carreras/carrera_comunicacion1.png') }}</x-slot>
             <x-slot name="altImg">Lcda. Ana</x-slot>
             <x-slot name="nombre">Lcda. Ana Roely Vasquez Cruzado</x-slot>
             <x-slot name="title">Informacion de Contacto</x-slot>
@@ -179,9 +179,9 @@
                                 <div class="desplegable-item-list"><span>¿QUÉ ES EL SERVICIO DE TÓPICO?</span></div>
                             </div>
                             <div>
-                                <div class="desplegable-item-content">Profesional en la salud, que cumple la labor de
-                                    orientar a los estudiantes cuando presentan alguna dificultad mental, emocional,
-                                    académica y/o social.</div>
+                                <div class="desplegable-item-content">
+                                    <span>El Servicio de Tópico es un servicio de atención médica básica disponible para los estudiantes. Ofrece asistencia para problemas de salud menores y proporciona servicios como primeros auxilios, evaluación de síntomas y administración de medicamentos de venta libre.</span>
+                                </div>
                             </div>
                         </div>
                         <div class="desplegable-item">
@@ -190,12 +190,12 @@
                                     class="icon-container desplegable-item-list w-[40px] bg-[#3477db] flex items-center justify-center text-white hover:bg-[#ebebeb] hover:text-black py-3 px-6">
                                     <i class='bx bx-plus'></i>
                                 </div>
-                                <div class="desplegable-item-list"><span>¿CÓMO PUEDO OBTENER EL SERVICO?</span></div>
+                                <div class="desplegable-item-list"><span>¿CÓMO PUEDO ACCEDER AL SERVICO?</span></div>
                             </div>
                             <div>
-                                <div class="desplegable-item-content">Profesional en la salud, que cumple la labor de
-                                    orientar a los estudiantes cuando presentan alguna dificultad mental, emocional,
-                                    académica y/o social.</div>
+                                <div class="desplegable-item-content">
+                                    <span>Puedes acceder al Servicio de Tópico presentando tu tarjeta de identificación estudiantil en la recepción. Está ubicado en [ubicación] y opera durante el horario regular de la universidad.</span>
+                                </div>
                             </div>
                         </div>
                         <div class="desplegable-item">
@@ -208,9 +208,9 @@
                                         SERVICIO DE TÓPICO?</span></div>
                             </div>
                             <div>
-                                <div class="desplegable-item-content">Profesional en la salud, que cumple la labor de
-                                    orientar a los estudiantes cuando presentan alguna dificultad mental, emocional,
-                                    académica y/o social.</div>
+                                <div class="desplegable-item-content">
+                                    <span>El Servicio de Tópico está diseñado para situaciones de salud menores, como pequeñas lesiones, dolores leves, o síntomas de enfermedades comunes. Siempre se recomienda buscar atención especializada para casos más graves.</span>
+                                </div>
                             </div>
                         </div>
                         <div class="desplegable-item">
@@ -223,9 +223,9 @@
                                         ATENCIÓN DEL SERVICIO DE TÓPICO?</span></div>
                             </div>
                             <div>
-                                <div class="desplegable-item-content">Profesional en la salud, que cumple la labor de
-                                    orientar a los estudiantes cuando presentan alguna dificultad mental, emocional,
-                                    académica y/o social.</div>
+                                <div class="desplegable-item-content">
+                                    <span>Generalmente, no es necesario agendar una cita para el Servicio de Tópico. Sin embargo, durante períodos ocupados, como el inicio de semestre, puede ser útil llamar con antelación para verificar la disponibilidad y reducir el tiempo de espera.</span>
+                                </div>
                             </div>
                         </div>
 
@@ -239,9 +239,9 @@
                                         BRINDAR ATENCIÓN EN EL SERVICIO DE TÓPICO?</span></div>
                             </div>
                             <div>
-                                <div class="desplegable-item-content">Profesional en la salud, que cumple la labor de
-                                    orientar a los estudiantes cuando presentan alguna dificultad mental, emocional,
-                                    académica y/o social.</div>
+                                <div class="desplegable-item-content">
+                                    <span>El Servicio de Tópico cuenta con enfermeros y profesionales de la salud capacitados para brindar atención básica. En casos más complejos, pueden referirte a un médico o especialista según sea necesario.</span>
+                                </div>
                             </div>
                         </div>
 
@@ -254,10 +254,10 @@
                                 <div class="desplegable-item-list"><span>¿EL SERVICIO DE TÓPICO TIENE ALGUN COSTO?</span>
                                 </div>
                             </div>
-
-                            <div class="desplegable-item-content">Profesional en la salud, que cumple la labor de
-                                orientar a los estudiantes cuando presentan alguna dificultad mental, emocional,
-                                académica y/o social.
+                            <div>
+                                <div class="desplegable-item-content">
+                                    <span>Por lo general, el Servicio de Tópico está incluido como parte de los beneficios de salud para estudiantes. Se recomienda verificar con el departamento de servicios estudiantiles para obtener información específica sobre cobertura y posibles costos.</span>
+                                </div>
                             </div>
 
                         </div>
@@ -272,9 +272,9 @@
                                         HORARIO REGULAR DE LA UNIVERSIDAD?</span></div>
                             </div>
                             <div>
-                                <div class="desplegable-item-content">Profesional en la salud, que cumple la labor de
-                                    orientar a los estudiantes cuando presentan alguna dificultad mental, emocional,
-                                    académica y/o social.</div>
+                                <div class="desplegable-item-content">
+                                    <span>El Servicio de Tópico opera durante el horario regular de la universidad. Para situaciones fuera de ese horario, se sugiere buscar atención en servicios de urgencias o centros médicos locales.</span>
+                                </div>
                             </div>
                         </div>
                         <div class="desplegable-item">
@@ -287,9 +287,9 @@
                                         QUE REQUIERA ATENCIÓN MÉDICA ESPECIALIZADA?</span></div>
                             </div>
                             <div>
-                                <div class="desplegable-item-content">Profesional en la salud, que cumple la labor de
-                                    orientar a los estudiantes cuando presentan alguna dificultad mental, emocional,
-                                    académica y/o social.</div>
+                                <div class="desplegable-item-content">
+                                    <span>En casos de lesiones más graves que requieran atención especializada, se recomienda buscar atención médica de emergencia o dirigirse al hospital más cercano. El Servicio de Tópico está destinado para situaciones menos urgentes.</span>
+                                </div>
                             </div>
                         </div>
                     </div>

@@ -258,5 +258,8 @@
                 </div>
             </div>
         </article>
+        <article>
+            <img src="{{ asset('images/servicios/flayer_brigada.jpg') }}" alt="">
+        </article>
     </section>
 @endsection

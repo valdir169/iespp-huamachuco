@@ -135,11 +135,11 @@
 
     <div id="responsable">
         <x-card-servicios>
-            <x-slot name="img">{{ asset('images/home/carreras/carrera_comunicacion1.png') }}</x-slot>
-            <x-slot name="altImg">Lcda. Ana</x-slot>
-            <x-slot name="nombre">Lcda. Ana Roely Vasquez Cruzado</x-slot>
-            <x-slot name="title">Informacion de Contacto</x-slot>
-            <x-slot name="departamento">Departameto de Psicopedagogia</x-slot>
+            <x-slot name="img">{{ asset('images/institucion/directorio/images.png') }}</x-slot>
+            <x-slot name="altImg">bibliotecaria</x-slot>
+            <x-slot name="nombre">Cecilia Liliana Alarco Narváez</x-slot>
+            <x-slot name="title">Información de Contacto</x-slot>
+            <x-slot name="departamento">Departameto de Biblioteca</x-slot>
             <x-slot name="direccion">Prolog. Sánchez Carrión 1400 – Huamachuco</x-slot>
             <x-slot name="telefono">949 949 494</x-slot>
             <x-slot name="email">psicopedagogia@jfsc.edu.pe</x-slot>

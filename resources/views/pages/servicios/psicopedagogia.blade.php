@@ -124,7 +124,7 @@
         <article>
             <div id="responsable">
                 <x-card-servicios>
-                    <x-slot name="img">{{ asset('images/home/carreras/carrera_comunicacion1.png') }}</x-slot>
+                    <x-slot name="img">{{ asset('images/institucion/directorio/images.png') }}</x-slot>
                     <x-slot name="altImg">Lcda. Ana</x-slot>
                     <x-slot name="nombre">Lcda. Ana Roely Vasquez Cruzado</x-slot>
                     <x-slot name="title">Informacion de Contacto</x-slot>

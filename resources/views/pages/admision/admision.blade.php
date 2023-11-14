@@ -55,7 +55,7 @@
                     <x-button type="secondary" ruta="{{ route('modalidad_admision') }}">Más Información</x-button>
                 </div>
                 <div>
-                    <img class="pt-4"src="https://www.worldbank.org/content/dam/photos/780x439/2022/aug/UNs0685096.jpg"
+                    <img class="pt-4"src="{{ asset('images/admision/Alumno.jpg') }}"
                         alt="">
                 </div>
             </div>
@@ -66,7 +66,7 @@
                     <x-button type="secondary" ruta="{{ route('modalidad_admision') }}">Más Información</x-button>
                 </div>
                 <div>
-                    <img class="pt-4"src="https://www.worldbank.org/content/dam/photos/780x439/2022/aug/UNs0685096.jpg"
+                    <img class="pt-4"src="{{ asset('images/admision/Examen.jpg') }}"
                         alt="">
                 </div>
             </div>

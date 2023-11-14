@@ -19,12 +19,12 @@ class PaginasController extends Controller
 
     public function admision()
     {
-        return view('pages.admision');
+        return view('pages.admision.admision');
     }
 
     public function programas()
     {
-        return view('pages.programas');
+        return view('pages.programas.programas');
     }
 
 
@@ -46,7 +46,7 @@ class PaginasController extends Controller
 
     public function modalidad()
     {
-        return view('pages.modalidad_admision');
+        return view('pages.admision.modalidad_admision');
     }
 
 
@@ -229,7 +229,7 @@ class PaginasController extends Controller
     // academia
     public function academia()
     {
-        return view('pages.academia');
+        return view('pages.admision.academia');
     }
 
     //Otros

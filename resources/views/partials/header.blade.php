@@ -57,6 +57,7 @@
                     <ul class="submenu">
                         <li><a class="nav-link" href="{{ route('admision') }}">Admisión 2024</a></li>
                         <li><a class="nav-link" href="{{ route('modalidad_admision') }}">Becas y Creditos</a></li>
+                        <li><a class="nav-link" href="{{ route('academia') }}">Pre JFSC</a></li>
                     </ul>
                 </li>
 

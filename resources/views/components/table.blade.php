@@ -21,9 +21,9 @@
                     <tr class="row-col">
                         <th class="cabecera">HT</th>
                         <th class="cabecera">Créditos</th>
-                        <th class="cabecera">HT</th>
+                        <th class="cabecera">HP</th>
                         <th class="cabecera">Créditos</th>
-                        <th class="cabecera">HT</th>
+                        <th class="cabecera">H</th>
                         <th class="cabecera">Créditos</th>
                     </tr>
                 </thead>

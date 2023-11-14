@@ -5,7 +5,7 @@
 @section('content')
     <section class="background">
         <x-presentation>
-            <x-slot name="img">{{ asset('images/home/carreras/Profesor.jpg') }}</x-slot>
+            <x-slot name="img">{{ asset('images/programas/Pro-Ingles.jpg') }}</x-slot>
             <x-slot name="carrerasLink">{{ route('programas') }}</x-slot>
             <x-slot name="carrerasText">Programas</x-slot>
             <x-slot name="especialidadLink">{{ route('ingles') }}</x-slot>

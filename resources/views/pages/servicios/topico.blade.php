@@ -49,10 +49,10 @@
                 <x-slot name='servicio'>Tópico</x-slot>
                 <x-slot name='frase'>Una vida sin salud, es como un río sin agua. </x-slot>
                 <x-slot name='autor'> (Maxime Lagacé)</x-slot>
-                <x-slot name='img'>{{ asset('images/home/carreras/carrera_comunicacion1.png') }}</x-slot>
+                <x-slot name='img'>{{ asset('images/servicios/User_Topico.jpg') }}</x-slot>
                 <x-slot name='altImg'>ServicioTópico</x-slot>
                 <x-slot name='parrafo'>
-                    <p class="grid sm:px-6 lg:px-22 xl:px-32">
+                    <p class="grid sm:px-6">
                         <span>El servicio de Tópico tiene como propósito fundamental contribuir al cuidado y bienestar
                             de la comunidad educativa del "IESPP-JFSC Huamachuco". Nuestra misión se enfoca en
                             proporcionar servicios de atención médica y promover prácticas saludables entre los

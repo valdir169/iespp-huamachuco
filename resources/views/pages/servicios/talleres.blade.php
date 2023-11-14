@@ -3,7 +3,7 @@
 @section('title', 'Talles Académicos - Iespp José Faustino Sánchez Carrión Huamachuco')
 
 @section('content')
-<x-hero image="{{ asset('images/hola.jpeg') }}" text="Talleres Académicos" />
+<x-hero image="{{ asset('images/servicios/bg_talleres.jpg') }}" text="Talleres Académicos" />
 <section>
     <article>
         <div class="render py-16 lg:py-36">
@@ -11,8 +11,8 @@
                 <span class="title">Bienvenido al servicio de Talleres Académicos </span>
             </div>
             <div class="flex flex-col gap-8 sm:flex-row items-center">
-                <div><img src="{{asset('images/home/carreras/carrera_comunicacion1.png')}}" alt="Talleres"></div>
-                <div class="flex flex-col gap-4">
+                <div><img src="{{asset('images/servicios/User_talleres.jpg')}}" alt="Talleres"></div>
+                <div class="flex flex-col gap-4 lg:w-3/4">
                     <div class="text-center"><span class="font-[Roboto-thin] text-2xl font-bold">Talleres Académicos</span></div>
                     <div class="grid gap-3">
                         <p>Nuestra institución ofrece talleres académicos especializados y diseñados cuidadosamente para potenciar no solo su rendimiento, sino también su éxito educativo de cada estudiante que tiene dificultades tanto en el proceso académico o proceso de titulación.</p>
@@ -60,13 +60,24 @@
             <div class="py-16 lg:py-36">
                 <div class="grid gap-8 sm:gap-16 lg:gap-20">
                     <div class="text-center flex flex-col">
-                        <span class="subtitle">Talleres para la comunidad Huamachuquina</span>
-                        <span class="text-[#3477db] font-[Roboto-thin] text-lg font-semibold">(Esta dirigido a todos los adolecentes y niños)</span>
+                        <span class="subtitle">Talleres vacacionales para la comunidad Huamachuquina</span>
+                        <span class="text-[#3477db] font-[Roboto-thin] text-lg font-semibold">(Esta dirigido a todos los niños, jóvenes y adultos)</span>
                     </div>
-                    <div class="flex items-center gap-8 cont_talleres lg:justify-center py-8">
+                    <div class="flex items-center gap-8 cont_talleres lg:justify-center py-8 lg:grid grid-cols-3 xl:px-24">
                         <div class="flex flex-col justify-center text-center min-w-[300px] w-[300px] h-[250px] bg-[#3477db] gap-4 text-white card-animation"><i class='bx bx-walk text-[70px] text-white' ></i><span>Danza</span></div>
-                        <div class="flex flex-col justify-center text-center min-w-[300px] w-[300px] h-[250px] bg-[#3477db] gap-4 text-white card-animation"><i class='bx bxs-palette text-[70px] text-white'></i><span>Dibujo</span></div>
-                        <div class="flex flex-col justify-center text-center min-w-[300px] w-[300px] h-[250px] bg-[#3477db] gap-4 text-white card-animation"><i class='bx bxs-user-detail text-[70px] text-white' ></i><span>Poes&iacute;a</span></div>
+                        <div class="flex flex-col justify-center text-center min-w-[300px] w-[300px] h-[250px] bg-[#3477db] gap-4 text-white card-animation"><i class='bx bxs-palette text-[70px] text-white'></i><span>Dibujo y Pintura </span></div>
+                        <div class="flex flex-col justify-center text-center min-w-[300px] w-[300px] h-[250px] bg-[#3477db] gap-4 text-white card-animation"><i class='bx bxs-user-voice text-[70px] text-white' ></i><span>Canto</span></div>
+                        <div class="flex flex-col justify-center text-center min-w-[300px] w-[300px] h-[250px] bg-[#3477db] gap-4 text-white card-animation"><i class='bx bxs-confused text-[70px] text-white' ></i><span>Teatro</span></div>
+                        <div class="flex flex-col justify-center text-center min-w-[300px] w-[300px] h-[250px] bg-[#3477db] gap-4 text-white card-animation"><i class='bx bx-female text-[70px] text-white' ></i><span>Marinera</span></div>
+                        <div class="flex flex-col justify-center text-center min-w-[300px] w-[300px] h-[250px] bg-[#3477db] gap-4 text-white card-animation"><i class='bx bx-run text-[70px] text-white' ></i><span>Ballet</span></div>
+                        <div class="flex flex-col justify-center text-center min-w-[300px] w-[300px] h-[250px] bg-[#3477db] gap-4 text-white card-animation"><i class='bx bx-world text-[70px] text-white' ></i><span>Inglés</span></div>
+                    </div>
+                    <div class="flex flex-col gap-4">
+                        <span class="subtitle">Para moyeres informes</span>
+                        <p class="flex items-center gap-4"><i class='bx bxs-group text-[30px] text-[#3477db]' ></i><span>Organizado por el CODE (Consejo de Defensa del Estudiante).</span></p>
+                        <p class="flex items-center gap-4"><i class='bx bxs-home text-[30px] text-[#3477db]' ></i><span>IESPP - José Faustino Sánchez Carrión</span></p>
+                        <p class="flex items-center gap-4"><i class='bx bxs-location-plus text-[30px] text-[#3477db]' ></i><span>Prol. Sánchez Carrión Nº 1400 </span></p>
+                        <p class="flex items-center gap-4"><i class='bx bxs-time text-[30px] text-[#3477db]' ></i><span>De Lunes a sábado: 8:00 a 12:00 pm  -  2:30 a 6:00 pm</span></p>
                     </div>
                 </div>
             </div>

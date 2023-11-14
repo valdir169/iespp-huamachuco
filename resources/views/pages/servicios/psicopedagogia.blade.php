@@ -42,10 +42,10 @@
                             saber
                             para qué se vive.</x-slot>
                         <x-slot name='autor'> _Miguel de Cervantes Saavedra</x-slot>
-                        <x-slot name='img'>{{ asset('images/home/carreras/carrera_comunicacion1.png') }}</x-slot>
+                        <x-slot name='img'>{{ asset('images/servicios/User_psicopedagogia.jpg') }}</x-slot>
                         <x-slot name='altImg'>Servicio de Psicopedagogia</x-slot>
                         <x-slot name='parrafo'>
-                            <p class="grid sm:px-6 lg:px-22 xl:px-32">
+                            <p class="grid sm:px-6">
                                 <span>El servicio de Socopedagogía tiene como objetivo principal promover el desarrollo
                                     integral
                                     de los estudiantes en el contexto educativo del "IESPP-JFSC Huamachuco". Nuestra misión

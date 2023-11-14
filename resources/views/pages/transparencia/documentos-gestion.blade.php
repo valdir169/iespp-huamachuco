@@ -3,7 +3,7 @@
 @section('title', 'Documentos de gestión - Iespp José Faustino Sánchez Carrión Huamachuco')
 
 @section('content')
-    <x-hero image="{{ asset('images/carreras/carrera_ingles.png') }}" text="Documentos de gestión" />
+    <x-hero image="{{ asset('images/home/home.jpg') }}" text="Documentos de gestión" />
 
     <section class="w-full render py-8">
         <div class=" overflow-x-auto w-full">

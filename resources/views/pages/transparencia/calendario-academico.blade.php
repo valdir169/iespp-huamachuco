@@ -4,7 +4,7 @@
 
 
 @section('content')
-    <x-hero image="{{ asset('images/carreras/carrera_ingles.png') }}" text="Calendario Académico" />
+    <x-hero image="{{ asset('images/home/home.jpg') }}" text="Calendario Académico" />
 
     <section class="w-full render py-8">
         <div class="overflow-x-auto w-full">

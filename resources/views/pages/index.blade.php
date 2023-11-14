@@ -232,7 +232,7 @@
 
                             <div class="flex flex-col w-full md:w-6/12">
                                 <div class="flex flex-col gap-2 md:mt-8">
-                                    <h2 class="text-2xl font-bold">Gladis Medina </h2>
+                                    <h2 class="text-2xl font-bold">Luz Altamirano </h2>
                                     <span class="text-xl font-['Roboto-Thin'] font-bold text-[#3477db]">Idioma
                                         Inglés</span>
                                 </div>

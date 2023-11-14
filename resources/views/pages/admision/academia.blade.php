@@ -5,14 +5,14 @@
 @section('content')
     <section>
         <x-modal
-            img="{{ asset('images/bg-admision.jpg') }}"
+            img="{{ asset('images/admision/bg_admision.jpg') }}"
             inicioLink="{{ route('index') }}"
             inicioText="Inicio"
             link="{{ route('admision') }}"
             linkText="Admisión"
             linkTitle="{{ route('academia') }}"
             Title="Academia Vacacional"
-            Content="Tu momento ha llegado, prepárate en nuestra academia y  has crecer tus posibilidades de ingresar y poder estudiar tu Carrera Profecional soñada."
+            Content="Tu momento ha llegado, prepárate en nuestra academia y has crecer tus posibilidades de ingresar y poder estudiar tu Programa de Estudios Profesional soñado."
         />
     </section>
     <section>
@@ -23,13 +23,13 @@
                     <span class="title">Academia Vacacional IESPP-JFSC_Huamachuco</span>
                 </div>
             </div>
-            <div class="flex items-center gap-8 lg:gap-16">
+            <div class="flex flex-col lg:flex-row items-center gap-8 lg:gap-16">
                 <div>
-                    <img src="https://www.itmplatform.com/wp-content/uploads/altaeducacion.png" alt="">
+                    <img src="{{ asset('images/admision/Academia.jpg') }}" alt="">
                 </div>
-                <div class="flex flex-col gap-8">
+                <div class="flex flex-col gap-8 w-4/5">
                     <div class="text-center"><span class="font-[Roboto-thin] text-xl font-semibold">¡Asegura tu futuro hoy, ven y prepárate en nuestra academia vacacional!</span></div>
-                    <span>Aumenta tus posibilidades de ser parte de nuestra familia estudiantil, contamos con docentes capacitados para ayudarte en tu proceso de  preparación y que estés listo para tus exámenes de admisión. Exámenes de simulacro todos los viernes.</span>
+                    <span>Bienvenido a nuestra academia, donde nos comprometemos a impulsar tu éxito académico. Contamos con docentes altamente capacitados que te guiarán en la preparación para tus exámenes de admisión, ofreciendo exámenes de simulacro todos los viernes para evaluar y mejorar constantemente tu rendimiento. Además, proporcionamos recursos educativos adicionales y un entorno de aprendizaje estimulante para potenciar tu desarrollo integral. Únete a nosotros y prepárate para destacar en tu camino hacia el éxito educativo.</span>
                 </div>
             </div>
         </div>
@@ -54,31 +54,51 @@
                 <div class="flex flex-col justify-center gap-8">
                     <div><span class="font-[Roboto-thin] text-3xl font-semibold">Cursos a Desarrollar</span></div>
                     <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-                        <div class="p-2 bg-[#3477db] text-white rounded-lg">
+                        <div class="p-3 flex flex-col gap-4 bg-[#3477db] text-white rounded-lg">
                             <div class="flex justify-between items-center">
-                                <div><span>Matemática </span></div>
+                                <div>
+                                    <span class="font-semibold text-[20px]">Matemática </span>
+                                </div>
                                 <div><i class='bx bx-category text-[40px]'></i></div>
                             </div>
+                            <div>
+                                <span>Este curso es para fortalecer tus habilidades analíticas y resolutivas. Desde conceptos fundamentales hasta aplicaciones prácticas. Nuestros docentes expertos te guiarán a través de conceptos clave, promoviendo el pensamiento crítico y la resolución de problemas.</span>
+                            </div>
                         </div>
 
-                        <div class="p-3 bg-[#3477db] text-white rounded-lg">
+                        <div class="p-3 flex flex-col gap-4 bg-[#3477db] text-white rounded-lg">
                             <div class="flex justify-between items-center">
-                                <div><span>Comunicación</span></div>
+                                <div>
+                                    <span class="font-semibold text-[20px]">Comunicación</span>
+                                </div>
                                 <div><i class='bx bxs-message-detail text-[40px]' ></i></div>
                             </div>
-                        </div>
-
-                        <div class="p-3 bg-[#3477db] text-white rounded-lg">
-                            <div class="flex justify-between items-center">
-                                <div><span>Inglés</span></div>
-                                <div><i class='bx bx-sort-a-z text-[40px]'></i></div>
+                            <div>
+                                <span>En nuestro curso de Comunicación, te brindamos las herramientas esenciales para expresarte de manera efectiva y comprender textos complejos. Aprenderás estrategias de lectura crítica, análisis de textos y redacción persuasiva.</span>
                             </div>
                         </div>
 
-                        <div class="p-3 bg-[#3477db] text-white rounded-lg">
+                        <div class="p-3 flex flex-col gap-4 bg-[#3477db] text-white rounded-lg">
                             <div class="flex justify-between items-center">
-                                <div><span>Historia del Perú</span></div>
+                                <div>
+                                    <span class="font-semibold text-[20px]">Inglés</span>
+                                </div>
+                                <div><i class='bx bx-sort-a-z text-[40px]'></i></div>
+                            </div>
+                            <div>
+                                <span>Este curso está diseñado para mejorar tus habilidades lingüísticas en lectura, escritura, habla y escucha. Con enfoque en la comunicación efectiva y la comprensión de textos académicos, este curso te proporcionará las habilidades lingüísticas esenciales para el éxito. </span>
+                            </div>
+                        </div>
+
+                        <div class="p-3 flex flex-col gap-4 bg-[#3477db] text-white rounded-lg">
+                            <div class="flex justify-between items-center">
+                                <div>
+                                    <span class="font-semibold text-[20px]">Historia del Perú</span>
+                                </div>
                                 <div><i class='bx bxs-landmark text-[40px]'></i></div>
+                            </div>
+                            <div>
+                                <span>Sumérgete en nuestra rica herencia cultural con el curso de Historia del Perú. Aquí, explorarás eventos clave, personajes históricos y contextos sociopolíticos que son fundamentales para comprender la historia del país.</span>
                             </div>
                         </div>
                     </div>
@@ -117,7 +137,7 @@
                 :title="'Te Puede Interesar...'"
                 :links='[
                     "Conoce Nuestras Programas de Estudio" => route("programas"),
-                    "Requisitos de Matrícula" => route("ingles"),
+                    "Requisitos de Matrícula" => route("matricula"),
                     "Contactános" => route("contacto"),
                     "Modaliad de Admisión" => route("modalidad_admision")
                 ]'

@@ -16,11 +16,11 @@
                             <span>{{$autor}}</span>
                         </p>
                     </div>
-                    <div class="grid gap-5 sm:flex items-center md:gap-10 lg:gap-24">
+                    <div class="grid gap-8 sm:flex items-center md:gap-10">
                         <div>
                             <img src="{{$img}}" alt="{{$altImg}}">
                         </div>
-                        <div>
+                        <div class="lg:w-3/4">
                             <p>{{$parrafo}}</p>
                         </div>
                     </div>

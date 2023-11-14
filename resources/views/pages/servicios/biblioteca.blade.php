@@ -50,10 +50,10 @@
             <x-slot name='servicio'>Biblioteca</x-slot>
             <x-slot name='frase'>El que lee mucho y anda mucho, ve mucho y sabe mucho</x-slot>
             <x-slot name='autor'> (Miguel de Cervantes Saavedra)</x-slot>
-            <x-slot name='img'>{{ asset('images/home/carreras/carrera_comunicacion1.png') }}</x-slot>
+            <x-slot name='img'>{{ asset('images/servicios/User_biblioteca.jpg') }}</x-slot>
             <x-slot name='altImg'>Servicio de Biblioteca</x-slot>
             <x-slot name='parrafo'>
-                <p class="grid sm:px-6 lg:px-22 xl:px-32">
+                <p class="grid sm:px-6">
                     <span>El servicio de Biblioteca tiene como objetivo fomentar el acceso a la información, promover la
                         lectura y contribuir al desarrollo académico y cultural de la comunidad educativa del "IESPP-JFSC
                         Huamachuco". Nuestra misión es proporcionar recursos y servicios que apoyen el aprendizaje, la

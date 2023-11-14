@@ -3,7 +3,7 @@
 @section('title', 'Convenios - Iespp José Faustino Sánchez Carrión Huamachuco')
 
 @section('content')
-    <x-hero image="{{ asset('images/carreras/carrera_ingles.png') }}" text="Convenios" />
+    <x-hero image="{{ asset('images/home/home.jpg') }}" text="Convenios" />
 
     <div class="timeline">
 

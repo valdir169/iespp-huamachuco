@@ -3,7 +3,7 @@
 @section('title', 'Inversiones y Donaciones - Iespp José Faustino Sánchez Carrión Huamachuco')
 
 @section('content')
-    <x-hero image="{{ asset('images/carreras/carrera_ingles.png') }}" text="Inversiones y Donaciones" />
+    <x-hero image="{{ asset('images/home/home.jpg') }}" text="Inversiones y Donaciones" />
     <div class="render py-16">
         <p class="title mb-8">Documentos de inversiones y donaciones</p>
 

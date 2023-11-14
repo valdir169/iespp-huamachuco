@@ -16,9 +16,6 @@
                             Faustino Sánchez Carrión"</small>
 
                     </div>
-                    {{-- <span class="  text-white font-bold ">
-                        Con más de 40 años formando profesionales de calidad
-                    </span> --}}
                 </div>
             </div>
 

@@ -3,7 +3,7 @@
 @section('title', 'Error 404 | Iespp José Faustino Sánchez Carrión Huamachuco')
 
 @section('content')
-    <div class="relative -mt-[100px] h-screen w-full bg-cover bg-no-repeat  bg-[black] bg-center flex justify-around items-center flex-col px-8"
+    <div class="relative -mt-[120px] h-screen w-full bg-cover bg-no-repeat  bg-[black] bg-center flex justify-around items-center flex-col px-8"
         style="background-image: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.5)),
      url('{{ asset('images/others/error.png') }}');">
         <div class="flex justify-center items-center flex-col mt-32 md:px-32">

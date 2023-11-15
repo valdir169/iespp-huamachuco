@@ -85,70 +85,70 @@ class PaginasController extends Controller
                 'name' => 'Dra. Gladys Martha Alvarez Medina',
                 'jefatura' => 'Directora General',
                 'email'  => 'maestramartha1@hotmail.com',
-                'fyle' => 'cvdireccion.pdf',
+                'fyle' => '',
             ],
             [
                 'jefatura' => 'Secretario Académico',
                 'image' => './images/institucion/directorio/images.png',
                 'name' => 'Mg. Rodolfo Eleuterio Cruz Avalos',
                 'email'  => 'rodolfocruzavalos@gmail.com',
-                'fyle' => 'cvdireccion.pdf',
+                'fyle' => '#',
             ],
             [
                 'jefatura' => 'Jefe de la Unidad de Bienestar y Empleabilidad',
                 'image' => './images/institucion/directorio/images.png',
                 'name' => 'Prof. Luis Humberto Carbonell García',
                 'email'  => 'brujito110267@gmail.com',
-                'fyle' => 'cvdireccion.pdf',
+                'fyle' => '#',
             ],
             [
                 'jefatura' => 'Jefe de la Unidad de Investigación',
                 'image' => './images/institucion/directorio/images.png',
                 'name' => 'Mg. José Horacio Pimentel Longobardi',
                 'email'  => 'pimentellongobardi05@gmail.com',
-                'fyle' => 'cvacademica.pdf',
+                'fyle' => '#',
             ],
             [
                 'jefatura' => 'Jefe de Unidad Académica',
-                'image' => './images/institucion/directorio/images.png',
+                'image' => './images/institucion/directorio/marivel.jpg',
                 'name' => 'Mg. Marivel Santos Layza Rodríguez',
                 'email'  => 'Mlayzar1213@gmail.com',
-                'fyle' => 'cvdireccion.pdf',
+                'fyle' => 'https://drive.google.com/file/d/1actBIkCv8CKPrwRboptiynE4RMk3Hfmh/view?usp=sharing',
             ],
             [
                 'jefatura' => 'Coordinadora del área de Calidad',
-                'image' => './images/institucion/directorio/images.png',
+                'image' => './images/institucion/directorio/marita.jpg',
                 'name' => 'Mg. Marita Magdalena Andrade Condori',
                 'email'  => 'mmand9@hotmail.com',
-                'fyle' => 'cvdireccion.pdf',
+                'fyle' => 'https://drive.google.com/file/d/1IQ664RFiM3CyH5Q476RYiP4CgoB52Bfd/view?usp=sharing',
             ],
             [
                 'jefatura' => 'Coordinadora del área de Práctica',
                 'image' => './images/institucion/directorio/images.png',
                 'name' => 'Mg. Soledad del Carmen García Martín',
                 'email'  => 'solfer0102@gmail.com',
-                'fyle' => 'cvdireccion.pdf',
+                'fyle' => '#',
             ],
             [
                 'jefatura' => 'Coordinadora del Programa de Estudios de Idiomas, Inglés',
                 'image' => './images/institucion/directorio/images.png',
                 'name' => 'Mg. Zulma Janett de la Cruz Contreras',
                 'email'  => 'zulma_770@hotmail.com',
-                'fyle' => 'cvdireccion.pdf',
+                'fyle' => '#',
             ],
             [
                 'jefatura' => 'Coordinador del Programa de Estudios de Educación Secundaria, especialidad Comunicación',
                 'image' => './images/institucion/directorio/images.png',
                 'name' => 'Lic. Walter Felix Reyes Vásquez',
                 'email'  => 'walterrv79@gmail.com',
-                'fyle' => 'cvdireccion.pdf',
+                'fyle' => 'https://drive.google.com/file/d/1I96IwuGHmEQZsOPpQXPgKyJvMDYSuDZT/view?usp=drive_link',
             ],
             [
                 'jefatura' => 'Coordinadora del Programa de Educación Inicial',
                 'image' => './images/institucion/directorio/images.png',
                 'name' => 'Prof. María Ofelia Cobian Galvez',
                 'email'  => 'wreyes@iesppjfschco.edu.pe',
-                'fyle' => 'cvdireccion.pdf',
+                'fyle' => '#',
             ],
         ];
         return view('pages.institucion.directorio', compact('jefaturas'));
@@ -183,6 +183,11 @@ class PaginasController extends Controller
     public function documentosTransparencia()
     {
         return view('pages.transparencia.documentos-transparencia');
+    }
+
+    public function estadisticas()
+    {
+        return view('pages.transparencia.estadisticas');
     }
 
 

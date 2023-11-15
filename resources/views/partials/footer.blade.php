@@ -11,13 +11,13 @@
             <span class="text-2xl font-bold font-[Roboto-Thin]">Enlaces rápidos</span>
 
             <div class="flex flex-col mt-4 w-full md:items-start items-center">
-                <a href="" class="hover:underline transition py-1 opacity-75 hover:opacity-100">Institución</a>
+                <a href="{{ route('nosotros') }}" class="hover:underline transition py-1 opacity-75 hover:opacity-100">Institución</a>
                 <a href={{ route('admision') }}
                     class="hover:underline transition py-1 opacity-75 hover:opacity-100">Admisión</a>
-                <a href="" class="hover:underline transition py-1 opacity-75 hover:opacity-100">Servicios</a>
-                <a href="" class="hover:underline transition py-1 opacity-75 hover:opacity-100">Programas de
+                <a href="{{ route('biblioteca') }}" class="hover:underline transition py-1 opacity-75 hover:opacity-100">Servicios</a>
+                <a href="{{ route('ingles') }}" class="hover:underline transition py-1 opacity-75 hover:opacity-100">Programas de
                     estudio</a>
-                <a href="" class="hover:underline transition py-1 opacity-75 hover:opacity-100">Contacto</a>
+                <a href="{{ route('contacto') }}" class="hover:underline transition py-1 opacity-75 hover:opacity-100">Contacto</a>
             </div>
         </div>
 
@@ -25,18 +25,18 @@
             <span class="text-2xl font-bold font-[Roboto-Thin]">Síguenos</span>
             <div class="flex flex-col mt-4 w-full items-center md:items-start ">
                 <a class="flex items-center gap-2 hover:underline transition  py-1 opacity-75 hover:opacity-100"
-                    href="https://web.facebook.com/IESPPJFSC" target="_blank">
+                    href="https://www.facebook.com/iesppjfsanchezcarrion" target="_blank">
                     <i class='bx bxl-facebook-circle text-2xl'></i>
                     Facebook
                 </a>
-                <a class="flex items-center gap-2 hover:underline transition py-1 opacity-75 hover:opacity-100">
+                <a class="flex items-center gap-2 hover:underline transition py-1 opacity-75 hover:opacity-100"
+                    href="https://www.youtube.com/@iesppjosefaustinosanchezca9494" target="_blank"
+                >
+
                     <i class='bx bxl-youtube text-2xl'></i>
                     Youtube
                 </a>
-                <a class="flex items-center gap-2 hover:underline transition py-1 opacity-75 hover:opacity-100">
-                    <i class='bx bxl-instagram-alt text-2xl'></i>
-                    Instagram
-                </a>
+
             </div>
         </div>
 
@@ -67,7 +67,7 @@
         <p class=""> Copyright &copy;
             <script>
                 document.write(new Date().getFullYear())
-            </script> - Desarrollado por IESPP JFSC - Huamachuco
+            </script> - Desarrollado por Valdir - Antony
         </p>
     </div>
 </footer>

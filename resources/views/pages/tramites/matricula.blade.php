@@ -12,26 +12,13 @@
                 <i class='bx bx-chevron-right-circle text-4xl text-[#3477db]'></i>
 
                 <div class="mt-2">
-                    <p class="mb-4 uppercase font-bold">Ingresantes</p>
-                    <span>Todos los ingresantes al I Semestre a las diferentes especialidades ofrecidas en el proceso de admisión.</span>
-                        <ul class="mt-4 list-disc">
-                            <li>Constancia de ingreso</li>
-                            <li>Partida de nacimiento (original)</li>
-                            <li>Copia de DNI</li>
-                            <li>Certificado de estudios de educación secundaria bisado por la UGEL</li>
-                            <li>Recibo por derecho de matrícula</li>
-                        </ul>
-                </div>
-            </div>
-
-
-            <div class="flex gap-4 py-6">
-
-                <i class='bx bx-chevron-right-circle text-4xl text-[#3477db]'></i>
-                <div class="mt-2">
-                    <p class="mb-4 uppercase font-bold">Reactualización del ii al viii semestre</p>
-                    <span>Boleta de notas del semestre anterior.</span>
-                    <span>Haber aprobado el 75% de los créditos del Semestre Académico inmediato anterior.</span>
+                    <p class="mb-4 uppercase font-bold">Reactualización del II Al VII ciclo</p>
+                    <span>Todos los programas de estudio.</span>
+                    <ul class="mt-4 list-disc">
+                        <li>Haber aprobado el 75% de los créditos del ciclo inmediato anterior. </li>
+                        <li>Comprobante de pago por derecho de Matrícula de S/. 173.00 a la cuenta del Banco de la Nación
+                            (0801003141). </li>
+                    </ul>
                 </div>
             </div>
 
@@ -40,9 +27,24 @@
                 <i class='bx bx-chevron-right-circle text-4xl text-[#3477db]'></i>
 
                 <div class="mt-2">
-                    <p class="mb-4 uppercase font-bold">Matrícula</p>
-                    <span>Llevar todos los documentos y el recibo canjeado al area de Secretaria Acádemica, para realizar la
-                        matrícula.</span>
+                    <p class="mb-4 uppercase font-bold">Reactualización del VII Al X ciclo</p>
+                    <span>Todos los programas de estudio.</span>
+                    <ul class="mt-4 list-disc">
+                        <li>Haber aprobado el 100% de los créditos del ciclo inmediato anterior. </li>
+                        <li>Comprobante de pago por derecho de Matrícula de S/. 173.00 a la cuenta del Banco de la Nación
+                            (0801003141). </li>
+                    </ul>
+                </div>
+            </div>
+
+
+
+            <div class="flex gap-4 py-6">
+                <i class='bx bx-chevron-right-circle text-4xl text-[#3477db]'></i>
+
+                <div class="mt-2">
+                    <p class="mb-4 uppercase font-bold">Nota</p>
+                    <span>La matrícula extemporánea se realiza con un pago del 50% del costo original.</span>
                 </div>
             </div>
         </div>

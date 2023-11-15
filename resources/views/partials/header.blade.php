@@ -72,13 +72,12 @@
                         <li><a class="nav-link" href="{{ route('licenciamiento') }}">Licenciamiento</a></li>
                         <li><a class="nav-link" href="{{ route('documentos-gestion') }}">Documentos de Gestión</a></li>
                         <li><a class="nav-link" href="#">Convocatorias Laborales</a></li>
-                        <li><a class="nav-link" href="{{ route('calendario-academico') }}">Calendario Académico</a>
-                        </li>
+                        <li><a class="nav-link" href="{{ route('calendario-academico') }}">Calendario Académico</a></li>
                         <li><a class="nav-link" href="{{ route('convenios') }}">Convenios</a></li>
                         <li><a class="nav-link" href="{{ route('inversiones-donaciones') }}">Inversiones y
                                 Donaciones</a>
                         </li>
-                        <li><a class="nav-link" href="#">Estadísticas</a></li>
+                        <li><a class="nav-link" href="{{ route('estadisticas') }}">Estadísticas</a></li>
                         <li><a class="nav-link" href="#">Denuncias y Reclamos</a></li>
                         <li><a class="nav-link" href="{{ route('documentos-transparencia') }}">Documentos de
                                 transparencia</a></li>

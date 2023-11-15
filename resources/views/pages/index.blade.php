@@ -249,15 +249,14 @@
                     <div class="swiper-slide">
                         <section class="flex gap-12 items-start w-[65%] md:w-[70%] flex-col md:flex-row h-auto">
                             <div class="w-full md:w-6/12">
-                                <img class="w-full h-auto" src="{{ asset('images/home/experiences/experiencia.jpg') }}"
-                                    alt="Elonk Musk">
+                                <img class="w-full h-auto" src="{{ asset('images/home/experiences/experience1.webp') }}"
+                                    alt="Experiencia Uno">
                             </div>
 
                             <div class="flex flex-col w-full md:w-6/12">
                                 <div class="flex flex-col gap-2 md:mt-8">
-                                    <h2 class="text-2xl font-bold">Elon Musk </h2>
-                                    <span class="text-xl font-['Roboto-Thin'] font-bold text-[#3477db]">Star Link, Tesla,
-                                        X</span>
+                                    <h2 class="text-2xl font-bold">Julia Azucena</h2>
+                                    <span class="text-xl font-['Roboto-Thin'] font-bold text-[#3477db]">Especialidad Comunicación</span>
                                 </div>
 
                                 <p class="mt-6 ppx-4">
@@ -267,20 +266,20 @@
                                 </p>
                             </div>
                         </section>
-
                     </div>
+
 
                     <div class="swiper-slide">
                         <section class="flex gap-12 items-start w-[65%] md:w-[70%] flex-col md:flex-row h-auto">
                             <div class="w-full md:w-6/12">
-                                <img class="w-full h-auto" src="" alt="Mark Zuckerber">
+                                <img class="w-full h-auto" src="{{ asset('images/home/experiences/experience1.webp') }}"
+                                    alt="Experiencia Uno">
                             </div>
 
                             <div class="flex flex-col w-full md:w-6/12">
                                 <div class="flex flex-col gap-2 md:mt-8">
-                                    <h2 class="text-2xl font-bold">Mark Zuckerber </h2>
-                                    <span class="text-xl font-['Roboto-Thin'] font-bold text-[#3477db]">Facebook,
-                                        WhatsApp</span>
+                                    <h2 class="text-2xl font-bold">Lizbhet Sifuentes</h2>
+                                    <span class="text-xl font-['Roboto-Thin'] font-bold text-[#3477db]">Educación Inicial</span>
                                 </div>
 
                                 <p class="mt-6 ppx-4">
@@ -291,6 +290,8 @@
                             </div>
                         </section>
                     </div>
+
+
                 </div>
                 <div class="swiper-button-next"></div>
                 <div class="swiper-button-prev"></div>

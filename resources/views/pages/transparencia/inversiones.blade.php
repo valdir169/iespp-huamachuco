@@ -18,7 +18,7 @@
                     <a class="bg-[#3477DB] text-white cursor-pointer hover:bg-[#ffffff] text-center
                      outline-none  font-bold rounded-lg hover:text-black hover:border-[#3477DB] hover:border
                      py-2.5 no-underline  px-10 duration-200 ease-in-out"
-                        href="" target="_blank">Descargar</a>
+                        href="">Descargar</a>
                 </div>
             </div>
 
@@ -32,7 +32,7 @@
                     <a class="bg-[#3477DB] text-white cursor-pointer hover:bg-[#ffffff] text-center
                      outline-none  font-bold rounded-lg hover:text-black hover:border-[#3477DB] hover:border
                      py-2.5  no-underline  px-10 duration-200 ease-in-out"
-                        href="" target="_blank">Descargar</a>
+                        href="">Descargar</a>
                 </div>
             </div>
         </div>

@@ -51,6 +51,7 @@ Route::get('/documentos-gestion', [PaginasController::class, 'documentosGestion'
 Route::get('/calendario-academico', [PaginasController::class, 'calendarioAcademico'])->name('calendario-academico');
 Route::get('/convenios', [PaginasController::class, 'convenios'])->name('convenios');
 Route::get('/inversiones-donaciones', [PaginasController::class, 'inversionesDonaciones'])->name('inversiones-donaciones');
+Route::get('/estadisticas', [PaginasController::class, 'estadisticas'])->name('estadisticas');
 Route::get('/documentos-transparencia', [PaginasController::class, 'documentosTransparencia'])->name('documentos-transparencia');
 
 // Route for Trámites
@@ -65,12 +66,4 @@ Route::get('/{any}/{any}', [PaginasController::class, 'error'])->where('any', '.
 
 // procees form
 Route::post('/contactanos', [PaginasController::class, 'processData'])->name('contacto.process');
-Route::get('/descargar-file/{fileName}', function ($fileName) {
-    $routeFile = public_path('files/' . $fileName);
 
-    if (file_exists($routeFile)) {
-        return response()->download($routeFile, $fileName);
-    } else {
-        abort(404, 'Archivo no encontrado');
-    }
-});

@@ -53,19 +53,6 @@
 
 
 
-
-            {{-- <a href="https://drive.google.com/file/d/1IKugTigwF56HudkFDr1gFIGScnBCkv5r/view?usp=sharing" target="_blank"
-                class="item-program flex items-center w-full justify-between bg-[#ebebeb] py-2 px-10 cursor-pointer font-bold hover:bg-[#3477DB] transition hover:text-white"
-                id="table-open">
-                <p> Idiomas, Especialidad Inglés </p>
-                <i class='bx bx-plus'></i>
-            </a>
-
-            <a href="https://drive.google.com/file/d/1kH5fSn3XsQinGugDqivlhFLrij1dD7to/view?usp=sharing" target="_blank"
-                class="item-program flex items-center w-full justify-between bg-[#ebebeb] py-2 px-10 cursor-pointer font-bold hover:bg-[#3477DB] transition hover:text-white">
-                <p> Educación Secundaria, Especialidad Comunicación </p>
-                <i class='bx bx-plus'></i>
-            </a> --}}
         </div>
     </div>
 @endsection

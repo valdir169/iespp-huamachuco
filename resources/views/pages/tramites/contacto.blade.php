@@ -6,25 +6,33 @@
     <div class="-mt-[120px] h-[700px] w-full bg-cover bg-no-repeat bg-center  flex items-center justify-center flex-col text-center gap-4"
         style='background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8)),
         url({{ asset('images/others/hero_contact.jpg') }});'>
-        <h1 class="text-white text-4xl md:text-6xl font-bold font-[Roboto-Bold] mt-[0px] md:mt-[150px] sm:mt-[0px]">¡Estamos aquí para  ayudarte!</h1>
-        <span class="text-white  mt-2 md:mt-4  sm:text-xl px-8 xl:px-72 font-[Roboto-Thin] font-bold">Comuníquese con nosotros en cualquier momento y estaremos
+        <h1 class="text-white text-4xl md:text-6xl font-bold font-[Roboto-Bold] mt-[0px] md:mt-[150px] sm:mt-[0px]">¡Estamos
+            aquí para ayudarte!</h1>
+        <span class="text-white  mt-2 md:mt-4  sm:text-xl px-8 xl:px-72 font-[Roboto-Thin] font-bold">Comuníquese con
+            nosotros en cualquier momento y estaremos
             encantados
             de responder a sus preguntas.</span>
     </div>
 
     @if (session('message'))
-    <div id="message-alert" class="fixed rounded-xl right-12 bottom-[100px] z-[500]  bg-[white] border-[#3477db] border-2  h-auto">
-      <div class="flex  justify-end flex-col">
-        <i id="close" class='bx bx-x ml-[92%] absolute -top-5  flex justify-center items-center rounded-full px-1 text-[white] bg-[#3477db]  text-xl font-bold  cursor-pointer border-[white] border-2'></i>
-        <div class="flex items-center justify-center p-4">
-          <i class='bx bx-check check text-[#2dbf65] text-2xl font-bold mr-1'></i>
-          <p>Mensaje enviado con éxito...</p>
+        <div id="message-alert"
+            class="fixed rounded-xl right-12 bottom-[100px] z-[500]  bg-[white] border-[#3477db] border-2  h-auto">
+            <div class="flex  justify-end flex-col">
+                <i id="close"
+                    class='bx bx-x ml-[92%] absolute -top-5  flex justify-center items-center rounded-full px-1 text-[white] bg-[#3477db]  text-xl font-bold  cursor-pointer border-[white] border-2'></i>
+                <div class="flex items-center justify-center p-4">
+
+                    @if (session('message_type') === 'success')
+                        <i class='bx bx-x check text-[#2dbf65] text-2xl font-bold mr-1'></i>
+                        <p>{{ session('message') }}</p>
+                    @elseif (session('message_type') === 'error')
+                        <i class='bx bx-x text-[red] text-2xl font-bold mr-1'></i>
+                        <p>{{ session('message') }}</p>
+                    @endif
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-  @endif
-
-
+    @endif
 
 
     <section class="-mt-[150px] md:-mt-[100px] w-full pb-8 ">
@@ -80,7 +88,8 @@
             </div>
 
             <article class="w-full">
-                <span class="font-[Roboto-Regular] text-white text-center md:text-start  text-2xl md:text-4xl ">Contáctanos</span>
+                <span
+                    class="font-[Roboto-Regular] text-white text-center md:text-start  text-2xl md:text-4xl ">Contáctanos</span>
 
                 <div class="flex flex-col h-full gap-8 items-start w-full mt-4">
                     <div class="flex flex-col ">

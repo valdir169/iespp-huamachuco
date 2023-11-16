@@ -3,10 +3,10 @@
 namespace App\Http\Controllers;
 
 use App\Mail\ContactoMailable;
-use GuzzleHttp\Psr7\Response;
+use Exception;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
-use Illuminate\Support\Facades\Response as ResponseDownload;
+use Illuminate\Validation\ValidationException;
 
 class PaginasController extends Controller
 {
@@ -251,16 +251,23 @@ class PaginasController extends Controller
 
     public function processData(Request $request)
     {
-        $request->validate([
-            'name' => 'required|string|min:2',
-            'email' => 'email|required',
-            'cellphone' => 'required|numeric|min:9',
-            'message' => 'required'
-        ]);
+        try {
+            $request->validate([
+                'name' => 'required|string|min:2',
+                'email' => 'email|required',
+                'cellphone' => 'required|numeric|min:9',
+                'message' => 'required'
+            ]);
 
-        $email = new ContactoMailable(($request->all()));
-        Mail::to('contrerasvaldir06@gmail.com')->send($email);
+            $email = new ContactoMailable(($request->all()));
+            Mail::to('soporte.iesppjfschco@gmail.com')->send($email);
 
-        return redirect()->route('contacto')->with('message', 'Mensaje Enviado con áxito');
+            return redirect()->route('contacto')->with('message_type', 'success')->with('message', 'Mensaje Enviado con áxito');
+        } catch (ValidationException $e) {
+            return redirect()->route('contacto')->withErrors($e->errors())->withInput();
+            //throw $th;
+        } catch (\Exception $e) {
+            return redirect()->route('contacto')->with('message_type', 'error')->with('message', 'Ha ocurrido un error al enviar el mensaje.');
+        }
     }
 }

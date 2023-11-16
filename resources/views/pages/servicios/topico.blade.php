@@ -133,7 +133,7 @@
                             <li class="flex gap-3"><i
                                     class='bx bxs-calendar text-[25px] text-[#3477db]'></i><span>Martes</span></li>
                             <li class="flex gap-3"><i
-                                    class='bx bxs-calendar text-[25px] text-[#3477db]'></i><span>Miercoles</span>
+                                    class='bx bxs-calendar text-[25px] text-[#3477db]'></i><span>Miércoles</span>
                             </li>
                             <li class="flex gap-3"><i
                                     class='bx bxs-calendar text-[25px] text-[#3477db]'></i><span>Jueves</span></li>
@@ -157,7 +157,7 @@
             <x-slot name="departamento">Departameto de Tópico</x-slot>
             <x-slot name="direccion">Prolog. Sánchez Carrión 1400 – Huamachuco</x-slot>
             <x-slot name="telefono">949 949 494</x-slot>
-            <x-slot name="email">psicopedagogia@jfsc.edu.pe</x-slot>
+            <x-slot name="email">topico@jfsc.edu.pe</x-slot>
             <x-slot name="titleRedes">S&iacute;genos en</x-slot>
         </x-card-servicios>
 
@@ -194,7 +194,7 @@
                             </div>
                             <div>
                                 <div class="desplegable-item-content">
-                                    <span>Puedes acceder al Servicio de Tópico presentando tu tarjeta de identificación estudiantil en la recepción. Está ubicado en [ubicación] y opera durante el horario regular de la universidad.</span>
+                                    <span>Puedes acceder al Servicio de Tópico presentando tu tarjeta de identificación estudiantil en la recepción. Opera durante el horario regular del IESPP - José Faustino Sánchez Carrión.</span>
                                 </div>
                             </div>
                         </div>
@@ -240,7 +240,7 @@
                             </div>
                             <div>
                                 <div class="desplegable-item-content">
-                                    <span>El Servicio de Tópico cuenta con enfermeros y profesionales de la salud capacitados para brindar atención básica. En casos más complejos, pueden referirte a un médico o especialista según sea necesario.</span>
+                                    <span>El Servicio de Tópico cuenta con un especilista de la salud capacitados para brindar atención básica. En casos más complejos, pueden referirte a un médico o especialista según sea necesario.</span>
                                 </div>
                             </div>
                         </div>

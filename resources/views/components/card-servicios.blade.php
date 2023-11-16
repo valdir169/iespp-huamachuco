@@ -26,9 +26,8 @@
                 <div class="flex flex-col gap-8">
                     <span class="subtitle">{{$titleRedes}}</span>
                     <ul class="flex justify-center gap-2 lg:flex-col ">
-                        <li><a href="https://web.facebook.com/" class="flex items-center gap-2"><i class='bx bxl-facebook-circle text-[25px]'></i> <span class="hidden lg:block">Facebook</span></a></li>
-                        <li><a href="https://web.facebook.com/" class="flex items-center gap-2"><i class='bx bxl-youtube text-[25px]'></i> <span class="hidden lg:block">YouTube</span></a></li>
-                        <li><a href="https://web.facebook.com/" class="flex items-center gap-2"><i class='bx bxl-instagram-alt text-[25px]'></i> <span class="hidden lg:block">Instagram</span></a></li>
+                        <li><a href="https://www.facebook.com/iesppjfsanchezcarrion" target="_blank" class="flex items-center gap-2"><i class='bx bxl-facebook-circle text-[25px] text-[#3477db]'></i> <span class="hidden lg:block">Facebook</span></a></li>
+                        <li><a href="https://www.youtube.com/@iesppjosefaustinosanchezca9494" target="_blank" class="flex items-center gap-2"><i class='bx bxl-youtube text-[25px] text-[#ff4c4c]'></i> <span class="hidden lg:block">YouTube</span></a></li>
                     </ul>
                 </div>
            </div>

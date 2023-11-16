@@ -106,7 +106,7 @@
                                 <li class="flex gap-3"><i
                                         class='bx bxs-calendar text-[25px] text-[#3477db]'></i><span>Martes</span></li>
                                 <li class="flex gap-3"><i
-                                        class='bx bxs-calendar text-[25px] text-[#3477db]'></i><span>Miercoles</span>
+                                        class='bx bxs-calendar text-[25px] text-[#3477db]'></i><span>Miércoles</span>
                                 </li>
                                 <li class="flex gap-3"><i
                                         class='bx bxs-calendar text-[25px] text-[#3477db]'></i><span>Jueves</span></li>

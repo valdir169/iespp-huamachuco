@@ -81,21 +81,30 @@
                             <i class='bx bx-child text-[2rem] lg:text-[3rem] xl:text-[5rem] text-[#ebebeb]'></i><br>
                             <span>Educaci&oacute;n Inicial</span><br>
                         </div>
-                        <x-button type="primary" ruta="#">Ver Cat&aacute;logo</x-button>
+                        <a href="https://drive.google.com/file/d/1ii0Cc3r6hgbiIW44mRMHfq7kf8tjTTlI/view?usp=sharing"
+                            target="_blank"
+                            class="bg-[#ffffff] text-black cursor-pointer hover:shadow-xl
+                                    outline-none font-bold rounded-lg py-2 text-center no-underline  px-12  transition-all duration-200 opacity-90 hover:opacity-100">Ver Cat&aacute;logo</a>
                     </div>
                     <div class="py-10 p-4 text-center sm:w-[30%] lg:w-[25%] border card-animation">
                         <div class="my-4 text-white sm:h-[150px]">
                             <i class='bx bx-hive text-[2rem] lg:text-[3rem] xl:text-[5rem] text-[#ebebeb]'></i><br>
                             <span>Idiomas, Especilidad: Ingles</span><br>
                         </div>
-                        <x-button type="primary" ruta="#">Ver Cat&aacute;logo</x-button>
+                        <a href="https://drive.google.com/file/d/16j9WUN-e_pG5eAduMDtJCq5qST9VIfYJ/view?usp=sharing"
+                            target="_blank"
+                            class="bg-[#ffffff] text-black cursor-pointer hover:shadow-xl
+                                    outline-none font-bold rounded-lg py-2 text-center no-underline  px-12  transition-all duration-200 opacity-90 hover:opacity-100">Ver Cat&aacute;logo</a>
                     </div>
                     <div class="py-10 p-4 text-center sm:w-[30%] lg:w-[25%] border card-animation">
                         <div class="my-4 text-white sm:h-[150px]">
                             <i class='bx bx-user-voice text-[2rem] lg:text-[3rem] xl:text-[5rem] text-[#ebebeb]'></i><br>
                             <span>Educaci&oacute;n Secundaria Especilidad: Comunicaci&oacute;n</span><br>
                         </div>
-                        <x-button type="primary" ruta="#">Ver Cat&aacute;logo</x-button>
+                        <a href="https://drive.google.com/file/d/1jvNBoMIXGStIoDXwC_tVoDTLEZw4OpU6/view?usp=sharing"
+                            target="_blank"
+                            class="bg-[#ffffff] text-black cursor-pointer hover:shadow-xl
+                                    outline-none font-bold rounded-lg py-2 text-center no-underline  px-12  transition-all duration-200 opacity-90 hover:opacity-100">Ver Cat&aacute;logo</a>
                     </div>
                 </div>
             </div>
@@ -118,7 +127,7 @@
                             <li class="flex gap-3"><i
                                     class='bx bxs-calendar text-[25px] text-[#3477db]'></i><span>Martes</span></li>
                             <li class="flex gap-3"><i
-                                    class='bx bxs-calendar text-[25px] text-[#3477db]'></i><span>Miercoles</span></li>
+                                    class='bx bxs-calendar text-[25px] text-[#3477db]'></i><span>Miércoles</span></li>
                             <li class="flex gap-3"><i
                                     class='bx bxs-calendar text-[25px] text-[#3477db]'></i><span>Jueves</span></li>
                             <li class="flex gap-3"><i
@@ -141,8 +150,8 @@
             <x-slot name="title">Información de Contacto</x-slot>
             <x-slot name="departamento">Departameto de Biblioteca</x-slot>
             <x-slot name="direccion">Prolog. Sánchez Carrión 1400 – Huamachuco</x-slot>
-            <x-slot name="telefono">949 949 494</x-slot>
-            <x-slot name="email">psicopedagogia@jfsc.edu.pe</x-slot>
+            <x-slot name="telefono">948 036 645</x-slot>
+            <x-slot name="email">biblioteca@jfsc.edu.pe</x-slot>
             <x-slot name="titleRedes">S&iacute;genos en</x-slot>
         </x-card-servicios>
     </div>
@@ -164,7 +173,9 @@
                     </div>
 
                     <div class="desplegable-item-content">
-                        <span>Para acceder a la biblioteca, simplemente presenta tu tarjeta de identificación estudiantil en el mostrador de entrada. Si eres un estudiante nuevo, puedes solicitar una tarjeta en la oficina de servicios estudiantiles. El horario de la biblioteca es de lunes a viernes de 8:00 a.m. a 7:00 p.m. y los sábados de 9:00 a.m. a 4:00 p.m.</span>
+                        <span>Para acceder a la biblioteca, simplemente presenta tu tarjeta de identificación estudiantil en
+                            el mostrador de entrada. Si eres un estudiante nuevo, puedes solicitar una tarjeta en la oficina
+                            de servicios estudiantiles.</span>
                     </div>
                 </div>
 
@@ -178,7 +189,9 @@
                     </div>
 
                     <div class="desplegable-item-content">
-                        <span>La biblioteca cuenta con una amplia gama de materiales, incluyendo libros impresos, revistas, periódicos y materiales multimedia. Además, ofrecemos acceso a recursos en línea, bases de datos académicas y libros electrónicos para apoyar tus estudios e investigaciones.</span>
+                        <span>La biblioteca cuenta con una amplia gama de materiales, incluyendo libros impresos, revistas,
+                            periódicos y materiales multimedia. Además, ofrecemos acceso a recursos en línea, bases de datos
+                            académicas y libros electrónicos para apoyar tus estudios e investigaciones.</span>
                     </div>
                 </div>
 
@@ -192,7 +205,9 @@
                     </div>
 
                     <div class="desplegable-item-content">
-                        <span>Puedes tomar prestados libros, DVDs, CDs, y otros materiales físicos de la biblioteca. Además, ofrecemos acceso en línea a una variedad de recursos digitales. La duración del préstamo es de dos semanas para libros y una semana para materiales multimedia.</span>
+                        <span>Puedes tomar prestados libros, DVDs, CDs, y otros materiales físicos de la biblioteca. Además,
+                            ofrecemos acceso en línea a una variedad de recursos digitales. La duración del préstamo es de
+                            dos semanas para libros y una semana para materiales multimedia.</span>
                     </div>
                 </div>
 
@@ -209,7 +224,9 @@
                     </div>
 
                     <div class="desplegable-item-content">
-                        <span>Sí, hay un límite de 5 materiales por estudiante para préstamos simultáneos. Sin embargo, puedes renovar el préstamo si es necesario, siempre y cuando no haya solicitudes de otros estudiantes para el mismo material.</span>
+                        <span>Sí, hay un límite de 5 materiales por estudiante para préstamos simultáneos. Sin embargo,
+                            puedes renovar el préstamo si es necesario, siempre y cuando no haya solicitudes de otros
+                            estudiantes para el mismo material.</span>
                     </div>
                 </div>
 
@@ -224,7 +241,9 @@
                     </div>
 
                     <div class="desplegable-item-content">
-                        <span>En caso de perder un libro o material prestado, te pedimos que nos informes de inmediato. Puedes pagar el costo de reemplazo del material perdido o proporcionar una copia nueva del mismo. Haremos todo lo posible por encontrar una solución justa y resolver el problema.</span>
+                        <span>En caso de perder un libro o material prestado, te pedimos que nos informes de inmediato.
+                            Puedes pagar el costo de reemplazo del material perdido o proporcionar una copia nueva del
+                            mismo. Haremos todo lo posible por encontrar una solución justa y resolver el problema.</span>
                     </div>
                 </div>
 
@@ -239,7 +258,9 @@
                     </div>
 
                     <div class="desplegable-item-content">
-                        <span>Sí, la biblioteca ofrece espacios de estudio grupal equipados con mesas, sillas y pizarras para facilitar la colaboración entre estudiantes. Puedes reservar estas salas de estudio en línea o en el mostrador de información de la biblioteca.</span>
+                        <span>Sí, la biblioteca ofrece espacios de estudio grupal equipados con mesas, sillas y pizarras
+                            para facilitar la colaboración entre estudiantes. Puedes reservar estas salas de estudio en
+                            línea o en el mostrador de información de la biblioteca.</span>
                     </div>
                 </div>
             </div>

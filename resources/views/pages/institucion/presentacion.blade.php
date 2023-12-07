@@ -18,8 +18,8 @@
                 <p>
                     Hay que resaltar que la educación es formar al ser humano para el cambio permanente y aún para la
                     eventual crisis producto de la transición.<br>
-                    Nuevamente estamos en la etapa académica más importante de la Escuela Indoamérica, desde la Dirección de
-                    la Escuela queremos hacerles llegar nuestra cordial bienvenida y expresarles que haremos lo posible para
+                    Nuevamente estamos en la etapa académica más importante del IESPP José Faustino Sánchez Carrión, desde
+                    la Dirección del instituto queremos hacerles llegar nuestra cordial bienvenida y expresarles que haremos lo posible para
                     que vuestra estadía en esta unidad académica no sólo les dé un título pedagógico sino que además les
                     deje un grato recuerdo y un sentimiento de pertenencia.
                     Las necesidades educativas del país, requieren de profesionales altamente comprometidos, nuestra misión

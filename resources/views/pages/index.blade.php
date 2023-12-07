@@ -166,8 +166,8 @@
             <p>
                 Hay que resaltar que la educación es formar al ser humano para el cambio permanente y aún para la
                 eventual crisis producto de la transición.<br>
-                Nuevamente estamos en la etapa académica más importante de la Escuela Indoamérica, desde la Dirección de
-                la Escuela queremos hacerles llegar nuestra cordial bienvenida y expresarles que haremos lo posible para
+                Nuevamente estamos en la etapa académica más importante del pedagógico de Huamachuco, desde la Dirección del
+                instituto queremos hacerles llegar nuestra cordial bienvenida y expresarles que haremos lo posible para
                 que vuestra estadía en esta unidad académica no sólo les dé un título pedagógico sino que además les
                 deje un grato recuerdo y un sentimiento de pertenencia.
                 Las necesidades educativas del país, requieren de profesionales altamente comprometidos, nuestra misión
@@ -256,7 +256,8 @@
                             <div class="flex flex-col w-full md:w-6/12">
                                 <div class="flex flex-col gap-2 md:mt-8">
                                     <h2 class="text-2xl font-bold">Julia Azucena</h2>
-                                    <span class="text-xl font-['Roboto-Thin'] font-bold text-[#3477db]">Especialidad Comunicación</span>
+                                    <span class="text-xl font-['Roboto-Thin'] font-bold text-[#3477db]">Especialidad
+                                        Comunicación</span>
                                 </div>
 
                                 <p class="mt-6 ppx-4">
@@ -279,7 +280,8 @@
                             <div class="flex flex-col w-full md:w-6/12">
                                 <div class="flex flex-col gap-2 md:mt-8">
                                     <h2 class="text-2xl font-bold">Lizbhet Sifuentes</h2>
-                                    <span class="text-xl font-['Roboto-Thin'] font-bold text-[#3477db]">Educación Inicial</span>
+                                    <span class="text-xl font-['Roboto-Thin'] font-bold text-[#3477db]">Educación
+                                        Inicial</span>
                                 </div>
 
                                 <p class="mt-6 ppx-4">

@@ -1,12 +1,15 @@
 <footer class="bg-[#3477DB] text-white divide-y-2 ">
     <section
         class="flex flex-col md:flex-row items-center md:items-start px-4 py-16 gap-12 md:gap-6 justify-center  max-w-[1024px] mx-auto">
+
+        {{-- container for logo of footer --}}
         <div class="w-full md:max-w-[25%]">
             <div class="w-[150px] mx-auto md:mx-0">
                 <img class="w-full h-full" src="{{ asset('images/others/logo.png') }}" alt="">
             </div>
         </div>
 
+        {{-- section for quick links --}}
         <div class="w-full flex flex-col  items-center md:items-start md:max-w-[25%]">
             <span class="text-2xl font-bold font-[Roboto-Thin]">Enlaces rápidos</span>
 
@@ -25,6 +28,7 @@
             </div>
         </div>
 
+        {{-- section for follow us --}}
         <div class="w-full flex flex-col items-center md:items-start md:max-w-[25%]">
             <span class="text-2xl font-bold font-[Roboto-Thin]">Síguenos</span>
             <div class="flex flex-col mt-4 w-full items-center md:items-start ">
@@ -43,7 +47,7 @@
             </div>
         </div>
 
-
+        {{-- section for contact --}}
         <div
             class="w-full flex flex-col  items-center md:items-start md:max-w-[25%] md:overflow-hidden xl:overflow-visible">
             <span class="text-2xl font-bold font-[Roboto-Thin]">Contacto</span>
@@ -63,12 +67,12 @@
                 </a>
             </div>
         </div>
-
     </section>
 
     <div class="grid place-items-center py-4 px-4 text-center">
         <p class=""> Copyright &copy;
             <script>
+                // get current year
                 document.write(new Date().getFullYear())
             </script> - Desarrollado por IESPP JFSC Huamachuco
         </p>

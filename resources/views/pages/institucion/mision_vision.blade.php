@@ -2,13 +2,15 @@
 
 @section('title', 'Misión, Visión y Valores - Iespp José Faustino Sánchez Carrión Huamachuco')
 @section('content')
+    {{-- background hero --}}
     <x-hero image="{{ asset('images/institucion/hero_institucion.webp') }}" text="Misión, Visión y Valores" />
 
     <section class="render grid md:grid-cols-2 gap-4 lg:gap-8 xl:gap-28 2xl:gap-44 py-24">
         <div class="h-full flex flex-col md:pt-8">
             <span class="title">¿Qué hacemos? </span>
             <p class="mt-8">
-                Proporcionamos una educación pedagógica de alta calidad, y estamos  comprometidos en formar a futuros docentes y
+                Proporcionamos una educación pedagógica de alta calidad, y estamos comprometidos en formar a futuros
+                docentes y
                 profesionales preparados para liderar en el ámbito educativo y comunicativo, proporcionando las herramientas
                 necesarias para el éxito académico y profesional. Nuestra sólida base se sustenta en
                 prácticas de buen Gobierno Corporativo, un Código de Ética y un Canal de Gestión Ética. Estos pilares son
@@ -22,6 +24,7 @@
         </div>
     </section>
 
+    {{-- mision abd vision --}}
     <article class="bg-[#ebebeb] py-24">
         <section class="render h-auto  grid md:grid-cols-2 gap-12 lg:gap-32">
             <div class="bg-white rounded-lg p-4 xl:p-12 text-center">
@@ -30,7 +33,8 @@
                     Somos una Institución Educativa de Formación Inicial Docente, que brindamos servicios educativos de
                     calidad a estudiantes en los programas de estudio de Educación Inicial,
                     Idiomas:Inglés y Educación Secundaria: Comunicación, a partir de experiencias que permiten el desarrollo
-                    de su identidad docente en el marco de una cultura democrática, inclusiva e intercultural, centrada en aprendizajes
+                    de su identidad docente en el marco de una cultura democrática, inclusiva e intercultural, centrada en
+                    aprendizajes
                     significativos, la práctica de habilidades sociales e investigación.
                     Formamos profesionales proactivos, disciplinados, en conciencia ambiental para el desarrollo sostenible
                     de la sociedad.
@@ -40,16 +44,21 @@
             <div class="bg-white rounded-lg p-4 xl:p-12 text-center">
                 <span class="title text-[#3477db]">Visión </span>
                 <p class="mt-6">Al año 2025, el Instituto de Educación Superior Pedagógico Público “José Faustino Sánchez
-                    Carrión” es una institución educativa licenciada y acreditada, reconocida a nivel nacional como un centro activo de
-                    investigación e innovaciones pedagógicas, que forma profesionales competentes en la educación, a partir de un currículo socio crítico
-                    reflexivo, que promueve una sólida identidad docente, en el marco de una cultura educativa democrática, inclusiva e
-                    intercultural centrada en habilidades sociales; para que contribuyan proactivamente en el cuidado del ambiente y el
+                    Carrión” es una institución educativa licenciada y acreditada, reconocida a nivel nacional como un
+                    centro activo de
+                    investigación e innovaciones pedagógicas, que forma profesionales competentes en la educación, a partir
+                    de un currículo socio crítico
+                    reflexivo, que promueve una sólida identidad docente, en el marco de una cultura educativa democrática,
+                    inclusiva e
+                    intercultural centrada en habilidades sociales; para que contribuyan proactivamente en el cuidado del
+                    ambiente y el
                     desarrollo sostenible de la sociedad.
                 </p>
             </div>
         </section>
     </article>
 
+    {{-- valores institucionales --}}
     <div class="render  py-24  box-border ">
         <h4 class="title py-4">Valores institucionales</h4>
 

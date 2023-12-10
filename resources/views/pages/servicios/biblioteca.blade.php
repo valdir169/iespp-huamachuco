@@ -8,38 +8,49 @@
 
     <div class="py-16">
         <div class="sm:border-y border-y-[#d9d9d9]  w-full">
-            <div>
-                <div>
-                    <div class="render w-full">
-                        <ul class="w-full grid grid-cols-2 sm:flex justify-center">
-                            <li
-                                class="w-full h-[100px] p-1 border border-[#d9d9d9] flex items-center justify-center hover:bg-[#3477db] hover:text-white lg:w-[200px]">
-                                <a href="#servicio" class="flex flex-col text-center gap-2"><i
-                                        class='bx bx-book-bookmark text-[25px]'></i><span>Sobre el servicio</span></a>
-                            </li>
-                            <li
-                                class="w-full h-[100px] p-1 border border-[#d9d9d9] flex items-center justify-center hover:bg-[#3477db] hover:text-white lg:w-[200px]">
-                                <a href="#catalago" class="flex flex-col text-center gap-2"><i
-                                        class='bx bx-list-ol text-[25px]'></i><span>Cat&aacute;logo</span></a>
-                            </li>
-                            <li
-                                class="w-full h-[100px] p-1 border border-[#d9d9d9] flex items-center justify-center hover:bg-[#3477db] hover:text-white lg:w-[200px]">
-                                <a href="#horario" class="flex flex-col text-center gap-2"><i
-                                        class='bx bx-time-five text-[25px]'></i><span>Horarios</span></a>
-                            </li>
-                            <li
-                                class="w-full h-[100px] p-1 border border-[#d9d9d9] flex items-center justify-center hover:bg-[#3477db] hover:text-white lg:w-[200px]">
-                                <a href="#responsable" class="flex flex-col text-center gap-2"><i
-                                        class='bx bx-user text-[25px]'></i><span>Responsable</span></a>
-                            </li>
-                            <li
-                                class="w-full h-[100px] p-1 border border-[#d9d9d9] flex items-center justify-center hover:bg-[#3477db] hover:text-white lg:w-[200px]">
-                                <a href="#preguntas" class="flex flex-col text-center gap-2"><i
-                                        class='bx bx-question-mark text-[25px]'></i><span>Preguntas Frecuentes</span></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
+            <div class="render w-full">
+                {{-- header biblioteca --}}
+                <ul class="w-full grid grid-cols-2 sm:flex justify-center">
+                    <li
+                        class="w-full h-[100px] p-1 border border-[#d9d9d9] flex items-center justify-center hover:bg-[#3477db] hover:text-white lg:w-[200px]">
+                        <a href="#servicio" class="flex flex-col text-center gap-2">
+                            <i class='bx bx-book-bookmark text-[25px]'></i>
+                            <span>Sobre el servicio</span>
+                        </a>
+                    </li>
+
+                    <li
+                        class="w-full h-[100px] p-1 border border-[#d9d9d9] flex items-center justify-center hover:bg-[#3477db] hover:text-white lg:w-[200px]">
+                        <a href="#catalago" class="flex flex-col text-center gap-2">
+                            <i class='bx bx-list-ol text-[25px]'></i>
+                            <span>Cat&aacute;logo</span>
+                        </a>
+                    </li>
+
+                    <li
+                        class="w-full h-[100px] p-1 border border-[#d9d9d9] flex items-center justify-center hover:bg-[#3477db] hover:text-white lg:w-[200px]">
+                        <a href="#horario" class="flex flex-col text-center gap-2">
+                            <i class='bx bx-time-five text-[25px]'></i>
+                            <span>Horarios</span>
+                        </a>
+                    </li>
+
+                    <li
+                        class="w-full h-[100px] p-1 border border-[#d9d9d9] flex items-center justify-center hover:bg-[#3477db] hover:text-white lg:w-[200px]">
+                        <a href="#responsable" class="flex flex-col text-center gap-2">
+                            <i class='bx bx-user text-[25px]'></i>
+                            <span>Responsable</span>
+                        </a>
+                    </li>
+
+                    <li
+                        class="w-full h-[100px] p-1 border border-[#d9d9d9] flex items-center justify-center hover:bg-[#3477db] hover:text-white lg:w-[200px]">
+                        <a href="#preguntas" class="flex flex-col text-center gap-2">
+                            <i class='bx bx-question-mark text-[25px]'></i>
+                            <span>Preguntas Frecuentes</span>
+                        </a>
+                    </li>
+                </ul>
             </div>
         </div>
     </div>
@@ -53,20 +64,19 @@
             <x-slot name='img'>{{ asset('images/servicios/User_biblioteca.jpg') }}</x-slot>
             <x-slot name='altImg'>Servicio de Biblioteca</x-slot>
             <x-slot name='parrafo'>
-                <p class="grid sm:px-6">
+                <div class="grid sm:px-6">
                     <span>El servicio de Biblioteca tiene como objetivo fomentar el acceso a la información, promover la
                         lectura y contribuir al desarrollo académico y cultural de la comunidad educativa del "IESPP-JFSC
                         Huamachuco". Nuestra misión es proporcionar recursos y servicios que apoyen el aprendizaje, la
                         investigación y el enriquecimiento personal.</span> <br>
+
                     <span>Además, nos esforzamos por crear un ambiente acogedor y propicio para el estudio individual y
                         colaborativo. La biblioteca no solo es un depósito de libros, sino un centro dinámico que busca
                         apoyar el desarrollo integral de nuestros estudiantes.</span>
-                </p>
+                </div>
             </x-slot>
         </x-services>
     </div>
-
-
 
     <div class="bg-[#3477db]" id="catalago">
         <div class="render">
@@ -75,36 +85,48 @@
                     <h3 class="subtitle">Cat&aacute;logo de libros por programa de Estudios</h3>
                     <span>(Biblioteca Fisica)</span>
                 </div>
+
                 <div class="grid grid-colum-1 sm:flex justify-center gap-5">
                     <div class="py-10 p-4 text-center sm:w-[30%] lg:w-[25%] border card-animation">
                         <div class="my-4 text-white sm:h-[150px]">
                             <i class='bx bx-child text-[2rem] lg:text-[3rem] xl:text-[5rem] text-[#ebebeb]'></i><br>
                             <span>Educaci&oacute;n Inicial</span><br>
                         </div>
+
                         <a href="https://drive.google.com/file/d/1ii0Cc3r6hgbiIW44mRMHfq7kf8tjTTlI/view?usp=sharing"
                             target="_blank"
                             class="bg-[#ffffff] text-black cursor-pointer hover:shadow-xl
-                                    outline-none font-bold rounded-lg py-2 text-center no-underline  px-12  transition-all duration-200 opacity-90 hover:opacity-100">Ver Cat&aacute;logo</a>
+                                    outline-none font-bold rounded-lg py-2 text-center no-underline  px-12  transition-all duration-200 opacity-90 hover:opacity-100">Ver
+                            Cat&aacute;logo
+                        </a>
                     </div>
+
                     <div class="py-10 p-4 text-center sm:w-[30%] lg:w-[25%] border card-animation">
                         <div class="my-4 text-white sm:h-[150px]">
                             <i class='bx bx-hive text-[2rem] lg:text-[3rem] xl:text-[5rem] text-[#ebebeb]'></i><br>
                             <span>Idiomas, Especilidad: Ingles</span><br>
                         </div>
+
                         <a href="https://drive.google.com/file/d/16j9WUN-e_pG5eAduMDtJCq5qST9VIfYJ/view?usp=sharing"
                             target="_blank"
                             class="bg-[#ffffff] text-black cursor-pointer hover:shadow-xl
-                                    outline-none font-bold rounded-lg py-2 text-center no-underline  px-12  transition-all duration-200 opacity-90 hover:opacity-100">Ver Cat&aacute;logo</a>
+                                    outline-none font-bold rounded-lg py-2 text-center no-underline  px-12  transition-all duration-200 opacity-90 hover:opacity-100">Ver
+                            Cat&aacute;logo
+                        </a>
                     </div>
+
                     <div class="py-10 p-4 text-center sm:w-[30%] lg:w-[25%] border card-animation">
                         <div class="my-4 text-white sm:h-[150px]">
                             <i class='bx bx-user-voice text-[2rem] lg:text-[3rem] xl:text-[5rem] text-[#ebebeb]'></i><br>
                             <span>Educaci&oacute;n Secundaria Especilidad: Comunicaci&oacute;n</span><br>
                         </div>
+
                         <a href="https://drive.google.com/file/d/1jvNBoMIXGStIoDXwC_tVoDTLEZw4OpU6/view?usp=sharing"
                             target="_blank"
                             class="bg-[#ffffff] text-black cursor-pointer hover:shadow-xl
-                                    outline-none font-bold rounded-lg py-2 text-center no-underline  px-12  transition-all duration-200 opacity-90 hover:opacity-100">Ver Cat&aacute;logo</a>
+                                    outline-none font-bold rounded-lg py-2 text-center no-underline  px-12  transition-all duration-200 opacity-90 hover:opacity-100">Ver
+                            Cat&aacute;logo
+                        </a>
                     </div>
                 </div>
             </div>
@@ -113,29 +135,41 @@
 
 
     <div class="render py-16" id="horario">
-        <div>
-            <div class="grid gap-10">
-                <div>
-                    <h4 class="subtitle">Horario de atenci&oacute;n</h4>
-                </div>
-                <div class="grid gap-4">
-                    <span class="font-bold">Dias de atenci&oacute;n</span>
-                    <div class="grid gap-5 sm:flex items-center sm:py-5">
-                        <ul class="grid gap-2">
-                            <li class="flex gap-3"><i
-                                    class='bx bxs-calendar text-[25px] text-[#3477db]'></i><span>Lunes</span></li>
-                            <li class="flex gap-3"><i
-                                    class='bx bxs-calendar text-[25px] text-[#3477db]'></i><span>Martes</span></li>
-                            <li class="flex gap-3"><i
-                                    class='bx bxs-calendar text-[25px] text-[#3477db]'></i><span>Miércoles</span></li>
-                            <li class="flex gap-3"><i
-                                    class='bx bxs-calendar text-[25px] text-[#3477db]'></i><span>Jueves</span></li>
-                            <li class="flex gap-3"><i
-                                    class='bx bxs-calendar text-[25px] text-[#3477db]'></i><span>Viernes</span></li>
-                        </ul>
-                        <div class="sm:border-l border-l-[#3477db] sm:h-full sm:flex items-center sm:px-5"><span
-                                class="text-xl font-[Roboto-thin] font-bold sm:text-2xl">La atenci&oacute;n es de 7:15am a
-                                1:00pm</span></div>
+        <div class="grid gap-10">
+            <h4 class="subtitle">Horario de atenci&oacute;n</h4>
+
+            <div class="grid gap-4">
+                <span class="font-bold">Dias de atenci&oacute;n</span>
+                <div class="grid gap-5 sm:flex items-center sm:py-5">
+                    <ul class="grid gap-2">
+                        <span class="flex gap-3">
+                            <i class='bx bxs-calendar text-[25px] text-[#3477db]'></i>
+                            <span>Lunes</span>
+
+                            <li class="flex gap-3">
+                                <i class='bx bxs-calendar text-[25px] text-[#3477db]'></i>
+                                <span>Martes</span>
+                            </li>
+
+                            <li class="flex gap-3">
+                                <i class='bx bxs-calendar text-[25px] text-[#3477db]'></i>
+                                <span>Miércoles</span>
+                            </li>
+
+                            <li class="flex gap-3">
+                                <i class='bx bxs-calendar text-[25px] text-[#3477db]'></i>
+                                <span>Jueves</span>
+                            </li>
+
+                            <li class="flex gap-3">
+                                <i class='bx bxs-calendar text-[25px] text-[#3477db]'></i>
+                                <span>Viernes</span>
+                            </li>
+                    </ul>
+
+                    <div class="sm:border-l border-l-[#3477db] sm:h-full sm:flex items-center sm:px-5">
+                        <span class="text-xl font-[Roboto-thin] font-bold sm:text-2xl">La atenci&oacute;n es de 7:15am a
+                            1:00pm</span>
                     </div>
                 </div>
             </div>
@@ -159,9 +193,8 @@
 
     <div class="render py-16" id="preguntas">
         <div class="grid gap-6">
-            <div>
-                <h5 class="subtitle">Preguntas frecuentes sobre el Servicio de Biblioteca</h5>
-            </div>
+            <h5 class="subtitle">Preguntas frecuentes sobre el Servicio de Biblioteca</h5>
+
             <div class="desplegable_servicios grid gap-4">
                 <div class="desplegable-item">
                     <div class="desplegable-item__content">
@@ -169,7 +202,10 @@
                             class="icon-container desplegable-item-list w-[40px] bg-[#3477db] flex items-center justify-center text-white hover:bg-[#ebebeb] hover:text-black py-3 px-6">
                             <i class='bx bx-plus'></i>
                         </div>
-                        <div class="desplegable-item-list"><span>¿CÓMO PUEDO ACCEDER A LA BIBLIOTECA?</span></div>
+
+                        <div class="desplegable-item-list">
+                            <span>¿CÓMO PUEDO ACCEDER A LA BIBLIOTECA?</span>
+                        </div>
                     </div>
 
                     <div class="desplegable-item-content">
@@ -185,7 +221,9 @@
                             class="icon-container desplegable-item-list w-[40px] bg-[#3477db] flex items-center justify-center text-white hover:bg-[#ebebeb] hover:text-black py-3 px-6">
                             <i class='bx bx-plus'></i>
                         </div>
-                        <div class="desplegable-item-list"><span>¿QUÉ MATERIALES HAY EN LA BIBLIOTECA?</span></div>
+                        <div class="desplegable-item-list">
+                            <span>¿QUÉ MATERIALES HAY EN LA BIBLIOTECA?</span>
+                        </div>
                     </div>
 
                     <div class="desplegable-item-content">
@@ -201,7 +239,10 @@
                             class="icon-container desplegable-item-list w-[40px] bg-[#3477db] flex items-center justify-center text-white hover:bg-[#ebebeb] hover:text-black py-3 px-6">
                             <i class='bx bx-plus'></i>
                         </div>
-                        <div class="desplegable-item-list"><span>¿QUÉ MATERIALES PUEDO TOMAR PRESTADOS?</span></div>
+
+                        <div class="desplegable-item-list">
+                            <span>¿QUÉ MATERIALES PUEDO TOMAR PRESTADOS?</span>
+                        </div>
                     </div>
 
                     <div class="desplegable-item-content">
@@ -236,7 +277,8 @@
                             class="icon-container desplegable-item-list w-[40px] bg-[#3477db] flex items-center justify-center text-white hover:bg-[#ebebeb] hover:text-black py-3 px-6">
                             <i class='bx bx-plus'></i>
                         </div>
-                        <div class="desplegable-item-list"><span>¿QUÉ HACER SI PIERDO UN LIBRO O MATERIAL PRESTADO?</span>
+                        <div class="desplegable-item-list">
+                            <span>¿QUÉ HACER SI PIERDO UN LIBRO O MATERIAL PRESTADO?</span>
                         </div>
                     </div>
 
@@ -253,8 +295,10 @@
                             class="icon-container desplegable-item-list w-[40px] bg-[#3477db] flex items-center justify-center text-white hover:bg-[#ebebeb] hover:text-black py-3 px-6">
                             <i class='bx bx-plus'></i>
                         </div>
-                        <div class="desplegable-item-list"><span>¿HAY ESPACIOS DE ESTUDIO GRUPAL DISPONIBLES EN LA
-                                BIBLIOTECA?</span></div>
+
+                        <div class="desplegable-item-list">
+                            <span>¿HAY ESPACIOS DE ESTUDIO GRUPAL DISPONIBLES EN LA BIBLIOTECA?</span>
+                        </div>
                     </div>
 
                     <div class="desplegable-item-content">

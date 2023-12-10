@@ -17,7 +17,7 @@
                         @endforeach
                     </th>
                     <th class="w-6/12">
-                        <a class="bg-[#3477DB] text-white cursor-pointer hover:bg-[#ffffff] text-center
+                        <a class="bg-[#3477DB] text-white cursor-pointer hover:bg-[#ffffff]
                         focus:ring-4 focus:outline-none focus:ring-[#1da1f2]/50 font-bold rounded-lg
                         hover:text-black hover:border-[#3477DB] hover:border
                          py-2.5 text-center no-underline lg:max-w-full xl:max-w-[300px] px-10

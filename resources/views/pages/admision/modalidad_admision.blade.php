@@ -2,17 +2,12 @@
 
 @section('title', 'Modalidad de Admisión - Iespp José Faustino Sánchez Carrión Huamachuco')
 @section('content')
-    <section>
-        
-        <x-modal
-            img="{{ asset('images/admision/bg_iespp-jfsc.jpg') }}"
-            link="{{ route('admision') }}"
-            linkText="Admisión"
-            linkTitle="{{ route('modalidad_admision') }}"
-            Title="Modalidad de Admisión"
-            Content="Nosotros ofrecemos diferentes tipos de modalidades para  los que van ha postular y formar parte de nuestra familia estudiantil."
-        />
-    </section>
+
+    <x-modal img="{{ asset('images/admision/bg_iespp-jfsc.jpg') }}" link="{{ route('admision') }}" linkText="Admisión"
+        linkTitle="{{ route('modalidad_admision') }}" Title="Modalidad de Admisión"
+        Content="Nosotros ofrecemos diferentes tipos de modalidades para  los que van ha postular y formar parte de nuestra familia estudiantil." />
+
+
     <section class="preparate-tabs py-10">
         <section class="tabs preparation flex items-center flex-col gap-5 lg:gap-10 2xl:gap-30">
             <!-- Nav tabs -->
@@ -84,14 +79,15 @@
                                                         vacante).</span></li>
                                             </ul>
                                         </div>
-                                        <div>
-                                            <p
+
+                                        <div
                                                 class="h-[80px] flex justify-center items-center flex-col bg-[#d9d9d9] py-2 sm:w-[200px] sm:h-[200px]">
                                                 <span class="text-2xl font-black sm:text-3xl lg:text-4xl">8</span><span
-                                                    class="text-xs sm:text-sm lg:text-base">Vacantes</span></p>
+                                                    class="text-xs sm:text-sm lg:text-base">Vacantes</span>
                                         </div>
                                     </div>
                                 </div>
+
                                 <div class="flex gap-20 w-full flex-col ">
                                     <div class="grid gap-2">
                                         <span
@@ -100,6 +96,7 @@
                                         <p>Las personas que cumplen con los siguientes requisitos para esta modalidad no
                                             rinden en examen ordinario.</p>
                                     </div>
+
                                     <div class="grid gap-4 sm:flex items-center justify-between">
                                         <div class="">
                                             <ul class="pl-5 lg:pl-10 2xl:pl-24">
@@ -109,12 +106,12 @@
                                                         academia de preparación del IESPP-JFSC Huamachuco.</span></li>
                                             </ul>
                                         </div>
-                                        <div>
-                                            <p
+
+                                            <div
                                                 class="h-[80px] flex justify-center items-center flex-col bg-[#d9d9d9] py-2 sm:w-[200px] sm:h-[200px]">
                                                 <span class="text-2xl font-black sm:text-3xl lg:text-4xl">2</span><span
-                                                    class="text-xs sm:text-sm lg:text-base">Vacantes</span></p>
-                                        </div>
+                                                    class="text-xs sm:text-sm lg:text-base">Vacantes</span>
+                                            </div>
                                     </div>
                                 </div>
                                 <div class="flex gap-20 w-full flex-col">
@@ -146,7 +143,8 @@
                                             <p
                                                 class="h-[80px] flex justify-center items-center flex-col bg-[#d9d9d9] py-2 sm:w-[200px] sm:h-[200px]">
                                                 <span class="text-2xl font-black sm:text-3xl lg:text-4xl">50</span><span
-                                                    class="text-xs sm:text-sm lg:text-base">Vacantes</span></p>
+                                                    class="text-xs sm:text-sm lg:text-base">Vacantes</span>
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
@@ -156,11 +154,13 @@
                                     <div
                                         class="h-[70px] flex justify-center items-center bg-[#d9d9d9] sm:h-full sm:w-1/2 px-2">
                                         <span>Total de vacantes en <span class="font-black">Educaci&oacute;n
-                                                Inicial</span></span></div>
+                                                Inicial</span></span>
+                                    </div>
                                     <div class="h-[70px] flex justify-center items-center bg-[#2277db] sm:h-full sm:w-1/2">
                                         <p
                                             class="font-black text-2xl text-white flex items-center gap-5 sm:text-4xl lg:text-6xl">
-                                            <i class='bx bxs-user'></i><span>60</span></p>
+                                            <i class='bx bxs-user'></i><span>60</span>
+                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -262,7 +262,8 @@
                                             <p
                                                 class="h-[80px] flex justify-center items-center flex-col bg-[#d9d9d9] py-2 sm:w-[200px] sm:h-[200px]">
                                                 <span class="text-2xl font-black sm:text-3xl lg:text-4xl">6</span><span
-                                                    class="text-xs sm:text-sm lg:text-base">Vacantes</span></p>
+                                                    class="text-xs sm:text-sm lg:text-base">Vacantes</span>
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
@@ -287,7 +288,8 @@
                                             <p
                                                 class="h-[80px] flex justify-center items-center flex-col bg-[#d9d9d9] py-2 sm:w-[200px] sm:h-[200px]">
                                                 <span class="text-2xl font-black sm:text-3xl lg:text-4xl">1</span><span
-                                                    class="text-xs sm:text-sm lg:text-base">Vacantes</span></p>
+                                                    class="text-xs sm:text-sm lg:text-base">Vacantes</span>
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
@@ -320,7 +322,8 @@
                                             <p
                                                 class="h-[80px] flex justify-center items-center flex-col bg-[#d9d9d9] py-2 sm:w-[200px] sm:h-[200px]">
                                                 <span class="text-2xl font-black sm:text-3xl lg:text-4xl">23</span><span
-                                                    class="text-xs sm:text-sm lg:text-base">Vacantes</span></p>
+                                                    class="text-xs sm:text-sm lg:text-base">Vacantes</span>
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
@@ -330,11 +333,13 @@
                                     <div
                                         class="h-[70px] flex justify-center items-center bg-[#d9d9d9] sm:h-full sm:w-1/2 px-2">
                                         <span>Total de vacantes en <span class="font-black">Idiomas, Especilidad:
-                                                Ingles</span></span></div>
+                                                Ingles</span></span>
+                                    </div>
                                     <div class="h-[70px] flex justify-center items-center bg-[#2277db] sm:h-full sm:w-1/2">
                                         <p
                                             class="font-black text-2xl text-white flex items-center gap-5 sm:text-4xl lg:text-6xl">
-                                            <i class='bx bxs-user'></i><span>30</span></p>
+                                            <i class='bx bxs-user'></i><span>30</span>
+                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -435,7 +440,8 @@
                                             <p
                                                 class="h-[80px] flex justify-center items-center flex-col bg-[#d9d9d9] py-2 sm:w-[200px] sm:h-[200px]">
                                                 <span class="text-2xl font-black sm:text-3xl lg:text-4xl">6</span><span
-                                                    class="text-xs sm:text-sm lg:text-base">Vacantes</span></p>
+                                                    class="text-xs sm:text-sm lg:text-base">Vacantes</span>
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
@@ -460,7 +466,8 @@
                                             <p
                                                 class="h-[80px] flex justify-center items-center flex-col bg-[#d9d9d9] py-2 sm:w-[200px] sm:h-[200px]">
                                                 <span class="text-2xl font-black sm:text-3xl lg:text-4xl">0</span><span
-                                                    class="text-xs sm:text-sm lg:text-base">Vacantes</span></p>
+                                                    class="text-xs sm:text-sm lg:text-base">Vacantes</span>
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
@@ -493,7 +500,8 @@
                                             <p
                                                 class="h-[80px] flex justify-center items-center flex-col bg-[#d9d9d9] py-2 sm:w-[200px] sm:h-[200px]">
                                                 <span class="text-2xl font-black sm:text-3xl lg:text-4xl">24</span><span
-                                                    class="text-xs sm:text-sm lg:text-base">Vacantes</span></p>
+                                                    class="text-xs sm:text-sm lg:text-base">Vacantes</span>
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
@@ -503,11 +511,13 @@
                                     <div
                                         class="h-[70px] flex justify-center items-center bg-[#d9d9d9] sm:h-full sm:w-1/2 px-2">
                                         <span>Total de vacantes en <span class="font-black">Educaci&oacute;n Secundaria,
-                                                Especilidad: Comunicaci&oacute;n</span></span></div>
+                                                Especilidad: Comunicaci&oacute;n</span></span>
+                                    </div>
                                     <div class="h-[70px] flex justify-center items-center bg-[#2277db] sm:h-full sm:w-1/2">
                                         <p
                                             class="font-black text-2xl text-white flex items-center gap-5 sm:text-4xl lg:text-6xl">
-                                            <i class='bx bxs-user'></i><span>30</span></p>
+                                            <i class='bx bxs-user'></i><span>30</span>
+                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -586,17 +596,16 @@
             </div>
         </article>
     </section>
+    
     <section>
         <article class="border-t border-[#ebebeb">
             <div class="render mb-8 pt-6">
-                <x-sublinks
-                :title="'Te Puede Interesar...'"
-                :links='[
-                    "Conoce Nuestras Carreras" => route("admision"),
-                    "Requisitos de Matrícula" => route("ingles"),
-                    "Academia Institucional" => route("academia"),
-                    "Contactános" => route("contacto")
-                ]'/>
+                <x-sublinks :title="'Te Puede Interesar...'" :links='[
+                    'Conoce Nuestras Carreras' => route('admision'),
+                    'Requisitos de Matrícula' => route('ingles'),
+                    'Academia Institucional' => route('academia'),
+                    'Contactános' => route('contacto'),
+                ]' />
             </div>
         </article>
     </section>

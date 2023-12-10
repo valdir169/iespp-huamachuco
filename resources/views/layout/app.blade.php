@@ -29,13 +29,17 @@
 </head>
 
 <body>
+    {{-- header --}}
     @include('partials.header')
 
+    {{-- main --}}
     <main>
         @yield('content')
     </main>
 
-    <a href="https://api.whatsapp.com/send?phone=51953027157&text=Hola,%20necesito%20información%20sobre%20las%20carreras%20que%20ofrece%20el%20Iespp%20JFSC%20de%20Huamachuco." target="_blank"
+    {{-- floating icons Scroll Top and WhatsApp --}}
+    <a href="https://api.whatsapp.com/send?phone=51953027157&text=Hola,%20necesito%20información%20sobre%20las%20carreras%20que%20ofrece%20el%20Iespp%20JFSC%20de%20Huamachuco."
+        target="_blank"
         class="fixed text-white flex justify-center items-center font-bold bottom-[2vh] right-[20px] rounded-full bg-[#25d366] text-[42px] p-1 hover:opacity-75"
         style="z-index:1000 ">
         <i class='bx bxl-whatsapp'></i>
@@ -43,6 +47,8 @@
     <span class="btn-scroll-top">
         <i class='bx bx-chevron-up'></i>
     </span>
+
+    {{-- footer --}}
     @include('partials.footer')
 
     {{-- @vite('resources/js/app.js') --}}

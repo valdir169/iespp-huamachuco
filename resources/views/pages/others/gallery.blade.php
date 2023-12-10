@@ -3,7 +3,7 @@
 @section('title', 'Galería - Iespp José Faustino Sánchez Carrión Huamachuco')
 
 @section('content')
-    <x-hero image="{{ asset('images/gallery/gallery_hero.jpg') }}" text="Galería" />
+    <x-hero image="{{ asset('images/gallery/gallery_hero.jpg') }}" text="Galería Institucional" />
 
     <section class="render py-16">
         <h2 class="title text-center">Educación Inicial</h2>

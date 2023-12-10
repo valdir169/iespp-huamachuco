@@ -4,6 +4,7 @@
         <span class="font-black subtitle">Horas y Creditos Acad&eacute;micas</span><br>
         <span>Distribución total de las horas y créditos para lograr el nivel de desarrollo esperado de las competencias del Perfil del egresado.</span>
     </div>
+    
     <div class="w-full container">
         <div class="table-container">
             <table class="border my-5  lg:my-16 table-creditos">

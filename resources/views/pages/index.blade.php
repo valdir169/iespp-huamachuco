@@ -3,6 +3,7 @@
 @section('title', 'Instituto de Educación Superior Pedagógico Público - José Faustino Sánchez Carrión - Huamachuco')
 
 @section('content')
+    {{-- main slider --}}
     <div class="swiper mySwiper">
         <div class="swiper-wrapper">
             <div class="swiper-slide bg-no-repeat bg-cover relative"
@@ -75,6 +76,7 @@
         </div>
     </div>
 
+    {{-- study programs --}}
     <section class="py-24">
         <article class="flex flex-col justify-center text-center pb-12 gap-3">
             <h2 class="title">¡Contamos con las siguientes <span class="text-[#3477db]">programas de
@@ -120,6 +122,7 @@
         </article>
     </section>
 
+    {{-- why study with us --}}
     <article class="bg-[#3477DB] py-24 text-center">
         <h4 class="title text-white text-center"> ¿Por qué estudiar con
             <span class="bg-white text-[#3477db] py-1 px-3">nosotros?</span>
@@ -155,6 +158,7 @@
         </section>
     </article>
 
+    {{-- welcome from the director --}}
     <section class="render my-24 flex flex-col gap-12 lg:flex-row lg:h-[400px]">
         <picture class="w-full lg:w-6/12 h-full ">
             <img class="h-full w-full rounded-lg" src="{{ asset('images/home/directora.png') }}"
@@ -164,19 +168,21 @@
         <div class="w-full lg:w-6/12 h-auto flex flex-col gap-4 mx-auto items-center md:items-start">
             <h2 class="title">Bienvenida de la Directora</h2>
             <p>
-                Hay que resaltar que la educación es formar al ser humano para el cambio permanente y aún para la
-                eventual crisis producto de la transición.<br>
+                Hay que resaltar que la educación es formar al ser humano para el cambio permanente, capacitándolo
+                para adaptarse a las nuevas realidades, resolver problemas y generar ideas innovadoras.<br>
                 Nuevamente estamos en la etapa académica más importante del pedagógico de Huamachuco, desde la Dirección del
                 instituto queremos hacerles llegar nuestra cordial bienvenida y expresarles que haremos lo posible para
                 que vuestra estadía en esta unidad académica no sólo les dé un título pedagógico sino que además les
                 deje un grato recuerdo y un sentimiento de pertenencia.
-                Las necesidades educativas del país, requieren de profesionales altamente comprometidos, nuestra misión
-                y responsabilidad es que Uds. lo sean.
+                Las necesidades educativas del país, requieren de profesionales altamente comprometidos con la educación,
+                nuestra misión
+                y responsabilidad es que ustedes lo sean.
             </p>
             <x-button type="secondary" ruta="{{ route('presentacion') }}">Ver más</x-button>
         </div>
     </section>
 
+    {{-- counter study programs and agreements --}}
     <article class="bg-[#3477DB] py-20 text-white ">
         <section class="render flex flex-col gap-10 mx-auto w-full md:flex-row xl:px-56 lg:gap-20">
             <div
@@ -197,6 +203,7 @@
         </section>
     </article>
 
+    {{-- section of hero with video --}}
     <div class="w-full h-auto overflow-hidden relative">
         <video autoplay muted loop>
             <source src="{{ asset('images/home/campus_video.webm') }}" type="video/mp4">
@@ -214,6 +221,7 @@
         </div>
     </div>
 
+    {{-- successful expeiences --}}
     <section class="render py-28">
         <div class="flex flex-col text-center py-4 justify-center z-50 ">
             <h2 class="text-4xl font-bold">Experiencias <span class="text-[#3477DB]">Exitosas</span></h2>
@@ -301,6 +309,7 @@
         </article>
     </section>
 
+    {{-- news and important activities --}}
     <section class="render pb-20">
         <h4 class="title">Noticias y Actividades importantes</h4>
         <div class="grid gap-8 sm:grid-cols-2 lg:grid-cols-3 lg:gap-4 xl:gap-8 py-4 ">
@@ -324,6 +333,7 @@
         </div>
     </section>
 
+    {{-- our allies --}}
     <article class="render pb-16">
         <span class="title">Nuestros Aliados</span>
         <div class="grid gap-4 place-items-center md:grid-cols-6 md:h-[100px] w-full  mt-6">

@@ -5,7 +5,7 @@ Este es un proyecto desarrollado con Laravel + vite, el objetivo principal es mo
 Requisitos para poder usar o ver el respositorio en su equipo local
 1. Tener Instalado NodeJs version LTS o Actual.
 2. Tener Instalado Git en su equipo.
-3. Tener Instalado PHP en su versión 8.1 0 superior.    
+3. Tener Instalado PHP en su versión 8.1 o superior.    
 
 ## Instrucciones de Instalación
 
@@ -20,7 +20,6 @@ Requisitos para poder usar o ver el respositorio en su equipo local
     ```bash
     cd iespp-huamachuco
     ```
-
 
 3. Instala las dependencias de PHP:
 

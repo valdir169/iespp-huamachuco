@@ -5,14 +5,16 @@ Este es un proyecto desarrollado con Laravel + vite, el objetivo principal es mo
 Requisitos para poder usar o ver el respositorio en su equipo local
 1. Tener Instalado NodeJs version LTS o Actual.
 2. Tener Instalado Git en su equipo.
-3. Tener Instalado PHP en su versión 8.1 o superior.    
+3. Tener Instalado PHP en su versión 8.1 o superior. 
+4. Tener Instalado Composer.
+   
 
 ## Instrucciones de Instalación
 
 1. Clona este repositorio:
 
     ```bash
-    git clone útil https://github.com/valdir169/iespp-huamachuco.git
+    git clone https://github.com/valdir169/iespp-huamachuco.git
     ```
 
 2. Muevete al directorio raíz:

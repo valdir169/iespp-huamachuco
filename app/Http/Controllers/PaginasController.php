@@ -260,7 +260,7 @@ class PaginasController extends Controller
             ]);
 
             $email = new ContactoMailable(($request->all()));
-            Mail::to('soporte.iesppjfschco@gmail.com')->send($email);
+            Mail::to('raulbaldeonsoto14@gmail.com')->send($email);
 
             return redirect()->route('contacto')->with('message_type', 'success')->with('message', 'Mensaje Enviado con áxito');
         } catch (ValidationException $e) {

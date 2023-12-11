@@ -20,6 +20,7 @@ function navBar(btn, menu) {
         btnElement.classList.toggle("open")
         document.body.classList.toggle("is-open")
 
+
         let width = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
         width > 1024 ? navbarElement.classList.remove("bg-[#3477db]") : navbarElement.classList.toggle("bg-[#3477db]");
         btnElement.classList.toggle("text-white")
@@ -47,7 +48,7 @@ function subMenu(navLink) {
                 }
             }
         });
-    
+
         // Open or close the current submenu
         this.classList.toggle("arrow-down");
         let submenu = this.nextElementSibling;
@@ -60,6 +61,7 @@ function subMenu(navLink) {
         }
     }
 
+    // remove clickHandler
     function removeClickHandler() {
         const menuElement = document.querySelector(".nav-menu"),
             navbarElement = document.querySelector(".navbar")
@@ -102,6 +104,7 @@ function topMenu(menu) {
     });
 }
 
+// scroll top menu
 function scrollTopMenu(button) {
     const scrollButton = document.querySelector(button)
 

@@ -11,7 +11,7 @@
 
         {{-- section for quick links --}}
         <div class="w-full flex flex-col  items-center md:items-start md:max-w-[25%]">
-            <span class="text-2xl font-bold font-[Roboto-Thin]">Enlaces rápidos</span>
+            <span class="text-2xl  font-[Roboto-Thin]">Enlaces rápidos</span>
 
             <div class="flex flex-col mt-4 w-full md:items-start items-center">
                 <a href="{{ route('nosotros') }}"
@@ -30,7 +30,7 @@
 
         {{-- section for follow us --}}
         <div class="w-full flex flex-col items-center md:items-start md:max-w-[25%]">
-            <span class="text-2xl font-bold font-[Roboto-Thin]">Síguenos</span>
+            <span class="text-2xl font-[Roboto-Thin]">Síguenos</span>
             <div class="flex flex-col mt-4 w-full items-center md:items-start ">
                 <a class="flex items-center gap-2 hover:underline transition  py-1 opacity-75 hover:opacity-100"
                     href="https://www.facebook.com/iesppjfsanchezcarrion" target="_blank">
@@ -50,7 +50,7 @@
         {{-- section for contact --}}
         <div
             class="w-full flex flex-col  items-center md:items-start md:max-w-[25%] md:overflow-hidden xl:overflow-visible">
-            <span class="text-2xl font-bold font-[Roboto-Thin]">Contacto</span>
+            <span class="text-2xl font-[Roboto-Thin]">Contacto</span>
 
             <div class="flex flex-col mt-4 w-full md:items-start items-center">
                 <a class="py-1 opacity-75 hover:opacity-100 hover:text-white">Prolog. Sánchez Carrión 1400 –

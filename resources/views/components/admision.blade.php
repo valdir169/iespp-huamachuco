@@ -7,7 +7,7 @@
                 <h1 class="title-gel">{{ $titulo }}</h1>
                 <p class="border-b pb-2 title-gel">{{ $descripcion }}</p>
             </div>
-            <div class="pb-24 md:pb-42 pb-8 lg:pb-60">
+            <div class="pb-24 md:pb-42 lg:pb-60">
                 <p class="flex items-center gap-3"><span><i class='bx bx-file text-[30px]'></i></span>{{ $subtitulo1 }}<span><span>{{ $subtitulo3 }}</span></p>
                 <p class="flex items-center gap-3"><span><i class='bx bx-window-close text-[30px]' ></i></span>{{ $subtitulo2 }}<span>{{ $subtitulo4 }}</span></p>
             </div>

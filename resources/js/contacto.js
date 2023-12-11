@@ -1,4 +1,6 @@
 export function showModal() {
+
+    // get id of elements
     const message = document.getElementById('message-alert');
     const close = document.getElementById('close');
 

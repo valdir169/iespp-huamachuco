@@ -50,6 +50,7 @@ Route::get('/licenciamiento', [PaginasController::class, 'licenciamiento'])->nam
 Route::get('/documentos-gestion', [PaginasController::class, 'documentosGestion'])->name('documentos-gestion');
 Route::get('/calendario-academico', [PaginasController::class, 'calendarioAcademico'])->name('calendario-academico');
 Route::get('/convenios', [PaginasController::class, 'convenios'])->name('convenios');
+Route::get('/convocatorias-laborales', [PaginasController::class, 'convocatorias'])->name('convocatorias-laborales');
 Route::get('/inversiones-donaciones', [PaginasController::class, 'inversionesDonaciones'])->name('inversiones-donaciones');
 Route::get('/estadisticas', [PaginasController::class, 'estadisticas'])->name('estadisticas');
 Route::get('/documentos-transparencia', [PaginasController::class, 'documentosTransparencia'])->name('documentos-transparencia');
@@ -66,4 +67,3 @@ Route::get('/{any}/{any}', [PaginasController::class, 'error'])->where('any', '.
 
 // procees form
 Route::post('/contactanos', [PaginasController::class, 'processData'])->name('contacto.process');
-

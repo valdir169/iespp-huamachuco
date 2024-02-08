@@ -24,8 +24,8 @@
     <link rel="shortcut icon" href="{{ asset('images/others/logo.png') }}" type="image/png">
     <link rel='stylesheet' href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="{{ asset('css/style.css') }}">
-    {{-- @vite('resources/css/app.css') --}}
+    {{-- <link rel="stylesheet" href="{{ asset('css/style.css') }}"> --}}
+    @vite('resources/css/app.css')
 </head>
 
 <body>
@@ -38,7 +38,7 @@
     </main>
 
     {{-- floating icons Scroll Top and WhatsApp --}}
-    <a href="https://api.whatsapp.com/send?phone=51953027157&text=Hola,%20necesito%20información%20sobre%20las%20carreras%20que%20ofrece%20el%20Iespp%20JFSC%20de%20Huamachuco."
+    <a href="https://api.whatsapp.com/send?phone=51975544835&text=Hola,%20necesito%20información%20sobre%20las%20carreras%20que%20ofrece%20el%20Iespp%20JFSC%20de%20Huamachuco."
         target="_blank"
         class="fixed text-white flex justify-center items-center font-bold bottom-[2vh] right-[20px] rounded-full bg-[#25d366] text-[42px] p-1 hover:opacity-75"
         style="z-index:1000 ">
@@ -51,8 +51,8 @@
     {{-- footer --}}
     @include('partials.footer')
 
-    {{-- @vite('resources/js/app.js') --}}
-    <script type="module" src="{{ asset('js/main.js') }}"></script>
+    @vite('resources/js/app.js')
+    {{-- <script type="module" src="{{ asset('js/main.js') }}"></script> --}}
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     <script src="https://cdn.lordicon.com/lordicon-1.1.0.js"></script>
 </body>

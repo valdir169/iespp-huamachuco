@@ -71,7 +71,7 @@
                     <ul class="submenu">
                         <li><a class="nav-link" href="{{ route('licenciamiento') }}">Licenciamiento</a></li>
                         <li><a class="nav-link" href="{{ route('documentos-gestion') }}">Documentos de Gestión</a></li>
-                        <li><a class="nav-link" href="#">Convocatorias Laborales</a></li>
+                        <li><a class="nav-link" href="{{ route('convocatorias-laborales') }}">Convocatorias Laborales</a></li>
                         <li><a class="nav-link" href="{{ route('calendario-academico') }}">Calendario Académico</a></li>
                         <li><a class="nav-link" href="{{ route('convenios') }}">Convenios</a></li>
                         <li><a class="nav-link" href="{{ route('inversiones-donaciones') }}">Inversiones y

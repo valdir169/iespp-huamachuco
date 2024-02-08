@@ -175,6 +175,11 @@ class PaginasController extends Controller
         return view('pages.transparencia.convenios');
     }
 
+    public function convocatorias()
+    {
+        return view('pages.transparencia.convocatorias');
+    }
+
     public function inversionesDonaciones()
     {
         return view('pages.transparencia.inversiones');

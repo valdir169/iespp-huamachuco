@@ -94,9 +94,9 @@
                     <ul class="submenu">
                         <li><a class="nav-link" href="{{ route('biblioteca') }}">Biblioteca</a></li>
                         <li><a class="nav-link" href="{{ route('brigadistas') }}">Capacitación de Brigadistas</a></li>
-                        <li><a class="nav-link" href="{{ route('topico') }}">Tópico</a></li>
+                        <li><a class="nav-link" href="{{ route('topico') }}">Soporte Médico</a></li>
                         <li><a class="nav-link" href="{{ route('talleres') }}">Talleres</a></li>
-                        <li><a class="nav-link" href="{{ route('psicopedagogia') }}">Psicopedagogia</a></li>
+                        <li><a class="nav-link" href="{{ route('psicopedagogia') }}">Soporte Psicopedagógico</a></li>
                     </ul>
                 </li>
 

@@ -20,3 +20,89 @@
     margin: 25px 0px;
     margin-left: 70px;
 }
+.texto_info{
+    text-align: justify;
+    color: black
+}
+
+.titulo_info{
+    text-align: justify;
+    color: blue;
+    font-weight: 600;
+}
+
+.vinculo{
+  outline: none;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  line-height: 3;
+  padding: 30px;
+
+}
+
+.animated-list {
+    list-style-type: decimal;
+    padding: 30px;
+    margin: 40 auto;
+    width: 350px;
+    text-align: left;
+    font-size: 600 px;
+    color: black;
+    
+}
+
+.animated-list li {
+    opacity: 0;
+    transform: translateY(40px);
+    animation: fadeInUp 1s ease forwards;
+    animation-delay: calc(0.8s * var(--i));
+    font-size: 1000 px;
+    color: black;
+    padding: 7px;
+}
+
+.animated-list li:hover{
+color: blue;
+background-color:white;
+font-weight: 900;
+font-size: 20px;
+}
+
+.animated-list li:nth-child(1) {
+    --i: 1;
+}
+
+.animated-list li:nth-child(2) {
+    --i: 2;
+}
+
+.animated-list li:nth-child(3) {
+    --i: 3;
+}
+
+.animated-list li:nth-child(4) {
+    --i: 4;
+}
+
+.animated-list li:nth-child(5) {
+    --i: 5;
+}
+
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.Difusion{
+    font-size: 600px;
+    font-weight: 900;
+    color: black;
+}
+.textodifusion{
+    font-size: 20px;
+    
+    color: black;
+}

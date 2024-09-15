@@ -24,8 +24,8 @@
     <link rel="shortcut icon" href="{{ asset('images/others/logo.png') }}" type="image/png">
     <link rel='stylesheet' href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
-    {{-- <link rel="stylesheet" href="{{ asset('css/style.css') }}"> --}}
-    @vite('resources/css/app.css')
+    <link rel="stylesheet" href="{{ asset('css/styles.css') }}">
+ 
 </head>
 
 <body>
@@ -51,8 +51,7 @@
     {{-- footer --}}
     @include('partials.footer')
 
-    @vite('resources/js/app.js')
-    {{-- <script type="module" src="{{ asset('js/main.js') }}"></script> --}}
+    <script type="module" src="{{ asset('js/main.js') }}"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     <script src="https://cdn.lordicon.com/lordicon-1.1.0.js"></script>
 </body>

@@ -7,140 +7,75 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <style>
-        main {  
-            width: 90%;
-            margin: auto
-        }
-
-        .header-img {
-            width: 150px;
-            height: 250px;
-            margin: auto;
-        }
-
-        .header {
-            text-align: center;
-            padding: 1rem 0;
-        }
-
-        .header__title {
-            font-size: 1.5;
-            text-align: center;
-            color: #004592;
-            line-height: 30px;
-        }
-
-        .header__title>a {
-            text-decoration: none;
-            color: #004592;
-        }
-
-        .header__title:hover {
-            text-decoration: underline;
-            color: #004592;
-        }
-
-        .header__brand {
-            text-transform: uppercase;
-            font-size: 1rem;
-            text-align: center;
-        }
-
-        .content_phone {
-            margin-bottom: 2rem;
-        }
-
-        .phone__title {
-            color: #004592;
-            font-size: 16px;
-            line-height: 0
-        }
-
-        .phone__number {
-            text-decoration: none;
-            color: #004592;
-            display: flex;
-            flex-direction: row;
-            justify-content: start;
-            align-items: center;
-        }
-
-        .phone__number:hover {
-            color: #004592;
-            transition: all 500ms ease-in-out;
-        }
-
-        .phone__number>i {
-            color: #005C4B;
-            font-size: 2rem;
-            margin-right: 5px;
-        }
-
-        .content_message {
-            margin-bottom: 1rem;
-        }
-
-        .message__title {
-            color: #004592;
-            font-size: 18px;
-            line-height: 1;
-        }
-
-        .message__text {
-            text-indent: 1rem;
-        }
-
-        .footer {
-            margin-top: 2rem;
-            background-color: #192537;
-            border-radius: 1rem 1rem 0 0;
-            padding: 1rem;
-            display: grid;
-            grid-template-columns: repeat(2, minmax(0, 1fr));
-        }
-
-        .footer__social {
-            display: flex;
-            flex-direction: row;
-            justify-content: space-around;
-            align-items: center;
-        }
-
-        .social__network {
-            text-align: center;
-            color: #FFFFFF;
-        }
-    </style>
-
 </head>
+<body style="font-family: Arial, sans-serif; line-height: 1.6; color: #333; max-width: 600px; margin: 0 auto; padding: 20px; background-color: #f6f6f6;">
+    <table cellpadding="0" cellspacing="0" width="100%" style="background-color: #ffffff; border-radius: 6px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+        <tr>
+            <td>
+                <table width="100%" cellpadding="0" cellspacing="0">
+                    <!-- Header -->
+                    <tr>
+                        <td style="padding: 20px; text-align: center; background-color: #003366;">
+                            <img src="{{ asset('images/logo.png') }}" alt="Logo IESPP José Faustino Sánchez Carrión" style="max-width: 200px;">
+                        </td>
+                    </tr>
+                    <!-- Content -->
+                    <tr>
+                        <td style="padding: 40px 30px;">
+                            <h1 style="color: #003366; margin-top: 0; margin-bottom: 20px; font-size: 24px;">Nueva Consulta Recibida</h1>
+                            
+                            <p style="margin-bottom: 20px;">Estimado equipo del IESPP José Faustino Sánchez Carrión,</p>
 
-<body>
-    <main>
-        <div class="header">
-            <img class="header-img" src="{{ asset('images/others/logo.png') }}" alt="Iespp Jfsc Huamachuco">
-            <h1 class="header__title"><a href="#">IESPP - JOŚE FAUSTINO SANCHEZ CARRION</a></h1><span
-                class="header__brand">Dudas o Consultas </span>
-        </div>
+                            <p style="margin-bottom: 20px;">Se ha recibido una nueva consulta a través del formulario de contacto en la página web. A continuación, se detallan los datos proporcionados por el visitante:</p>
 
-        <div class="content">
-            <div class="content_phone">
-                <h4 class="phone__title">Nombres y Apellidos:</h4>{{ $contact['name'] }}
-            </div>
-            <div class="content__message">
-                <h4 class="message__title">Correo electrónico: </h4><span class="message__text">{{ $contact['email'] }}
-                </span>
-            </div>
-            <div class="content__message">
-                <h4 class="message__title">Número de celular: </h4><span
-                    class="message__text">{{ $contact['cellphone'] }} </span>
-            </div>
-            <div class="content__message">
-                <h4 class="message__title">Duda o Consulta: </h4><span class="message__text">{{ $contact['message'] }}
-                </span>
-            </div>
-        </div>
-    </main>
+                            <table width="100%" cellpadding="10" cellspacing="0" style="background-color: #f9f9f9; border-radius: 4px; margin-bottom: 20px;">
+                                <tr>
+                                    <td><strong>Nombres y Apellidos:</strong></td>
+                                    <td>{{ $contact['name'] }}</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Correo electrónico:</strong></td>
+                                    <td>{{ $contact['email'] }}</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Número de celular:</strong></td>
+                                    <td>{{ $contact['cellphone'] }}</td>
+                                </tr>
+                            </table>
+
+                            <h2 style="color: #003366; font-size: 18px; margin-top: 30px; margin-bottom: 15px;">Duda o Consulta:</h2>
+                            <div style="background-color: #f0f4f8; padding: 20px; border-radius: 4px; margin-bottom: 20px;">
+                                <p style="margin: 0;">{{ $contact['message'] }}</p>
+                            </div>
+
+                            <p style="margin-bottom: 20px;">Se requiere atender esta consulta y responder al usuario lo antes posible.</p>
+
+                            <table cellpadding="0" cellspacing="0" width="100%" style="margin-bottom: 20px;">
+                                <tr>
+                                    <td>
+                                        <a href="mailto:{{ $contact['email'] }}" style="display: inline-block; padding: 12px 20px; background-color: #007bff; color: #ffffff; text-decoration: none; border-radius: 4px; font-weight: bold; text-align: center;">Responder al Usuario</a>
+                                    </td>
+                                </tr>
+                            </table>
+
+                            <p style="margin-bottom: 10px;">Gracias por su atención.</p>
+
+                            <p style="margin-bottom: 0;">Atentamente,<br>
+                            Sistema de Contacto Web<br>
+                            IESPP José Faustino Sánchez Carrión</p>
+                        </td>
+                    </tr>
+                    <!-- Footer -->
+                    <tr>
+                        <td style="background-color: #003366; color: #ffffff; text-align: center; padding: 15px; font-size: 12px;">
+                            <p style="margin: 0;">Este es un mensaje automático. Por favor, no responda a este correo.</p>
+                            <p style="margin: 5px 0 0;">© 2024 IESPP José Faustino Sánchez Carrión. Todos los derechos reservados.</p>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
 </body>
 
 </html>
